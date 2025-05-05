@@ -1,0 +1,1063 @@
+/**
+ * Dynamic Content Loader based on domain
+ * This script loads content dynamically based on the current domain from config.json
+ */
+
+// FAQ data for all service categories
+const faqData = {
+  liquidWaste: {
+    title: 'Liquid Waste Management & Disposal FAQs',
+    faqs: [
+      {
+        question: 'What liquid waste management services do you offer?',
+        answer:
+          'We provide a comprehensive range of liquid waste management and disposal services, including removal of hazardous and non-hazardous waste, concrete slurry, interceptor cleaning, fuel and oil tank cleaning, groundwater and pond water removal, and fatberg extraction.',
+      },
+      {
+        question: 'Do you handle both hazardous and non-hazardous waste?',
+        answer:
+          'Yes, we safely remove and dispose of both hazardous and non-hazardous liquid waste from festivals, construction sites, manufacturing facilities and swimming pools, following all current regulations.',
+      },
+      {
+        question: 'How do you remove concrete slurry and interceptor waste?',
+        answer:
+          'Our specialist team uses powerful vacuum tankers to extract concrete slurry and oily water from interceptors. Each project is scoped with a detailed Risk and Method Statement (RAMS) to ensure safe, compliant disposal.',
+      },
+      {
+        question: 'Can you clean and service fuel and oil tanks?',
+        answer:
+          'Absolutely. We carry out fuel and oil tank cleaning in line with industry guidelines, safely removing old oil or fuel and preparing tanks for inspection or reuse.',
+      },
+      {
+        question: 'Do you offer groundwater and pond water removal?',
+        answer:
+          "Yes, we have expert pumping equipment and over 15 years' experience in groundwater and pond water removal, ensuring efficient dewatering for construction, landscaping or maintenance purposes.",
+      },
+      {
+        question: 'How do you tackle fatberg removal?',
+        answer:
+          'Our powerful super combination tankers break down and remove fatbergs from drainage systems and sewers, restoring flow and preventing blockages.',
+      },
+      {
+        question: 'Are your liquid waste services available 24/7?',
+        answer:
+          'We operate round the clock, 365 days a year, to provide emergency response and scheduled services for both short-term and long-term contracts.',
+      },
+      {
+        question: 'What specialised vehicles and equipment do you use?',
+        answer:
+          'Our fleet includes high-capacity vacuum tankers such as Megatron and Terminator, as well as combination units like Wrath of Poseidon and The Hydra, capable of high-pressure jetting and vacuum extraction.',
+      },
+      {
+        question: 'How is collected waste recycled?',
+        answer:
+          'All liquid waste is processed at our own Wet Waste Recycling Facility, where road sweepings, gully waste, drilling slurry and storm tank residues are treated to recover reusable materials and reduce landfill.',
+      },
+      {
+        question: 'How can I request a quote or book a service?',
+        answer:
+          'Simply call us on 0800 740 8888 or visit our website to complete an online enquiry form. Our team will respond promptly with a tailored proposal and pricing.',
+      },
+    ],
+    urls: [
+      'croydon-waste-recycling.co.uk',
+      'emergancyliquidstorage.co.uk',
+      'emergency-bulk-storage.co.uk',
+      'emergency-liquid-storage.co.uk',
+      'emergency-waste-removal.co.uk',
+      'environmental-waste.co.uk',
+      'environmental-waste.uk',
+      'environmentalwaterrecycling.co.uk',
+      'hazardwaste.co.uk',
+      'hazardouswasteclearance.co.uk',
+      'hazardouswasteliquiddisposal.co.uk',
+      'hclwaste.com',
+      'hydro-cleansing.co',
+      'hydro-cleansing.com',
+      'hydropressureclean.co.uk',
+      'liquid-ingenuity.co.uk',
+      'liquid-waste.co.uk',
+      'liquid-waste.uk',
+      'liquiddisposal.co.uk',
+      'liquiddisposal.uk',
+      'liquidingenity.co.uk',
+      'recycle-waste.uk',
+      'tanker-waste.co.uk',
+      'waste-logistics.co.uk',
+      'waste-removal-tideway.co.uk',
+    ],
+  },
+  pumpStations: {
+    title: 'Pump Station & Interceptor Services FAQs',
+    faqs: [
+      {
+        question: 'What pump station services do you offer?',
+        answer:
+          'We offer comprehensive pump station services including cleaning, regular maintenance, repairs, and emergency call-outs for sewage, lift stations, foul water, surface water, and wastewater pump systems.',
+      },
+      {
+        question: 'How often should pump stations be maintained?',
+        answer:
+          'Regular maintenance is recommended at least once annually to prevent blockages, reduce the risk of pump failures, and ensure continuous efficient operation.',
+      },
+      {
+        question: 'What does your pump station maintenance involve?',
+        answer:
+          'Our maintenance service includes emptying waste such as fats, oils, and grease, conducting thorough pump inspections, performing repairs or necessary upgrades, and thoroughly cleaning and refilling the tanks.',
+      },
+      {
+        question: 'What types of interceptors do you service?',
+        answer:
+          'We service all types of interceptors, including full retention interceptors, bypass interceptors, drain interceptors, grease traps, and petrol interceptors, ensuring they comply with environmental regulations.',
+      },
+      {
+        question: 'Why is interceptor maintenance important?',
+        answer:
+          'Regular interceptor maintenance is crucial to prevent blockages, avoid environmental contamination, comply with PPG3 regulations, and reduce potential fines and operational disruptions.',
+      },
+      {
+        question: 'Do you offer emergency interceptor services?',
+        answer:
+          'Yes, our interceptor and pump station services are available 24/7, providing rapid response to emergencies across London, Surrey, Kent, Hampshire, and the Southeast.',
+      },
+      {
+        question:
+          'What specialised equipment do you use for interceptor cleaning?',
+        answer:
+          'Our fleet includes advanced vehicles such as Megatron, Terminator, Wrath of Poseidon, and The Hydra, capable of high-pressure jetting and vacuum extraction, ensuring efficient and thorough cleaning.',
+      },
+      {
+        question:
+          'How can I schedule maintenance or request an emergency service?',
+        answer:
+          'You can contact us directly at 0800 740 8888 or visit our website to schedule a service, request emergency assistance, or obtain further information.',
+      },
+    ],
+    urls: [
+      'gully-cleaning.co.uk',
+      'gully-cleaning.uk',
+      'gullygulper.uk',
+      'interceptorcleaning.co.uk',
+      'interceptorcleaning.uk',
+      'interceptorwaste.uk',
+      'london-pump-services.co.uk',
+      'london-pump-services.uk',
+      'london-pump.co.uk',
+      'london-pump.uk',
+      'london-pumps.co.uk',
+      'london-pumps.uk',
+      'londonpumpandplantsales.co.uk',
+      'londonpumpandplantsales.com',
+      'londonpumpsservices.uk',
+      'pumpstationcleaning.co.uk',
+      'pumpstationcleaning.uk',
+      'pumpstationservices.co.uk',
+      'sewage-waste.uk',
+      'sewagetreatmentpump.co.uk',
+    ],
+  },
+  roadSweeping: {
+    title: 'Road Sweeping Services FAQs',
+    faqs: [
+      {
+        question: 'What road sweeping services do you provide?',
+        answer:
+          'We provide comprehensive road sweeping services across London and the Southeast, including construction site cleaning, highway maintenance, event venue cleaning, and regular sweeping of car parks and commercial properties.',
+      },
+      {
+        question: 'Are your road sweepers environmentally friendly?',
+        answer:
+          'Yes, all our road sweepers comply with Euro 6 standards, featuring advanced emissions controls and environmentally sustainable practices.',
+      },
+      {
+        question: 'What specialised road sweeping equipment do you have?',
+        answer:
+          'We operate specialised vehicles like the Mega Sweep for large-scale cleaning and the Mini Sweep for restricted spaces. We also utilise vacuum tankers and combination units for comprehensive environmental solutions.',
+      },
+      {
+        question: 'Do you manage road sweeping waste responsibly?',
+        answer:
+          'Absolutely. We own and operate a dedicated Wet Waste Recycling Facility that efficiently recycles waste materials from road sweepings, gully cleaning, drilling slurries, and storm tank residues, adhering strictly to environmental standards.',
+      },
+      {
+        question: 'Are your road sweeping services available for hire 24/7?',
+        answer:
+          'Yes, we offer 24/7, year-round road sweeping services, suitable for both short-term and long-term projects, ensuring flexibility and responsiveness to client needs.',
+      },
+      {
+        question: 'Do you service areas outside London?',
+        answer:
+          'Yes, we provide road sweeping services throughout London, Kent, Essex, and across the Southeast, ensuring extensive regional coverage.',
+      },
+      {
+        question: 'How can I contact you for road sweeping services?',
+        answer:
+          'You can contact us at 0800 740 8888 or visit our website for more information or to request a service quote.',
+      },
+      {
+        question: 'Do you offer solutions for event cleanup?',
+        answer:
+          'Yes, we provide specialised pre- and post-event road sweeping services to maintain cleanliness and safety at stadiums, arenas, and public event spaces.',
+      },
+    ],
+    urls: [
+      'construction-sweepers.co.uk',
+      'croydonsweepers.co.uk',
+      'event-road-sweepers.co.uk',
+      'eventroadsweepers.co.uk',
+      'hcl-commercial-bodywork.co.uk',
+      'hcl-commercial-bodywork.com',
+      'hclsweepers.co.uk',
+      'london-sweeperhire.co.uk',
+      'london-sweepers.co.uk',
+      'mega-sweep.co.uk',
+      'mega-sweep.com',
+      'mega-sweeper.com',
+      'mega-sweepers.com',
+      'road-sweeper-waste-disposal.co.uk',
+      'road-sweeper.co',
+      'road-sweepers.co',
+      'road-sweeping-waste.co.uk',
+      'roadgullysweeper.co.uk',
+      'roadgullysweeper.uk',
+      'roadsweeperwaste.co.uk',
+    ],
+  },
+  tunnelCleaning: {
+    title: 'Tunnel Cleaning Services FAQs',
+    faqs: [
+      {
+        question: 'What types of tunnel cleaning services do you provide?',
+        answer:
+          'We offer extensive tunnel cleaning services including sewage network cleaning, pump station maintenance, interceptor cleaning, waste processing, confined space cleaning, and CCTV drainage inspections.',
+      },
+      {
+        question: 'How frequently should tunnels be cleaned?',
+        answer:
+          'Regular tunnel cleaning depends on usage and environmental factors, but typically annual inspections and cleaning are recommended to maintain optimal functionality and compliance with safety regulations.',
+      },
+      {
+        question: 'Do you perform CCTV inspections for tunnels?',
+        answer:
+          'Yes, we utilise CCTV drainage inspections to assess tunnel conditions, identify potential issues, and determine necessary maintenance or cleaning requirements.',
+      },
+      {
+        question: 'What specialised equipment do you use for tunnel cleaning?',
+        answer:
+          'Our fleet includes advanced equipment such as the Mega-Reel, capable of jetting and clearing tunnels up to 1000 metres, ensuring efficient and thorough cleaning without requiring additional support vehicles.',
+      },
+      {
+        question:
+          'Can you handle waste disposal from tunnel cleaning operations?',
+        answer:
+          'Yes, we manage all waste removed during cleaning operations in an environmentally responsible manner, ensuring compliance with regulatory standards.',
+      },
+      {
+        question: 'Are your tunnel cleaning services available 24/7?',
+        answer:
+          'We provide around-the-clock tunnel cleaning and emergency response services to ensure continuous operation and minimise disruptions.',
+      },
+      {
+        question: 'What measures do you take for safe confined space entry?',
+        answer:
+          'All confined space work is carried out by trained specialists using industry-approved safety protocols, equipment, and comprehensive risk assessments to ensure the safety of our team and clients.',
+      },
+      {
+        question: 'How do I arrange for tunnel cleaning or an inspection?',
+        answer:
+          'You can contact us directly by phone at 0800 740 8888 or through our website to schedule an appointment or request further details about our tunnel cleaning services.',
+      },
+    ],
+    urls: [
+      'digestercleaning.co.uk',
+      'london-tunnels.co.uk',
+      'london-tunnels.com',
+      'sewagedigester.co.uk',
+      'sewerdigester.co.uk',
+      'subway-cleaning.co.uk',
+      'tunnel-cleaning.com',
+      'tunnelcleaning.co.uk',
+      'tunnelcleaning.uk',
+      'tunnelwaste.co.uk',
+      'tunnelwaste.com',
+    ],
+  },
+};
+
+document.addEventListener('DOMContentLoaded', async function () {
+  try {
+    // Fetch the configuration file
+    const response = await fetch('config.json');
+    if (!response.ok) {
+      throw new Error('Failed to load configuration');
+    }
+
+    const config = await response.json();
+
+    // Get the current domain
+    const currentDomain = window.location.hostname;
+
+    // Find the matching configuration for this domain
+    let domainConfig = config[currentDomain];
+
+    // If no exact match, try without www.
+    if (!domainConfig && currentDomain.startsWith('www.')) {
+      const domainWithoutWww = currentDomain.replace('www.', '');
+      domainConfig = config[domainWithoutWww];
+    }
+
+    // If we're running locally (localhost or file://), use a default domain for testing
+    // You can change this to any domain in your config
+    if (
+      !domainConfig &&
+      (currentDomain === 'localhost' ||
+        currentDomain === '127.0.0.1' ||
+        window.location.protocol === 'file:')
+    ) {
+      // You can specify a default domain for testing
+      const testDomain = Object.keys(config)[0]; // Use the first domain as default
+      domainConfig = config[testDomain];
+      console.log(
+        `Running in local/test mode. Using ${testDomain} configuration.`,
+      );
+    }
+
+    // If we found a matching configuration, update the page content
+    if (domainConfig) {
+      updatePageContent(domainConfig, currentDomain, config);
+
+      // Inject JSON-LD schema for SEO (ProfessionalService + FAQPage)
+      injectSchema(domainConfig, currentDomain);
+
+      // Load and display FAQs for the current domain
+      setTimeout(() => {
+        try {
+          loadFAQs(currentDomain);
+        } catch (faqError) {
+          console.error('Error loading FAQs:', faqError);
+        }
+      }, 500); // Small delay to ensure everything is loaded
+
+      // Load dynamic gallery images for SEO-friendly <img> tags
+      loadGallery(domainConfig);
+    } else {
+      console.warn(`No configuration found for domain: ${currentDomain}`);
+    }
+  } catch (error) {
+    console.error('Error loading or applying configuration:', error);
+  }
+});
+
+/**
+ * Updates the page content based on the domain configuration
+ * @param {Object} domainConfig - The configuration for the current domain
+ * @param {String} currentDomain - The current domain being accessed
+ * @param {Object} allConfig - All domain configurations
+ */
+function updatePageContent(domainConfig, currentDomain, allConfig) {
+  // Check URL parameters for page-specific overrides
+  const urlParams = new URLSearchParams(window.location.search);
+  const pageParam = urlParams.get('page');
+
+  // Update the page title
+  if (domainConfig.title) {
+    // If there's a page parameter, use it to modify the title
+    if (
+      pageParam &&
+      domainConfig.pages &&
+      domainConfig.pages[pageParam] &&
+      domainConfig.pages[pageParam].title
+    ) {
+      document.title = domainConfig.pages[pageParam].title.replace(
+        /\s*\|\s*Hydro-Cleansing/gi,
+        '',
+      );
+
+      // Also update any h1 title elements if they exist
+      const h1Elements = document.querySelectorAll('h1 .ld-fh-txt');
+      h1Elements.forEach(element => {
+        element.textContent = domainConfig.pages[pageParam].title;
+      });
+
+      // Update the main page heading if it exists
+      const mainHeading = document.querySelector('.fancy-title h2');
+      if (mainHeading && domainConfig.pages[pageParam].heading) {
+        mainHeading.innerHTML = domainConfig.pages[pageParam].heading;
+      }
+
+      // Update the main text content if specified for this page
+      if (domainConfig.pages[pageParam].text) {
+        const textElements = document.querySelectorAll(
+          '.font-size-18.lh-15.mb-55',
+        );
+        textElements.forEach(element => {
+          element.innerHTML = domainConfig.pages[pageParam].text;
+        });
+      }
+    } else {
+      // Use the default domain title (without "| Hydro-Cleansing")
+      document.title = domainConfig.title.replace(
+        /\s*\|\s*Hydro-Cleansing/gi,
+        '',
+      );
+
+      // First check for specific dynamic title area by ID
+      const dynamicTitleArea = document.getElementById('dynamic-title-area');
+      if (dynamicTitleArea) {
+        const titleSpan = dynamicTitleArea.querySelector('.ld-fh-txt');
+        if (titleSpan) {
+          titleSpan.textContent = domainConfig.title;
+        } else {
+          dynamicTitleArea.textContent = domainConfig.title;
+        }
+      } else {
+        // Fallback to general selectors
+        const h1Elements = document.querySelectorAll('h1 .ld-fh-txt');
+        h1Elements.forEach(element => {
+          element.textContent = domainConfig.title;
+        });
+      }
+    }
+  }
+
+  // Check for forYou content and prioritize it over text
+  if (domainConfig.forYou) {
+    // First check for specific dynamic text area by ID
+    const forYouText = document.getElementById('for-you-text');
+    if (forYouText) {
+      forYouText.innerHTML = domainConfig.forYou;
+    }
+
+    const dynamicTextArea = document.getElementById('dynamic-text-area');
+    if (dynamicTextArea) {
+      dynamicTextArea.innerHTML = domainConfig.forYou;
+    }
+  }
+  // Update the main text content if no page-specific override was applied and no forYou content
+  else if (
+    domainConfig.text &&
+    (!pageParam ||
+      !domainConfig.pages ||
+      !domainConfig.pages[pageParam] ||
+      !domainConfig.pages[pageParam].text)
+  ) {
+    // First check for specific dynamic text area by ID
+    const dynamicTextArea = document.getElementById('dynamic-text-area');
+    if (dynamicTextArea) {
+      const textSpan = dynamicTextArea.querySelector('.ld-fh-txt');
+      if (textSpan) {
+        textSpan.textContent = domainConfig.text;
+      } else {
+        dynamicTextArea.textContent = domainConfig.text;
+      }
+    } else {
+      // Fallback to general selectors
+      const textElements = document.querySelectorAll(
+        '.ld-fancy-heading p .ld-fh-txt',
+      );
+      textElements.forEach(element => {
+        element.textContent = domainConfig.text;
+      });
+    }
+
+    // Update the introductory descriptive text (lines 243-247)
+    const introText = document.querySelector(
+      '.ld-fancy-heading.mask-text.mb-75 p .ld-fh-txt',
+    );
+    if (introText && domainConfig.introText) {
+      introText.textContent = domainConfig.introText;
+    } else if (introText) {
+      // If no specific introText is provided, use the main text
+      introText.textContent = domainConfig.text;
+    }
+  }
+
+  // Handle page-specific intro text if available
+  if (
+    pageParam &&
+    domainConfig.pages &&
+    domainConfig.pages[pageParam] &&
+    domainConfig.pages[pageParam].introText
+  ) {
+    const introText = document.querySelector(
+      '.ld-fancy-heading.mask-text.mb-75 p .ld-fh-txt',
+    );
+    if (introText) {
+      introText.textContent = domainConfig.pages[pageParam].introText;
+    }
+  }
+
+  // Update the Services section title and description based on domain category
+  // Only do this if we're not using a page-specific override
+  if (!pageParam || !domainConfig.pages || !domainConfig.pages[pageParam]) {
+    updateServicesSectionByDomainCategory(currentDomain, allConfig);
+  }
+
+  // Update the service cards based on domain category
+  // Check if the page has specific services to display
+  if (
+    pageParam &&
+    domainConfig.pages &&
+    domainConfig.pages[pageParam] &&
+    domainConfig.pages[pageParam].services
+  ) {
+    // Use page-specific services
+    updateServiceCards(domainConfig.pages[pageParam].services);
+  } else {
+    // Use domain-level services
+    updateServiceCardsByDomainCategory(currentDomain);
+  }
+
+  // Add a data attribute to the body for potential CSS targeting
+  document.body.setAttribute(
+    'data-domain',
+    domainConfig.title.toLowerCase().replace(/\s+/g, '-'),
+  );
+
+  // If we have a page parameter, add that as a data attribute too
+  if (pageParam) {
+    document.body.setAttribute('data-page', pageParam);
+  }
+
+  console.log(
+    `Page updated for domain: ${domainConfig.title}${
+      pageParam ? ', page: ' + pageParam : ''
+    }`,
+  );
+}
+
+/**
+ * Updates the Services section title and description based on domain category
+ * @param {String} domain - The current domain
+ * @param {Object} allConfig - All domain configurations
+ */
+function updateServicesSectionByDomainCategory(domain, allConfig) {
+  // Get the category of the current domain
+  const category = getDomainCategory(domain);
+
+  // Select the services section elements to update
+  const servicesTitleElement = document.querySelector('.fancy-title h2');
+  const servicesDescriptionElement = document.querySelector(
+    '.font-size-18.lh-15.mb-55',
+  );
+
+  if (servicesTitleElement && servicesDescriptionElement) {
+    switch (category) {
+      case 'waste-disposal':
+        servicesTitleElement.innerHTML =
+          '<strong>Waste Disposal</strong> Solutions';
+        servicesDescriptionElement.textContent =
+          'We provide comprehensive waste management services for businesses and individuals. Our experienced team ensures safe, efficient, and environmentally responsible disposal of all types of waste, from general refuse to hazardous materials.';
+        break;
+
+      case 'cctv':
+        servicesTitleElement.innerHTML =
+          '<strong>CCTV</strong> Survey Services';
+        servicesDescriptionElement.textContent =
+          'Our advanced CCTV survey services provide detailed inspection of drains, sewers, and pipework. Using the latest technology, we identify blockages, damage, and potential issues to develop targeted solutions.';
+        break;
+
+      case 'pump-services':
+        servicesTitleElement.innerHTML = '<strong>Pump</strong> Services';
+        servicesDescriptionElement.textContent =
+          'We offer comprehensive pump installation, maintenance, and emergency repair services across London. Our professional team keeps your systems running efficiently, preventing costly downtime and water damage.';
+        break;
+
+      case 'liquid-storage':
+        servicesTitleElement.innerHTML =
+          '<strong>Liquid Storage</strong> Solutions';
+        servicesDescriptionElement.textContent =
+          'From emergency liquid containment to long-term storage solutions, we provide secure, compliant storage options for all types of liquids. Our portable and fixed storage systems meet the highest industry standards.';
+        break;
+
+      case 'drainage':
+        servicesTitleElement.innerHTML = '<strong>Drainage</strong> Solutions';
+        servicesDescriptionElement.textContent =
+          'Our expert drainage services cover everything from emergency unblocking to planned maintenance and repairs. We use the latest equipment to ensure your drains flow freely and efficiently.';
+        break;
+
+      case 'sweeper-services':
+        servicesTitleElement.innerHTML =
+          '<strong>Road Sweeping</strong> Services';
+        servicesDescriptionElement.textContent =
+          'Our professional road sweeping services keep your premises, roads, and event spaces clean and presentable. From regular maintenance to emergency cleanup, our fleet of sweepers delivers exceptional results.';
+        break;
+
+      case 'cleaning-services':
+        servicesTitleElement.innerHTML = '<strong>Cleansing</strong> Services';
+        servicesDescriptionElement.textContent =
+          'We provide specialized cleaning services for a wide range of industries and applications. From hydro cleansing to industrial cleaning, our team delivers thorough, efficient, and environmentally sound solutions.';
+        break;
+
+      default:
+        // Keep the default content if no category matches
+        break;
+    }
+  }
+}
+
+/**
+ * Updates the service cards based on domain category
+ * @param {String} domain - The current domain
+ */
+function updateServiceCardsByDomainCategory(domain) {
+  // Try to get the config for this domain
+  fetch('config.json')
+    .then(res => res.json())
+    .then(config => {
+      let domainConfig = config[domain] || config[domain.replace(/^www\./, '')];
+
+      // fallback for localhost or file:// protocol
+      if (
+        !domainConfig &&
+        (domain === 'localhost' ||
+          domain === '127.0.0.1' ||
+          window.location.protocol === 'file:')
+      ) {
+        domainConfig = config[Object.keys(config)[0]];
+      }
+
+      // Find the services section to update - only update the first service row
+      // This preserves the original template content
+      const servicesRow = document.querySelector('#services .row');
+
+      if (!servicesRow) return;
+
+      // If services array is present in config, use it to update appropriate service cards
+      if (
+        domainConfig &&
+        Array.isArray(domainConfig.services) &&
+        domainConfig.services.length > 0
+      ) {
+        // Only update the specific cards with service info
+        // Find all the service card heading elements
+        const cardHeadings = document.querySelectorAll('.iconbox .contents h3');
+        const cardDescriptions = document.querySelectorAll(
+          '.iconbox .contents p',
+        );
+
+        if (cardHeadings.length >= 4 && cardDescriptions.length >= 4) {
+          // Update only the first 4 services from config.json
+          const servicesToUse = domainConfig.services.slice(0, 4);
+
+          // Update the content of existing service cards
+          for (let i = 0; i < Math.min(servicesToUse.length, 4); i++) {
+            cardHeadings[i].textContent = servicesToUse[i].title;
+            cardDescriptions[i].textContent = servicesToUse[i].desc;
+
+            // If icon is specified in the service, update it
+            if (servicesToUse[i].icon) {
+              const iconContainer = cardHeadings[i]
+                .closest('.iconbox')
+                .querySelector('.iconbox-icon-container');
+              if (iconContainer) {
+                // Create a properly sized and styled icon
+                // Use SVG background with Font Awesome icon overlay
+                iconContainer.innerHTML = `
+                  <svg width="48" height="48" viewBox="0 0 48 48">
+                    <circle cx="24" cy="24" r="22" fill="#f42958" opacity=".1"/>
+                    <circle cx="24" cy="24" r="16" fill="#f42958" opacity=".2"/>
+                  </svg>
+                  <i class="${servicesToUse[i].icon}" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 24px; color: #f42958;"></i>
+                `;
+
+                // Ensure proper positioning
+                iconContainer.style.position = 'relative';
+                iconContainer.style.display = 'inline-block';
+              }
+            }
+          }
+        }
+      }
+    })
+    .catch(error => {
+      console.error('Error loading service configuration:', error);
+    });
+}
+
+/**
+ * Updates service cards with the provided services array
+ * @param {Array} services - Array of service objects with title, desc, and icon properties
+ */
+function updateServiceCards(services) {
+  if (!Array.isArray(services) || services.length === 0) return;
+
+  // Find all the service card heading elements
+  const cardHeadings = document.querySelectorAll('.iconbox .contents h3');
+  const cardDescriptions = document.querySelectorAll('.iconbox .contents p');
+
+  if (cardHeadings.length >= 4 && cardDescriptions.length >= 4) {
+    // Update only the first 4 services from the array
+    const servicesToUse = services.slice(0, 4);
+
+    // Update the content of existing service cards
+    for (let i = 0; i < Math.min(servicesToUse.length, 4); i++) {
+      cardHeadings[i].textContent = servicesToUse[i].title;
+      cardDescriptions[i].textContent = servicesToUse[i].desc;
+
+      // If icon is specified in the service, update it
+      if (servicesToUse[i].icon) {
+        const iconContainer = cardHeadings[i]
+          .closest('.iconbox')
+          .querySelector('.iconbox-icon-container');
+        if (iconContainer) {
+          // Create a properly sized and styled icon
+          // Use SVG background with Font Awesome icon overlay
+          iconContainer.innerHTML = `
+            <svg width="48" height="48" viewBox="0 0 48 48">
+              <circle cx="24" cy="24" r="22" fill="#f42958" opacity=".1"/>
+              <circle cx="24" cy="24" r="16" fill="#f42958" opacity=".2"/>
+            </svg>
+            <i class="${servicesToUse[i].icon}" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 24px; color: #f42958;"></i>
+          `;
+
+          // Ensure proper positioning
+          iconContainer.style.position = 'relative';
+          iconContainer.style.display = 'inline-block';
+        }
+      }
+    }
+  }
+}
+
+/**
+ * Loads and displays FAQs for the current domain
+ * @param {String} domain - The current domain
+ */
+function loadFAQs(domain) {
+  console.log(`Attempting to load FAQs for domain: ${domain}`);
+
+  // Find which FAQ category applies to this domain
+  let faqCategory = null;
+  let matchedFaqData = null;
+
+  for (const category in faqData) {
+    const urls = faqData[category].urls;
+    if (urls && urls.includes(domain)) {
+      faqCategory = category;
+      matchedFaqData = faqData[category];
+      console.log(`Found matching FAQ category: ${category}`);
+      break;
+    }
+  }
+
+  // If no FAQ category matches, exit
+  if (!faqCategory || !matchedFaqData) {
+    console.log(`No matching FAQ category found for domain: ${domain}`);
+    return;
+  }
+
+  console.log('Searching for accordion element...');
+  // Find the accordion by its specific ID
+  const accordionElement = document.getElementById('accordion-2');
+  if (!accordionElement) {
+    console.error("FAQ accordion section with ID 'accordion-2' not found");
+    return;
+  }
+  console.log('Found accordion element');
+
+  // Find the parent section containing this accordion
+  const accordionSection = accordionElement.closest('.vc_row');
+  if (!accordionSection) {
+    console.error('Parent FAQ section not found');
+    return;
+  }
+  console.log('Found parent section for accordion');
+
+  // Update the section title - find the heading that says "Content underline"
+  const sectionHeadings = document.querySelectorAll('header.fancy-heading h2');
+  let sectionTitle = null;
+
+  // Find the heading that contains "Content underline"
+  console.log(`Searching through ${sectionHeadings.length} headings...`);
+  for (const heading of sectionHeadings) {
+    console.log(`Checking heading: "${heading.textContent}"`);
+    if (heading.textContent.includes('Content underline')) {
+      sectionTitle = heading;
+      console.log('Found the correct heading');
+      break;
+    }
+  }
+
+  if (sectionTitle) {
+    console.log(`Updating section title to: ${matchedFaqData.title}`);
+    sectionTitle.textContent = matchedFaqData.title;
+  } else {
+    console.error('FAQ section title not found');
+  }
+
+  // Clear existing accordion items
+  console.log('Clearing existing accordion items');
+  accordionElement.innerHTML = '';
+
+  // Add new FAQ items
+  console.log(`Adding ${matchedFaqData.faqs.length} FAQ items`);
+  matchedFaqData.faqs.forEach((faq, index) => {
+    const isActive = index === 0;
+    const accordionItem = document.createElement('div');
+    accordionItem.className = `accordion-item panel ${
+      isActive ? 'active' : ''
+    }`;
+
+    accordionItem.innerHTML = `
+      <div class="accordion-heading" role="tab" id="accordion-collapse-heading-${index}">
+        <h4 class="accordion-title font-size-19">
+          <a class="${isActive ? '' : 'collapsed'}" 
+             data-toggle="collapse" 
+             data-parent="#accordion-2" 
+             href="#accordion-collapse-panel-${index}" 
+             aria-expanded="${isActive ? 'true' : 'false'}" 
+             aria-controls="accordion-collapse-panel-${index}">
+            ${faq.question}
+            <span class="accordion-expander">
+              <i class="icon-arrows_circle_plus"></i>
+              <i class="icon-arrows_circle_minus"></i>
+            </span>
+          </a>
+        </h4>
+      </div>
+      <div id="accordion-collapse-panel-${index}" 
+           class="accordion-collapse collapse ${isActive ? 'in' : ''}" 
+           role="tabpanel" 
+           aria-labelledby="accordion-collapse-heading-${index}">
+        <div class="accordion-content">
+          <p>${faq.answer}</p>
+        </div>
+      </div>
+    `;
+
+    accordionElement.appendChild(accordionItem);
+  });
+
+  console.log(
+    `FAQ section successfully updated for domain category: ${faqCategory}`,
+  );
+}
+
+/**
+ * Determines the category of a domain based on its name
+ * @param {String} domain - The domain name
+ * @return {String} The category of the domain
+ */
+function getDomainCategory(domain) {
+  domain = domain.toLowerCase();
+
+  // Waste Disposal related domains
+  if (
+    domain.includes('waste') ||
+    domain.includes('disposal') ||
+    domain.includes('recycling') ||
+    domain.includes('hazardous')
+  ) {
+    return 'waste-disposal';
+  }
+
+  // CCTV related domains
+  if (
+    domain.includes('cctv') ||
+    domain.includes('survey') ||
+    domain.includes('wincan') ||
+    domain.includes('cam')
+  ) {
+    return 'cctv';
+  }
+
+  // Pump Services related domains
+  if (domain.includes('pump') || domain.includes('station')) {
+    return 'pump-services';
+  }
+
+  // Liquid Storage related domains
+  if (
+    domain.includes('storage') ||
+    domain.includes('liquid') ||
+    domain.includes('tank') ||
+    domain.includes('float')
+  ) {
+    return 'liquid-storage';
+  }
+
+  // Drainage related domains
+  if (
+    domain.includes('drain') ||
+    domain.includes('sewer') ||
+    domain.includes('jetting') ||
+    domain.includes('gully')
+  ) {
+    return 'drainage';
+  }
+
+  // Sweeper Services related domains
+  if (
+    domain.includes('sweep') ||
+    domain.includes('road-sweeper') ||
+    domain.includes('sweeper') ||
+    domain.includes('clean-my-carpark')
+  ) {
+    return 'sweeper-services';
+  }
+
+  // Cleaning Services related domains
+  if (
+    domain.includes('clean') ||
+    domain.includes('hydro') ||
+    domain.includes('wash') ||
+    domain.includes('sanitizing')
+  ) {
+    return 'cleaning-services';
+  }
+
+  // Default category if none of the above
+  return 'general-services';
+}
+
+// Inject JSON-LD schema into document head for SEO
+function injectSchema(domainConfig, domain) {
+  // ProfessionalService schema
+  const serviceSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'ProfessionalService',
+    name: domainConfig.title,
+    url: window.location.origin,
+    description: domainConfig.text,
+  };
+  const serviceScript = document.createElement('script');
+  serviceScript.type = 'application/ld+json';
+  serviceScript.text = JSON.stringify(serviceSchema);
+  document.head.appendChild(serviceScript);
+
+  // FAQPage schema if available
+  let matchedFaq = null;
+  for (const cat in faqData) {
+    if (faqData[cat].urls && faqData[cat].urls.includes(domain)) {
+      matchedFaq = faqData[cat];
+      break;
+    }
+  }
+  if (matchedFaq && Array.isArray(matchedFaq.faqs)) {
+    const faqSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: matchedFaq.faqs.map(faq => ({
+        '@type': 'Question',
+        name: faq.question,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: faq.answer,
+        },
+      })),
+    };
+    const faqScript = document.createElement('script');
+    faqScript.type = 'application/ld+json';
+    faqScript.text = JSON.stringify(faqSchema);
+    document.head.appendChild(faqScript);
+  }
+}
+
+/**
+ * Dynamically populate the Works gallery based on domainConfig.gallery or placeholders.
+ * @param {Object} domainConfig
+ */
+function loadGallery(domainConfig) {
+  console.log('Loading gallery for domain config:', domainConfig.title);
+  const galleryContainer = document.querySelector('.liquid-portfolio-list-row');
+  console.log('Gallery container found:', !!galleryContainer);
+
+  if (!galleryContainer) {
+    console.error('Gallery container not found');
+    return;
+  }
+
+  // Clear existing items while keeping grid-stamp elements
+  const gridStamps = galleryContainer.querySelectorAll('.grid-stamp');
+  galleryContainer.innerHTML = '';
+
+  // Re-add grid stamps
+  gridStamps.forEach(stamp => {
+    galleryContainer.appendChild(stamp.cloneNode(true));
+  });
+
+  // Get gallery images from config or fallback
+  const images =
+    Array.isArray(domainConfig.gallery) && domainConfig.gallery.length > 0
+      ? domainConfig.gallery
+      : [
+          {
+            src: 'assets/demo/portfolio/placeholder1.jpg',
+            alt: 'Placeholder image 1',
+            title: 'Placeholder title 1',
+          },
+          {
+            src: 'assets/demo/portfolio/placeholder2.jpg',
+            alt: 'Placeholder image 2',
+            title: 'Placeholder title 2',
+          },
+          {
+            src: 'assets/demo/portfolio/placeholder3.jpg',
+            alt: 'Placeholder image 3',
+            title: 'Placeholder title 3',
+          },
+        ];
+
+  console.log('Gallery images to load:', images.length);
+
+  // Add grid stamp as first element
+  const firstStamp = document.createElement('div');
+  firstStamp.className =
+    'lqd-column col-md-4 col-sm-6 col-xs-12 grid-stamp creative-masonry-grid-stamp';
+  galleryContainer.appendChild(firstStamp);
+
+  // Add image items
+  images.forEach((img, index) => {
+    console.log(`Loading image ${index + 1}:`, img.src);
+
+    // Fix relative paths if needed
+    const imageSrc = img.src.replace(/^\.\//, '').replace(/^\.\.\//, '');
+
+    const col = document.createElement('div');
+    col.className = 'lqd-column col-md-4 col-sm-6 col-xs-12 masonry-item';
+    col.innerHTML = `
+      <div class="ld-pf-item ld-pf-light pf-details-inside pf-details-full pf-details-h-mid pf-details-v-mid title-size-32 ld-pf-semiround">
+        <div class="ld-pf-inner">
+          <div class="ld-pf-image">
+            <figure style="background-image: url('${imageSrc}'); background-size: cover; background-position: center; height: 280px;">
+              <img src="${imageSrc}" alt="${
+      img.alt || 'Gallery image'
+    }" style="width: 100%; height: 100%; object-fit: cover; visibility: hidden;" />
+            </figure>
+          </div>
+          <div class="ld-pf-bg bg-gradient-primary-bl opacity-08"></div>
+          <div class="ld-pf-details">
+            <div class="ld-pf-details-inner">
+              <h3 class="ld-pf-title h4 font-weight-semibold">${
+                img.title || ''
+              }</h3>
+            </div>
+          </div>
+          <a href="#" class="liquid-overlay-link"></a>
+        </div>
+      </div>`;
+    galleryContainer.appendChild(col);
+
+    // Add a right grid stamp after the second image
+    if (index === 1) {
+      const rightStamp = document.createElement('div');
+      rightStamp.className =
+        'lqd-column col-md-4 col-sm-6 col-xs-12 grid-stamp creative-masonry-grid-stamp is-right';
+      galleryContainer.appendChild(rightStamp);
+    }
+  });
+
+  console.log('Gallery loading complete');
+
+  // Re-initialize masonry if needed
+  if (
+    typeof jQuery !== 'undefined' &&
+    typeof jQuery.fn.liquidMasonry === 'function'
+  ) {
+    console.log('Re-initializing masonry layout');
+    setTimeout(() => {
+      jQuery(galleryContainer).liquidMasonry();
+    }, 100);
+  }
+}
