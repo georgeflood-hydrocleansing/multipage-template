@@ -282,6 +282,218 @@ const faqData = {
       'tunnelwaste.com',
     ],
   },
+  general: {
+    title: 'Hydro-Cleansing Services FAQs',
+    faqs: [
+      {
+        question: 'What services does Hydro-Cleansing offer?',
+        answer:
+          'We provide a comprehensive range of environmental services including drain unblocking, liquid waste disposal, CCTV surveys, pump maintenance, road sweeping, and emergency response across London and the Southeast.',
+      },
+      {
+        question: 'Do you operate 24/7?',
+        answer:
+          'Yes, our control room and emergency response teams operate round-the-clock, 365 days a year, to handle both scheduled maintenance and urgent callouts.',
+      },
+      {
+        question: 'What areas do you cover?',
+        answer:
+          'We primarily serve London, Surrey, Kent, Essex, and the Southeast, but can arrange nationwide service for large commercial contracts.',
+      },
+      {
+        question: 'How quickly can you respond to emergencies?',
+        answer:
+          'Our teams aim to be on-site within 60 minutes for most London locations and within 2 hours across the wider Southeast region.',
+      },
+      {
+        question: 'What environmental certifications do you hold?',
+        answer:
+          'We operate under ISO 14001 Environmental Management, ISO 9001 Quality Management, and maintain all relevant waste carrier and treatment permits.',
+      },
+      {
+        question: 'How can I request a quote?',
+        answer:
+          'Call our customer service team at 0800 740 8888 or complete our online enquiry form for a detailed, no-obligation quote tailored to your specific requirements.',
+      },
+    ],
+    urls: [
+      'hydro-cleansing.com',
+      'hydro-cleansing.co',
+      'hydrocleansing.net',
+      'hydrocleansing.co',
+    ],
+  },
+  uhpwj: {
+    title: 'Ultra-High-Pressure Water Jetting (UHPWJ) FAQs',
+    faqs: [
+      {
+        question: 'What is UHPWJ?',
+        answer:
+          'Water delivered at 20,000–40,000 psi to remove concrete, tar, or heavy scale without chemicals.',
+      },
+      {
+        question: 'Typical applications?',
+        answer:
+          'Tank cleaning, concrete scarification, graffiti removal, and bridge deck preparation.',
+      },
+      {
+        question: 'Are your operators certified?',
+        answer:
+          'All engineers hold Water Jetting Association & City & Guilds UHP cards.',
+      },
+      {
+        question: 'Is it environmentally safe?',
+        answer:
+          'Yes—no abrasive media or solvents; spent water is vacuum-recovered for recycling.',
+      },
+      {
+        question: 'Can you work in confined spaces?',
+        answer:
+          'We combine UHP heads with breathing apparatus teams for safe confined-space work.',
+      },
+      {
+        question: 'How do I book?',
+        answer:
+          "Call our specialist jetting line 24/7; we'll scope, quote, and mobilise the right unit.",
+      },
+    ],
+    urls: [
+      'uhpwj.co.uk',
+      'uhpwj.com',
+      'ultrahighpressurewaterjetting.co.uk',
+      'ultrahighpressurewaterjetting.com',
+      'hydropressureclean.co.uk',
+    ],
+  },
+  cctv: {
+    title: 'CCTV Drain Survey FAQs',
+    faqs: [
+      {
+        question: 'Why would I need a CCTV survey?',
+        answer:
+          'To locate hidden defects, verify new pipework, or satisfy insurance/home-buyer requirements.',
+      },
+      {
+        question: 'What technology do you use?',
+        answer:
+          'HD pan-and-tilt cameras with laser defect measurement and WinCan reporting software.',
+      },
+      {
+        question: 'How long does a typical survey take?',
+        answer:
+          'A domestic line can be filmed in under an hour; larger networks may need half-day slots.',
+      },
+      {
+        question: 'Do you map pipe depths and locations?',
+        answer:
+          'Yes. All surveys include on-screen distance counting and optional GPS-enabled mapping.',
+      },
+      {
+        question: 'Will the survey disrupt my business?',
+        answer:
+          'Minimal—our units are self-contained and can work outside trading hours if required.',
+      },
+      {
+        question: 'What format is the report delivered in?',
+        answer:
+          'PDF and MP4 video files, plus a WinCan XML archive if your engineer needs raw data.',
+      },
+    ],
+    urls: [
+      'cctvsurvey.co.uk',
+      'cctvsurvey.uk',
+      'wincan-cctv.co.uk',
+      'wincan-london.co.uk',
+      'wincan-surveys.co.uk',
+      'wincan-surveys.com',
+      'mega-cam.com',
+      'mega-cam.uk',
+      'mega-cctv.co',
+      'mega-cctv.co.uk',
+    ],
+  },
+  drainageServices: {
+    title: 'Drain Unblocking & Jetting FAQs',
+    faqs: [
+      {
+        question: 'What are the warning signs of a blocked drain?',
+        answer:
+          'Slow sinks, gurgling toilets, bad odours, or surface flooding mean a blockage is forming.',
+      },
+      {
+        question: 'How fast can Hydro Cleansing attend?',
+        answer:
+          'We run a 24/7 control room and aim to be on-site within 60 minutes across London & the South-East.',
+      },
+      {
+        question: 'What methods do you use to clear drains?',
+        answer:
+          'High-pressure water jetting, mechanical cutting, and vacuum extraction—safe for both clay and plastic pipes.',
+      },
+      {
+        question: 'Will unblocking damage my pipework?',
+        answer:
+          'No. Our equipment is pressure-regulated and operated by trained engineers to prevent pipe erosion or cracks.',
+      },
+      {
+        question: 'Can you provide a post-clearance report?',
+        answer:
+          'Yes, we can follow up with a CCTV survey and digital report showing the pipe condition.',
+      },
+      {
+        question: 'Do you offer preventative maintenance?',
+        answer:
+          'We can schedule quarterly or annual cleans to keep commercial and domestic drains flowing freely.',
+      },
+    ],
+    urls: [
+      'abc-drainage.com',
+      'abc-drainage.uk',
+      'abcdrainage.uk',
+      'cdrain.co.uk',
+      'cdrain.com',
+      'croydon-drain-services.co.uk',
+      'draineyehire.com',
+      'jetting-drains.co.uk',
+      'jetting-drians.co.uk',
+      'jettingvans.co.uk',
+      'jettingvans.com',
+    ],
+  },
+  emergencyWaste: {
+    title: 'Emergency Waste Removal FAQs',
+    faqs: [
+      {
+        question: 'What incidents qualify as an emergency?',
+        answer:
+          'Chemical spills, tanker overturns, blocked sewers, or flood-damaged waste stores.',
+      },
+      {
+        question: 'Response time?',
+        answer: 'Crews on the road within 2 hours—24/7/365.',
+      },
+      {
+        question: 'Do you liaise with regulators?',
+        answer: 'We handle EA notifications, sampling, and incident reports.',
+      },
+      {
+        question: 'How is waste contained on site?',
+        answer:
+          'Inflatable booms, over-pack drums, and vacuum recovery limit spread.',
+      },
+      {
+        question: 'Where is the waste taken?',
+        answer:
+          'To our licensed treatment facility or specialist disposal partners.',
+      },
+      {
+        question: 'Will you restore the area?',
+        answer:
+          'Full clean-down, surface testing, and "all-clear" documentation provided.',
+      },
+    ],
+    urls: ['emergency-waste-removal.co.uk'],
+  },
 };
 
 document.addEventListener('DOMContentLoaded', async function () {
@@ -318,7 +530,7 @@ document.addEventListener('DOMContentLoaded', async function () {
       const testDomain = Object.keys(config)[0]; // Use the first domain as default
       domainConfig = config[testDomain];
       console.log(
-        `Running in local/test mode. Using ${testDomain} configuration.`,
+        `Running in local/test mode. Using ${testDomain} configuration.`
       );
     }
 
@@ -355,175 +567,66 @@ document.addEventListener('DOMContentLoaded', async function () {
  * @param {Object} allConfig - All domain configurations
  */
 function updatePageContent(domainConfig, currentDomain, allConfig) {
-  // Check URL parameters for page-specific overrides
-  const urlParams = new URLSearchParams(window.location.search);
-  const pageParam = urlParams.get('page');
+  // Site title and meta tags
+  document.title = domainConfig.title || 'Hydro Cleansing';
 
-  // Update the page title
-  if (domainConfig.title) {
-    // If there's a page parameter, use it to modify the title
-    if (
-      pageParam &&
-      domainConfig.pages &&
-      domainConfig.pages[pageParam] &&
-      domainConfig.pages[pageParam].title
-    ) {
-      document.title = domainConfig.pages[pageParam].title.replace(
-        /\s*\|\s*Hydro-Cleansing/gi,
-        '',
-      );
-
-      // Also update any h1 title elements if they exist
-      const h1Elements = document.querySelectorAll('h1 .ld-fh-txt');
-      h1Elements.forEach(element => {
-        element.textContent = domainConfig.pages[pageParam].title;
-      });
-
-      // Update the main page heading if it exists
-      const mainHeading = document.querySelector('.fancy-title h2');
-      if (mainHeading && domainConfig.pages[pageParam].heading) {
-        mainHeading.innerHTML = domainConfig.pages[pageParam].heading;
-      }
-
-      // Update the main text content if specified for this page
-      if (domainConfig.pages[pageParam].text) {
-        const textElements = document.querySelectorAll(
-          '.font-size-18.lh-15.mb-55',
-        );
-        textElements.forEach(element => {
-          element.innerHTML = domainConfig.pages[pageParam].text;
-        });
-      }
-    } else {
-      // Use the default domain title (without "| Hydro-Cleansing")
-      document.title = domainConfig.title.replace(
-        /\s*\|\s*Hydro-Cleansing/gi,
-        '',
-      );
-
-      // First check for specific dynamic title area by ID
-      const dynamicTitleArea = document.getElementById('dynamic-title-area');
-      if (dynamicTitleArea) {
-        const titleSpan = dynamicTitleArea.querySelector('.ld-fh-txt');
-        if (titleSpan) {
-          titleSpan.textContent = domainConfig.title;
-        } else {
-          dynamicTitleArea.textContent = domainConfig.title;
-        }
-      } else {
-        // Fallback to general selectors
-        const h1Elements = document.querySelectorAll('h1 .ld-fh-txt');
-        h1Elements.forEach(element => {
-          element.textContent = domainConfig.title;
-        });
-      }
-    }
+  // Update meta description
+  const metaDescription = document.querySelector('meta[name="description"]');
+  if (metaDescription) {
+    metaDescription.setAttribute('content', domainConfig.text || '');
   }
 
-  // Check for forYou content and prioritize it over text
-  if (domainConfig.forYou) {
-    // First check for specific dynamic text area by ID
-    const forYouText = document.getElementById('for-you-text');
-    if (forYouText) {
-      forYouText.innerHTML = domainConfig.forYou;
-    }
-
-    const dynamicTextArea = document.getElementById('dynamic-text-area');
-    if (dynamicTextArea) {
-      dynamicTextArea.innerHTML = domainConfig.forYou;
-    }
-  }
-  // Update the main text content if no page-specific override was applied and no forYou content
-  else if (
-    domainConfig.text &&
-    (!pageParam ||
-      !domainConfig.pages ||
-      !domainConfig.pages[pageParam] ||
-      !domainConfig.pages[pageParam].text)
-  ) {
-    // First check for specific dynamic text area by ID
-    const dynamicTextArea = document.getElementById('dynamic-text-area');
-    if (dynamicTextArea) {
-      const textSpan = dynamicTextArea.querySelector('.ld-fh-txt');
-      if (textSpan) {
-        textSpan.textContent = domainConfig.text;
-      } else {
-        dynamicTextArea.textContent = domainConfig.text;
-      }
-    } else {
-      // Fallback to general selectors
-      const textElements = document.querySelectorAll(
-        '.ld-fancy-heading p .ld-fh-txt',
-      );
-      textElements.forEach(element => {
-        element.textContent = domainConfig.text;
-      });
-    }
-
-    // Update the introductory descriptive text (lines 243-247)
-    const introText = document.querySelector(
-      '.ld-fancy-heading.mask-text.mb-75 p .ld-fh-txt',
-    );
-    if (introText && domainConfig.introText) {
-      introText.textContent = domainConfig.introText;
-    } else if (introText) {
-      // If no specific introText is provided, use the main text
-      introText.textContent = domainConfig.text;
-    }
+  // Update hero text
+  const heroTitle = document.getElementById('hero-title');
+  if (heroTitle && domainConfig.title) {
+    heroTitle.textContent = domainConfig.title;
   }
 
-  // Handle page-specific intro text if available
-  if (
-    pageParam &&
-    domainConfig.pages &&
-    domainConfig.pages[pageParam] &&
-    domainConfig.pages[pageParam].introText
-  ) {
-    const introText = document.querySelector(
-      '.ld-fancy-heading.mask-text.mb-75 p .ld-fh-txt',
-    );
-    if (introText) {
-      introText.textContent = domainConfig.pages[pageParam].introText;
-    }
+  // Update hero description text
+  const heroText = document.getElementById('hero-text');
+  if (heroText && domainConfig.text) {
+    heroText.textContent = domainConfig.text;
   }
 
-  // Update the Services section title and description based on domain category
-  // Only do this if we're not using a page-specific override
-  if (!pageParam || !domainConfig.pages || !domainConfig.pages[pageParam]) {
-    updateServicesSectionByDomainCategory(currentDomain, allConfig);
-  }
+  // Update hero image - only change if heroImg path is valid
+  const heroImg = document.querySelector('.clip-svg img');
+  if (heroImg && domainConfig.heroImg && domainConfig.heroImg.trim() !== '') {
+    // Save the original src in case we need to revert
+    const originalSrc = heroImg.getAttribute('src');
+    heroImg.setAttribute('src', domainConfig.heroImg);
 
-  // Update the service cards based on domain category
-  // Check if the page has specific services to display
-  if (
-    pageParam &&
-    domainConfig.pages &&
-    domainConfig.pages[pageParam] &&
-    domainConfig.pages[pageParam].services
-  ) {
-    // Use page-specific services
-    updateServiceCards(domainConfig.pages[pageParam].services);
+    // If the new image fails to load, revert to the original
+    heroImg.onerror = function () {
+      console.error('Failed to load hero image:', domainConfig.heroImg);
+      heroImg.setAttribute('src', originalSrc);
+      // Remove the error handler to prevent loops
+      heroImg.onerror = null;
+    };
+
+    console.log('Set hero image to:', domainConfig.heroImg);
   } else {
-    // Use domain-level services
-    updateServiceCardsByDomainCategory(currentDomain);
+    console.log('Keeping original hero image');
   }
 
-  // Add a data attribute to the body for potential CSS targeting
-  document.body.setAttribute(
-    'data-domain',
-    domainConfig.title.toLowerCase().replace(/\s+/g, '-'),
-  );
-
-  // If we have a page parameter, add that as a data attribute too
-  if (pageParam) {
-    document.body.setAttribute('data-page', pageParam);
+  // Update "For You" text
+  const forYouText = document.getElementById('for-you-text');
+  if (forYouText && domainConfig.forYou) {
+    forYouText.innerHTML = domainConfig.forYou;
   }
 
-  console.log(
-    `Page updated for domain: ${domainConfig.title}${
-      pageParam ? ', page: ' + pageParam : ''
-    }`,
-  );
+  // Update services section based on domain category
+  updateServicesSectionByDomainCategory(currentDomain, allConfig);
+
+  // Load FAQ content for current domain
+  loadFAQs(currentDomain);
+
+  // Load gallery content
+  if (domainConfig.gallery) {
+    loadGallery(domainConfig);
+  }
+
+  // Inject Schema markup
+  injectSchema(domainConfig, currentDomain);
 }
 
 /**
@@ -538,7 +641,7 @@ function updateServicesSectionByDomainCategory(domain, allConfig) {
   // Select the services section elements to update
   const servicesTitleElement = document.querySelector('.fancy-title h2');
   const servicesDescriptionElement = document.querySelector(
-    '.font-size-18.lh-15.mb-55',
+    '.font-size-18.lh-15.mb-55'
   );
 
   if (servicesTitleElement && servicesDescriptionElement) {
@@ -633,7 +736,7 @@ function updateServiceCardsByDomainCategory(domain) {
         // Find all the service card heading elements
         const cardHeadings = document.querySelectorAll('.iconbox .contents h3');
         const cardDescriptions = document.querySelectorAll(
-          '.iconbox .contents p',
+          '.iconbox .contents p'
         );
 
         if (cardHeadings.length >= 4 && cardDescriptions.length >= 4) {
@@ -727,13 +830,53 @@ function updateServiceCards(services) {
 function loadFAQs(domain) {
   console.log(`Attempting to load FAQs for domain: ${domain}`);
 
-  // Find which FAQ category applies to this domain
+  // Find which FAQ category applies to this domain using regex patterns
+  const categoryMatchers = {
+    liquidWaste: u =>
+      /(liquid|waste)/i.test(u) &&
+      !/hazard|interceptor|tanker|storage|emergency|body|logistics|tunnel|sweep|gully|drill|uv|hcl/i.test(
+        u
+      ),
+    hazardousWaste: u => /hazard/i.test(u),
+    emergencyStorage: u =>
+      /(storage|tank|float|bulk)/i.test(u) && !/sewage|digest/i.test(u),
+    pumpStations: u => /pump|station/i.test(u) && !/sewage/i.test(u),
+    roadSweeping: u => /sweep|sweeper/i.test(u) && !/gully/i.test(u),
+    drainageServices: u =>
+      /drains?|jet/i.test(u) &&
+      !/cctv|ultra|mega|pressure|tunnel|sweep|survey|pump|gully/i.test(u),
+    cctv: u => /cctv|wincan|survey/i.test(u),
+    uhpwj: u => /uhpwj|ultra|highpressure|hydropressure/i.test(u),
+    interceptors: u => /interceptor|petrol|diesel|fuel/i.test(u),
+    tunnelCleaning: u => /tunnel|sewage|sewer|cross|tideway|subway/i.test(u),
+    gullyCleaning: u => /gully/i.test(u),
+    digesterCleaning: u => /digester|anaerobic/i.test(u),
+    drillingMud: u => /drilling|mud|slurry/i.test(u),
+    septicTanks: u => /septic|cesspit/i.test(u),
+    floodServices: u => /flood|damage/i.test(u),
+    confinedSpace: u => /confined|rescue|space/i.test(u),
+    constructionCleaning: u => /construction|event|festival|carpark/i.test(u),
+    sanitizingServices: u =>
+      /disinfect|sanitiz|clean/i.test(u) &&
+      !/hydro|drain|pump|sweep|gully|tunnel/i.test(u),
+    groundwater: u =>
+      /ground|environmental|water|recycl/i.test(u) &&
+      !/sweep|waste|tank/i.test(u),
+    tankerHire: u => /tanker|bulk/i.test(u) && !/waste|sweep/i.test(u),
+    commercialBodywork: u =>
+      /bodywork|fleet|commercial|hcl/i.test(u) && !/waste|sweep|pump/i.test(u),
+    wasteHaulage: u => /logistics|haulage/i.test(u),
+    uvPipeLining: u => /uv|lining/i.test(u),
+    emergencyWaste: u => /emergency-waste-removal/i.test(u),
+    general: u => /hydro|cleansing/i.test(u),
+  };
+
   let faqCategory = null;
   let matchedFaqData = null;
 
-  for (const category in faqData) {
-    const urls = faqData[category].urls;
-    if (urls && urls.includes(domain)) {
+  // Try to find a matching category using our regex patterns
+  for (const category in categoryMatchers) {
+    if (categoryMatchers[category](domain)) {
       faqCategory = category;
       matchedFaqData = faqData[category];
       console.log(`Found matching FAQ category: ${category}`);
@@ -741,20 +884,37 @@ function loadFAQs(domain) {
     }
   }
 
-  // If no FAQ category matches, exit
+  // If no category matches via regex, try the original matching method as fallback
   if (!faqCategory || !matchedFaqData) {
-    console.log(`No matching FAQ category found for domain: ${domain}`);
-    return;
+    for (const category in faqData) {
+      const urls = faqData[category].urls;
+      if (urls && urls.includes(domain)) {
+        faqCategory = category;
+        matchedFaqData = faqData[category];
+        console.log(`Found matching FAQ category via URL list: ${category}`);
+        break;
+      }
+    }
   }
 
-  console.log('Searching for accordion element...');
+  // If still no FAQ category matches, use the general category if available, otherwise exit
+  if (!faqCategory || !matchedFaqData) {
+    if (faqData.general) {
+      faqCategory = 'general';
+      matchedFaqData = faqData.general;
+      console.log(`Using general FAQs for domain: ${domain}`);
+    } else {
+      console.log(`No matching FAQ category found for domain: ${domain}`);
+      return;
+    }
+  }
+
   // Find the accordion by its specific ID
   const accordionElement = document.getElementById('accordion-2');
   if (!accordionElement) {
     console.error("FAQ accordion section with ID 'accordion-2' not found");
     return;
   }
-  console.log('Found accordion element');
 
   // Find the parent section containing this accordion
   const accordionSection = accordionElement.closest('.vc_row');
@@ -762,36 +922,27 @@ function loadFAQs(domain) {
     console.error('Parent FAQ section not found');
     return;
   }
-  console.log('Found parent section for accordion');
 
   // Update the section title - find the heading that says "Content underline"
   const sectionHeadings = document.querySelectorAll('header.fancy-heading h2');
   let sectionTitle = null;
 
   // Find the heading that contains "Content underline"
-  console.log(`Searching through ${sectionHeadings.length} headings...`);
   for (const heading of sectionHeadings) {
-    console.log(`Checking heading: "${heading.textContent}"`);
     if (heading.textContent.includes('Content underline')) {
       sectionTitle = heading;
-      console.log('Found the correct heading');
       break;
     }
   }
 
   if (sectionTitle) {
-    console.log(`Updating section title to: ${matchedFaqData.title}`);
     sectionTitle.textContent = matchedFaqData.title;
-  } else {
-    console.error('FAQ section title not found');
   }
 
   // Clear existing accordion items
-  console.log('Clearing existing accordion items');
   accordionElement.innerHTML = '';
 
   // Add new FAQ items
-  console.log(`Adding ${matchedFaqData.faqs.length} FAQ items`);
   matchedFaqData.faqs.forEach((faq, index) => {
     const isActive = index === 0;
     const accordionItem = document.createElement('div');
@@ -830,7 +981,7 @@ function loadFAQs(domain) {
   });
 
   console.log(
-    `FAQ section successfully updated for domain category: ${faqCategory}`,
+    `FAQ section successfully updated for domain category: ${faqCategory}`
   );
 }
 

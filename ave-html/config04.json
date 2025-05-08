@@ -1,0 +1,990 @@
+{
+  "london-sweepers.co.uk": {
+    "title": "London Road & Street Sweeping Experts",
+    "text": "Hydro Cleansing Ltd: Keeping London's streets pristine with 24/7 expert road sweeping services. Efficient, eco-friendly, and always reliable.",
+    "forYou": "Hydro Cleansing Ltd delivers comprehensive road and street sweeping across London, tailored to your needs. From routine maintenance of public highways and construction site dust suppression to rapid emergency clean-ups after events or incidents, our experienced teams and advanced fleet are ready. Operating from our Croydon base, we ensure swift, effective service, helping maintain safe, clean, and presentable environments throughout the capital. All swept waste is managed responsibly at our licensed Croydon recycling facility, reflecting our commitment to sustainability.",
+    "heroImg": "assets/website-hero-images/road-sweeping.png",
+    "video": "www.youtube.com/watch?v=v4EJ-shbcVI",
+    "services": [
+      {
+        "title": "24/7 Emergency Sweeping",
+        "desc": "Rapid response for urgent street cleaning and spillages across London, available day and night.",
+        "icon": "fa-solid fa-bolt"
+      },
+      {
+        "title": "Construction Dust Control",
+        "desc": "Effective dust suppression for London construction sites, aiding environmental compliance.",
+        "icon": "fa-solid fa-industry"
+      },
+      {
+        "title": "Highway & Event Cleaning",
+        "desc": "Scheduled and reactive sweeping for public roads, car parks, and event venue tidying.",
+        "icon": "fa-solid fa-road"
+      },
+      {
+        "title": "Sustainable Waste Processing",
+        "desc": "All collected street sweepings are processed at our licensed Croydon recycling facility.",
+        "icon": "fa-solid fa-recycle"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-1.webp",
+        "alt": "Road sweeping service 1",
+        "title": "Road Sweeper 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-2.webp",
+        "alt": "Road sweeping service 2",
+        "title": "Road Sweeper 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-3.webp",
+        "alt": "Road sweeping service 3",
+        "title": "Road Sweeper 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-4.webp",
+        "alt": "Road sweeping service 4",
+        "title": "Road Sweeper 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-5.webp",
+        "alt": "Road sweeping service 5",
+        "title": "Road Sweeper 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-6.webp",
+        "alt": "Road sweeping service 6",
+        "title": "Road Sweeper 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-7.webp",
+        "alt": "Road sweeping service 7",
+        "title": "Road Sweeper 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-8.webp",
+        "alt": "Road sweeping service 8",
+        "title": "Road Sweeper 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-9.webp",
+        "alt": "Road sweeping service 9",
+        "title": "Road Sweeper 9"
+      }
+    ]
+  },
+  "mega-sweep.co.uk": {
+    "title": "Mega Sweep: High-Capacity Road Sweepers",
+    "text": "Hydro Cleansing Ltd's 'Mega Sweep' service: Tackling vast areas with unmatched power and efficiency. For when only industrial-scale cleaning will do.",
+    "forYou": "When your project demands maximum cleaning power for extensive areas, Hydro Cleansing Ltd's 'Mega Sweep' capability delivers. Our high-capacity road sweepers are engineered for large-scale operations such as highways, major construction sites, airports, and industrial estates. These powerful machines ensure rapid and thorough debris removal, covering more ground faster and significantly improving productivity. Supported by our Croydon-based waste recycling facility, we provide an end-to-end solution for large-volume sweeping and sustainable waste management.",
+    "heroImg": "assets/website-hero-images/road-sweeping.png",
+    "video": "www.youtube.com/watch?v=v4EJ-shbcVI",
+    "services": [
+      {
+        "title": "Industrial Capacity Fleet",
+        "desc": "Our largest road sweepers, designed for maximum debris collection and extensive coverage.",
+        "icon": "fa-solid fa-truck-monster"
+      },
+      {
+        "title": "Major Infrastructure Cleaning",
+        "desc": "Specialised sweeping for motorways, large depots, airfields, and extensive industrial sites.",
+        "icon": "fa-solid fa-landmark"
+      },
+      {
+        "title": "Bulk Debris Solutions",
+        "desc": "Efficient removal and eco-friendly processing of substantial volumes of swept materials.",
+        "icon": "fa-solid fa-cubes-stacked"
+      },
+      {
+        "title": "Enhanced Productivity",
+        "desc": "Maximising cleaning efficiency on large-scale projects with our advanced, powerful equipment.",
+        "icon": "fa-solid fa-gauge-high"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-1.webp",
+        "alt": "Road sweeping service 1",
+        "title": "Road Sweeper 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-2.webp",
+        "alt": "Road sweeping service 2",
+        "title": "Road Sweeper 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-3.webp",
+        "alt": "Road sweeping service 3",
+        "title": "Road Sweeper 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-4.webp",
+        "alt": "Road sweeping service 4",
+        "title": "Road Sweeper 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-5.webp",
+        "alt": "Road sweeping service 5",
+        "title": "Road Sweeper 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-6.webp",
+        "alt": "Road sweeping service 6",
+        "title": "Road Sweeper 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-7.webp",
+        "alt": "Road sweeping service 7",
+        "title": "Road Sweeper 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-8.webp",
+        "alt": "Road sweeping service 8",
+        "title": "Road Sweeper 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-9.webp",
+        "alt": "Road sweeping service 9",
+        "title": "Road Sweeper 9"
+      }
+    ]
+  },
+  "mega-sweep.com": {
+    "title": "Mega Sweep: Maximum Efficiency Sweeping",
+    "text": "Experience Hydro Cleansing Ltd's 'Mega Sweep' technology for unparalleled efficiency on extensive cleaning projects across London and the South East.",
+    "forYou": "Hydro Cleansing Ltd's 'Mega Sweep' systems are engineered for maximum efficiency in large-scale cleaning operations. Ideal for airports, sprawling industrial sites, and major road networks, these high-performance sweepers significantly reduce cleaning time. Our advanced fleet, operated by experienced professionals, ensures fast, thorough results, minimising disruption and operational costs. We focus on delivering superior cleaning power combined with sustainable waste management practices via our Croydon facility.",
+    "heroImg": "assets/website-hero-images/road-sweeping.png",
+    "video": "www.youtube.com/watch?v=v4EJ-shbcVI",
+    "services": [
+      {
+        "title": "Peak Efficiency Sweeping",
+        "desc": "Engineered for the fastest possible cleaning of large sites and extensive road networks.",
+        "icon": "fa-solid fa-rocket"
+      },
+      {
+        "title": "Airport & Industrial Cleaning",
+        "desc": "High-performance sweeping for runways, aprons, and large-scale industrial complexes.",
+        "icon": "fa-solid fa-plane-departure"
+      },
+      {
+        "title": "Heavy-Duty Performance",
+        "desc": "Robust sweepers delivering consistent, high-quality cleaning in demanding environments.",
+        "icon": "fa-solid fa-gears"
+      },
+      {
+        "title": "Reduced Project Timelines",
+        "desc": "Significantly cut down cleaning times for large area sweeping projects with our advanced fleet.",
+        "icon": "fa-solid fa-clock-fast-forward"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-1.webp",
+        "alt": "Road sweeping service 1",
+        "title": "Road Sweeper 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-2.webp",
+        "alt": "Road sweeping service 2",
+        "title": "Road Sweeper 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-3.webp",
+        "alt": "Road sweeping service 3",
+        "title": "Road Sweeper 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-4.webp",
+        "alt": "Road sweeping service 4",
+        "title": "Road Sweeper 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-5.webp",
+        "alt": "Road sweeping service 5",
+        "title": "Road Sweeper 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-6.webp",
+        "alt": "Road sweeping service 6",
+        "title": "Road Sweeper 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-7.webp",
+        "alt": "Road sweeping service 7",
+        "title": "Road Sweeper 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-8.webp",
+        "alt": "Road sweeping service 8",
+        "title": "Road Sweeper 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-9.webp",
+        "alt": "Road sweeping service 9",
+        "title": "Road Sweeper 9"
+      }
+    ]
+  },
+  "mega-sweeper.com": {
+    "title": "Mega Sweeper: Heavy-Duty Cleaning Systems",
+    "text": "Hydro Cleansing Ltd's 'Mega Sweeper' class vehicles: Built for the toughest road and site cleaning jobs. Unrivalled suction, capacity, and operator skill.",
+    "forYou": "When facing the most demanding cleaning challenges, rely on Hydro Cleansing Ltd's 'Mega Sweeper' heavy-duty systems. Our specialized vehicles are equipped with powerful suction capabilities to lift heavy debris, compacted materials, and industrial residues that overwhelm standard sweepers. Featuring large hopper capacities for extended operation and skilled operators who maximize performance, our 'Mega Sweeper' fleet is the solution for industrial sites, major construction clearances, and any scenario requiring superior cleaning power and efficiency.",
+    "heroImg": "assets/website-hero-images/road-sweeping.png",
+    "video": "www.youtube.com/watch?v=v4EJ-shbcVI",
+    "services": [
+      {
+        "title": "Extreme Duty Sweeping",
+        "desc": "Conquering the most challenging sweeping tasks on industrial sites, construction zones, and highways.",
+        "icon": "fa-solid fa-helmet-safety"
+      },
+      {
+        "title": "Superior Suction Power",
+        "desc": "Advanced vacuum systems to efficiently lift and remove heavy, stubborn debris and compacted materials.",
+        "icon": "fa-solid fa-tornado"
+      },
+      {
+        "title": "Extended Operation Capacity",
+        "desc": "Large debris hoppers minimise downtime, ensuring continuous and efficient cleaning operations.",
+        "icon": "fa-solid fa-trash-can-arrow-up"
+      },
+      {
+        "title": "Expert Operator Control",
+        "desc": "Highly skilled operators leverage the full potential of our 'Mega Sweeper' fleet for optimal results.",
+        "icon": "fa-solid fa-user-astronaut"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-1.webp",
+        "alt": "Road sweeping service 1",
+        "title": "Road Sweeper 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-2.webp",
+        "alt": "Road sweeping service 2",
+        "title": "Road Sweeper 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-3.webp",
+        "alt": "Road sweeping service 3",
+        "title": "Road Sweeper 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-4.webp",
+        "alt": "Road sweeping service 4",
+        "title": "Road Sweeper 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-5.webp",
+        "alt": "Road sweeping service 5",
+        "title": "Road Sweeper 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-6.webp",
+        "alt": "Road sweeping service 6",
+        "title": "Road Sweeper 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-7.webp",
+        "alt": "Road sweeping service 7",
+        "title": "Road Sweeper 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-8.webp",
+        "alt": "Road sweeping service 8",
+        "title": "Road Sweeper 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-9.webp",
+        "alt": "Road sweeping service 9",
+        "title": "Road Sweeper 9"
+      }
+    ]
+  },
+  "mega-sweepers.com": {
+    "title": "Mega Sweepers Fleet for Large Projects",
+    "text": "Hydro Cleansing Ltd offers a formidable fleet of 'Mega Sweepers' for maximum productivity on large-scale projects across the South East.",
+    "forYou": "Hydro Cleansing Ltd's 'Mega Sweepers' fleet provides exceptional cleaning capacity for the most substantial projects. Designed for maximum area coverage and efficiency, these high-performance vehicles are ideal for major infrastructure developments, large commercial estates, and extensive site clearances. Our fleet ensures that even the largest contracts can be handled swiftly and effectively, with experienced operators maximising performance and ensuring all waste is sustainably managed through our Croydon recycling centre.",
+    "heroImg": "assets/website-hero-images/road-sweeping.png",
+    "video": "www.youtube.com/watch?v=v4EJ-shbcVI",
+    "services": [
+      {
+        "title": "Extensive Sweeper Fleet",
+        "desc": "Multiple high-capacity 'Mega Sweepers' available to tackle the largest contracts and sites.",
+        "icon": "fa-solid fa-truck-fast"
+      },
+      {
+        "title": "Infrastructure Project Specialists",
+        "desc": "Providing essential, large-scale cleaning services for major infrastructure developments.",
+        "icon": "fa-solid fa-building-columns"
+      },
+      {
+        "title": "Maximum Area Coverage",
+        "desc": "Wide sweep paths and powerful suction ensure efficient cleaning of vast surface areas quickly.",
+        "icon": "fa-solid fa-maximize"
+      },
+      {
+        "title": "Regional Service Powerhouse",
+        "desc": "'Mega Sweeper' capabilities deployed for major projects across London and the South East.",
+        "icon": "fa-solid fa-map-marked-alt"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-1.webp",
+        "alt": "Road sweeping service 1",
+        "title": "Road Sweeper 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-2.webp",
+        "alt": "Road sweeping service 2",
+        "title": "Road Sweeper 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-3.webp",
+        "alt": "Road sweeping service 3",
+        "title": "Road Sweeper 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-4.webp",
+        "alt": "Road sweeping service 4",
+        "title": "Road Sweeper 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-5.webp",
+        "alt": "Road sweeping service 5",
+        "title": "Road Sweeper 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-6.webp",
+        "alt": "Road sweeping service 6",
+        "title": "Road Sweeper 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-7.webp",
+        "alt": "Road sweeping service 7",
+        "title": "Road Sweeper 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-8.webp",
+        "alt": "Road sweeping service 8",
+        "title": "Road Sweeper 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-9.webp",
+        "alt": "Road sweeping service 9",
+        "title": "Road Sweeper 9"
+      }
+    ]
+  },
+  "road-sweeper-waste-disposal.co.uk": {
+    "title": "Road Sweeper Waste Disposal & Recycling",
+    "text": "Hydro Cleansing Ltd: Expert, compliant, and sustainable disposal of road sweeper waste. Partner with us for responsible waste management.",
+    "forYou": "Hydro Cleansing Ltd offers specialist solutions for the complete management of road sweeping waste. From efficient collection directly from your sweeper fleet to licensed transportation and advanced processing at our Croydon recycling facility, we ensure full regulatory compliance. Our environmentally focused approach includes thorough assessment of sweeping waste for recycling opportunities, particularly for aggregates recovery. We provide all necessary waste transfer documentation, giving you peace of mind. This service is essential for sweeper operators, local councils, and highway contractors dedicated to responsible waste handling.",
+    "heroImg": "assets/website-hero-images/liquid-waste.png",
+    "video": "www.youtube.com/watch?v=v4EJ-shbcVI",
+    "services": [
+      {
+        "title": "Direct Waste Collection",
+        "desc": "Efficient and timely collection of road sweeping waste directly from your vehicles or site.",
+        "icon": "fa-solid fa-truck-ramp-box"
+      },
+      {
+        "title": "Licensed & Compliant Disposal",
+        "desc": "Ensuring full legal compliance for the transport, treatment, and disposal of all sweeping waste.",
+        "icon": "fa-solid fa-shield-check"
+      },
+      {
+        "title": "Aggregate Recycling Focus",
+        "desc": "Assessing and processing sweeping waste for potential screening and recovery of usable aggregates.",
+        "icon": "fa-solid fa-recycle"
+      },
+      {
+        "title": "Comprehensive Waste Audit Trail",
+        "desc": "Providing all necessary documentation (EWC codes, transfer notes) for waste tracking and compliance.",
+        "icon": "fa-solid fa-clipboard-list"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-1.webp",
+        "alt": "Road sweeping service 1",
+        "title": "Road Sweeper 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-2.webp",
+        "alt": "Road sweeping service 2",
+        "title": "Road Sweeper 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-3.webp",
+        "alt": "Road sweeping service 3",
+        "title": "Road Sweeper 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-4.webp",
+        "alt": "Road sweeping service 4",
+        "title": "Road Sweeper 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-5.webp",
+        "alt": "Road sweeping service 5",
+        "title": "Road Sweeper 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-6.webp",
+        "alt": "Road sweeping service 6",
+        "title": "Road Sweeper 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-7.webp",
+        "alt": "Road sweeping service 7",
+        "title": "Road Sweeper 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-8.webp",
+        "alt": "Road sweeping service 8",
+        "title": "Road Sweeper 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-9.webp",
+        "alt": "Road sweeping service 9",
+        "title": "Road Sweeper 9"
+      }
+    ]
+  },
+  "road-sweeper.co": {
+    "title": "Professional Road Sweeper Services",
+    "text": "Hydro Cleansing Ltd: Your first choice for reliable, operated road sweeper hire. Modern fleet, experienced operators, and a commitment to excellence.",
+    "forYou": "Keep your sites, roads, and car parks immaculate with Hydro Cleansing Ltd's professional road sweeper services. We offer flexible hire of our modern, well-maintained fleet, complete with experienced and certified operators. Our range includes various sweeper sizes to suit any application, from compact units for tight access areas to large-capacity vehicles for extensive sites. Whether you need a one-off clean, short-term project support, or long-term contract sweeping, we provide tailored solutions. Our Croydon base ensures responsive service across London and the South East, with a strong focus on safety and operational efficiency.",
+    "heroImg": "assets/website-hero-images/road-sweeping.png",
+    "video": "www.youtube.com/watch?v=v4EJ-shbcVI",
+    "services": [
+      {
+        "title": "Operated Sweeper Hire",
+        "desc": "Expert road sweeping delivered by our fully trained and experienced operators.",
+        "icon": "fa-solid fa-user-gear"
+      },
+      {
+        "title": "Versatile Fleet",
+        "desc": "A range of sweeper sizes available, including compact, mid-size, and high-capacity options.",
+        "icon": "fa-solid fa-truck-pickup"
+      },
+      {
+        "title": "Flexible Contract Terms",
+        "desc": "Tailored hire options from one-off cleans and short-term projects to ongoing contracts.",
+        "icon": "fa-solid fa-handshake"
+      },
+      {
+        "title": "Safety & Efficiency",
+        "desc": "Operating to the highest safety standards with a focus on delivering efficient cleaning results.",
+        "icon": "fa-solid fa-shield-halved"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-1.webp",
+        "alt": "Road sweeping service 1",
+        "title": "Road Sweeper 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-2.webp",
+        "alt": "Road sweeping service 2",
+        "title": "Road Sweeper 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-3.webp",
+        "alt": "Road sweeping service 3",
+        "title": "Road Sweeper 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-4.webp",
+        "alt": "Road sweeping service 4",
+        "title": "Road Sweeper 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-5.webp",
+        "alt": "Road sweeping service 5",
+        "title": "Road Sweeper 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-6.webp",
+        "alt": "Road sweeping service 6",
+        "title": "Road Sweeper 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-7.webp",
+        "alt": "Road sweeping service 7",
+        "title": "Road Sweeper 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-8.webp",
+        "alt": "Road sweeping service 8",
+        "title": "Road Sweeper 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-9.webp",
+        "alt": "Road sweeping service 9",
+        "title": "Road Sweeper 9"
+      }
+    ]
+  },
+  "road-sweepers.co": {
+    "title": "Advanced Road Sweepers Fleet",
+    "text": "Hydro Cleansing Ltd's diverse road sweeper fleet meets all cleaning needs, from urban precincts to major highways. Equipped for excellence.",
+    "forYou": "Access the ideal road sweeper for any cleaning challenge with Hydro Cleansing Ltd's modern and diverse fleet. We provide vehicles suitable for all environments, from compact sweepers for pedestrian zones and restricted access areas to high-capacity units for major highways and large construction sites. Many of our sweepers feature advanced systems for dust suppression and powerful jetting, ensuring a thorough clean every time. Operated by our skilled and experienced personnel, we guarantee efficient and effective surface cleaning for local authorities, construction firms, and property managers.",
+    "heroImg": "assets/website-hero-images/road-sweeping.png",
+    "video": "www.youtube.com/watch?v=v4EJ-shbcVI",
+    "services": [
+      {
+        "title": "Comprehensive Fleet Options",
+        "desc": "Sweepers for every need: pedestrian areas, streets, highways, and demanding construction sites.",
+        "icon": "fa-solid fa-road-circle-check"
+      },
+      {
+        "title": "High-Pressure Jetting",
+        "desc": "Many vehicles equipped with powerful water jetting to tackle stubborn dirt and grime effectively.",
+        "icon": "fa-solid fa-water"
+      },
+      {
+        "title": "Dust Control Systems",
+        "desc": "Effective integrated water spray systems to minimise airborne dust during sweeping operations.",
+        "icon": "fa-solid fa-smog"
+      },
+      {
+        "title": "Skilled Operator Teams",
+        "desc": "Our experienced and professional operators ensure optimal cleaning efficiency and results.",
+        "icon": "fa-solid fa-users-cog"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-1.webp",
+        "alt": "Road sweeping service 1",
+        "title": "Road Sweeper 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-2.webp",
+        "alt": "Road sweeping service 2",
+        "title": "Road Sweeper 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-3.webp",
+        "alt": "Road sweeping service 3",
+        "title": "Road Sweeper 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-4.webp",
+        "alt": "Road sweeping service 4",
+        "title": "Road Sweeper 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-5.webp",
+        "alt": "Road sweeping service 5",
+        "title": "Road Sweeper 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-6.webp",
+        "alt": "Road sweeping service 6",
+        "title": "Road Sweeper 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-7.webp",
+        "alt": "Road sweeping service 7",
+        "title": "Road Sweeper 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-8.webp",
+        "alt": "Road sweeping service 8",
+        "title": "Road Sweeper 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-9.webp",
+        "alt": "Road sweeping service 9",
+        "title": "Road Sweeper 9"
+      }
+    ]
+  },
+  "road-sweeping-waste.co.uk": {
+    "title": "Road Sweeping Waste Management Experts",
+    "text": "Hydro Cleansing Ltd: Your partner for compliant and sustainable management of road sweeping waste. We collect, treat, and recycle.",
+    "forYou": "Hydro Cleansing Ltd offers specialist solutions for the complete management of road sweeping waste. From efficient collection directly from your sweeper fleet to licensed transportation and advanced processing at our Croydon recycling facility, we ensure full regulatory compliance. Our environmentally focused approach includes thorough assessment of sweeping waste for recycling opportunities, particularly for aggregates recovery. We provide all necessary waste transfer documentation, giving you peace of mind. This service is essential for sweeper operators, local councils, and highway contractors dedicated to responsible waste handling.",
+    "heroImg": "assets/website-hero-images/liquid-waste.png",
+    "video": "www.youtube.com/watch?v=v4EJ-shbcVI",
+    "services": [
+      {
+        "title": "Direct Waste Collection",
+        "desc": "Efficient and timely collection of road sweeping waste directly from your vehicles or site.",
+        "icon": "fa-solid fa-truck-ramp-box"
+      },
+      {
+        "title": "Licensed & Compliant Disposal",
+        "desc": "Ensuring full legal compliance for the transport, treatment, and disposal of all sweeping waste.",
+        "icon": "fa-solid fa-shield-check"
+      },
+      {
+        "title": "Aggregate Recycling Focus",
+        "desc": "Assessing and processing sweeping waste for potential screening and recovery of usable aggregates.",
+        "icon": "fa-solid fa-recycle"
+      },
+      {
+        "title": "Comprehensive Waste Audit Trail",
+        "desc": "Providing all necessary documentation (EWC codes, transfer notes) for waste tracking and compliance.",
+        "icon": "fa-solid fa-clipboard-list"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-1.webp",
+        "alt": "Road sweeping service 1",
+        "title": "Road Sweeper 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-2.webp",
+        "alt": "Road sweeping service 2",
+        "title": "Road Sweeper 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-3.webp",
+        "alt": "Road sweeping service 3",
+        "title": "Road Sweeper 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-4.webp",
+        "alt": "Road sweeping service 4",
+        "title": "Road Sweeper 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-5.webp",
+        "alt": "Road sweeping service 5",
+        "title": "Road Sweeper 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-6.webp",
+        "alt": "Road sweeping service 6",
+        "title": "Road Sweeper 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-7.webp",
+        "alt": "Road sweeping service 7",
+        "title": "Road Sweeper 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-8.webp",
+        "alt": "Road sweeping service 8",
+        "title": "Road Sweeper 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-9.webp",
+        "alt": "Road sweeping service 9",
+        "title": "Road Sweeper 9"
+      }
+    ]
+  },
+  "roadgullysweeper.co.uk": {
+    "title": "Road Gully Sweeping & Jetting Services",
+    "text": "Hydro Cleansing Ltd: Integrated road sweeping and high-pressure gully jetting. Efficient, cost-effective drainage and surface cleaning.",
+    "forYou": "Maintain clear roads and functional drainage systems with Hydro Cleansing Ltd's specialist combination services. Our advanced vehicles perform both road surface sweeping and high-pressure gully jetting in a single operation. This integrated approach efficiently removes debris from road surfaces before it enters and blocks drainage networks, ensuring comprehensive cleaning. By addressing both tasks simultaneously, we save you time and money, reduce disruption, and deliver a complete maintenance solution for highway authorities, local councils, and private site managers.",
+    "heroImg": "assets/website-hero-images/road-sweeping.png",
+    "video": "www.youtube.com/watch?v=4p2htIH3NOc",
+    "services": [
+      {
+        "title": "Combined Jetting & Sweeping Units",
+        "desc": "Advanced vehicles delivering both high-pressure gully/drain jetting and road surface sweeping.",
+        "icon": "fa-solid fa-wand-magic-sparkles"
+      },
+      {
+        "title": "Proactive Drainage Maintenance",
+        "desc": "Thoroughly cleaning road surfaces and drainage gullies simultaneously to prevent blockages.",
+        "icon": "fa-solid fa-broom-ball"
+      },
+      {
+        "title": "Cost & Time Efficiency",
+        "desc": "Completing multiple essential maintenance tasks with a single vehicle pass, saving resources.",
+        "icon": "fa-solid fa-sack-dollar"
+      },
+      {
+        "title": "Total Surface & Drain Clean",
+        "desc": "Ensuring roads are clear and surface water drainage systems remain fully functional.",
+        "icon": "fa-solid fa-circle-check"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-1.webp",
+        "alt": "Road sweeping service 1",
+        "title": "Road Sweeper 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-2.webp",
+        "alt": "Road sweeping service 2",
+        "title": "Road Sweeper 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-3.webp",
+        "alt": "Road sweeping service 3",
+        "title": "Road Sweeper 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-4.webp",
+        "alt": "Road sweeping service 4",
+        "title": "Road Sweeper 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-5.webp",
+        "alt": "Road sweeping service 5",
+        "title": "Road Sweeper 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-6.webp",
+        "alt": "Road sweeping service 6",
+        "title": "Road Sweeper 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-7.webp",
+        "alt": "Road sweeping service 7",
+        "title": "Road Sweeper 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-8.webp",
+        "alt": "Road sweeping service 8",
+        "title": "Road Sweeper 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-9.webp",
+        "alt": "Road sweeping service 9",
+        "title": "Road Sweeper 9"
+      }
+    ]
+  },
+  "roadgullysweeper.uk": {
+    "title": "UK Road Gully Sweeper & Drainage Experts",
+    "text": "Hydro Cleansing Ltd provides integrated road sweeping and gully cleaning across the UK. Advanced fleet, skilled operators, comprehensive maintenance.",
+    "forYou": "Access comprehensive road surface and drainage maintenance across the UK with Hydro Cleansing Ltd's specialised combination services. Our advanced units, operated by highly skilled personnel, perform both road sweeping and gully cleaning in a single, efficient operation. This integrated approach is ideal for highway agencies, local authorities, and private site managers seeking a cost-effective solution for maintaining clear roads and effective surface water drainage. We deliver consistent, professional results nationwide, ensuring your infrastructure remains safe and functional.",
+    "heroImg": "assets/website-hero-images/road-sweeping.png",
+    "video": "www.youtube.com/watch?v=4p2htIH3NOc",
+    "services": [
+      {
+        "title": "Nationwide Combination Fleet",
+        "desc": "Operating advanced road gully sweeper and jetting units throughout the UK mainland.",
+        "icon": "fa-solid fa-truck-moving"
+      },
+      {
+        "title": "Highway Infrastructure Support",
+        "desc": "Dedicated support for highway agencies with efficient surface and drainage system cleaning.",
+        "icon": "fa-solid fa-road-barrier"
+      },
+      {
+        "title": "Economical Maintenance Solutions",
+        "desc": "A cost-effective integrated approach to comprehensive road and gully system upkeep.",
+        "icon": "fa-solid fa-sterling-sign"
+      },
+      {
+        "title": "Expertly Skilled Operators",
+        "desc": "Experienced teams managing complex combination unit functions safely and effectively.",
+        "icon": "fa-solid fa-people-carry-box"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-1.webp",
+        "alt": "Road sweeping service 1",
+        "title": "Road Sweeper 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-2.webp",
+        "alt": "Road sweeping service 2",
+        "title": "Road Sweeper 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-3.webp",
+        "alt": "Road sweeping service 3",
+        "title": "Road Sweeper 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-4.webp",
+        "alt": "Road sweeping service 4",
+        "title": "Road Sweeper 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-5.webp",
+        "alt": "Road sweeping service 5",
+        "title": "Road Sweeper 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-6.webp",
+        "alt": "Road sweeping service 6",
+        "title": "Road Sweeper 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-7.webp",
+        "alt": "Road sweeping service 7",
+        "title": "Road Sweeper 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-8.webp",
+        "alt": "Road sweeping service 8",
+        "title": "Road Sweeper 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-9.webp",
+        "alt": "Road sweeping service 9",
+        "title": "Road Sweeper 9"
+      }
+    ]
+  },
+  "roadsweeperwaste.co.uk": {
+    "title": "Compliant Road Sweeper Waste Disposal",
+    "text": "Hydro Cleansing Ltd: Ensuring fully compliant disposal of your road sweeper waste. Licensed, responsible, and sustainable solutions.",
+    "forYou": "Maintain impeccable regulatory compliance with Hydro Cleansing Ltd's specialist road sweeper waste disposal services. We expertly manage all aspects, from secure collection and licensed transport to advanced processing at our permitted Croydon recycling facility. Our thorough understanding of waste regulations ensures all activities adhere to current requirements, safeguarding your business. We provide comprehensive documentation for a clear audit trail and offer advice on waste minimisation, helping you reduce volumes and costs. For peace of mind and environmentally sound waste management, trust HCL.",
+    "heroImg": "assets/website-hero-images/liquid-waste.png",
+    "video": "www.youtube.com/watch?v=v4EJ-shbcVI",
+    "services": [
+      {
+        "title": "Regulatory Compliant Handling",
+        "desc": "Strict adherence to all regulations for the collection, transport, and processing of road sweeper waste.",
+        "icon": "fa-solid fa-gavel"
+      },
+      {
+        "title": "Permitted Waste Facilities",
+        "desc": "Utilising our fully licensed Croydon facility for the ethical treatment and disposal of sweeper waste.",
+        "icon": "fa-solid fa-warehouse-alt"
+      },
+      {
+        "title": "Waste Reduction Guidance",
+        "desc": "Expert advice on minimising waste generation and promoting recycling opportunities.",
+        "icon": "fa-solid fa-seedling"
+      },
+      {
+        "title": "Dependable Collection Services",
+        "desc": "Flexible scheduled or ad-hoc collection of road sweeper waste to suit your operational needs.",
+        "icon": "fa-solid fa-calendar-check"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-1.webp",
+        "alt": "Road sweeping service 1",
+        "title": "Road Sweeper 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-2.webp",
+        "alt": "Road sweeping service 2",
+        "title": "Road Sweeper 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-3.webp",
+        "alt": "Road sweeping service 3",
+        "title": "Road Sweeper 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-4.webp",
+        "alt": "Road sweeping service 4",
+        "title": "Road Sweeper 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-5.webp",
+        "alt": "Road sweeping service 5",
+        "title": "Road Sweeper 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-6.webp",
+        "alt": "Road sweeping service 6",
+        "title": "Road Sweeper 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-7.webp",
+        "alt": "Road sweeping service 7",
+        "title": "Road Sweeper 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-8.webp",
+        "alt": "Road sweeping service 8",
+        "title": "Road Sweeper 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/RoadSweeper/sweeper-9.webp",
+        "alt": "Road sweeping service 9",
+        "title": "Road Sweeper 9"
+      }
+    ]
+  },
+  "digestercleaning.co.uk": {
+    "title": "Anaerobic Digester Cleaning Services",
+    "text": "Optimise your anaerobic digestion process with our specialist cleaning services. We expertly clean AD tanks, pipework, and associated equipment, removing sludge and grit to ensure peak performance and prevent downtime. Essential maintenance for wastewater treatment and biogas facilities.",
+    "forYou": "Maximize the efficiency and productivity of your anaerobic digestion plant with our specialist cleaning service. We provide comprehensive cleaning of AD tanks, pipework, and associated equipment, removing accumulated sludge, grit, and debris that reduce processing capacity and efficiency. Our confined space trained teams use powerful vacuum equipment and high-pressure jetting to thoroughly clean tank interiors, heat exchangers, and connected infrastructure without damaging sensitive components. Regular professional cleaning prevents costly breakdowns, extends equipment lifespan, and maintains optimal biogas production levels. For wastewater treatment plants, on-farm digesters, and commercial biogas facilities, our specialist service represents essential preventative maintenance that minimizes unplanned downtime and ensures your AD system operates at peak performance.",
+    "heroImg": "assets/website-hero-images/liquid-waste.png",
+    "video": "www.youtube.com/watch?v=M2eBeHSSKHM",
+    "services": [
+      {
+        "title": "AD Tank Cleaning",
+        "desc": "Comprehensive cleaning of anaerobic digestion tanks, removing grit, sludge, and contaminants.",
+        "icon": "fa-solid fa-temperature-low"
+      },
+      {
+        "title": "Pipework & Drain Cleaning",
+        "desc": "Cleaning connected pipes and drains within the AD facility to prevent blockages.",
+        "icon": "fa-solid fa-shower"
+      },
+      {
+        "title": "Confined Space Teams",
+        "desc": "Trained and certified teams for safe entry and work within digester tanks.",
+        "icon": "fa-solid fa-helmet-safety"
+      },
+      {
+        "title": "Waste Removal & Processing",
+        "desc": "Safe removal and appropriate processing or disposal of waste from AD tanks.",
+        "icon": "fa-solid fa-recycle"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning3.jpg",
+        "alt": "Placeholder image 1 for digestercleaning.co.uk",
+        "title": "Placeholder title 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning1.jpg",
+        "alt": "Placeholder image 2 for digestercleaning.co.uk",
+        "title": "Placeholder title 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning10.JPG",
+        "alt": "Placeholder image 3 for digestercleaning.co.uk",
+        "title": "Placeholder title 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning11.JPG",
+        "alt": "Placeholder image 4 for digestercleaning.co.uk",
+        "title": "Placeholder title 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning12.JPG",
+        "alt": "Placeholder image 5 for digestercleaning.co.uk",
+        "title": "Placeholder title 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning13.jpg",
+        "alt": "Placeholder image 6 for digestercleaning.co.uk",
+        "title": "Placeholder title 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning14.jpg",
+        "alt": "Placeholder image 7 for digestercleaning.co.uk",
+        "title": "Placeholder title 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning15.JPG",
+        "alt": "Placeholder image 8 for digestercleaning.co.uk",
+        "title": "Placeholder title 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning2.jpg",
+        "alt": "Placeholder image 9 for digestercleaning.co.uk",
+        "title": "Placeholder title 9"
+      }
+    ]
+  }
+}

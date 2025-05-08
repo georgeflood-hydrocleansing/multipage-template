@@ -1,0 +1,1142 @@
+{
+  "jetting-drians.co.uk": {
+    "title": "Professional Drain Clearing",
+    "text": "Specialist high-pressure water jetting – comprehensive clearing of blocked drains with advanced technology for fast, effective results!",
+    "heroImg": "assets/website-hero-images/liquid-waste.png",
+    "forYou": "Our drain clearing service delivers powerful water jetting solutions for maintaining optimal drainage flow in residential and commercial properties. We tackle blockages quickly and effectively, minimising disruption and preventing potential damage. From emergency unblocking to routine maintenance, our skilled operatives use cutting-edge equipment to ensure your drainage system functions perfectly at all times. We serve domestic, commercial, and industrial clients across the UK with options for emergency call-outs and scheduled maintenance programmes.",
+    "services": [
+      {
+        "title": "High-Pressure Water Jetting",
+        "desc": "Powerful cleaning technology for effective drain clearance.",
+        "icon": "fa-solid fa-water"
+      },
+      {
+        "title": "Blockage Removal",
+        "desc": "Swift elimination of stubborn blockages and obstructions.",
+        "icon": "fa-solid fa-circle-xmark"
+      },
+      {
+        "title": "Preventative Maintenance",
+        "desc": "Regular cleaning to prevent future drainage problems.",
+        "icon": "fa-solid fa-shield-check"
+      },
+      {
+        "title": "24/7 Emergency Response",
+        "desc": "Rapid assistance for urgent drainage issues any time.",
+        "icon": "fa-solid fa-bolt-lightning"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/Jetting/jetting-alternate-1.jpg",
+        "alt": "Professional drain jetting service in action",
+        "title": "Professional Drain Jetting"
+      },
+      {
+        "src": "assets/Website-Service-Images/Jetting/jetting-alternate-2.jpg",
+        "alt": "High-pressure water clearing blocked drain pipe",
+        "title": "Effective Drain Clearing"
+      },
+      {
+        "src": "assets/Website-Service-Images/Jetting/jetting-alternate-3.jpg",
+        "alt": "Successful removal of stubborn drain blockage",
+        "title": "Blockage Removal Success"
+      },
+      {
+        "src": "assets/Website-Service-Images/Jetting/jetting-alternate-4.jpg",
+        "alt": "Specialist jetting equipment clearing drainage system",
+        "title": "Specialist Jetting Equipment"
+      },
+      {
+        "src": "assets/Website-Service-Images/Jetting/jetting-alternate-5.jpg",
+        "alt": "Preventative maintenance jetting of drainage system",
+        "title": "Preventative Drain Maintenance"
+      },
+      {
+        "src": "assets/Website-Service-Images/Jetting/jetting-alternate-6.jpg",
+        "alt": "Commercial drain cleaning operation in progress",
+        "title": "Commercial Drain Services"
+      },
+      {
+        "src": "assets/Website-Service-Images/Jetting/jetting-alternate-7.jpg",
+        "alt": "Emergency drain response team attending urgent blockage",
+        "title": "Emergency Drain Response"
+      },
+      {
+        "src": "assets/Website-Service-Images/Jetting/jetting-alternate-8.jpg",
+        "alt": "Skilled operative performing drain maintenance",
+        "title": "Expert Drain Maintenance"
+      },
+      {
+        "src": "assets/Website-Service-Images/Jetting/jetting-alternate-9.jpg",
+        "alt": "Professional drain clearing team with equipment",
+        "title": "Professional Drainage Team"
+      }
+    ],
+    "video": "www.youtube.com/watch?v=4p2htIH3NOc"
+  },
+  "jettingvans.co.uk": {
+    "title": "Specialist Drainage Vehicles",
+    "text": "Bespoke jetting van conversions – custom-built drainage vehicles with powerful equipment and practical designs for professional contractors!",
+    "heroImg": "assets/website-hero-images/liquid-waste.png",
+    "forYou": "We specialise in creating purpose-built drainage vehicles for UK contractors who demand reliability and effectiveness in their operations. Our bespoke jetting vans integrate powerful cleaning equipment with practical vehicle configurations to enhance your drainage service capabilities. Each conversion is meticulously designed around your specific requirements, optimising space, equipment functionality, and operational efficiency. Our services include complete van specification, equipment installation, water tank fitting, customised storage solutions, and professional branding options.",
+    "services": [
+      {
+        "title": "Custom Vehicle Builds",
+        "desc": "Bespoke drainage vans built precisely to your requirements.",
+        "icon": "fa-solid fa-van-shuttle"
+      },
+      {
+        "title": "Jetting Equipment Installation",
+        "desc": "Premium, industry-leading systems expertly integrated.",
+        "icon": "fa-solid fa-gears"
+      },
+      {
+        "title": "Ergonomic Vehicle Design",
+        "desc": "Functional layouts optimised for efficient operations.",
+        "icon": "fa-solid fa-ruler-combined"
+      },
+      {
+        "title": "Complete Equipment Packages",
+        "desc": "Full range of tools and accessories for drain cleaning.",
+        "icon": "fa-solid fa-toolbox"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/Jetting/jetting-10.jpg",
+        "alt": "Custom-built professional jetting van for drainage contractors",
+        "title": "Professional Jetting Van"
+      },
+      {
+        "src": "assets/Website-Service-Images/Jetting/jetting-11.jpg",
+        "alt": "Specialist drainage vehicle with advanced equipment",
+        "title": "Specialist Drainage Vehicle"
+      },
+      {
+        "src": "assets/Website-Service-Images/Jetting/jetting-12.jpg",
+        "alt": "Integrated high-pressure jetting system in custom van",
+        "title": "Integrated Jetting System"
+      },
+      {
+        "src": "assets/Website-Service-Images/Jetting/jetting-13.jpg",
+        "alt": "Efficiently designed interior layout of jetting van",
+        "title": "Practical Interior Design"
+      },
+      {
+        "src": "assets/Website-Service-Images/Jetting/jetting-14.jpg",
+        "alt": "User-friendly control panel for jetting equipment",
+        "title": "User-Friendly Controls"
+      },
+      {
+        "src": "assets/Website-Service-Images/Jetting/jetting-15.jpg",
+        "alt": "Optimised storage system for drainage equipment in van",
+        "title": "Integrated Storage Solutions"
+      },
+      {
+        "src": "assets/Website-Service-Images/Jetting/jetting-16.jpg",
+        "alt": "Custom drainage van conversion with branded livery",
+        "title": "Bespoke Vehicle Conversion"
+      },
+      {
+        "src": "assets/Website-Service-Images/Jetting/jetting-17.jpg",
+        "alt": "Complete package of drainage equipment for van installation",
+        "title": "Comprehensive Equipment Package"
+      },
+      {
+        "src": "assets/Website-Service-Images/Jetting/jetting-18.jpg",
+        "alt": "Professional team building specialist drainage vehicles",
+        "title": "Professional Build Team"
+      }
+    ],
+    "video": "www.youtube.com/watch?v=4p2htIH3NOc"
+  },
+  "jettingvans.com": {
+    "title": "Global Drainage Vehicles",
+    "text": "International drainage solutions – purpose-built water jetting vehicles with integrated equipment and ergonomic designs for contractors worldwide!",
+    "heroImg": "assets/website-hero-images/liquid-waste.png",
+    "forYou": "We deliver professional vehicle solutions for drainage contractors globally who require mobile jetting capability. With an international perspective on commercial drain cleaning operations, we create vehicles that enhance productivity and operational effectiveness in diverse environments. Our comprehensive service includes full design consultation, detailed specification development, premium equipment installation, and ergonomic layout optimisation. We understand the varying requirements of international markets and provide custom solutions for contractors operating across different regions and regulatory frameworks.",
+    "services": [
+      {
+        "title": "International Conversions",
+        "desc": "Specialist vehicles designed for global drainage markets.",
+        "icon": "fa-solid fa-globe"
+      },
+      {
+        "title": "High-Performance Systems",
+        "desc": "Professionally installed, top-tier cleaning equipment.",
+        "icon": "fa-solid fa-gears"
+      },
+      {
+        "title": "Ergonomic Design",
+        "desc": "Practical layouts for commercial drainage operations.",
+        "icon": "fa-solid fa-people-carry-box"
+      },
+      {
+        "title": "Export & Shipping",
+        "desc": "Worldwide delivery and logistics management services.",
+        "icon": "fa-solid fa-plane-departure"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/Jetting/jetting-19.jpg",
+        "alt": "Professional drainage vehicle built for international export",
+        "title": "International Drainage Vehicle"
+      },
+      {
+        "src": "assets/Website-Service-Images/Jetting/jetting-20.jpg",
+        "alt": "Specialist van conversion for global drainage contractors",
+        "title": "Global Van Conversions"
+      },
+      {
+        "src": "assets/Website-Service-Images/Jetting/jetting-21.jpg",
+        "alt": "High-performance jetting equipment installation in van",
+        "title": "Integrated Jetting Systems"
+      },
+      {
+        "src": "assets/Website-Service-Images/Jetting/jetting-22.jpg",
+        "alt": "Ergonomic vehicle design for international drainage operations",
+        "title": "International Vehicle Design"
+      },
+      {
+        "src": "assets/Website-Service-Images/Jetting/jetting-23.jpg",
+        "alt": "Versatile high-pressure jetting unit for commercial vehicles",
+        "title": "Versatile Pressure Equipment"
+      },
+      {
+        "src": "assets/Website-Service-Images/Jetting/jetting-24.jpg",
+        "alt": "Optimised storage layout for efficient drainage operations",
+        "title": "Practical Storage Solutions"
+      },
+      {
+        "src": "assets/Website-Service-Images/Jetting/jetting-25.jpg",
+        "alt": "Custom-specified export vehicle for drainage contractors",
+        "title": "Custom Export Vehicles"
+      },
+      {
+        "src": "assets/Website-Service-Images/Jetting/jetting-26.jpg",
+        "alt": "Professional installation of drainage equipment in vehicles",
+        "title": "Expert Equipment Installation"
+      },
+      {
+        "src": "assets/Website-Service-Images/Jetting/jetting-27.jpg",
+        "alt": "International team of drainage vehicle conversion specialists",
+        "title": "Global Conversion Experts"
+      }
+    ],
+    "video": "www.youtube.com/watch?v=4p2htIH3NOc"
+  },
+  "jetvactanker.co.uk": {
+    "title": "Combination Drainage Units",
+    "text": "Dual-function cleaning power – advanced vehicles combining high-pressure jetting with powerful vacuum collection for complete drainage solutions!",
+    "heroImg": "assets/website-hero-images/liquid-waste.png",
+    "forYou": "Our specialist drainage service utilises advanced combination units that offer dual functionality for complex drainage maintenance projects. The integration of high-pressure water jetting with powerful vacuum collection capability in a single vehicle provides unmatched efficiency for challenging drainage tasks. Our fleet of combination units significantly increases operational effectiveness and enhances results for blockage clearance, system cleaning, debris removal, and waste collection. We serve commercial, industrial, municipal, and utility clients across the UK with both scheduled maintenance programmes and responsive emergency services.",
+    "services": [
+      {
+        "title": "Combination Cleaning",
+        "desc": "Integrated jetting and vacuum collection services.",
+        "icon": "fa-solid fa-recycle"
+      },
+      {
+        "title": "Debris Removal",
+        "desc": "Efficient extraction of material from drainage systems.",
+        "icon": "fa-solid fa-bucket"
+      },
+      {
+        "title": "Large Pipe Maintenance",
+        "desc": "Specialist cleaning of sizable drainage infrastructure.",
+        "icon": "fa-solid fa-road-bridge"
+      },
+      {
+        "title": "Emergency Response",
+        "desc": "24/7 service for urgent drainage issues and flooding.",
+        "icon": "fa-solid fa-clock-rotate-left"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/JetVac/jetvac-1.jpg",
+        "alt": "Advanced combination drainage unit with jetting and vacuum",
+        "title": "Advanced Combination Unit"
+      },
+      {
+        "src": "assets/Website-Service-Images/JetVac/jetvac-2.jpg",
+        "alt": "Professional drain and sewer cleaning operation in progress",
+        "title": "Professional Drain Cleaning"
+      },
+      {
+        "src": "assets/Website-Service-Images/JetVac/jetvac-3.jpg",
+        "alt": "Waste material collection using vacuum system from drainage",
+        "title": "Efficient Waste Collection"
+      },
+      {
+        "src": "assets/Website-Service-Images/JetVac/jetvac-4.jpg",
+        "alt": "Culvert cleaning operation with combination jetting unit",
+        "title": "Culvert Maintenance"
+      },
+      {
+        "src": "assets/Website-Service-Images/JetVac/jetvac-5.jpg",
+        "alt": "High-pressure water jetting system clearing blockage",
+        "title": "Powerful Jetting System"
+      },
+      {
+        "src": "assets/Website-Service-Images/JetVac/jetvac-6.jpg",
+        "alt": "Commercial property drainage service with combination unit",
+        "title": "Commercial Drainage Service"
+      },
+      {
+        "src": "assets/Website-Service-Images/JetVac/jetvac-7.jpg",
+        "alt": "Industrial site drainage cleaning with specialist equipment",
+        "title": "Industrial Drainage Cleaning"
+      },
+      {
+        "src": "assets/Website-Service-Images/JetVac/jetvac-8.jpg",
+        "alt": "State-of-the-art combination technology for drainage maintenance",
+        "title": "State-of-the-Art Technology"
+      },
+      {
+        "src": "assets/Website-Service-Images/JetVac/jetvac-9.jpg",
+        "alt": "Professional team operating combination drainage equipment",
+        "title": "Professional Operating Team"
+      }
+    ],
+    "video": "www.youtube.com/watch?v=11X2ye7wDZ4"
+  },
+  "jetvactanker.uk": {
+    "title": "Nationwide Drainage Service",
+    "text": "UK-wide drainage expertise – powerful combination units delivering comprehensive cleaning, waste removal and system maintenance anywhere in Britain!",
+    "heroImg": "assets/website-hero-images/liquid-waste.png",
+    "forYou": "We provide nationwide specialist drainage services using an advanced fleet of combination units for complete system maintenance throughout Great Britain. Our professional approach leverages the efficiency benefits of combined jetting and vacuum technology, providing services that maximise effectiveness whilst minimising operational disruption for clients across the UK. From remote rural locations to busy urban centres, our comprehensive service coverage includes system cleaning, blockage resolution, debris extraction, and emergency response with consistent quality standards and rapid deployment capabilities. We work with commercial properties, industrial sites, utilities, local authorities, and infrastructure managers across the entire United Kingdom.",
+    "services": [
+      {
+        "title": "UK-Wide Coverage",
+        "desc": "Nationwide service with consistent quality standards.",
+        "icon": "fa-solid fa-truck-fast"
+      },
+      {
+        "title": "Advanced Fleet",
+        "desc": "Modern combination units with powerful capabilities.",
+        "icon": "fa-solid fa-truck-monster"
+      },
+      {
+        "title": "Complete System Cleaning",
+        "desc": "Comprehensive maintenance of entire drainage networks.",
+        "icon": "fa-solid fa-network-wired"
+      },
+      {
+        "title": "24/7 Emergency Response",
+        "desc": "Rapid deployment for urgent drainage situations.",
+        "icon": "fa-solid fa-bell-concierge"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/JetVac/jetvac-10.jpg",
+        "alt": "Nationwide drainage service vehicle providing UK coverage",
+        "title": "UK-Wide Drainage Service"
+      },
+      {
+        "src": "assets/Website-Service-Images/JetVac/jetvac-11.jpg",
+        "alt": "Advanced combination tanker unit operating in Britain",
+        "title": "Advanced Combination Unit"
+      },
+      {
+        "src": "assets/Website-Service-Images/JetVac/jetvac-12.jpg",
+        "alt": "Complete drainage system cleaning operation in progress",
+        "title": "Complete System Cleaning"
+      },
+      {
+        "src": "assets/Website-Service-Images/JetVac/jetvac-13.jpg",
+        "alt": "Powerful vacuum collection system removing debris",
+        "title": "Powerful Vacuum Collection"
+      },
+      {
+        "src": "assets/Website-Service-Images/JetVac/jetvac-14.jpg",
+        "alt": "High-pressure water jetting clearing blocked drain",
+        "title": "High-Pressure Water Jetting"
+      },
+      {
+        "src": "assets/Website-Service-Images/JetVac/jetvac-15.jpg",
+        "alt": "Commercial property drainage maintenance service",
+        "title": "Commercial Property Maintenance"
+      },
+      {
+        "src": "assets/Website-Service-Images/JetVac/jetvac-16.jpg",
+        "alt": "Emergency drainage response team attending urgent call",
+        "title": "Emergency Response Service"
+      },
+      {
+        "src": "assets/Website-Service-Images/JetVac/jetvac-17.jpg",
+        "alt": "Water recycling technology on specialist tanker unit",
+        "title": "Water Recycling Technology"
+      },
+      {
+        "src": "assets/Website-Service-Images/JetVac/jetvac-18.jpg",
+        "alt": "National team of drainage service specialists",
+        "title": "Nationwide Service Team"
+      }
+    ],
+    "video": "www.youtube.com/watch?v=11X2ye7wDZ4"
+  },
+  "liquidingenuity.co.uk": {
+    "title": "Smart Liquid Management",
+    "text": "Innovative water solutions – clever engineering for industrial liquid processing with technology that enhances efficiency, sustainability and compliance!",
+    "heroImg": "assets/website-hero-images/pump-station.png",
+    "forYou": "We bring a fresh, intelligent approach to managing liquids for British businesses facing complex challenges with water and waste streams. Our team of engineers and scientists develops and implements bespoke systems that transform how organisations interact with liquid processes, delivering tangible benefits from cost savings to improved environmental performance. Our UK-focused solutions include water purification, industrial effluent treatment, resource recovery from liquid streams, and optimised liquid handling processes. We combine innovative technology with practical engineering expertise to create systems that are both cutting-edge and commercially viable in today's demanding regulatory landscape.",
+    "services": [
+      {
+        "title": "Intelligent Water Treatment",
+        "desc": "Smart technology for water purification and processing.",
+        "icon": "fa-solid fa-lightbulb"
+      },
+      {
+        "title": "Resource Recovery",
+        "desc": "Innovative extraction of valuable materials from waste.",
+        "icon": "fa-solid fa-gem"
+      },
+      {
+        "title": "Liquid Process Optimisation",
+        "desc": "Efficient systems for industrial liquid management.",
+        "icon": "fa-solid fa-robot"
+      },
+      {
+        "title": "Engineering Consultancy",
+        "desc": "Expert advice for improving liquid handling processes.",
+        "icon": "fa-solid fa-user-hard-hat"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/Water/ingenuity-1.jpg",
+        "alt": "Smart liquid management system for industrial application",
+        "title": "Smart Liquids Management"
+      },
+      {
+        "src": "assets/Website-Service-Images/Water/ingenuity-2.jpg",
+        "alt": "Resource recovery unit extracting valuable materials",
+        "title": "Resource Recovery"
+      },
+      {
+        "src": "assets/Website-Service-Images/Water/ingenuity-3.jpg",
+        "alt": "Automated liquid dosing system for precise control",
+        "title": "Precision Liquid Handling"
+      },
+      {
+        "src": "assets/Website-Service-Images/Water/ingenuity-4.jpg",
+        "alt": "Engineer designing advanced liquid management system",
+        "title": "Expert Process Engineering"
+      },
+      {
+        "src": "assets/Website-Service-Images/Water/ingenuity-5.jpg",
+        "alt": "Water recycling technology for sustainable operations",
+        "title": "Sustainable Water Solutions"
+      },
+      {
+        "src": "assets/Website-Service-Images/Water/ingenuity-6.jpg",
+        "alt": "Advanced filtration module for liquid processing",
+        "title": "Advanced Filtration"
+      },
+      {
+        "src": "assets/Website-Service-Images/Water/ingenuity-7.jpg",
+        "alt": "Control room monitoring industrial liquid processing",
+        "title": "Centralised Control Systems"
+      },
+      {
+        "src": "assets/Website-Service-Images/Water/ingenuity-8.jpg",
+        "alt": "Wastewater sample analysis for treatment optimisation",
+        "title": "Data-Driven Optimisation"
+      },
+      {
+        "src": "assets/Website-Service-Images/Water/ingenuity-9.jpg",
+        "alt": "Team of liquid management innovation specialists",
+        "title": "Liquid Innovation Experts"
+      }
+    ],
+    "video": "www.youtube.com/watch?v=M2eBeHSSKHM"
+  },
+  "londonemissionzone.co.uk": {
+    "title": "London Emission Compliance",
+    "text": "ULEZ and LEZ guidance – expert advice on London's emission zones with vehicle checking, charge information and compliance solutions for drivers!",
+    "heroImg": "assets/website-hero-images/road-sweeping.png",
+    "forYou": "We provide comprehensive guidance for navigating London's increasingly complex emission zone requirements. Our expertise covers both the Ultra Low Emission Zone (ULEZ) and Low Emission Zone (LEZ), helping businesses and individuals understand the standards, check vehicle compliance, calculate potential charges, and explore options for compliant vehicles or alternative transport. Our aim is to help you avoid penalties while contributing to cleaner air in the capital through practical compliance solutions. Whether you operate a single vehicle or manage a large fleet, we provide clear information on boundaries, exemptions, payment systems, and future changes to London's emission control schemes.",
+    "services": [
+      {
+        "title": "Vehicle Compliance Check",
+        "desc": "Instant verification against ULEZ and LEZ standards.",
+        "icon": "fa-solid fa-car-burst"
+      },
+      {
+        "title": "Charge Explanation",
+        "desc": "Clear breakdown of fees, penalties and payment options.",
+        "icon": "fa-solid fa-sterling-sign"
+      },
+      {
+        "title": "Vehicle Sourcing",
+        "desc": "Help finding compliant cars, vans and commercial vehicles.",
+        "icon": "fa-solid fa-car-building"
+      },
+      {
+        "title": "Fleet Management",
+        "desc": "Support for businesses operating multiple vehicles in London.",
+        "icon": "fa-solid fa-file-invoice-dollar"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/Digital/lez-ulez-1.jpg",
+        "alt": "London ULEZ zone signage showing boundary information",
+        "title": "London Emission Zones"
+      },
+      {
+        "src": "assets/Website-Service-Images/Digital/lez-ulez-2.jpg",
+        "alt": "Vehicle emissions testing and compliance verification",
+        "title": "Compliance Checking"
+      },
+      {
+        "src": "assets/Website-Service-Images/Digital/lez-ulez-3.jpg",
+        "alt": "Detailed map showing London emission zone boundaries",
+        "title": "Zone Boundaries"
+      },
+      {
+        "src": "assets/Website-Service-Images/Digital/lez-ulez-4.jpg",
+        "alt": "Electric vehicle charging point in London emission zone",
+        "title": "Compliant Vehicle Options"
+      },
+      {
+        "src": "assets/Website-Service-Images/Digital/lez-ulez-5.jpg",
+        "alt": "London skyline with improved air quality visual",
+        "title": "Cleaner Air Initiative"
+      },
+      {
+        "src": "assets/Website-Service-Images/Digital/lez-ulez-6.jpg",
+        "alt": "Fleet management dashboard for emission zone compliance",
+        "title": "Fleet Compliance Management"
+      },
+      {
+        "src": "assets/Website-Service-Images/Digital/lez-ulez-7.jpg",
+        "alt": "Information display explaining emission zone charges",
+        "title": "Charge Information"
+      },
+      {
+        "src": "assets/Website-Service-Images/Digital/lez-ulez-8.jpg",
+        "alt": "Person checking vehicle emission compliance online",
+        "title": "Online Compliance Verification"
+      },
+      {
+        "src": "assets/Website-Service-Images/Digital/lez-ulez-9.jpg",
+        "alt": "Emission zone compliance advisory team in London",
+        "title": "Expert Compliance Advice"
+      }
+    ],
+    "video": "www.youtube.com/watch?v=v4EJ-shbcVI"
+  },
+  "major-event-cleanup.co.uk": {
+    "title": "Event Site Restoration",
+    "text": "Specialist post-event cleaning – comprehensive site restoration after festivals, concerts and sports events with rapid, thorough environmental care!",
+    "heroImg": "assets/website-hero-images/road-sweeping.png",
+    "forYou": "We specialise in restoring venues and public spaces to pristine condition after large-scale events. Understanding the logistical challenges and tight turnarounds involved in post-event operations, our experienced teams, specialist equipment, and comprehensive waste management strategies ensure sites are returned to their original state quickly and with minimal environmental impact. From major music festivals and sporting events to public gatherings and corporate functions, we work nationwide with event organisers, local authorities, and venue managers to deliver efficient, thorough cleanup services that meet both regulatory requirements and sustainability goals. Our full-service approach covers everything from litter picking and waste segregation to surface cleaning and grounds restoration.",
+    "services": [
+      {
+        "title": "Post-Event Cleaning",
+        "desc": "Comprehensive restoration of indoor and outdoor venues.",
+        "icon": "fa-solid fa-people-roof"
+      },
+      {
+        "title": "Waste Management",
+        "desc": "Efficient collection and recycling of event-generated waste.",
+        "icon": "fa-solid fa-recycle"
+      },
+      {
+        "title": "Grounds Restoration",
+        "desc": "Surface cleaning and repairs to restore site conditions.",
+        "icon": "fa-solid fa-leaf"
+      },
+      {
+        "title": "Rapid Response Teams",
+        "desc": "Quick-deployment crews for time-sensitive operations.",
+        "icon": "fa-solid fa-shipping-fast"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/Events/event-cleanup-1.jpg",
+        "alt": "Professional event cleanup crew restoring festival site",
+        "title": "Event Cleanup Specialists"
+      },
+      {
+        "src": "assets/Website-Service-Images/Events/event-cleanup-2.jpg",
+        "alt": "Post-festival site cleaning operation in progress",
+        "title": "Festival Site Restoration"
+      },
+      {
+        "src": "assets/Website-Service-Images/Events/event-cleanup-3.jpg",
+        "alt": "Waste segregation system at major public event",
+        "title": "Event Waste Management"
+      },
+      {
+        "src": "assets/Website-Service-Images/Events/event-cleanup-4.jpg",
+        "alt": "Stadium cleaning team after major sporting event",
+        "title": "Sports Venue Cleaning"
+      },
+      {
+        "src": "assets/Website-Service-Images/Events/event-cleanup-5.jpg",
+        "alt": "Litter picking team working at festival grounds",
+        "title": "Thorough Site Cleanup"
+      },
+      {
+        "src": "assets/Website-Service-Images/Events/event-cleanup-6.jpg",
+        "alt": "Street cleaning operation after public gathering",
+        "title": "Public Space Restoration"
+      },
+      {
+        "src": "assets/Website-Service-Images/Events/event-cleanup-7.jpg",
+        "alt": "Specialist cleaning equipment for event site restoration",
+        "title": "Advanced Cleaning Technology"
+      },
+      {
+        "src": "assets/Website-Service-Images/Events/event-cleanup-8.jpg",
+        "alt": "Event waste recycling operation sorting materials",
+        "title": "Sustainable Waste Solutions"
+      },
+      {
+        "src": "assets/Website-Service-Images/Events/event-cleanup-9.jpg",
+        "alt": "Professional event cleaning team with equipment",
+        "title": "Professional Cleanup Team"
+      }
+    ],
+    "video": "www.youtube.com/watch?v=v4EJ-shbcVI"
+  },
+  "majoreventcleanup.co.uk": {
+    "title": "UK Event Aftermath Specialists",
+    "text": "Nationwide post-event solutions – rapid, effective site cleanup and waste management for festivals, concerts and corporate events across Britain!",
+    "heroImg": "assets/website-hero-images/road-sweeping.png",
+    "forYou": "When your major UK event concludes, we step in to handle the aftermath with professionalism and efficiency. Our nationwide service provides a seamless cleanup operation, managing everything from litter picking and waste removal to surface cleaning and site reinstatement. We understand the importance of returning venues to their pre-event condition promptly, enabling quick turnaround for future activities while meeting environmental obligations. Our comprehensive approach covers all types and sizes of events from music festivals and sporting tournaments to corporate functions and public celebrations across the entire United Kingdom. We help event organisers meet their obligations and leave a positive legacy with environmentally sound post-event management that prioritises recycling and sustainability.",
+    "services": [
+      {
+        "title": "Nationwide Cleanup",
+        "desc": "Comprehensive services for events throughout Britain.",
+        "icon": "fa-solid fa-map-marked-alt"
+      },
+      {
+        "title": "Complete Waste Solutions",
+        "desc": "Collection, sorting and recycling of all event waste.",
+        "icon": "fa-solid fa-dumpster"
+      },
+      {
+        "title": "Site Reinstatement",
+        "desc": "Returning venues to their original condition efficiently.",
+        "icon": "fa-solid fa-hard-hat"
+      },
+      {
+        "title": "Sustainable Practices",
+        "desc": "Minimising environmental impact from event cleanup.",
+        "icon": "fa-solid fa-seedling"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/Events/mec-uk-1.jpg",
+        "alt": "Professional team providing nationwide event cleanup",
+        "title": "UK-Wide Event Cleanup"
+      },
+      {
+        "src": "assets/Website-Service-Images/Events/mec-uk-2.jpg",
+        "alt": "Large-scale waste collection after major festival",
+        "title": "Event Waste Management"
+      },
+      {
+        "src": "assets/Website-Service-Images/Events/mec-uk-3.jpg",
+        "alt": "Site restoration team returning venue to original state",
+        "title": "Site Reinstatement"
+      },
+      {
+        "src": "assets/Website-Service-Images/Events/mec-uk-4.jpg",
+        "alt": "Recycling operation at UK festival site after event",
+        "title": "Sustainable Cleanup"
+      },
+      {
+        "src": "assets/Website-Service-Images/Events/mec-uk-5.jpg",
+        "alt": "Cleaning team working efficiently at outdoor event site",
+        "title": "Experienced Cleaning Crews"
+      },
+      {
+        "src": "assets/Website-Service-Images/Events/mec-uk-6.jpg",
+        "alt": "Road sweeper cleaning access roads after major event",
+        "title": "Access Area Cleaning"
+      },
+      {
+        "src": "assets/Website-Service-Images/Events/mec-uk-7.jpg",
+        "alt": "Corporate event venue being restored after function",
+        "title": "Corporate Event Cleanup"
+      },
+      {
+        "src": "assets/Website-Service-Images/Events/mec-uk-8.jpg",
+        "alt": "Before and after comparison of event site cleanup",
+        "title": "Venue Transformation"
+      },
+      {
+        "src": "assets/Website-Service-Images/Events/mec-uk-9.jpg",
+        "alt": "Professional event cleanup specialists with equipment",
+        "title": "Cleanup Professionals"
+      }
+    ],
+    "video": "www.youtube.com/watch?v=v4EJ-shbcVI"
+  },
+  "manholeemptying.co.uk": {
+    "title": "Inspection Chamber Clearing",
+    "text": "Professional drainage access maintenance – expert cleaning of manholes and inspection chambers to prevent blockages and system failures!",
+    "heroImg": "assets/website-hero-images/gully.png",
+    "forYou": "We provide essential services for maintaining the health of UK drainage networks through professional manhole and inspection chamber maintenance. Blocked or silted access points can lead to serious system issues including backups, flooding, and environmental hazards. Our specialist teams use powerful vacuum tankers and high-pressure jetting equipment to remove debris, silt, and blockages, ensuring your drainage systems remain accessible and operate efficiently. From commercial and industrial facilities to residential properties, we deliver thorough cleaning services that prevent problems before they occur and resolve existing issues quickly. Our comprehensive approach includes both responsive services for immediate concerns and planned maintenance programmes for ongoing system health.",
+    "services": [
+      {
+        "title": "Manhole Emptying",
+        "desc": "Removal of silt and debris from inspection chambers.",
+        "icon": "fa-solid fa-person-digging"
+      },
+      {
+        "title": "High-Pressure Jetting",
+        "desc": "Cleaning of chambers and connecting drainage pipes.",
+        "icon": "fa-solid fa-shower"
+      },
+      {
+        "title": "Preventative Maintenance",
+        "desc": "Regular servicing to keep drainage access clear.",
+        "icon": "fa-solid fa-shield-check"
+      },
+      {
+        "title": "Confined Space Operations",
+        "desc": "Safe entry and work within drainage chambers.",
+        "icon": "fa-solid fa-hard-hat"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/Drainage/manhole-emptying-1.jpg",
+        "alt": "Professional manhole emptying service in operation",
+        "title": "Professional Chamber Cleaning"
+      },
+      {
+        "src": "assets/Website-Service-Images/Drainage/manhole-emptying-2.jpg",
+        "alt": "Powerful vacuum tanker extracting silt from manhole",
+        "title": "Powerful Vacuum Extraction"
+      },
+      {
+        "src": "assets/Website-Service-Images/Drainage/manhole-emptying-3.jpg",
+        "alt": "High-pressure water jetting cleaning manhole chamber",
+        "title": "High-Pressure Chamber Jetting"
+      },
+      {
+        "src": "assets/Website-Service-Images/Drainage/manhole-emptying-4.jpg",
+        "alt": "Specialist team performing confined space entry",
+        "title": "Confined Space Operations"
+      },
+      {
+        "src": "assets/Website-Service-Images/Drainage/manhole-emptying-5.jpg",
+        "alt": "Silt and debris removal from drainage inspection chamber",
+        "title": "Thorough Debris Removal"
+      },
+      {
+        "src": "assets/Website-Service-Images/Drainage/manhole-emptying-6.jpg",
+        "alt": "Planned drainage maintenance schedule for commercial site",
+        "title": "Preventative Maintenance"
+      },
+      {
+        "src": "assets/Website-Service-Images/Drainage/manhole-emptying-7.jpg",
+        "alt": "Commercial property manhole cleaning service",
+        "title": "Commercial Property Service"
+      },
+      {
+        "src": "assets/Website-Service-Images/Drainage/manhole-emptying-8.jpg",
+        "alt": "Before and after comparison of manhole cleaning",
+        "title": "Restored Drainage Access"
+      },
+      {
+        "src": "assets/Website-Service-Images/Drainage/manhole-emptying-9.jpg",
+        "alt": "Professional drainage maintenance team with equipment",
+        "title": "Expert Drainage Team"
+      }
+    ],
+    "video": "www.youtube.com/watch?v=4p2htIH3NOc"
+  },
+  "manholeemptying.uk": {
+    "title": "National Drainage Maintenance",
+    "text": "UK-wide manhole and gully services – fast, efficient cleaning and maintenance of drainage access points across Britain with specialist equipment!",
+    "heroImg": "assets/website-hero-images/gully.png",
+    "forYou": "We offer comprehensive nationwide services for the maintenance of manholes, gullies, and inspection chambers throughout the UK. Our experienced operatives utilise a modern fleet of specialised vehicles to remove blockages, silt, and debris, ensuring the optimal performance of both surface water and foul drainage systems. From local authorities maintaining road drainage to commercial property managers and industrial sites with complex systems, we provide reliable and cost-effective maintenance solutions tailored to specific requirements. Our UK coverage ensures consistent service standards anywhere in Britain, with both emergency response capabilities for urgent issues and scheduled maintenance programmes for preventative care.",
+    "services": [
+      {
+        "title": "UK-Wide Access Clearing",
+        "desc": "Nationwide manhole and chamber maintenance services.",
+        "icon": "fa-solid fa-map-marked-alt"
+      },
+      {
+        "title": "Gully Emptying",
+        "desc": "Clearing roadside gullies to prevent surface flooding.",
+        "icon": "fa-solid fa-cloud-rain"
+      },
+      {
+        "title": "Scheduled Maintenance",
+        "desc": "Planned programmes for drainage asset management.",
+        "icon": "fa-solid fa-calendar-check"
+      },
+      {
+        "title": "Emergency Response",
+        "desc": "Rapid attendance for critical drainage blockages.",
+        "icon": "fa-solid fa-triangle-exclamation"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/Drainage/me-uk-1.jpg",
+        "alt": "National manhole emptying service vehicle in operation",
+        "title": "UK Drainage Maintenance"
+      },
+      {
+        "src": "assets/Website-Service-Images/Drainage/me-uk-2.jpg",
+        "alt": "Gully emptying operation preventing roadside flooding",
+        "title": "Gully Cleaning"
+      },
+      {
+        "src": "assets/Website-Service-Images/Drainage/me-uk-3.jpg",
+        "alt": "Detailed inspection and cleaning of manhole chamber",
+        "title": "Thorough Chamber Maintenance"
+      },
+      {
+        "src": "assets/Website-Service-Images/Drainage/me-uk-4.jpg",
+        "alt": "Emergency response team clearing critical blockage",
+        "title": "Emergency Response"
+      },
+      {
+        "src": "assets/Website-Service-Images/Drainage/me-uk-5.jpg",
+        "alt": "Fleet of specialist tankers for drainage maintenance",
+        "title": "Specialist Equipment Fleet"
+      },
+      {
+        "src": "assets/Website-Service-Images/Drainage/me-uk-6.jpg",
+        "alt": "Trained operative performing manhole cleaning",
+        "title": "Professional Operatives"
+      },
+      {
+        "src": "assets/Website-Service-Images/Drainage/me-uk-7.jpg",
+        "alt": "Preventative maintenance preventing localised flooding",
+        "title": "Flood Prevention"
+      },
+      {
+        "src": "assets/Website-Service-Images/Drainage/me-uk-8.jpg",
+        "alt": "Responsible waste disposal from drainage maintenance",
+        "title": "Responsible Waste Management"
+      },
+      {
+        "src": "assets/Website-Service-Images/Drainage/me-uk-9.jpg",
+        "alt": "National team of drainage maintenance specialists",
+        "title": "UK Drainage Experts"
+      }
+    ],
+    "video": "www.youtube.com/watch?v=4p2htIH3NOc"
+  },
+  "mega-cam.com": {
+    "title": "Global Surveillance Systems",
+    "text": "Advanced security technology – sophisticated CCTV, AI video analytics and complete surveillance infrastructure for international organisations!",
+    "heroImg": "assets/website-hero-images/cctv.png",
+    "forYou": "We provide cutting-edge surveillance and vision technology solutions to governments, major corporations, and organisations worldwide with critical security requirements. Our expertise spans comprehensive system architecture, deployment of sophisticated camera networks, integration of artificial intelligence for proactive threat detection, and the establishment of command-and-control centres. Operating at the forefront of security innovation, we ensure our global clients benefit from the most advanced and reliable surveillance technologies available. From national infrastructure protection to complex corporate security environments, our solutions combine technical excellence with practical deployment methodologies suited to challenging operational contexts.",
+    "services": [
+      {
+        "title": "Strategic Surveillance",
+        "desc": "High-level security system design for major projects.",
+        "icon": "fa-solid fa-chess-king"
+      },
+      {
+        "title": "AI Vision Analytics",
+        "desc": "Advanced video intelligence and automated monitoring.",
+        "icon": "fa-solid fa-microchip"
+      },
+      {
+        "title": "Security Infrastructure",
+        "desc": "End-to-end delivery of comprehensive surveillance systems.",
+        "icon": "fa-solid fa-building-lock"
+      },
+      {
+        "title": "International Support",
+        "desc": "Global training and technical assistance programmes.",
+        "icon": "fa-solid fa-users"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/CCTV/megacam-com-1.jpg",
+        "alt": "Global network of advanced surveillance technology",
+        "title": "Global Vision Technology"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV/megacam-com-2.jpg",
+        "alt": "AI-powered facial recognition security system",
+        "title": "Advanced AI Analytics"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV/megacam-com-3.jpg",
+        "alt": "Large-scale city surveillance system installation",
+        "title": "Major Security Projects"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV/megacam-com-4.jpg",
+        "alt": "International training seminar for security professionals",
+        "title": "Global Training Programme"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV/megacam-com-5.jpg",
+        "alt": "Drone surveillance technology for perimeter security",
+        "title": "Innovative Surveillance"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV/megacam-com-6.jpg",
+        "alt": "Border security camera system with advanced detection",
+        "title": "Critical Infrastructure Protection"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV/megacam-com-7.jpg",
+        "alt": "Secure data centre for video storage and processing",
+        "title": "Secure Data Management"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV/megacam-com-8.jpg",
+        "alt": "Research and development laboratory for security technology",
+        "title": "Innovation Development"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV/megacam-com-9.jpg",
+        "alt": "Global leadership team for international security operations",
+        "title": "International Security Leaders"
+      }
+    ],
+    "video": "www.youtube.com/watch?v=bVhy_ZnYtGk"
+  },
+  "mega-cam.uk": {
+    "title": "UK Security Solutions",
+    "text": "Trusted CCTV specialists – reliable, user-friendly camera systems for homes and businesses with expert installation and ongoing support!",
+    "heroImg": "assets/website-hero-images/cctv.png",
+    "forYou": "We focus on providing straightforward and effective security solutions for UK residents and businesses seeking peace of mind through reliable surveillance. Our range of CCTV cameras, alarm systems, and access control options are tailored to meet your specific budget and requirements, combining quality equipment with practical installation approaches. Our friendly UK-based team provides expert advice, professional installation, and ongoing support to ensure your property remains well-protected long after the initial setup. From simple home security camera systems to integrated business protection networks, we make advanced security technology accessible and user-friendly for everyday protection needs throughout Britain.",
+    "services": [
+      {
+        "title": "Home & Business CCTV",
+        "desc": "Affordable camera packages for property protection.",
+        "icon": "fa-solid fa-house-user"
+      },
+      {
+        "title": "Wireless Camera Systems",
+        "desc": "Easy-to-install security cameras without extensive wiring.",
+        "icon": "fa-solid fa-wifi"
+      },
+      {
+        "title": "Alarm Integration",
+        "desc": "Connected CCTV and alarm systems for complete security.",
+        "icon": "fa-solid fa-bell"
+      },
+      {
+        "title": "UK Support & Advice",
+        "desc": "Friendly technical assistance and security consultations.",
+        "icon": "fa-solid fa-headset"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/CCTV/megacam-uk-partner-1.jpg",
+        "alt": "Home CCTV system providing reliable security coverage",
+        "title": "Trusted Home Security"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV/megacam-uk-partner-2.jpg",
+        "alt": "Wireless security camera installation for easy setup",
+        "title": "Wireless Security"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV/megacam-uk-partner-3.jpg",
+        "alt": "Integrated CCTV and alarm system for complete protection",
+        "title": "Integrated Security"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV/megacam-uk-partner-4.jpg",
+        "alt": "UK-based customer support providing technical assistance",
+        "title": "UK Customer Support"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV/megacam-uk-partner-5.jpg",
+        "alt": "Small business CCTV installation at retail premises",
+        "title": "Business Security"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV/megacam-uk-partner-6.jpg",
+        "alt": "User-friendly DIY CCTV kit with simple installation",
+        "title": "User-Friendly Systems"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV/megacam-uk-partner-7.jpg",
+        "alt": "Mobile app interface for remote CCTV monitoring",
+        "title": "Remote Viewing Technology"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV/megacam-uk-partner-8.jpg",
+        "alt": "Neighbourhood CCTV camera improving community safety",
+        "title": "Community Protection"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV/megacam-uk-partner-9.jpg",
+        "alt": "Local security installer setting up home protection system",
+        "title": "Local Security Experts"
+      }
+    ],
+    "video": "www.youtube.com/watch?v=bVhy_ZnYtGk"
+  },
+  "hydro-cleansing.co.uk": {
+    "title": "Industrial Environmental Services",
+    "text": "Leading wet waste management and drainage specialists in Croydon – 24/7 emergency response with complete environmental solutions!",
+    "heroImg": "assets/website-hero-images/liquid-waste.png",
+    "forYou": "Established in 2000, Hydro Cleansing Ltd delivers comprehensive environmental services from our Beddington Farm Road facility in Croydon. We understand the critical importance of responsive, professional environmental solutions, providing 24/7 emergency service with one-hour response times throughout London and the South East. Our service portfolio encompasses complete drainage solutions, from emergency blockage clearance and preventative maintenance to CCTV surveys and structural repairs. As a licensed waste recycling facility in Croydon, we process various waste streams including wet waste management, interceptor cleaning, and tank emptying with full environmental compliance. Our management team brings over 50 years of combined experience in domestic and commercial sewage sectors, ensuring expert advice and effective solutions for any drainage or environmental challenge. We operate a substantial fleet including vacuum tankers, jetting units, CCTV vehicles, and specialist recycling equipment, supported by experienced engineers and environmental specialists. Our clients range from domestic households experiencing drain blockages to industrial complexes requiring complex waste management and environmental services. Hydro Cleansing provides the professional solution for all drainage emergencies, wet waste challenges, and environmental management requirements.",
+    "services": [
+      {
+        "title": "Wet Waste Management",
+        "desc": "Licensed collection and recycling of liquid waste streams.",
+        "icon": "fa-solid fa-recycle"
+      },
+      {
+        "title": "Emergency Drainage Response",
+        "desc": "24/7 service with rapid one-hour response times.",
+        "icon": "fa-solid fa-bolt"
+      },
+      {
+        "title": "CCTV & Drain Repairs",
+        "desc": "Comprehensive survey and no-dig rehabilitation services.",
+        "icon": "fa-solid fa-camera"
+      },
+      {
+        "title": "Environmental Specialists",
+        "desc": "Expert solutions for complex environmental challenges.",
+        "icon": "fa-solid fa-leaf"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning1.jpg",
+        "alt": "Hydro Cleansing tanker providing wet waste management in Croydon",
+        "title": "Specialist Wet Waste Collection"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning2.jpg",
+        "alt": "Emergency drainage response team attending Croydon call-out",
+        "title": "24/7 Emergency Response"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning3.jpg",
+        "alt": "CCTV drain survey revealing condition of underground pipes",
+        "title": "Advanced CCTV Surveys"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning4.jpg",
+        "alt": "High-pressure water jetting clearing blocked commercial drain",
+        "title": "Powerful Drain Jetting"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning5.jpg",
+        "alt": "Environmental clean-up operation at industrial site",
+        "title": "Environmental Remediation"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning6.jpg",
+        "alt": "Licensed waste recycling facility processing liquid waste",
+        "title": "Licensed Recycling Facility"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning7.jpg",
+        "alt": "Septic tank emptying service with specialist vacuum equipment",
+        "title": "Tank Emptying Services"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning8.jpg",
+        "alt": "Interceptor cleaning and maintenance preventing pollution",
+        "title": "Interceptor Maintenance"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning9.jpg",
+        "alt": "Experienced drainage team with specialist equipment in Croydon",
+        "title": "Professional Drainage Team"
+      }
+    ],
+    "video": "www.youtube.com/watch?v=M2eBeHSSKHM"
+  },
+  "hydro-pressure-clean.co.uk": {
+    "title": "Eco-Friendly Surface Cleaning",
+    "text": "Chemical-free pressure washing services in Croydon – revitalising driveways, patios and decking using pure water technology!",
+    "heroImg": "assets/website-hero-images/road-sweeping.png",
+    "forYou": "Hydro Pressure Clean has provided specialist eco-friendly exterior cleaning services in Croydon and surrounding areas of Surrey for 19 years. We understand the importance of effective yet environmentally responsible cleaning methods, using our water-only technique to deliver outstanding results without harmful chemicals. Our comprehensive service covers all exterior surfaces including block paving, concrete and tarmac driveways, natural stone and imprinted concrete patios, and wooden decking areas, removing dirt, algae, moss, and surface contaminants while preserving the underlying material. Operating throughout Croydon and nearby areas including Purley, South Norwood, Coulsdon, Addiscombe, and Sanderstead, we provide convenient, local service with free site assessments and no-obligation quotes. Our 100% chemical-free approach uses only pressurised water, making it safe for surrounding plants, wildlife, children, and pets while effectively removing even stubborn dirt and biological growth. Our background in landscaping provides valuable insights into different surface materials and appropriate cleaning techniques, ensuring optimal results without damage. We use industrial-grade pressure washing equipment operated by highly trained professionals, delivering consistent, high-quality cleaning whilst adhering to safety standards. From residential driveways and patios to commercial exterior spaces, Hydro Pressure Clean provides the chemical-free solution to revitalise and maintain your outdoor surfaces.",
+    "services": [
+      {
+        "title": "Chemical-Free Driveway Cleaning",
+        "desc": "Eco-friendly restoration of block paving, concrete and tarmac surfaces.",
+        "icon": "fa-solid fa-road"
+      },
+      {
+        "title": "Eco-Friendly Patio Cleaning",
+        "desc": "Natural stone and concrete patio revitalisation without chemicals.",
+        "icon": "fa-solid fa-border-all"
+      },
+      {
+        "title": "Gentle Decking Restoration",
+        "desc": "Safe cleaning of wooden surfaces removing algae and moss.",
+        "icon": "fa-solid fa-wood"
+      },
+      {
+        "title": "Water-Only Pressure Washing",
+        "desc": "Environmentally safe cleaning for all exterior surfaces.",
+        "icon": "fa-solid fa-droplet"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning10.jpg",
+        "alt": "Block paving driveway in Croydon before and after pressure washing",
+        "title": "Driveway Transformation"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning11.jpg",
+        "alt": "Natural stone patio cleaning process with water-only technique",
+        "title": "Chemical-Free Patio Cleaning"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning12.jpg",
+        "alt": "Wooden decking restoration removing slippery algae growth",
+        "title": "Safe Decking Restoration"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning13.jpg",
+        "alt": "Concrete driveway cleaning in Purley with impressive results",
+        "title": "Concrete Surface Cleaning"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning14.jpg",
+        "alt": "Tarmac driveway rejuvenation with eco-friendly pressure washing",
+        "title": "Tarmac Revitalisation"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning15.jpg",
+        "alt": "Imprinted concrete patio cleaning preserving pattern detail",
+        "title": "Pattern-Preserving Cleaning"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning16.jpg",
+        "alt": "Professional pressure washing equipment in operation in Croydon",
+        "title": "Professional Equipment"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning17.jpg",
+        "alt": "Property entrance cleaning improving kerb appeal in Coulsdon",
+        "title": "Entrance Enhancement"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning18.jpg",
+        "alt": "Eco-friendly cleaning protecting garden plants and wildlife",
+        "title": "Environmentally Safe Process"
+      }
+    ],
+    "video": "www.youtube.com/watch?v=4p2htIH3NOc"
+  }
+}

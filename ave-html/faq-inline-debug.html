@@ -1,0 +1,103 @@
+<!--
+===============================
+INSTRUCTIONS:
+1. Copy the script below
+2. Paste it right after <body> tag in your HTML
+3. Save and reload the page
+4. Check browser console for detailed debug info
+===============================
+-->
+
+<script>
+  // Inline FAQ debugger - paste this after <body> tag
+  (function () {
+    console.log('===== FAQ INLINE DEBUGGER ACTIVE =====');
+
+    // Monitor when the faqData object is defined
+    let originalFaqData = null;
+
+    // Watch for definition of faqData
+    Object.defineProperty(window, 'faqData', {
+      configurable: true,
+      set: function (newValue) {
+        console.log(
+          'faqData is being defined! Categories:',
+          Object.keys(newValue)
+        );
+        originalFaqData = newValue;
+
+        // Store it in window explicitly to make sure it's globally accessible
+        this._faqData = newValue;
+      },
+      get: function () {
+        return this._faqData || originalFaqData;
+      },
+    });
+
+    // Watch the loadFAQs function definition
+    const originalLoadFAQs = window.loadFAQs;
+    Object.defineProperty(window, 'loadFAQs', {
+      configurable: true,
+      set: function (newFunc) {
+        console.log('loadFAQs function is being defined!');
+
+        // Create a wrapper to log all calls
+        const wrappedFunc = function (domain) {
+          console.log(`loadFAQs called with domain: ${domain}`);
+          try {
+            const result = newFunc.apply(this, arguments);
+            console.log('loadFAQs completed successfully');
+            return result;
+          } catch (e) {
+            console.error('Error in loadFAQs execution:', e);
+            throw e;
+          }
+        };
+
+        this._loadFAQs = wrappedFunc;
+        originalLoadFAQs = newFunc;
+      },
+      get: function () {
+        return this._loadFAQs || originalLoadFAQs;
+      },
+    });
+
+    // Monitor for DOM changes in the FAQ section
+    window.addEventListener('load', function () {
+      const accordionElement = document.getElementById('accordion-2');
+      if (accordionElement) {
+        const observer = new MutationObserver(function (mutations) {
+          console.log('FAQ section changed!', mutations);
+        });
+
+        observer.observe(accordionElement, {
+          childList: true,
+          subtree: true,
+          characterData: true,
+          attributes: true,
+        });
+
+        console.log('Watching FAQ section for changes');
+      } else {
+        console.error('Cannot find accordion-2 element to monitor');
+      }
+    });
+
+    // Force the FAQ loading after a delay
+    setTimeout(function () {
+      console.log('Attempting to force load FAQs...');
+
+      try {
+        if (typeof window.loadFAQs === 'function') {
+          window.loadFAQs(window.location.hostname);
+        } else {
+          console.error('loadFAQs function not available after 3 seconds');
+        }
+      } catch (e) {
+        console.error('Error forcing FAQ load:', e);
+      }
+    }, 3000);
+
+    console.log('FAQ inline debugger setup complete');
+  })();
+</script>
