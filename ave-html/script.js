@@ -3,6 +3,35 @@
  * This script loads content dynamically based on the current domain from config.json
  */
 
+// Function to hide the loading overlay
+function hideLoadingOverlay() {
+  const loadingOverlay = document.getElementById('loading-overlay');
+  if (loadingOverlay) {
+    // Add fade-out effect
+    loadingOverlay.style.opacity = '0';
+    loadingOverlay.style.transition = 'opacity 0.5s ease';
+
+    // Remove from DOM after animation completes
+    setTimeout(function () {
+      loadingOverlay.remove();
+    }, 500);
+  }
+}
+
+// Hide loading overlay when window is fully loaded (all assets including images)
+window.onload = function () {
+  // Add a small delay to ensure everything is rendered
+  setTimeout(hideLoadingOverlay, 300);
+};
+
+// Also attempt to hide it if DOMContentLoaded fires but window.onload doesn't
+// This serves as a fallback in case of slow-loading resources
+document.addEventListener('DOMContentLoaded', function () {
+  // Set a timeout to hide the overlay after a reasonable wait time
+  // This ensures users aren't stuck with a loading screen if some resource fails to load
+  setTimeout(hideLoadingOverlay, 3000);
+});
+
 // FAQ data for all service categories
 const faqData = {
   liquidWaste: {
@@ -496,70 +525,6 @@ const faqData = {
   },
 };
 
-document.addEventListener('DOMContentLoaded', async function () {
-  try {
-    // Fetch the configuration file
-    const response = await fetch('config.json');
-    if (!response.ok) {
-      throw new Error('Failed to load configuration');
-    }
-
-    const config = await response.json();
-
-    // Get the current domain
-    const currentDomain = window.location.hostname;
-
-    // Find the matching configuration for this domain
-    let domainConfig = config[currentDomain];
-
-    // If no exact match, try without www.
-    if (!domainConfig && currentDomain.startsWith('www.')) {
-      const domainWithoutWww = currentDomain.replace('www.', '');
-      domainConfig = config[domainWithoutWww];
-    }
-
-    // If we're running locally (localhost or file://), use a default domain for testing
-    // You can change this to any domain in your config
-    if (
-      !domainConfig &&
-      (currentDomain === 'localhost' ||
-        currentDomain === '127.0.0.1' ||
-        window.location.protocol === 'file:')
-    ) {
-      // You can specify a default domain for testing
-      const testDomain = Object.keys(config)[0]; // Use the first domain as default
-      domainConfig = config[testDomain];
-      console.log(
-        `Running in local/test mode. Using ${testDomain} configuration.`
-      );
-    }
-
-    // If we found a matching configuration, update the page content
-    if (domainConfig) {
-      updatePageContent(domainConfig, currentDomain, config);
-
-      // Inject JSON-LD schema for SEO (ProfessionalService + FAQPage)
-      injectSchema(domainConfig, currentDomain);
-
-      // Load and display FAQs for the current domain
-      setTimeout(() => {
-        try {
-          loadFAQs(currentDomain);
-        } catch (faqError) {
-          console.error('Error loading FAQs:', faqError);
-        }
-      }, 500); // Small delay to ensure everything is loaded
-
-      // Load dynamic gallery images for SEO-friendly <img> tags
-      loadGallery(domainConfig);
-    } else {
-      console.warn(`No configuration found for domain: ${currentDomain}`);
-    }
-  } catch (error) {
-    console.error('Error loading or applying configuration:', error);
-  }
-});
-
 /**
  * Updates the page content based on the domain configuration
  * @param {Object} domainConfig - The configuration for the current domain
@@ -591,19 +556,27 @@ function updatePageContent(domainConfig, currentDomain, allConfig) {
   // Update hero image - only change if heroImg path is valid
   const heroImg = document.querySelector('.clip-svg img');
   if (heroImg && domainConfig.heroImg && domainConfig.heroImg.trim() !== '') {
-    // Save the original src in case we need to revert
-    const originalSrc = heroImg.getAttribute('src');
-    heroImg.setAttribute('src', domainConfig.heroImg);
+    // Fix relative paths if needed
+    let imgPath = domainConfig.heroImg;
 
-    // If the new image fails to load, revert to the original
+    // If path starts with ./ remove it for consistency
+    if (imgPath.startsWith('./')) {
+      imgPath = imgPath.substring(2);
+    }
+
+    console.log('Setting hero image to:', imgPath);
+    heroImg.setAttribute('src', imgPath);
+
+    // If the new image fails to load, use a fallback
     heroImg.onerror = function () {
-      console.error('Failed to load hero image:', domainConfig.heroImg);
-      heroImg.setAttribute('src', originalSrc);
+      console.error('Failed to load hero image:', imgPath);
+      // Use the default image from the same folder structure
+      this.src = 'assets/website-hero-imgs/liquid-waste.png';
       // Remove the error handler to prevent loops
-      heroImg.onerror = null;
+      this.onerror = null;
     };
 
-    console.log('Set hero image to:', domainConfig.heroImg);
+    console.log('Set hero image to:', imgPath);
   } else {
     console.log('Keeping original hero image');
   }
