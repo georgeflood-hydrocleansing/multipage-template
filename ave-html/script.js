@@ -1185,3 +1185,110 @@ function loadGallery(domainConfig) {
     }, 100);
   }
 }
+
+// Contact form handler
+$(document).ready(function () {
+  // Target the contact form
+  const contactForm = $('.contact-form form');
+
+  // Only proceed if we found the contact form
+  if (contactForm.length === 0) {
+    console.log('Contact form not found on this page');
+    return;
+  }
+
+  console.log('Contact form found, setting up handler');
+
+  // Set form submission to the correct endpoint
+  contactForm.attr('action', 'https://hydro-cleansing.com/api/capture-leads');
+
+  // Handle form submission
+  contactForm.on('submit', function (e) {
+    e.preventDefault(); // Stop normal form submission
+
+    console.log('Form submitted, preparing data');
+
+    // Create URL-encoded form data string (the old-fashioned way)
+    const formData = contactForm.serialize();
+
+    // Show loading message
+    let loadingMessage;
+    if (typeof Swal !== 'undefined') {
+      loadingMessage = Swal.fire({
+        title: 'Sending...',
+        text: 'Please wait while we process your request',
+        allowOutsideClick: false,
+        didOpen: () => {
+          Swal.showLoading();
+        },
+      });
+    } else {
+      alert('Sending your message...');
+    }
+
+    // Log what we're about to send for debugging
+    console.log('Sending data to API:', formData);
+
+    // Create a fallback solution using regular form submission
+    const fallbackSubmit = function () {
+      console.log('Trying fallback form submission');
+      // Store indication we're coming back from a form submit
+      localStorage.setItem('formSubmitted', 'true');
+
+      // Set form to use GET method
+      contactForm.attr('method', 'GET');
+
+      // Submit form the old-fashioned way
+      contactForm[0].submit();
+    };
+
+    // Try submitting via fetch API (modern approach)
+    fetch('https://hydro-cleansing.com/api/capture-leads?' + formData)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Server returned ' + response.status);
+        }
+        return response.text();
+      })
+      .then(data => {
+        console.log('Success response:', data);
+
+        // Show success message
+        if (typeof Swal !== 'undefined') {
+          Swal.fire({
+            title: 'Thank you!',
+            html: 'If you need us urgently please call us on <br><b><a href="tel:08007408888" style="color: #e55f36; text-decoration: none; font-size: 20px">0800 740 8888</a></b>',
+            icon: 'success',
+          });
+        } else {
+          alert('Thank you for your message! We will contact you shortly.');
+        }
+
+        // Reset the form
+        contactForm[0].reset();
+      })
+      .catch(error => {
+        console.error('Form submission error:', error);
+
+        // Try fallback submission method
+        fallbackSubmit();
+      });
+  });
+
+  // Check if we just returned from a form submission via fallback
+  if (localStorage.getItem('formSubmitted') === 'true') {
+    // Clear the flag
+    localStorage.removeItem('formSubmitted');
+
+    // Show success message
+    if (typeof Swal !== 'undefined') {
+      Swal.fire({
+        title: 'Thank you!',
+        html: 'If you need us urgently please call us on <br><b><a href="tel:08007408888" style="color: #e55f36; text-decoration: none; font-size: 20px">0800 740 8888</a></b>',
+        icon: 'success',
+      });
+    } else {
+      alert('Thank you for your message! We will contact you shortly.');
+    }
+  }
+});
