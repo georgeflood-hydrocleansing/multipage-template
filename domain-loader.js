@@ -1,228 +1,392 @@
-// Production domain content loader
-// This script automatically detects the current domain and loads the appropriate content
-document.addEventListener('DOMContentLoaded', function () {
-  console.log('Production domain loader running...');
+// Improved domain-loader.js - Dynamic content for multiple domains
+console.log('Domain Loader v2.0 - Starting up...');
 
-  // Get the current domain (hostname)
+document.addEventListener('DOMContentLoaded', function () {
+  console.log('DOM ready - Beginning domain detection');
+
+  // STEP 1: Get current domain
   const currentDomain = window.location.hostname;
   console.log('Current domain detected:', currentDomain);
 
-  // Load config data
-  fetch('./config.json')
-    .then(response => response.json())
-    .then(configData => {
-      // Store config data globally for other scripts to access
-      window.configData = configData;
+  // Show loading indicator
+  const loadingStatus = createStatusOverlay('Loading domain content...');
 
-      // Check if the current domain exists in our config
-      if (configData[currentDomain]) {
-        console.log('Configuration found for domain:', currentDomain);
-        loadDomainContent(currentDomain, configData[currentDomain]);
-      } else {
-        // Fallback to default domain if the current one isn't in our config
-        // This handles cases like IP addresses, localhost, or new domains
-        console.log('Domain not found in config, using default content');
-        const defaultDomain = Object.keys(configData)[0]; // Using first domain as default
-        loadDomainContent(defaultDomain, configData[defaultDomain]);
-      }
+  // STEP 2: Load configuration
+  loadConfigForDomain(currentDomain)
+    .then(domainConfig => {
+      // Apply domain-specific content
+      applyDomainContent(domainConfig);
+
+      // Update status
+      loadingStatus.textContent =
+        'Content loaded for: ' + domainConfig.domainName;
+      loadingStatus.style.backgroundColor = 'rgba(0, 128, 0, 0.8)';
+
+      // Remove status after 3 seconds
+      setTimeout(() => {
+        loadingStatus.style.opacity = '0';
+        setTimeout(() => loadingStatus.remove(), 500);
+      }, 3000);
     })
     .catch(error => {
-      console.error('Error loading configuration:', error);
+      console.error('Error in domain loading:', error);
+      loadingStatus.textContent = 'Error loading domain content';
+      loadingStatus.style.backgroundColor = 'rgba(255, 0, 0, 0.8)';
+
+      // Apply emergency content
+      applyEmergencyContent();
     });
+});
 
-  // Function to load domain-specific content
-  function loadDomainContent(domain, domainConfig) {
-    console.log('Loading content for:', domain);
+// Load config for specific domain with fallbacks
+function loadConfigForDomain(domain) {
+  return new Promise((resolve, reject) => {
+    console.log('Loading config for domain:', domain);
 
-    // Set page title
+    // Fetch configuration file with cache busting
+    fetch('./config.json?t=' + new Date().getTime())
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Failed to load config.json: ' + response.status);
+        }
+        return response.json();
+      })
+      .then(config => {
+        // Store config globally for debugging
+        window.siteConfig = config;
+        console.log('Config loaded successfully');
+
+        // Try various ways to match the domain
+        let matchedDomain = findMatchingDomain(domain, config);
+
+        if (matchedDomain) {
+          // Add the actual domain name to the config for reference
+          config[matchedDomain].domainName = matchedDomain;
+          resolve(config[matchedDomain]);
+        } else {
+          // No match found, use first domain as fallback
+          const fallbackDomain = Object.keys(config)[0];
+          console.warn(
+            'No matching domain found, using fallback:',
+            fallbackDomain
+          );
+
+          // Add the fallback domain name to the config
+          config[fallbackDomain].domainName = fallbackDomain;
+          resolve(config[fallbackDomain]);
+        }
+      })
+      .catch(error => {
+        console.error('Error loading configuration:', error);
+        reject(error);
+      });
+  });
+}
+
+// Find matching domain in config using various matching strategies
+function findMatchingDomain(domain, config) {
+  console.log('Finding match for:', domain, 'in config');
+
+  // Strategy 1: Direct match
+  if (config[domain]) {
+    console.log('✓ Exact match found:', domain);
+    return domain;
+  }
+
+  // Strategy 2: With/without www prefix
+  if (domain.startsWith('www.')) {
+    const withoutWww = domain.substring(4);
+    if (config[withoutWww]) {
+      console.log('✓ Match found without www:', withoutWww);
+      return withoutWww;
+    }
+  } else {
+    const withWww = 'www.' + domain;
+    if (config[withWww]) {
+      console.log('✓ Match found with www:', withWww);
+      return withWww;
+    }
+  }
+
+  // Strategy 3: Partial domain match (e.g. "example.com" matches "sub.example.com")
+  for (const configDomain in config) {
+    if (domain.includes(configDomain) || configDomain.includes(domain)) {
+      console.log('✓ Partial match found:', configDomain);
+      return configDomain;
+    }
+  }
+
+  // Strategy 4: IP address or localhost check
+  if (domain === '127.0.0.1' || domain === 'localhost') {
+    console.log('Local development detected');
+    // Return the first domain as a fallback for local development
+    const firstDomain = Object.keys(config)[0];
+    return firstDomain;
+  }
+
+  // No match found
+  console.log('✗ No matching domain found in config');
+  return null;
+}
+
+// Apply domain specific content
+function applyDomainContent(domainConfig) {
+  console.log('Applying content for domain:', domainConfig.domainName);
+
+  try {
+    // 1. Set page title
     if (domainConfig.title) {
       document.title = domainConfig.title;
+      console.log('✓ Updated page title:', domainConfig.title);
     }
 
-    // Load hero section content
+    // 2. Update hero title
     const heroTitle = document.getElementById('hero-title');
-    if (heroTitle) {
-      heroTitle.innerHTML = `<span class="ld-fh-txt">${
-        domainConfig.title || ''
-      }</span>`;
+    if (heroTitle && domainConfig.title) {
+      heroTitle.innerHTML = `<span class="ld-fh-txt">${domainConfig.title}</span>`;
+      console.log('✓ Updated hero title');
     }
 
+    // 3. Update hero text
     const heroText = document.getElementById('hero-text');
-    if (heroText) {
-      heroText.innerHTML = `<span class="ld-fh-txt">${
-        domainConfig.text || ''
-      }</span>`;
+    if (heroText && domainConfig.text) {
+      heroText.innerHTML = `<span class="ld-fh-txt">${domainConfig.text}</span>`;
+      console.log('✓ Updated hero text');
     }
 
-    // Load "for you" text
+    // 4. Update "for you" text
     const forYouText = document.getElementById('for-you-text');
     if (forYouText && domainConfig.forYou) {
       forYouText.innerHTML = domainConfig.forYou;
+      console.log("✓ Updated 'for you' text");
     }
 
-    // Load hero image if defined
+    // 5. Update hero image
     const heroImg = document.getElementById('hero-img');
     if (heroImg && domainConfig.heroImg) {
       heroImg.src = domainConfig.heroImg;
+      console.log('✓ Updated hero image to:', domainConfig.heroImg);
+
+      // Ensure it's visible
+      heroImg.style.display = 'block';
+      heroImg.style.visibility = 'visible';
+      heroImg.style.opacity = '1';
     }
 
-    // Load services if defined
+    // 6. Update services if defined
     if (domainConfig.services && domainConfig.services.length > 0) {
-      loadServices(domainConfig.services);
+      updateServices(domainConfig.services);
+      console.log('✓ Updated services');
     }
 
-    // Load gallery if defined
+    // 7. Update gallery if defined
     if (domainConfig.gallery && domainConfig.gallery.length > 0) {
-      loadGallery(domainConfig.gallery);
+      updateGallery(domainConfig.gallery);
+      console.log('✓ Updated gallery');
     }
 
-    // Load video if defined
+    // 8. Update video if defined
     if (domainConfig.video) {
-      const videoLinks = document.querySelectorAll('a.fresco');
-      videoLinks.forEach(link => {
-        if (
-          domainConfig.video.includes('youtube.com') ||
-          domainConfig.video.includes('youtu.be')
-        ) {
-          link.href = domainConfig.video;
-        }
-      });
+      updateVideo(domainConfig.video);
+      console.log('✓ Updated video');
     }
 
-    // Load FAQs if they exist
+    // 9. Update FAQs if defined
     if (domainConfig.faqs) {
-      loadFAQs(domain);
+      updateFaqs(domainConfig.faqs);
+      console.log('✓ Updated FAQs');
     }
 
-    console.log('Domain content loaded successfully');
+    // 10. Remove loading overlay if it exists
+    const loadingOverlay = document.getElementById('loading-overlay');
+    if (loadingOverlay) {
+      loadingOverlay.style.display = 'none';
+      console.log('✓ Removed loading overlay');
+    }
+
+    console.log('Domain content applied successfully!');
+  } catch (error) {
+    console.error('Error applying domain content:', error);
+    // Apply emergency content if there's an error
+    applyEmergencyContent();
+  }
+}
+
+// Apply emergency content as a fallback
+function applyEmergencyContent() {
+  console.log('Applying emergency content fallback');
+
+  // Basic visibility fixes for critical elements
+  document.querySelectorAll('img').forEach(img => {
+    img.style.display = 'block';
+    img.style.visibility = 'visible';
+    img.style.opacity = '1';
+  });
+
+  // Remove loading overlay
+  const loadingOverlay = document.getElementById('loading-overlay');
+  if (loadingOverlay) {
+    loadingOverlay.style.display = 'none';
   }
 
-  // Function to load services
-  function loadServices(services) {
-    const serviceContainers = document.querySelectorAll('.iconbox');
-    if (serviceContainers.length > 0) {
-      services.forEach((service, index) => {
-        if (index < serviceContainers.length) {
-          const container = serviceContainers[index];
+  console.log('Emergency fallback content applied');
+}
 
-          // Set title
-          const title = container.querySelector('h3');
-          if (title) {
-            title.textContent = service.title;
-          }
-
-          // Set description
-          const desc = container.querySelector('p');
-          if (desc) {
-            desc.textContent = service.desc;
-          }
-
-          // Set icon if it exists
-          const iconContainer = container.querySelector(
-            '.iconbox-icon-container'
-          );
-          if (iconContainer && service.icon) {
-            // Clear existing icon
-            iconContainer.innerHTML = '';
-
-            // Create new icon
-            const icon = document.createElement('i');
-            icon.className = service.icon;
-            iconContainer.appendChild(icon);
-          }
-        }
-      });
-    }
+// Update services section
+function updateServices(services) {
+  const serviceContainers = document.querySelectorAll('.iconbox');
+  if (serviceContainers.length === 0) {
+    console.warn('No service containers found');
+    return;
   }
 
-  // Function to load gallery
-  function loadGallery(gallery) {
-    const galleryItems = document.querySelectorAll('.ld-pf-item');
-    if (galleryItems.length > 0) {
-      gallery.forEach((item, index) => {
-        if (index < galleryItems.length) {
-          const container = galleryItems[index];
+  services.forEach((service, index) => {
+    if (index < serviceContainers.length) {
+      const container = serviceContainers[index];
 
-          // Set image
-          const image = container.querySelector('img');
-          if (image && item.src) {
-            image.src = item.src;
-            image.alt = item.alt || '';
-          }
+      // Update title
+      const title = container.querySelector('h3');
+      if (title) {
+        title.textContent = service.title;
+      }
 
-          // Set background image
-          const figure = container.querySelector('figure');
-          if (figure && item.src) {
-            figure.style.backgroundImage = `url('${item.src}')`;
-          }
+      // Update description
+      const desc = container.querySelector('p');
+      if (desc) {
+        desc.textContent = service.desc;
+      }
 
-          // Set title
-          const title = container.querySelector('.ld-pf-title');
-          if (title) {
-            title.textContent = item.title || '';
-          }
-        }
-      });
+      // Update icon
+      const iconContainer = container.querySelector('.iconbox-icon-container');
+      if (iconContainer && service.icon) {
+        // Clear existing icon
+        iconContainer.innerHTML = '';
+
+        // Create new icon
+        const icon = document.createElement('i');
+        icon.className = service.icon;
+        iconContainer.appendChild(icon);
+      }
     }
+  });
+}
+
+// Update gallery section
+function updateGallery(gallery) {
+  const galleryItems = document.querySelectorAll('.ld-pf-item');
+  if (galleryItems.length === 0) {
+    console.warn('No gallery items found');
+    return;
   }
 
-  // Function to load FAQs - if you have a FAQ section
-  function loadFAQs(domain) {
-    const accordion = document.getElementById('accordion-2');
-    if (!accordion) return;
+  gallery.forEach((item, index) => {
+    if (index < galleryItems.length) {
+      const container = galleryItems[index];
 
-    // Make this available globally for FAQ fix script
-    window.faqData = window.configData;
-    window.faqsLoadedByDomainLoader = true;
+      // Update image
+      const image = container.querySelector('img');
+      if (image && item.src) {
+        image.src = item.src;
+        image.alt = item.alt || '';
+      }
 
-    const faqData = window.configData[domain].faqs;
-    if (!faqData || !faqData.length) return;
+      // Update background image
+      const figure = container.querySelector('figure');
+      if (figure && item.src) {
+        figure.style.backgroundImage = `url('${item.src}')`;
+      }
 
-    // Update FAQ section title if it exists
-    const faqSection = document.querySelector('header.fancy-heading h2');
-    if (faqSection) {
-      faqSection.textContent = 'Frequently Asked Questions';
+      // Update title
+      const title = container.querySelector('.ld-pf-title');
+      if (title) {
+        title.textContent = item.title || '';
+      }
     }
+  });
+}
 
-    // Clear existing accordion items
-    accordion.innerHTML = '';
+// Update video section
+function updateVideo(videoUrl) {
+  const videoLinks = document.querySelectorAll('a.fresco');
+  videoLinks.forEach(link => {
+    if (videoUrl.includes('youtube.com') || videoUrl.includes('youtu.be')) {
+      link.href = videoUrl;
+    }
+  });
+}
 
-    // Add new FAQ items
-    faqData.forEach((faq, index) => {
-      const isActive = index === 0;
-      const accordionItem = document.createElement('div');
-      accordionItem.className = `accordion-item panel ${
-        isActive ? 'active' : ''
-      }`;
+// Update FAQs section
+function updateFaqs(faqs) {
+  const accordion = document.getElementById('accordion-2');
+  if (!accordion) {
+    console.warn('FAQ accordion not found');
+    return;
+  }
 
-      accordionItem.innerHTML = `
-        <div class="accordion-heading" role="tab" id="accordion-collapse-heading-${index}">
-          <h4 class="accordion-title font-size-19">
-            <a class="${isActive ? '' : 'collapsed'}" 
-               data-toggle="collapse" 
-               data-parent="#accordion-2" 
-               href="#accordion-collapse-panel-${index}" 
-               aria-expanded="${isActive ? 'true' : 'false'}" 
-               aria-controls="accordion-collapse-panel-${index}">
-              ${faq.question}
-              <span class="accordion-expander">
-                <i class="icon-arrows_circle_plus"></i>
-                <i class="icon-arrows_circle_minus"></i>
-              </span>
-            </a>
-          </h4>
+  // Clear existing FAQs
+  accordion.innerHTML = '';
+
+  // Update section title if it exists
+  const faqSection = document.querySelector('header.fancy-heading h2');
+  if (faqSection) {
+    faqSection.textContent = 'Frequently Asked Questions';
+  }
+
+  // Add FAQs
+  faqs.forEach((faq, index) => {
+    const isActive = index === 0;
+    const accordionItem = document.createElement('div');
+    accordionItem.className = `accordion-item panel ${
+      isActive ? 'active' : ''
+    }`;
+
+    accordionItem.innerHTML = `
+      <div class="accordion-heading" role="tab" id="accordion-collapse-heading-${index}">
+        <h4 class="accordion-title font-size-19">
+          <a class="${isActive ? '' : 'collapsed'}" 
+             data-toggle="collapse" 
+             data-parent="#accordion-2" 
+             href="#accordion-collapse-panel-${index}" 
+             aria-expanded="${isActive ? 'true' : 'false'}" 
+             aria-controls="accordion-collapse-panel-${index}">
+            ${faq.question}
+            <span class="accordion-expander">
+              <i class="icon-arrows_circle_plus"></i>
+              <i class="icon-arrows_circle_minus"></i>
+            </span>
+          </a>
+        </h4>
+      </div>
+      <div id="accordion-collapse-panel-${index}" 
+           class="accordion-collapse collapse ${isActive ? 'in' : ''}" 
+           role="tabpanel" 
+           aria-labelledby="accordion-collapse-heading-${index}">
+        <div class="accordion-content">
+          <p>${faq.answer}</p>
         </div>
-        <div id="accordion-collapse-panel-${index}" 
-             class="accordion-collapse collapse ${isActive ? 'in' : ''}" 
-             role="tabpanel" 
-             aria-labelledby="accordion-collapse-heading-${index}">
-          <div class="accordion-content">
-            <p>${faq.answer}</p>
-          </div>
-        </div>
-      `;
+      </div>
+    `;
 
-      accordion.appendChild(accordionItem);
-    });
-  }
-});
+    accordion.appendChild(accordionItem);
+  });
+}
+
+// Create a status overlay to show loading progress
+function createStatusOverlay(message) {
+  const statusOverlay = document.createElement('div');
+  statusOverlay.style.position = 'fixed';
+  statusOverlay.style.top = '20px';
+  statusOverlay.style.right = '20px';
+  statusOverlay.style.padding = '10px 15px';
+  statusOverlay.style.backgroundColor = 'rgba(0, 0, 0, 0.7)';
+  statusOverlay.style.color = 'white';
+  statusOverlay.style.borderRadius = '5px';
+  statusOverlay.style.fontFamily = 'Arial, sans-serif';
+  statusOverlay.style.fontSize = '14px';
+  statusOverlay.style.zIndex = '9999';
+  statusOverlay.style.transition = 'opacity 0.5s';
+  statusOverlay.textContent = message;
+  document.body.appendChild(statusOverlay);
+
+  return statusOverlay;
+}
