@@ -1,0 +1,54 @@
+// Basic script.js - Backup version
+console.log("BACKUP SCRIPT.JS LOADED");
+
+// Wait for document ready
+jQuery(document).ready(function($) {
+  console.log("jQuery document ready - backup script");
+  
+  // Handle form submission
+  $('form').on('submit', function(e) {
+    console.log("Form submit intercepted by backup script");
+    e.preventDefault();
+    
+    // Show toast message
+    if (typeof Swal !== 'undefined') {
+      Swal.fire({
+        title: 'Form Submitted',
+        text: 'Thank you for your submission!',
+        icon: 'success'
+      });
+    } else {
+      alert('Form submitted successfully!');
+    }
+    
+    $(this).trigger('reset');
+  });
+  
+  // Initialize accordions if they exist
+  if ($('.accordion').length > 0) {
+    console.log("Initializing accordions");
+    $('.accordion-title a').on('click', function(e) {
+      var $this = $(this);
+      var $parent = $this.closest('.accordion-item');
+      
+      if ($parent.hasClass('active')) {
+        $parent.removeClass('active');
+      } else {
+        $('.accordion-item').removeClass('active');
+        $parent.addClass('active');
+      }
+    });
+  }
+  
+  // Remove loading overlay
+  $('#loading-overlay').fadeOut(500);
+  
+  // Force images to be visible
+  $('img').each(function() {
+    $(this).css({
+      'visibility': 'visible',
+      'opacity': 1,
+      'display': 'block'
+    });
+  });
+}); 

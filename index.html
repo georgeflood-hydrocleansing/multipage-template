@@ -2052,16 +2052,58 @@
       <!-- /.main-footer -->
     </div>
     <!-- /#wrap -->
+
+    <!-- Core libraries first -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./assets/vendors/modernizr.min.js"></script>
+    <script src="./assets/js/theme-vendors.js"></script>
+    <script src="./assets/js/theme.min.js"></script>
+
+    <!-- External libraries -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- EMERGENCY FIX - Force content to display -->
+    <script src="./emergency-loader.js"></script>
+
+    <!-- Site scripts -->
     <script src="./script.js"></script>
-
-    <!-- Production domain loader - automatically detects and loads content for the current domain -->
-    <script src="./domain-loader.js"></script>
-
-    <!-- Form handler script -->
     <script src="./form-handler.js"></script>
+
+    <!-- Temporarily disabled until fixed -->
+    <!-- <script src="./domain-loader.js"></script> -->
+
+    <!-- Debug script (remove in production) -->
+    <script>
+      // Verify all scripts are loaded
+      document.addEventListener('DOMContentLoaded', function () {
+        console.log('=========== SCRIPT LOADING VERIFICATION ===========');
+        console.log(
+          'jQuery loaded:',
+          typeof jQuery !== 'undefined' ? 'YES' : 'NO'
+        );
+        console.log(
+          'Modernizr loaded:',
+          typeof Modernizr !== 'undefined' ? 'YES' : 'NO'
+        );
+        console.log(
+          'SweetAlert2 loaded:',
+          typeof Swal !== 'undefined' ? 'YES' : 'NO'
+        );
+        console.log('GSAP loaded:', typeof gsap !== 'undefined' ? 'YES' : 'NO');
+
+        // Force hero image display after small delay
+        setTimeout(function () {
+          const heroImg = document.getElementById('hero-img');
+          if (heroImg) {
+            console.log('Forcing hero image display again');
+            heroImg.style.display = 'block !important';
+            heroImg.style.visibility = 'visible !important';
+            heroImg.style.opacity = '1 !important';
+          }
+        }, 1000);
+      });
+    </script>
   </body>
 </html>
