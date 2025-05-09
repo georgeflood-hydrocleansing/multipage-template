@@ -879,7 +879,7 @@
       {
         "title": "Compliant Transport & Disposal",
         "desc": "Fully licensed waste carriers ensuring legal and environmentally sound disposal.",
-        "icon": "fa-solid fa-shield-check"
+        "icon": "fa-solid fa-arrows-rotate"
       },
       {
         "title": "Emergency Spill Response",
@@ -1554,7 +1554,7 @@
       {
         "title": "Riverside Collection",
         "desc": "Specialist waste removal from Thames-adjacent properties and businesses.",
-        "icon": "fa-solid fa-building-water"
+        "icon": "fa-solid fa-water"
       },
       {
         "title": "Marine Debris Services",
@@ -7649,7 +7649,7 @@
       {
         "title": "Railway Drainage Maintenance",
         "desc": "Regular servicing and cleaning of rail drainage infrastructure.",
-        "icon": "fa-solid fa-water-arrow-up"
+        "icon": "fa-solid fa-water"
       },
       {
         "title": "Culvert & Subway Servicing",
@@ -7659,7 +7659,7 @@
       {
         "title": "Track Area Maintenance",
         "desc": "Servicing and maintaining trackside areas and infrastructure.",
-        "icon": "fa-solid fa-train-track"
+        "icon": "fa-solid fa-train"
       },
       {
         "title": "Preventative Maintenance Programmes",
@@ -7735,7 +7735,7 @@
       {
         "title": "International Compliance Management",
         "desc": "Ensuring maintenance meets varying regulatory requirements across regions.",
-        "icon": "fa-solid fa-clipboard-list-check"
+        "icon": "fa-solid fa-clipboard-check"
       },
       {
         "title": "Rail Asset Lifecycle Services",
@@ -15944,17 +15944,17 @@
       {
         "title": "Drain Relining & Patching",
         "desc": "No-dig solutions for cracks, fractures, and joint failures in pipework.",
-        "icon": "fa-solid fa-pipe-circle-check"
+        "icon": "fa-solid fa-check-circle"
       },
       {
         "title": "Excavation & Replacement",
         "desc": "Expert excavation and replacement for severely damaged drain sections.",
-        "icon": "fa-solid fa-shovel"
+        "icon": "fa-solid fa-trowel"
       },
       {
         "title": "Root Removal & Prevention",
         "desc": "Removal of root intrusions and preventative measures for ongoing protection.",
-        "icon": "fa-solid fa-tree-deciduous"
+        "icon": "fa-solid fa-tree"
       }
     ],
     "gallery": [
@@ -16014,7 +16014,7 @@
       {
         "title": "Wet Waste Collection",
         "desc": "Collection of sewage, sludge, and liquid waste from all sources using specialist vehicles.",
-        "icon": "fa-solid fa-truck-container"
+        "icon": "fa-solid fa-truck"
       },
       {
         "title": "Septic Tank & Cesspit Emptying",
@@ -16089,7 +16089,7 @@
       {
         "title": "Comprehensive Drain Surveys",
         "desc": "Detailed visual inspections of drainage systems for condition assessment and issue identification.",
-        "icon": "fa-solid fa-camera-cctv"
+        "icon": "fa-solid fa-camera"
       },
       {
         "title": "Pre/Post Work Verification",
@@ -16239,7 +16239,7 @@
       {
         "title": "Detailed Survey Documentation",
         "desc": "Comprehensive reports with images, findings and precise issue locations.",
-        "icon": "fa-solid fa-file-chart-pie"
+        "icon": "fa-solid fa-chart-pie"
       },
       {
         "title": "Professional Analysis",
@@ -16329,7 +16329,7 @@
       {
         "title": "Expert Diagnostic Reports",
         "desc": "Detailed technical assessments and recommendations from drainage specialists.",
-        "icon": "fa-solid fa-file-certificate"
+        "icon": "fa-solid fa-certificate"
       }
     ],
     "gallery": [
