@@ -2314,7 +2314,7 @@
       {
         "title": "Wet Well Cleaning",
         "desc": "Thorough cleaning of pump station chambers using powerful vacuum equipment.",
-        "icon": "fa-solid fa-vacuum-cleaner"
+        "icon": "fa-solid fa-broom"
       },
       {
         "title": "Pump Maintenance",
@@ -2476,7 +2476,7 @@
       {
         "title": "Complete System Cleaning",
         "desc": "Thorough cleaning of pump stations and connected pipework.",
-        "icon": "fa-solid fa-pump"
+        "icon": "fa-solid fa-screwdriver-wrench"
       },
       {
         "title": "Nationwide Coverage",
@@ -3247,7 +3247,7 @@
       {
         "title": "Licensed & Compliant Disposal",
         "desc": "Ensuring full legal compliance for the transport, treatment, and disposal of all sweeping waste.",
-        "icon": "fa-solid fa-shield-check"
+        "icon": "fa-solid fa-square-check"
       },
       {
         "title": "Aggregate Recycling Focus",
@@ -3475,7 +3475,7 @@
       {
         "title": "Licensed & Compliant Disposal",
         "desc": "Ensuring full legal compliance for the transport, treatment, and disposal of all sweeping waste.",
-        "icon": "fa-solid fa-shield-check"
+        "icon": "fa-solid fa-square-check"
       },
       {
         "title": "Aggregate Recycling Focus",
