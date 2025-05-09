@@ -4,22 +4,23 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Wait 2 seconds for everything to be fully loaded
   setTimeout(function () {
-    console.log('Attempting to force-load FAQs...');
-
-    // Get current domain
-    const currentDomain = window.location.hostname;
-    console.log('Current domain:', currentDomain);
-
-    try {
-      // Call the loadFAQs function directly
-      if (typeof loadFAQs === 'function') {
-        loadFAQs(currentDomain);
-        console.log('FAQs manually loaded for domain:', currentDomain);
-      } else {
-        console.error('loadFAQs function not found!');
+    // Only try to fix FAQs if they haven't already been set by the tester
+    if (typeof faqsLoadedByTester === 'undefined' || !faqsLoadedByTester) {
+      // Attempt to manually load FAQs
+      console.log('Attempting to force-load FAQs...');
+      try {
+        const currentDomain = window.location.hostname || '127.0.0.1';
+        if (typeof loadFAQs === 'function') {
+          loadFAQs(currentDomain);
+          console.log('FAQs manually loaded for domain:', currentDomain);
+        } else {
+          console.error('loadFAQs function not found');
+        }
+      } catch (error) {
+        console.error('Error in FAQ fix script:', error);
       }
-    } catch (error) {
-      console.error('Error loading FAQs:', error);
+    } else {
+      console.log('Skipping FAQ fix - FAQs already loaded by domain tester');
     }
 
     // Manual update of FAQ section if specific elements are found

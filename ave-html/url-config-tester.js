@@ -60,7 +60,7 @@ class UrlConfigTester {
         // Use a fallback static configuration
         this.createFallbackConfig();
         this.showInfo(
-          'Using fallback configuration - config.json could not be loaded. Check console for details.',
+          'Using fallback configuration - config.json could not be loaded. Check console for details.'
         );
       }
     }
@@ -89,7 +89,7 @@ class UrlConfigTester {
           return;
         } else {
           console.warn(
-            `Failed to fetch from ${path}: ${response.status} ${response.statusText}`,
+            `Failed to fetch from ${path}: ${response.status} ${response.statusText}`
           );
         }
       } catch (error) {
@@ -130,7 +130,7 @@ class UrlConfigTester {
             console.log(`XHR: Success from ${path}`);
             this.configData = xhr.response || JSON.parse(xhr.responseText);
             console.log(
-              `XHR: Loaded ${Object.keys(this.configData).length} domains`,
+              `XHR: Loaded ${Object.keys(this.configData).length} domains`
             );
             resolve();
           } else {
@@ -444,20 +444,164 @@ class UrlConfigTester {
     this.applyDomainStyles();
 
     console.log(`Domain switched to: ${this.currentDomain}`);
+
+    // Update service cards with icons from config
+    try {
+      console.log('Updating service cards with icons from config...');
+      const domainConfig = this.configData[this.currentDomain];
+      if (domainConfig && Array.isArray(domainConfig.services)) {
+        this.updateServices(domainConfig.services);
+      }
+    } catch (e) {
+      console.error('Error updating service cards:', e);
+    }
+
     // Load dynamic FAQs after content update
     try {
-      loadFAQs(this.currentDomain);
+      loadFAQs(this.currentDomain, true);
     } catch (e) {
       console.error('Error loading FAQs after domain switch:', e);
     }
     // Load dynamic gallery images after domain switch
     try {
-      const domainConfig = this.configData[this.currentDomain];
-      if (typeof loadGallery === 'function' && domainConfig) {
+      if (
+        typeof loadGallery === 'function' &&
+        this.configData[this.currentDomain]
+      ) {
+        const domainConfig = this.configData[this.currentDomain];
         loadGallery(domainConfig);
       }
     } catch (galleryError) {
       console.error('Error loading gallery after domain switch:', galleryError);
+    }
+
+    // Update the hero image for this domain
+    try {
+      if (
+        this.configData[this.currentDomain] &&
+        this.configData[this.currentDomain].heroImg
+      ) {
+        console.log('==== UPDATING HERO IMAGE ====');
+
+        // Get the path from config and ensure it's in relative format
+        let imgPath = this.configData[this.currentDomain].heroImg.trim();
+        if (!imgPath.startsWith('./') && !imgPath.startsWith('/')) {
+          imgPath = './assets/website-hero-images/' + imgPath;
+        } else if (imgPath.startsWith('/')) {
+          imgPath = '.' + imgPath;
+        }
+
+        console.log('Hero image path:', imgPath);
+
+        // Function to update the hero image
+        const updateHeroImage = () => {
+          // Find the hero image by ID
+          const heroImg = document.getElementById('hero-img');
+
+          if (heroImg) {
+            // Set up error handler first
+            heroImg.onerror = () => {
+              console.error(`Failed to load hero image: ${imgPath}`);
+              const fallback = './assets/website-hero-images/liquid-waste.png';
+              heroImg.src = fallback;
+              console.log('Fallback image set to:', fallback);
+
+              // Update figure background if available
+              const figure = heroImg.closest('figure');
+              if (figure) {
+                figure.style.backgroundImage = `url('${fallback}') !important`;
+                figure.style.backgroundSize = 'cover !important';
+                figure.style.backgroundPosition = 'center center !important';
+                figure.style.overflow = 'hidden !important';
+
+                // Update custom CSS with fallback
+                const style = document.createElement('style');
+                style.textContent = `
+                  .forced-hero-figure {
+                    background-image: url('${fallback}') !important;
+                    background-size: cover !important;
+                    background-position: center center !important;
+                  }
+                  .forced-hero-figure img {
+                    visibility: visible !important;
+                    display: block !important;
+                  }
+                `;
+                document.head.appendChild(style);
+
+                console.log(
+                  'Updated figure background with fallback image and added custom CSS'
+                );
+              }
+            };
+
+            // Update the image source
+            heroImg.src = imgPath;
+            console.log('Updated hero image source to:', imgPath);
+
+            // Ensure the image is visible and not overridden
+            heroImg.style.visibility = 'visible !important';
+            heroImg.style.display = 'block !important';
+            heroImg.style.width = '100% !important';
+            heroImg.style.height = '100% !important';
+            heroImg.style.objectFit = 'contain !important';
+            heroImg.style.position = 'relative !important';
+            heroImg.style.zIndex = '10 !important';
+
+            // Find the figure container if it exists
+            const figure = heroImg.closest('figure');
+            if (figure) {
+              // Update the background image with aggressive overrides
+              figure.style.backgroundImage = `url('${imgPath}') !important`;
+              figure.style.backgroundSize = 'cover !important';
+              figure.style.backgroundPosition = 'center center !important';
+              figure.style.overflow = 'hidden !important';
+
+              // Remove any theme attributes that might interfere
+              figure.removeAttribute('data-responsive-bg');
+              figure.removeAttribute('data-responsive-bg-img');
+
+              // Add a custom class for additional styling if needed
+              figure.classList.add('forced-hero-figure');
+
+              // Inject custom CSS to ensure the image displays
+              const style = document.createElement('style');
+              style.textContent = `
+                .forced-hero-figure {
+                  background-image: url('${imgPath}') !important;
+                  background-size: cover !important;
+                  background-position: center center !important;
+                }
+                .forced-hero-figure img {
+                  visibility: visible !important;
+                  display: block !important;
+                }
+              `;
+              document.head.appendChild(style);
+
+              console.log(
+                'Updated figure background with hero image and added custom CSS'
+              );
+            } else {
+              console.warn('Figure container not found for hero image');
+            }
+          } else {
+            console.error('Hero image element not found with ID hero-img');
+          }
+
+          console.log('==== HERO IMAGE UPDATE COMPLETE ====');
+        };
+
+        // Wait for the window to fully load before updating the image
+        if (document.readyState === 'complete') {
+          updateHeroImage();
+        } else {
+          window.addEventListener('load', updateHeroImage);
+          console.log('Waiting for window.onload to update hero image');
+        }
+      }
+    } catch (heroError) {
+      console.error('Error updating hero image:', heroError);
     }
   }
 
@@ -501,7 +645,7 @@ class UrlConfigTester {
     } else {
       // Fallback to general selectors
       const descriptions = document.querySelectorAll(
-        '.lead, p.subtitle, .subtitle',
+        '.lead, p.subtitle, .subtitle'
       );
       if (descriptions.length > 0) {
         descriptions[0].textContent = data.text;
@@ -533,7 +677,7 @@ class UrlConfigTester {
   updateServices(services) {
     // Look for services container with class indicators
     const serviceContainers = document.querySelectorAll(
-      '.services, .features, #services, .iconbox-container, .service-cards',
+      '.services, .features, #services, .iconbox-container, .service-cards'
     );
 
     if (serviceContainers.length === 0) return;
@@ -541,13 +685,14 @@ class UrlConfigTester {
     // Find service items within the first container
     const container = serviceContainers[0];
     const serviceItems = container.querySelectorAll(
-      '.service, .feature, .iconbox, .card, .service-item',
+      '.service, .feature, .iconbox, .card, .service-item'
     );
 
     if (serviceItems.length === 0) return;
 
     // Update each service item up to the available items
     const limit = Math.min(services.length, serviceItems.length);
+    console.log(`Updating ${limit} service cards with icons`);
 
     for (let i = 0; i < limit; i++) {
       const item = serviceItems[i];
@@ -561,35 +706,55 @@ class UrlConfigTester {
       const description = item.querySelector('p, .description, .card-text');
       if (description) description.textContent = service.desc;
 
-      // Update icon if it exists
-      const icon = item.querySelector('i, .icon');
-      if (icon && service.icon) {
-        // Remove all classes except those needed for the base icon
-        const classesToKeep = [
-          'icon',
-          'service-icon',
-          'fa',
-          'fas',
-          'far',
-          'fal',
-          'fab',
-        ];
-        const currentClasses = Array.from(icon.classList);
+      // Update icon if it exists and service has an icon property
+      if (service.icon) {
+        // First find the icon container
+        const iconContainer = item.querySelector('.iconbox-icon-container');
+        if (iconContainer) {
+          console.log(
+            `Updating service card ${i + 1} icon to: ${service.icon}`
+          );
 
-        currentClasses.forEach(cls => {
-          if (!classesToKeep.includes(cls)) {
-            icon.classList.remove(cls);
-          }
-        });
+          // Handle Liquid theme iconbox format by recreating the icon element
+          // Clear existing content
+          iconContainer.innerHTML = `
+            <svg width="48" height="48" viewBox="0 0 48 48">
+              <circle cx="24" cy="24" r="22" fill="#f42958" opacity=".1"/>
+              <circle cx="24" cy="24" r="16" fill="#f42958" opacity=".2"/>
+            </svg>
+            <i class="${service.icon}" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 24px; color: #f42958;"></i>
+          `;
 
-        // Add new icon class
-        if (service.icon.includes(' ')) {
-          // If icon contains spaces, it's multiple classes
-          service.icon.split(' ').forEach(cls => {
-            icon.classList.add(cls);
-          });
+          // Ensure proper positioning
+          iconContainer.style.position = 'relative';
+          iconContainer.style.display = 'inline-block';
         } else {
-          icon.classList.add(service.icon);
+          // If no specific iconbox container found, look for any icon element
+          const iconElement = item.querySelector(
+            'i.fa, i.fas, i.far, i.fab, i.icon'
+          );
+          if (iconElement) {
+            console.log(`Found generic icon element for service ${i + 1}`);
+
+            // Remove all existing FA classes
+            const classesToRemove = Array.from(iconElement.classList).filter(
+              cls =>
+                cls.startsWith('fa-') ||
+                cls === 'fa' ||
+                cls === 'fas' ||
+                cls === 'far' ||
+                cls === 'fab'
+            );
+
+            classesToRemove.forEach(cls => iconElement.classList.remove(cls));
+
+            // Add new FA classes
+            service.icon.split(' ').forEach(cls => {
+              iconElement.classList.add(cls);
+            });
+
+            console.log(`Updated icon classes to: ${service.icon}`);
+          }
         }
       }
     }
@@ -601,7 +766,7 @@ class UrlConfigTester {
   updateTestimonials(testimonials) {
     // Look for testimonials container
     const testimonialContainers = document.querySelectorAll(
-      '.testimonials, #testimonials, .testimonial-section',
+      '.testimonials, #testimonials, .testimonial-section'
     );
 
     if (testimonialContainers.length === 0) return;
@@ -609,7 +774,7 @@ class UrlConfigTester {
     // Find testimonial items
     const container = testimonialContainers[0];
     const testimonialItems = container.querySelectorAll(
-      '.testimonial, .testimonial-item, .blockquote, .review',
+      '.testimonial, .testimonial-item, .blockquote, .review'
     );
 
     if (testimonialItems.length === 0) return;
@@ -623,13 +788,13 @@ class UrlConfigTester {
 
       // Update text
       const text = item.querySelector(
-        'p, .testimonial-text, blockquote, .text',
+        'p, .testimonial-text, blockquote, .text'
       );
       if (text) text.textContent = `"${testimonial.text}"`;
 
       // Update author
       const author = item.querySelector(
-        '.author, .testimonial-author, cite, footer, .name',
+        '.author, .testimonial-author, cite, footer, .name'
       );
       if (author) author.textContent = testimonial.author;
     }
@@ -648,7 +813,7 @@ class UrlConfigTester {
    */
   showError(message) {
     const selectorContainer = document.getElementById(
-      'domain-selector-container',
+      'domain-selector-container'
     );
     selectorContainer.innerHTML = `
       <div style="color: #721c24; background-color: #f8d7da; padding: 10px; border-radius: 4px;">
@@ -662,7 +827,7 @@ class UrlConfigTester {
    */
   showInfo(message) {
     const selectorContainer = document.getElementById(
-      'domain-selector-container',
+      'domain-selector-container'
     );
     selectorContainer.innerHTML = `
       <div style="color: #0c5460; background-color: #d1ecf1; padding: 10px; border-radius: 4px; margin-bottom: 15px;">

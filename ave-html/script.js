@@ -525,6 +525,9 @@ const faqData = {
   },
 };
 
+// Add a global flag to track when FAQs have been loaded by the URL tester
+let faqsLoadedByTester = false;
+
 /**
  * Updates the page content based on the domain configuration
  * @param {Object} domainConfig - The configuration for the current domain
@@ -554,31 +557,26 @@ function updatePageContent(domainConfig, currentDomain, allConfig) {
   }
 
   // Update hero image - only change if heroImg path is valid
-  const heroImg = document.querySelector('.clip-svg img');
-  if (heroImg && domainConfig.heroImg && domainConfig.heroImg.trim() !== '') {
-    // Fix relative paths if needed
-    let imgPath = domainConfig.heroImg;
+  // --- hero image swap ---------------------------------------------
+  const heroImgEl = document.querySelector('.clip-svg img');
+  if (heroImgEl && domainConfig.heroImg?.trim()) {
+    let imgPath = domainConfig.heroImg.trim();
 
-    // If path starts with ./ remove it for consistency
-    if (imgPath.startsWith('./')) {
-      imgPath = imgPath.substring(2);
+    // If it isn't absolute already, make it absolute to the site-root
+    // so we don't depend on where the script is executed from.
+    if (!imgPath.startsWith('/')) {
+      imgPath = '/' + imgPath.replace(/^(\.\/)+/, '');
     }
 
-    console.log('Setting hero image to:', imgPath);
-    heroImg.setAttribute('src', imgPath);
+    heroImgEl.src = imgPath;
 
-    // If the new image fails to load, use a fallback
-    heroImg.onerror = function () {
-      console.error('Failed to load hero image:', imgPath);
-      // Use the default image from the same folder structure
-      this.src = 'assets/website-hero-imgs/liquid-waste.png';
-      // Remove the error handler to prevent loops
-      this.onerror = null;
+    heroImgEl.onerror = () => {
+      console.warn(
+        `[HCL] Hero image "assets/website-hero-images/liquid-waste.png" failed, falling back.`
+      );
+      heroImgEl.src = 'assets/website-hero-images/liquid-waste.png';
+      heroImgEl.onerror = null; // stop the loop
     };
-
-    console.log('Set hero image to:', imgPath);
-  } else {
-    console.log('Keeping original hero image');
   }
 
   // Update "For You" text
@@ -799,9 +797,21 @@ function updateServiceCards(services) {
 /**
  * Loads and displays FAQs for the current domain
  * @param {String} domain - The current domain
+ * @param {Boolean} isFromTester - Whether this call comes from the URL tester
  */
-function loadFAQs(domain) {
+function loadFAQs(domain, isFromTester = false) {
   console.log(`Attempting to load FAQs for domain: ${domain}`);
+
+  // If FAQs have been loaded by the tester and this is not a tester call, skip it
+  if (faqsLoadedByTester && !isFromTester) {
+    console.log('Skipping FAQ load - already set by domain tester');
+    return;
+  }
+
+  // If this is from the tester, mark FAQs as loaded by tester
+  if (isFromTester) {
+    faqsLoadedByTester = true;
+  }
 
   // Find which FAQ category applies to this domain using regex patterns
   const categoryMatchers = {
@@ -915,6 +925,12 @@ function loadFAQs(domain) {
   // Clear existing accordion items
   accordionElement.innerHTML = '';
 
+  // Create a unique ID prefix for this accordion to avoid conflicts
+  const accordionId = `accordion-${domain.replace(
+    /[^a-z0-9]/gi,
+    '-'
+  )}-${Date.now().toString(36)}`;
+
   // Add new FAQ items
   matchedFaqData.faqs.forEach((faq, index) => {
     const isActive = index === 0;
@@ -923,15 +939,17 @@ function loadFAQs(domain) {
       isActive ? 'active' : ''
     }`;
 
+    const itemId = `${accordionId}-${index}`;
+
     accordionItem.innerHTML = `
-      <div class="accordion-heading" role="tab" id="accordion-collapse-heading-${index}">
+      <div class="accordion-heading" role="tab" id="${itemId}-heading">
         <h4 class="accordion-title font-size-19">
           <a class="${isActive ? '' : 'collapsed'}" 
              data-toggle="collapse" 
              data-parent="#accordion-2" 
-             href="#accordion-collapse-panel-${index}" 
+             href="#${itemId}-panel" 
              aria-expanded="${isActive ? 'true' : 'false'}" 
-             aria-controls="accordion-collapse-panel-${index}">
+             aria-controls="${itemId}-panel">
             ${faq.question}
             <span class="accordion-expander">
               <i class="icon-arrows_circle_plus"></i>
@@ -940,10 +958,10 @@ function loadFAQs(domain) {
           </a>
         </h4>
       </div>
-      <div id="accordion-collapse-panel-${index}" 
+      <div id="${itemId}-panel" 
            class="accordion-collapse collapse ${isActive ? 'in' : ''}" 
            role="tabpanel" 
-           aria-labelledby="accordion-collapse-heading-${index}">
+           aria-labelledby="${itemId}-heading">
         <div class="accordion-content">
           <p>${faq.answer}</p>
         </div>
@@ -966,69 +984,60 @@ function loadFAQs(domain) {
 function getDomainCategory(domain) {
   domain = domain.toLowerCase();
 
-  // Waste Disposal related domains
-  if (
-    domain.includes('waste') ||
-    domain.includes('disposal') ||
-    domain.includes('recycling') ||
-    domain.includes('hazardous')
-  ) {
-    return 'waste-disposal';
-  }
+  // Use a prioritized list of matchers to ensure more specific matches take precedence
+  const categoryTests = [
+    // Specific domains that might match multiple patterns
+    { test: d => d === 'sewage-waste.uk', category: 'pump-services' },
+    {
+      test: d => d === 'emergency-waste-removal.co.uk',
+      category: 'emergencyWaste',
+    },
+    { test: d => d === 'hydropressureclean.co.uk', category: 'uhpwj' },
 
-  // CCTV related domains
-  if (
-    domain.includes('cctv') ||
-    domain.includes('survey') ||
-    domain.includes('wincan') ||
-    domain.includes('cam')
-  ) {
-    return 'cctv';
-  }
+    // Then check more general patterns
+    {
+      test: d => /interceptor|petrol|diesel|fuel/i.test(d),
+      category: 'pump-services',
+    },
+    {
+      test: d => /pump|station/i.test(d) && !/sewage/i.test(d),
+      category: 'pump-services',
+    },
+    { test: d => /cctv|survey|wincan|cam/i.test(d), category: 'cctv' },
+    {
+      test: d => /tunnel|sewage|sewer|cross|tideway|subway/i.test(d),
+      category: 'tunnelCleaning',
+    },
+    {
+      test: d => /drain|sewer|jetting|gully/i.test(d) && !/cctv|sweep/i.test(d),
+      category: 'drainage',
+    },
+    { test: d => /gully/i.test(d), category: 'drainage' },
+    {
+      test: d => /sweep|road-sweeper|sweeper|clean-my-carpark/i.test(d),
+      category: 'roadSweeping',
+    },
+    {
+      test: d => /storage|liquid|tank|float|emergency/i.test(d),
+      category: 'liquid-storage',
+    },
+    {
+      test: d => /waste|disposal|recycling|hazardous/i.test(d),
+      category: 'waste-disposal',
+    },
+    {
+      test: d => /uhpwj|ultra|highpressure|hydropressure/i.test(d),
+      category: 'uhpwj',
+    },
+    {
+      test: d => /clean|hydro|wash|sanitizing/i.test(d),
+      category: 'cleaning-services',
+    },
+  ];
 
-  // Pump Services related domains
-  if (domain.includes('pump') || domain.includes('station')) {
-    return 'pump-services';
-  }
-
-  // Liquid Storage related domains
-  if (
-    domain.includes('storage') ||
-    domain.includes('liquid') ||
-    domain.includes('tank') ||
-    domain.includes('float')
-  ) {
-    return 'liquid-storage';
-  }
-
-  // Drainage related domains
-  if (
-    domain.includes('drain') ||
-    domain.includes('sewer') ||
-    domain.includes('jetting') ||
-    domain.includes('gully')
-  ) {
-    return 'drainage';
-  }
-
-  // Sweeper Services related domains
-  if (
-    domain.includes('sweep') ||
-    domain.includes('road-sweeper') ||
-    domain.includes('sweeper') ||
-    domain.includes('clean-my-carpark')
-  ) {
-    return 'sweeper-services';
-  }
-
-  // Cleaning Services related domains
-  if (
-    domain.includes('clean') ||
-    domain.includes('hydro') ||
-    domain.includes('wash') ||
-    domain.includes('sanitizing')
-  ) {
-    return 'cleaning-services';
+  // Check each test in order until we find a match
+  for (const { test, category } of categoryTests) {
+    if (test(domain)) return category;
   }
 
   // Default category if none of the above
@@ -1090,6 +1099,22 @@ function loadGallery(domainConfig) {
   if (!galleryContainer) {
     console.error('Gallery container not found');
     return;
+  }
+
+  // Destroy existing masonry instance if it exists
+  if (typeof jQuery !== 'undefined') {
+    const $gallery = jQuery(galleryContainer);
+    // Check if masonry exists and destroy it
+    if ($gallery.data('isotope')) {
+      console.log('Destroying existing masonry instance');
+      $gallery.isotope('destroy');
+    }
+
+    // Also check for liquidMasonry data attribute
+    if ($gallery.data('plugin_liquidMasonry')) {
+      console.log('Cleaning up existing liquidMasonry instance');
+      $gallery.data('plugin_liquidMasonry', null);
+    }
   }
 
   // Clear existing items while keeping grid-stamp elements
@@ -1181,7 +1206,19 @@ function loadGallery(domainConfig) {
   ) {
     console.log('Re-initializing masonry layout');
     setTimeout(() => {
-      jQuery(galleryContainer).liquidMasonry();
+      const $gallery = jQuery(galleryContainer);
+
+      // Make sure container is visible before initializing
+      $gallery.css('opacity', '0');
+      $gallery.liquidMasonry();
+
+      // Fade it in after initialization to avoid layout jumps
+      setTimeout(() => {
+        $gallery.css({
+          opacity: '1',
+          transition: 'opacity 0.3s ease',
+        });
+      }, 50);
     }, 100);
   }
 }
@@ -1235,15 +1272,21 @@ $(document).ready(function () {
       // Store indication we're coming back from a form submit
       localStorage.setItem('formSubmitted', 'true');
 
-      // Set form to use GET method
-      contactForm.attr('method', 'GET');
+      // Set form to use POST method
+      contactForm.attr('method', 'POST');
 
       // Submit form the old-fashioned way
       contactForm[0].submit();
     };
 
     // Try submitting via fetch API (modern approach)
-    fetch('https://hydro-cleansing.com/api/capture-leads?' + formData)
+    fetch('https://hydro-cleansing.com/api/capture-leads', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded',
+      },
+      body: formData,
+    })
       .then(response => {
         if (!response.ok) {
           throw new Error('Server returned ' + response.status);
