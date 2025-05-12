@@ -913,6 +913,17 @@ function updateServiceCards(services) {
   }
 }
 
+let galleryLightbox = null; // keep a reference so we can destroy/rebuild
+function initLightbox() {
+  if (galleryLightbox) galleryLightbox.destroy(); // clean previous instance
+  galleryLightbox = GLightbox({
+    selector: '.glbox',
+    touchNavigation: true,
+    loop: true,
+    zoomable: true,
+  });
+}
+
 /**
  * Loads and displays FAQs for the current domain
  * @param {String} domain - The current domain
@@ -1285,26 +1296,34 @@ function loadGallery(domainConfig) {
     const col = document.createElement('div');
     col.className = 'lqd-column col-md-4 col-sm-6 col-xs-12 masonry-item';
     col.innerHTML = `
-      <div class="ld-pf-item ld-pf-light pf-details-inside pf-details-full pf-details-h-mid pf-details-v-mid title-size-32 ld-pf-semiround">
-        <div class="ld-pf-inner">
-          <div class="ld-pf-image">
-            <figure style="background-image: url('${imageSrc}'); background-size: cover; background-position: center; height: 280px;">
-              <img src="${imageSrc}" alt="${
-      img.alt || 'Gallery image'
-    }" style="width: 100%; height: 100%; object-fit: cover; visibility: hidden;" />
-            </figure>
-          </div>
-          <div class="ld-pf-bg bg-gradient-primary-bl opacity-08"></div>
-          <div class="ld-pf-details">
-            <div class="ld-pf-details-inner">
-              <h3 class="ld-pf-title h4 font-weight-semibold">${
-                img.title || ''
-              }</h3>
-            </div>
-          </div>
-          <a href="#" class="liquid-overlay-link"></a>
+    <div class="ld-pf-item ld-pf-light pf-details-inside pf-details-full
+                pf-details-h-mid pf-details-v-mid title-size-32 ld-pf-semiround">
+      <div class="ld-pf-inner">
+        <div class="ld-pf-image">
+          <figure style="background-image:url('${imageSrc}');">
+            <img src="${imageSrc}" alt="${img.alt || 'Gallery image'}" />
+          </figure>
         </div>
-      </div>`;
+  
+        <div class="ld-pf-bg bg-gradient-primary-bl opacity-08"></div>
+  
+        <div class="ld-pf-details">
+          <div class="ld-pf-details-inner">
+            <h3 class="ld-pf-title h4 font-weight-semibold">${
+              img.title || ''
+            }</h3>
+          </div>
+        </div>
+  
+        <!-- the important bit ↓ -->
+        <a href="${imageSrc}"
+           class="liquid-overlay-link glbox"
+           data-gallery="works"
+           data-title="${img.title || ''}">
+        </a>
+      </div>
+    </div>`;
+
     galleryContainer.appendChild(col);
 
     // Add a right grid stamp after the second image
@@ -1340,6 +1359,7 @@ function loadGallery(domainConfig) {
       }, 50);
     }, 100);
   }
+  initLightbox(); // make the new tiles clickable
 }
 
 // Contact form handler
@@ -1467,6 +1487,19 @@ document.addEventListener('DOMContentLoaded', function () {
 // Dynamic title configuration
 function updatePageTitle() {
   const currentDomain = window.location.hostname;
+
+  // If on localhost or file protocol, use a test domain for development
+  const effectiveDomain =
+    currentDomain === 'localhost' ||
+    currentDomain === '127.0.0.1' ||
+    window.location.protocol === 'file:'
+      ? faqData.general &&
+        faqData.general.urls &&
+        faqData.general.urls.length > 0
+        ? faqData.general.urls[0]
+        : 'hydro-cleansing.com'
+      : currentDomain;
+
   const configPaths = [
     './config.json',
     '../config.json',
@@ -1477,16 +1510,19 @@ function updatePageTitle() {
   const loadConfig = async () => {
     for (const path of configPaths) {
       try {
+        console.log(`Attempting to load title from: ${path}`);
         const response = await fetch(path);
         if (response.ok) {
           const config = await response.json();
           // If we have a specific config for this domain, use it
-          if (config[currentDomain]) {
-            document.title = config[currentDomain].title;
+          if (config[effectiveDomain]) {
+            document.title = config[effectiveDomain].title;
+            console.log(`Title updated to: ${config[effectiveDomain].title}`);
           } else {
             // Fallback to the first available config
             const firstDomain = Object.keys(config)[0];
             document.title = config[firstDomain].title;
+            console.log(`Using fallback title: ${config[firstDomain].title}`);
           }
           return;
         }
@@ -1496,10 +1532,17 @@ function updatePageTitle() {
     }
     // Fallback title if no config is loaded
     document.title = 'Ave HTML Template';
+    console.log('Using default fallback title');
   };
 
   loadConfig();
 }
+
+// Call updatePageTitle immediately to set title as soon as possible
+updatePageTitle();
+
+// Also ensure it runs on DOMContentLoaded as a fallback
+document.addEventListener('DOMContentLoaded', updatePageTitle);
 
 // Function to test if a URL is accessible
 async function isUrlAccessible(url) {
@@ -1713,6 +1756,3 @@ function initializeDynamicContent() {
 
   loadConfigAndUpdateContent();
 }
-
-// Call this when the page loads
-document.addEventListener('DOMContentLoaded', updatePageTitle);
