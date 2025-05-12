@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#3ed2a7" />
 
-    <link rel="shortcut icon" href="./assets/img/favicon.png" />
+    <link rel="shortcut icon" href="./assets/img/favicon.svg" />
 
     <title>Loading...</title>
 
@@ -251,12 +251,30 @@
                 <!-- /.col -->
 
                 <div class="col text-right">
-                  <div class="header-module">
+                  <div class="header-module" style="display: flex; align-items: center; height: 100%;">
                     <a
-                      href="#"
-                      target="_blank"
-                      class="btn btn-default text-uppercase circle btn-bordered border-thick font-size-12 font-weight-semibold btn-white"
-                    ></a>
+                      href="#contact"
+                      class="btn btn-modern-cta text-uppercase"
+                      style="
+                        background: #357ae8;
+                        color: #fff;
+                        font-weight: 600;
+                        font-size: 15px;
+                        padding: 8px 22px;
+                        border-radius: 7px;
+                        letter-spacing: 0.5px;
+                        box-shadow: none;
+                        line-height: 1.2;
+                        transition: background 0.18s, color 0.18s;
+                        display: inline-block;
+                        border: none;
+                        outline: none;
+                      "
+                      onmouseover="this.style.background='#285bb5'; this.style.color='#fff';"
+                      onmouseout="this.style.background='#357ae8'; this.style.color='#fff';"
+                    >
+                      Get a Quote
+                    </a>
                   </div>
                   <!-- /.header-module -->
                 </div>
@@ -311,7 +329,7 @@
                 <div class="ld-fancy-heading mask-text mb-75">
                   <p
                     id="hero-text"
-                    class="subtitle lead"
+                    class="split-text-applied"
                     data-split-text="true"
                     data-custom-animations="true"
                     data-ca-options='{"triggerHandler":"inview","animationTarget":".split-inner","duration":1200,"delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"scale":1},"animations":{"scale":1}}'
@@ -433,7 +451,9 @@
                 data-ca-options='{"triggerHandler":"inview", "animationTarget":"all-childs", "duration":"1600", "delay":"160", "easing":"easeOutQuint", "direction":"forward", "initValues":{"translateY":30, "opacity":0}, "animations":{"translateY":0, "opacity":1}}'
               >
                 <header class="fancy-title pr-md-4">
-                  <h6 class="text-uppercase">Services</h6>
+                  <h6
+                    class="text-uppercase ltr-sp-2 font-size-12 font-weight-semibold text-secondary"
+                  >Services</h6>
                   <h2>
                     <strong>Best solutions</strong>
                     for you
@@ -780,7 +800,7 @@
           <!-- /.container -->
         </section>
 
-        <section class="vc_row pt-80 pb-120" id="works">
+        <section class="vc_row pt-200 pb-120" id="works">
           <div class="container">
             <div class="row">
               <div class="lqd-column col-md-12">
@@ -1515,7 +1535,7 @@
           <!-- /.container -->
         </section>
 
-        <section class="vc_row pt-200 pb-100" id="testimonials">
+        <section class="vc_row pt-100 pb-100" id="testimonials">
           <div class="container">
             <div class="row">
               <div
@@ -1708,19 +1728,14 @@
                         <!-- /.testimonial-quote -->
                         <div class="testimonial-details">
                           <figure class="avatar">
-                            <img
-                              src="./assets/demo/testimonials/testi-2.png"
-                              alt="Michael J."
-                            />
+      
                           </figure>
                           <div class="testimonial-info">
                             <h5>Michael J.</h5>
                             <h6 class="font-weight-normal">South Norwood</h6>
                           </div>
                           <!-- /.testimonial-info -->
-                          <time datetime="2023-11-05" class="text-uppercase">
-                            Hydro Pressure Clean
-                          </time>
+                
                         </div>
                         <!-- /.testimonial-details -->
                       </div>
@@ -1755,9 +1770,7 @@
                             <h6 class="font-weight-normal">Sanderstead</h6>
                           </div>
                           <!-- /.testimonial-info -->
-                          <time datetime="2023-12-18" class="text-uppercase">
-                            Hydro Pressure Clean
-                          </time>
+         
                         </div>
                         <!-- /.testimonial-details -->
                       </div>
@@ -1809,7 +1822,7 @@
           <!-- /.container -->
         </section>
 
-        <section class="vc_row pt-100 pb-100" id="contact">
+        <section class="vc_row pb-100" id="contact">
           <div class="container">
             <div class="row">
               <div
