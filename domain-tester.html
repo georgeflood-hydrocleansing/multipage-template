@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Domain Config Tester</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <style>
+      body {
+        padding: 20px;
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto,
+          'Helvetica Neue', Arial, sans-serif;
+      }
+      .domain-card {
+        cursor: pointer;
+        transition: all 0.2s ease;
+        border: 1px solid #eee;
+      }
+      .domain-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      }
+      .domain-selected {
+        border-color: #0d6efd;
+        background-color: rgba(13, 110, 253, 0.05);
+      }
+      pre {
+        background-color: #f8f9fa;
+        padding: 15px;
+        border-radius: 5px;
+        max-height: 400px;
+        overflow: auto;
+      }
+      .icon-preview {
+        font-size: 2rem;
+        margin-bottom: 15px;
+        color: #0d6efd;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row mb-4">
+        <div class="col-12">
+          <h1 class="mb-3">Domain Config Tester</h1>
+          <div class="alert alert-info" id="status-message">
+            Loading configuration...
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card mb-4">
+            <div class="card-header">
+              <h5 class="card-title mb-0">Domains</h5>
+            </div>
+            <div class="card-body p-0">
+              <div id="domainList" class="list-group list-group-flush">
+                <!-- Domains will be listed here -->
+                <div class="list-group-item text-center py-5">
+                  <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-9">
+          <div class="card mb-4">
+            <div
+              class="card-header d-flex justify-content-between align-items-center"
+            >
+              <h5 class="card-title mb-0" id="selected-domain-title">
+                Select a domain
+              </h5>
+              <span class="badge bg-primary" id="url-display"></span>
+            </div>
+            <div class="card-body">
+              <div id="domain-details">
+                <div class="text-center py-5">
+                  <i class="fas fa-mouse-pointer fa-3x mb-3 text-muted"></i>
+                  <h4 class="text-muted">
+                    Select a domain from the list to view details
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Main app
+      class DomainTester {
+        constructor() {
+          this.configData = null;
+          this.currentDomain = null;
+          this.statusMessage = document.getElementById('status-message');
+          this.domainList = document.getElementById('domainList');
+          this.domainDetails = document.getElementById('domain-details');
+          this.selectedDomainTitle = document.getElementById(
+            'selected-domain-title',
+          );
+          this.urlDisplay = document.getElementById('url-display');
+        }
+
+        // Initialize the app
+        async init() {
+          try {
+            await this.loadConfig();
+            this.renderDomainList();
+
+            // Check for hash in URL
+            if (window.location.hash) {
+              const domain = window.location.hash.substring(1);
+              if (this.configData[domain]) {
+                this.selectDomain(domain);
+              }
+            }
+
+            // Set up hash change listener
+            window.addEventListener('hashchange', () => {
+              if (window.location.hash) {
+                const domain = window.location.hash.substring(1);
+                if (this.configData[domain]) {
+                  this.selectDomain(domain);
+                }
+              }
+            });
+          } catch (error) {
+            this.showError(`Failed to initialize: ${error.message}`);
+          }
+        }
+
+        // Load config from file
+        async loadConfig() {
+          const paths = [
+            './config.json',
+            '../config.json',
+            '/config.json',
+            '/ave-html/config.json',
+          ];
+
+          for (const path of paths) {
+            try {
+              this.setStatus(`Trying to load from ${path}...`);
+              const response = await fetch(path);
+
+              if (response.ok) {
+                this.configData = await response.json();
+                this.setStatus(
+                  `Configuration loaded successfully! Found ${
+                    Object.keys(this.configData).length
+                  } domains.`,
+                  'success',
+                );
+                return;
+              }
+            } catch (error) {
+              console.warn(`Error loading from ${path}:`, error);
+            }
+          }
+
+          // If all paths fail, use fallback
+          this.useFallbackConfig();
+        }
+
+        // Use fallback config
+        useFallbackConfig() {
+          this.configData = {
+            'example.com': {
+              title: 'Example Domain',
+              text: 'This is a fallback configuration for testing when config.json cannot be loaded',
+              services: [
+                {
+                  title: 'Web Design',
+                  desc: 'Professional website design services',
+                  icon: 'fa-solid fa-laptop-code',
+                },
+                {
+                  title: 'Marketing',
+                  desc: 'Digital marketing solutions',
+                  icon: 'fa-solid fa-bullhorn',
+                },
+                {
+                  title: 'Support',
+                  desc: '24/7 technical support',
+                  icon: 'fa-solid fa-headset',
+                },
+              ],
+              testimonials: [
+                {
+                  text: 'Great service! Highly recommended.',
+                  author: 'John Doe, Company CEO',
+                },
+              ],
+            },
+          };
+
+          this.setStatus(
+            'Using fallback configuration. Could not load config.json.',
+            'warning',
+          );
+        }
+
+        // Render domain list
+        renderDomainList() {
+          if (!this.configData || Object.keys(this.configData).length === 0) {
+            this.domainList.innerHTML =
+              '<div class="list-group-item">No domains found</div>';
+            return;
+          }
+
+          let html = '';
+          Object.keys(this.configData)
+            .sort()
+            .forEach(domain => {
+              html += `
+            <a href="#${domain}" class="list-group-item list-group-item-action" data-domain="${domain}">
+              <i class="fas fa-globe me-2"></i> ${domain}
+            </a>
+          `;
+            });
+
+          this.domainList.innerHTML = html;
+        }
+
+        // Select a domain
+        selectDomain(domain) {
+          if (!this.configData[domain]) return;
+
+          this.currentDomain = domain;
+
+          // Update UI
+          document.querySelectorAll('[data-domain]').forEach(el => {
+            el.classList.remove('active');
+          });
+
+          const domainElement = document.querySelector(
+            `[data-domain="${domain}"]`,
+          );
+          if (domainElement) {
+            domainElement.classList.add('active');
+          }
+
+          this.selectedDomainTitle.textContent = this.configData[domain].title;
+          this.urlDisplay.textContent = domain;
+
+          // Render domain details
+          this.renderDomainDetails(domain);
+        }
+
+        // Render domain details
+        renderDomainDetails(domain) {
+          const data = this.configData[domain];
+
+          let html = `
+          <div class="mb-4">
+            <h3>${data.title}</h3>
+            <p class="lead">${data.text}</p>
+          </div>
+        `;
+
+          // Services
+          if (data.services && data.services.length > 0) {
+            html += `
+            <h4 class="mt-4 mb-3">Services</h4>
+            <div class="row">
+          `;
+
+            data.services.forEach(service => {
+              html += `
+              <div class="col-md-4 mb-3">
+                <div class="card h-100">
+                  <div class="card-body text-center">
+                    <i class="${service.icon} icon-preview"></i>
+                    <h5 class="card-title">${service.title}</h5>
+                    <p class="card-text">${service.desc}</p>
+                  </div>
+                </div>
+              </div>
+            `;
+            });
+
+            html += `</div>`;
+          }
+
+          // Testimonials
+          if (data.testimonials && data.testimonials.length > 0) {
+            html += `
+            <h4 class="mt-4 mb-3">Testimonials</h4>
+            <div class="row">
+          `;
+
+            data.testimonials.forEach(testimonial => {
+              html += `
+              <div class="col-md-6 mb-3">
+                <div class="card">
+                  <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                      <p>"${testimonial.text}"</p>
+                      <footer class="blockquote-footer">${testimonial.author}</footer>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+            `;
+            });
+
+            html += `</div>`;
+          }
+
+          // Raw JSON
+          html += `
+          <h4 class="mt-4 mb-3">Raw JSON</h4>
+          <pre>${JSON.stringify(data, null, 2)}</pre>
+        `;
+
+          this.domainDetails.innerHTML = html;
+        }
+
+        // Set status message
+        setStatus(message, type = 'info') {
+          this.statusMessage.className = `alert alert-${type}`;
+          this.statusMessage.textContent = message;
+        }
+
+        // Show error
+        showError(message) {
+          this.setStatus(message, 'danger');
+        }
+      }
+
+      // Initialize on page load
+      document.addEventListener('DOMContentLoaded', () => {
+        const tester = new DomainTester();
+        tester.init();
+      });
+    </script>
+  </body>
+</html>

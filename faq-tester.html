@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQ Tester</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .accordion-item {
+        border: 1px solid #ddd;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        overflow: hidden;
+      }
+      .accordion-heading {
+        background: #f5f5f5;
+        padding: 10px 15px;
+        cursor: pointer;
+      }
+      .accordion-title {
+        margin: 0;
+        font-size: 16px;
+        display: flex;
+        justify-content: space-between;
+      }
+      .accordion-content {
+        padding: 15px;
+        display: none;
+      }
+      .accordion-item.active .accordion-content {
+        display: block;
+      }
+      .domain-selector {
+        margin-bottom: 20px;
+      }
+      input,
+      select,
+      button {
+        padding: 8px;
+        font-size: 16px;
+      }
+      button {
+        background: #0066cc;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 3px;
+      }
+      button:hover {
+        background: #0055aa;
+      }
+      h1 {
+        color: #0066cc;
+      }
+      .status {
+        color: #555;
+        font-style: italic;
+        margin: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>FAQ System Tester</h1>
+    <p>
+      This page lets you test if the FAQ system is working correctly with
+      different domains.
+    </p>
+
+    <div class="domain-selector">
+      <label for="domain-input">Test domain:</label>
+      <input
+        type="text"
+        id="domain-input"
+        placeholder="e.g., hydro-cleansing.com"
+        value="hydro-cleansing.com"
+      />
+      <button id="test-btn">Test Domain</button>
+    </div>
+
+    <p class="status" id="status">Ready to test...</p>
+
+    <h2 id="faq-title">FAQ Results</h2>
+
+    <div id="accordion-2" class="accordion"></div>
+
+    <!-- Load the original script.js first -->
+    <script src="script.js"></script>
+
+    <script>
+      // Simple FAQ tester script
+      document.addEventListener('DOMContentLoaded', function () {
+        const domainInput = document.getElementById('domain-input');
+        const testBtn = document.getElementById('test-btn');
+        const status = document.getElementById('status');
+        const faqTitle = document.getElementById('faq-title');
+        const accordion = document.getElementById('accordion-2');
+
+        // Test function
+        function testDomain() {
+          const domain = domainInput.value.trim();
+          if (!domain) {
+            status.textContent = 'Please enter a domain to test';
+            return;
+          }
+
+          status.textContent = `Testing domain: ${domain}...`;
+
+          try {
+            // Check if loadFAQs function exists
+            if (typeof window.loadFAQs !== 'function') {
+              status.textContent =
+                'ERROR: loadFAQs function not found. Check script.js';
+              return;
+            }
+
+            // Check if faqData exists
+            if (typeof window.faqData !== 'object') {
+              status.textContent =
+                'ERROR: faqData object not found. Check script.js';
+              return;
+            }
+
+            // Clear existing FAQ items
+            accordion.innerHTML = '';
+
+            // Call the loadFAQs function
+            loadFAQs(domain);
+
+            // Update status
+            status.textContent = `FAQs loaded for domain: ${domain}`;
+          } catch (error) {
+            status.textContent = `ERROR: ${error.message}`;
+            console.error('FAQ loading error:', error);
+          }
+        }
+
+        // Add event listener
+        testBtn.addEventListener('click', testDomain);
+
+        // Add keyboard shortcut
+        domainInput.addEventListener('keyup', function (event) {
+          if (event.key === 'Enter') {
+            testDomain();
+          }
+        });
+
+        // Provide a list of available domains
+        if (window.faqData) {
+          const domains = [];
+          for (const category in window.faqData) {
+            const urls = window.faqData[category].urls || [];
+            domains.push(...urls);
+          }
+
+          if (domains.length > 0) {
+            const domainsList = document.createElement('div');
+            domainsList.innerHTML =
+              '<h3>Available Test Domains:</h3><ul>' +
+              domains
+                .map(d => `<li><a href="#" class="domain-link">${d}</a></li>`)
+                .join('') +
+              '</ul>';
+
+            document.body.appendChild(domainsList);
+
+            // Add click handlers for domain links
+            document.querySelectorAll('.domain-link').forEach(link => {
+              link.addEventListener('click', function (e) {
+                e.preventDefault();
+                domainInput.value = this.textContent;
+                testDomain();
+              });
+            });
+          }
+        }
+
+        // Try to load FAQs for the default domain
+        setTimeout(testDomain, 500);
+      });
+    </script>
+  </body>
+</html>

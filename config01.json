@@ -1,0 +1,938 @@
+{
+  "hydro-cleansing.com": {
+    "title": "Professional Environmental Solutions",
+    "text": "Complete environmental cleaning and drainage maintenance services. Our specialist team delivers professional solutions including drain clearance, liquid waste removal, CCTV surveys, and environmental cleaning across commercial and industrial sectors.",
+    "forYou": "Hydro-Cleansing provides comprehensive environmental and drainage maintenance services with a focus on professional results and environmental responsibility. We understand the challenges of managing drainage infrastructure and environmental requirements, delivering expert solutions that maintain functionality while ensuring regulatory compliance. Our complete service portfolio includes drainage maintenance, blockage clearance, CCTV surveys, liquid waste management, environmental cleaning, flood response, and preventative maintenance programmes.",
+    "heroImg": "assets/website-hero-images/cctv.png",
+    "video": "www.youtube.com/watch?v=bVhy_ZnYtGk",
+    "services": [
+      {
+        "title": "Drainage Maintenance",
+        "desc": "Complete care of drainage systems and infrastructure.",
+        "icon": "fa-solid fa-water-ladder"
+      },
+      {
+        "title": "Environmental Cleaning",
+        "desc": "Specialist cleaning for sensitive environmental areas.",
+        "icon": "fa-solid fa-leaf"
+      },
+      {
+        "title": "CCTV Drain Surveys",
+        "desc": "Advanced inspection and analysis technology.",
+        "icon": "fa-solid fa-video"
+      },
+      {
+        "title": "Waste Management",
+        "desc": "Compliant handling of liquid and environmental waste.",
+        "icon": "fa-solid fa-dumpster"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning1.jpg",
+        "alt": "Professional Environmental Solutions - Cleaning Services Image 1",
+        "title": "Professional Environmental Solutions - Cleaning Services 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning2.jpg",
+        "alt": "Professional Environmental Solutions - Cleaning Services Image 2",
+        "title": "Professional Environmental Solutions - Cleaning Services 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning3.jpg",
+        "alt": "Professional Environmental Solutions - Cleaning Services Image 3",
+        "title": "Professional Environmental Solutions - Cleaning Services 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning4.jpg",
+        "alt": "Professional Environmental Solutions - Cleaning Services Image 4",
+        "title": "Professional Environmental Solutions - Cleaning Services 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning5.jpg",
+        "alt": "Professional Environmental Solutions - Cleaning Services Image 5",
+        "title": "Professional Environmental Solutions - Cleaning Services 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning6.jpg",
+        "alt": "Professional Environmental Solutions - Cleaning Services Image 6",
+        "title": "Professional Environmental Solutions - Cleaning Services 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning7.jpg",
+        "alt": "Professional Environmental Solutions - Cleaning Services Image 7",
+        "title": "Professional Environmental Solutions - Cleaning Services 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning8.jpg",
+        "alt": "Professional Environmental Solutions - Cleaning Services Image 8",
+        "title": "Professional Environmental Solutions - Cleaning Services 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning9.jpg",
+        "alt": "Professional Environmental Solutions - Cleaning Services Image 9",
+        "title": "Professional Environmental Solutions - Cleaning Services 9"
+      }
+    ]
+  },
+  "hydro-cleansing.co": {
+    "title": "Leading Environmental Services",
+    "text": "Looking for industry-leading environmental and drainage services across the UK? Our experienced teams provide comprehensive solutions, backed by powerful, bespoke equipment like the unrivalled 'Terminator' vacuum tanker.",
+    "forYou": "Searching for a comprehensive environmental services provider with industry-leading capabilities? Our team brings together over 50 years of combined management expertise and operates the UK's most advanced vacuum tanker fleet. We offer complete drainage solutions, liquid waste management, and specialist cleaning services nationwide. Available 24/7 for emergencies and planned works, we're committed to environmental excellence with 99% recycling rates at our own treatment facility.",
+    "heroImg": "assets/website-hero-images/tunnel-cleaning.png",
+    "video": "www.youtube.com/watch?v=ED41lfBTsxc",
+    "services": [
+      {
+        "title": "Drainage & Sewer Services",
+        "desc": "Comprehensive drain unblocking, CCTV surveys, repairs and maintenance for domestic and commercial clients, with 24/7 emergency response.",
+        "icon": "fa-solid fa-faucet-drip"
+      },
+      {
+        "title": "Liquid Waste Management",
+        "desc": "Collection, treatment and disposal of sewage, sludge, industrial effluent and hazardous liquids with environmentally responsible recycling.",
+        "icon": "fa-solid fa-truck-droplet"
+      },
+      {
+        "title": "Septic Tank & Cesspit Services",
+        "desc": "Professional emptying, cleaning and maintenance of septic tanks and cesspits across the UK, ensuring compliance with regulations.",
+        "icon": "fa-solid fa-toilet"
+      },
+      {
+        "title": "Culvert & Tunnel Cleaning",
+        "desc": "Specialist cleaning and clearance of culverts, tunnels and large drainage conduits using our advanced equipment and confined-space trained teams.",
+        "icon": "fa-solid fa-tunnel"
+      }
+    ],
+    "testimonials": [
+      {
+        "text": "Their 'Terminator' tanker made light work of a job that other companies estimated would take days. The team was professional, knowledgeable and completed the work in record time.",
+        "author": "Facilities Manager, Commercial Centre"
+      },
+      {
+        "text": "We've relied on Hydro-Cleansing's emergency response service for years. Their 24/7 availability and rapid deployment have prevented serious damage to our property multiple times.",
+        "author": "Property Management Director, London"
+      },
+      {
+        "text": "The environmental approach taken by Hydro-Cleansing has helped us meet our sustainability goals. Their impressive 99% recycling rate for waste collected from our sites has been a significant factor in our environmental compliance.",
+        "author": "Sustainability Officer, Manufacturing Plant"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-1.webp",
+        "alt": "Leading Environmental Services - Tanker Image 1",
+        "title": "Leading Environmental Services - Tanker 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-2.webp",
+        "alt": "Leading Environmental Services - Tanker Image 2",
+        "title": "Leading Environmental Services - Tanker 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-3.webp",
+        "alt": "Leading Environmental Services - Tanker Image 3",
+        "title": "Leading Environmental Services - Tanker 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-4.webp",
+        "alt": "Leading Environmental Services - Tanker Image 4",
+        "title": "Leading Environmental Services - Tanker 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-5.webp",
+        "alt": "Leading Environmental Services - Tanker Image 5",
+        "title": "Leading Environmental Services - Tanker 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-6.webp",
+        "alt": "Leading Environmental Services - Tanker Image 6",
+        "title": "Leading Environmental Services - Tanker 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-7.jpeg",
+        "alt": "Leading Environmental Services - Tanker Image 7",
+        "title": "Leading Environmental Services - Tanker 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-8.jpg",
+        "alt": "Leading Environmental Services - Tanker Image 8",
+        "title": "Leading Environmental Services - Tanker 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-9.webp",
+        "alt": "Leading Environmental Services - Tanker Image 9",
+        "title": "Leading Environmental Services - Tanker 9"
+      }
+    ]
+  },
+  "hydropressureclean.co.uk": {
+    "title": "Eco-Friendly Pressure Washing",
+    "text": "Restore your exterior surfaces in Croydon and Surrey. We provide eco-friendly, chemical-free pressure washing for driveways, patios, and decking with 19 years of experience and industrial-grade equipment.",
+    "forYou": "Considering a professional exterior cleaning service in the Croydon area? Our locally-based specialists deliver exceptional pressure washing using advanced, water-only technology that effectively removes dirt, algae, and stains without chemicals. With 19 years of experience cleaning driveways, patios, and decking, we've built our reputation on thorough results that revitalise your property's appearance and safety.",
+    "heroImg": "assets/website-hero-images/road-sweeping.png",
+    "video": "www.youtube.com/watch?v=4p2htIH3NOc",
+    "services": [
+      {
+        "title": "Driveway Cleaning",
+        "desc": "Restore your driveway to pristine condition with our high-pressure, water-only cleaning service.",
+        "icon": "fa-solid fa-road"
+      },
+      {
+        "title": "Patio Cleaning",
+        "desc": "Remove algae, moss, and stains from patios using safe, effective jet washing techniques.",
+        "icon": "fa-solid fa-table-cells-large"
+      },
+      {
+        "title": "Decking Cleaning",
+        "desc": "Specialist cleaning for wooden decking, removing slippery growth and preserving the wood's integrity.",
+        "icon": "fa-solid fa-grip-lines"
+      },
+      {
+        "title": "Eco-Friendly Approach",
+        "desc": "100% chemical-free, water-only cleaning for a safe, environmentally conscious result.",
+        "icon": "fa-solid fa-leaf"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning1.jpg",
+        "alt": "Eco-Friendly Pressure Washing - Cleaning Services Image 1",
+        "title": "Eco-Friendly Pressure Washing - Cleaning Services 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning2.jpg",
+        "alt": "Eco-Friendly Pressure Washing - Cleaning Services Image 2",
+        "title": "Eco-Friendly Pressure Washing - Cleaning Services 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning3.jpg",
+        "alt": "Eco-Friendly Pressure Washing - Cleaning Services Image 3",
+        "title": "Eco-Friendly Pressure Washing - Cleaning Services 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning4.jpg",
+        "alt": "Eco-Friendly Pressure Washing - Cleaning Services Image 4",
+        "title": "Eco-Friendly Pressure Washing - Cleaning Services 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning5.jpg",
+        "alt": "Eco-Friendly Pressure Washing - Cleaning Services Image 5",
+        "title": "Eco-Friendly Pressure Washing - Cleaning Services 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning6.jpg",
+        "alt": "Eco-Friendly Pressure Washing - Cleaning Services Image 6",
+        "title": "Eco-Friendly Pressure Washing - Cleaning Services 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning7.jpg",
+        "alt": "Eco-Friendly Pressure Washing - Cleaning Services Image 7",
+        "title": "Eco-Friendly Pressure Washing - Cleaning Services 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning8.jpg",
+        "alt": "Eco-Friendly Pressure Washing - Cleaning Services Image 8",
+        "title": "Eco-Friendly Pressure Washing - Cleaning Services 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning9.jpg",
+        "alt": "Eco-Friendly Pressure Washing - Cleaning Services Image 9",
+        "title": "Eco-Friendly Pressure Washing - Cleaning Services 9"
+      }
+    ]
+  },
+  "emergancyliquidstorage.co.uk": {
+    "title": "Emergency Liquid Storage",
+    "text": "Need urgent liquid storage? We offer swift, secure, and compliant solutions for temporary or long-term containment of all liquid types, including hazardous materials with rapid deployment.",
+    "forYou": "Facing an urgent need for liquid containment? Our emergency liquid storage solutions deliver immediate, compliant answers when you're managing unexpected situations. We provide rapid deployment of secure containment systems suitable for all liquid types, from clean water to hazardous materials. Our units are fully certified to meet environmental regulations, with temperature-controlled options available for sensitive materials.",
+    "heroImg": "assets/website-hero-images/liquid-waste.png",
+    "video": "www.youtube.com/watch?v=M2eBeHSSKHM",
+    "services": [
+      {
+        "title": "Rapid Response Storage",
+        "desc": "Fast deployment of liquid storage solutions for emergencies and unplanned events.",
+        "icon": "fa-solid fa-bolt"
+      },
+      {
+        "title": "Bulk Liquid Containment",
+        "desc": "Secure storage for large volumes of hazardous and non-hazardous liquids.",
+        "icon": "fa-solid fa-tank-water"
+      },
+      {
+        "title": "Temperature-Controlled Units",
+        "desc": "Heated and cooled storage options for temperature-sensitive materials.",
+        "icon": "fa-solid fa-temperature-half"
+      },
+      {
+        "title": "Compliance & Safety",
+        "desc": "Fully certified storage solutions meeting all UK environmental regulations.",
+        "icon": "fa-solid fa-shield-check"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-1.jpg",
+        "alt": "Emergency Liquid Storage - Waste Management Image 1",
+        "title": "Emergency Liquid Storage - Waste Management 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-2.jpg",
+        "alt": "Emergency Liquid Storage - Waste Management Image 2",
+        "title": "Emergency Liquid Storage - Waste Management 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-3.jpg",
+        "alt": "Emergency Liquid Storage - Waste Management Image 3",
+        "title": "Emergency Liquid Storage - Waste Management 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-4.jpg",
+        "alt": "Emergency Liquid Storage - Waste Management Image 4",
+        "title": "Emergency Liquid Storage - Waste Management 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-5.jpg",
+        "alt": "Emergency Liquid Storage - Waste Management Image 5",
+        "title": "Emergency Liquid Storage - Waste Management 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-6.jpg",
+        "alt": "Emergency Liquid Storage - Waste Management Image 6",
+        "title": "Emergency Liquid Storage - Waste Management 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-7.webp",
+        "alt": "Emergency Liquid Storage - Waste Management Image 7",
+        "title": "Emergency Liquid Storage - Waste Management 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-8.webp",
+        "alt": "Emergency Liquid Storage - Waste Management Image 8",
+        "title": "Emergency Liquid Storage - Waste Management 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-9.webp",
+        "alt": "Emergency Liquid Storage - Waste Management Image 9",
+        "title": "Emergency Liquid Storage - Waste Management 9"
+      }
+    ]
+  },
+  "emergency-bulk-storage.co.uk": {
+    "title": "Industrial Emergency Storage",
+    "text": "Require bulk liquid storage at short notice? We provide industrial-scale containment solutions, including tanks, pumps, and monitoring equipment, for all emergency situations with 24/7 rapid deployment.",
+    "forYou": "When your industrial operation needs large-capacity liquid storage with minimal notice, our emergency bulk storage solutions provide the answer. We specialise in rapid deployment of industrial-scale containment systems, complete with pumps, monitoring equipment and all necessary infrastructure. Our systems accommodate chemicals, effluent, waste water, and sensitive materials with volumes suitable for major industrial requirements.",
+    "heroImg": "assets/website-hero-images/pump-station.png",
+    "video": "www.youtube.com/watch?v=EgXahIFszfE",
+    "services": [
+      {
+        "title": "Emergency Deployment",
+        "desc": "24/7 rapid deployment of bulk storage tanks and containers.",
+        "icon": "fa-solid fa-truck-fast"
+      },
+      {
+        "title": "Industrial Capacity",
+        "desc": "Large-volume storage solutions for commercial and industrial requirements.",
+        "icon": "fa-solid fa-warehouse"
+      },
+      {
+        "title": "Multi-Liquid Compatibility",
+        "desc": "Specialised storage for chemicals, waste water, and sensitive materials.",
+        "icon": "fa-solid fa-flask"
+      },
+      {
+        "title": "Temporary Infrastructure",
+        "desc": "Complete setup including pumps, pipes, and monitoring equipment.",
+        "icon": "fa-solid fa-toolbox"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/Pump-Station/pump-station-1.jpg",
+        "alt": "Industrial Emergency Storage - Pump Station Image 1",
+        "title": "Industrial Emergency Storage - Pump Station 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/Pump-Station/pump-station-2.jpg",
+        "alt": "Industrial Emergency Storage - Pump Station Image 2",
+        "title": "Industrial Emergency Storage - Pump Station 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/Pump-Station/pump-station-3.jpg",
+        "alt": "Industrial Emergency Storage - Pump Station Image 3",
+        "title": "Industrial Emergency Storage - Pump Station 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/Pump-Station/pump-station-4.jpg",
+        "alt": "Industrial Emergency Storage - Pump Station Image 4",
+        "title": "Industrial Emergency Storage - Pump Station 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/Pump-Station/pump-station-5.jpg",
+        "alt": "Industrial Emergency Storage - Pump Station Image 5",
+        "title": "Industrial Emergency Storage - Pump Station 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/Pump-Station/pump-station-6.jpg",
+        "alt": "Industrial Emergency Storage - Pump Station Image 6",
+        "title": "Industrial Emergency Storage - Pump Station 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/Pump-Station/pump-station-7.jpg",
+        "alt": "Industrial Emergency Storage - Pump Station Image 7",
+        "title": "Industrial Emergency Storage - Pump Station 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/Pump-Station/pump-station-8.jpg",
+        "alt": "Industrial Emergency Storage - Pump Station Image 8",
+        "title": "Industrial Emergency Storage - Pump Station 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/Pump-Station/pump-station-9.jpg",
+        "alt": "Industrial Emergency Storage - Pump Station Image 9",
+        "title": "Industrial Emergency Storage - Pump Station 9"
+      }
+    ]
+  },
+  "emergency-liquid-storage.co.uk": {
+    "title": "Urgent Liquid Containment",
+    "text": "Facing an urgent liquid storage crisis? We deliver safe, efficient options, including mobile units for on-site containment and specialist hazardous storage with immediate deployment.",
+    "forYou": "When liquid containment emergencies arise, our rapid-response solutions help you regain control quickly. We specialise in deploying mobile storage units directly to your site, allowing for immediate containment of spills, leaks or unexpected volumes. Our systems are suitable for hazardous and non-hazardous liquids, with specialist options for corrosive or sensitive materials.",
+    "heroImg": "assets/website-hero-images/liquid-waste.png",
+    "video": "www.youtube.com/watch?v=M2eBeHSSKHM",
+    "services": [
+      {
+        "title": "Crisis Response",
+        "desc": "Immediate deployment of storage solutions during environmental emergencies.",
+        "icon": "fa-solid fa-triangle-exclamation"
+      },
+      {
+        "title": "Mobile Storage Units",
+        "desc": "Flexible, transportable containers for on-site liquid containment.",
+        "icon": "fa-solid fa-truck-container"
+      },
+      {
+        "title": "Secure Hazardous Storage",
+        "desc": "Specialist containment for hazardous and corrosive liquids.",
+        "icon": "fa-solid fa-skull-crossbones"
+      },
+      {
+        "title": "Technical Support",
+        "desc": "Expert assistance with setup, monitoring and maintenance.",
+        "icon": "fa-solid fa-headset"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-1.webp",
+        "alt": "Urgent Liquid Containment - Tanker Image 1",
+        "title": "Urgent Liquid Containment - Tanker 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-2.webp",
+        "alt": "Urgent Liquid Containment - Tanker Image 2",
+        "title": "Urgent Liquid Containment - Tanker 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-3.webp",
+        "alt": "Urgent Liquid Containment - Tanker Image 3",
+        "title": "Urgent Liquid Containment - Tanker 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-4.webp",
+        "alt": "Urgent Liquid Containment - Tanker Image 4",
+        "title": "Urgent Liquid Containment - Tanker 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-5.webp",
+        "alt": "Urgent Liquid Containment - Tanker Image 5",
+        "title": "Urgent Liquid Containment - Tanker 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-6.webp",
+        "alt": "Urgent Liquid Containment - Tanker Image 6",
+        "title": "Urgent Liquid Containment - Tanker 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-7.jpeg",
+        "alt": "Urgent Liquid Containment - Tanker Image 7",
+        "title": "Urgent Liquid Containment - Tanker 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-8.jpg",
+        "alt": "Urgent Liquid Containment - Tanker Image 8",
+        "title": "Urgent Liquid Containment - Tanker 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-9.webp",
+        "alt": "Urgent Liquid Containment - Tanker Image 9",
+        "title": "Urgent Liquid Containment - Tanker 9"
+      }
+    ]
+  },
+  "hazardouswasteliquiddisposal.co.uk": {
+    "title": "Hazardous Liquid Disposal",
+    "text": "Professional hazardous liquid waste disposal services throughout the UK. Our specialist team provides compliant collection, transportation and treatment of dangerous liquid wastes from industrial, commercial and laboratory sources.",
+    "forYou": "Our specialist hazardous waste liquid disposal service delivers compliant, environmentally responsible solutions for dangerous liquid wastes. We understand the complex nature of hazardous liquids and the strict regulatory framework governing their disposal, providing professional management from collection through to final treatment. Our comprehensive service handles all types of hazardous liquid wastes including chemical solutions, contaminated waters, oils, solvents, acids, alkalis, coolants, pharmaceutical liquids, and laboratory wastes.",
+    "heroImg": "assets/website-hero-images/liquid-waste.png",
+    "video": "www.youtube.com/watch?v=M2eBeHSSKHM",
+    "services": [
+      {
+        "title": "Chemical Liquid Disposal",
+        "desc": "Specialist treatment of hazardous chemical solutions.",
+        "icon": "fa-solid fa-flask"
+      },
+      {
+        "title": "Laboratory Waste Collection",
+        "desc": "Compliant disposal of laboratory chemicals and reagents.",
+        "icon": "fa-solid fa-vial"
+      },
+      {
+        "title": "Industrial Liquid Treatment",
+        "desc": "Processing of bulk hazardous industrial liquids.",
+        "icon": "fa-solid fa-industry"
+      },
+      {
+        "title": "ADR-Compliant Transportation",
+        "desc": "Licensed carriage of dangerous goods by road.",
+        "icon": "fa-solid fa-truck-container"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-1.jpg",
+        "alt": "Hazardous Liquid Disposal - Waste Management Image 1",
+        "title": "Hazardous Liquid Disposal - Waste Management 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-2.jpg",
+        "alt": "Hazardous Liquid Disposal - Waste Management Image 2",
+        "title": "Hazardous Liquid Disposal - Waste Management 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-3.jpg",
+        "alt": "Hazardous Liquid Disposal - Waste Management Image 3",
+        "title": "Hazardous Liquid Disposal - Waste Management 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-4.jpg",
+        "alt": "Hazardous Liquid Disposal - Waste Management Image 4",
+        "title": "Hazardous Liquid Disposal - Waste Management 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-5.jpg",
+        "alt": "Hazardous Liquid Disposal - Waste Management Image 5",
+        "title": "Hazardous Liquid Disposal - Waste Management 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-6.jpg",
+        "alt": "Hazardous Liquid Disposal - Waste Management Image 6",
+        "title": "Hazardous Liquid Disposal - Waste Management 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-7.webp",
+        "alt": "Hazardous Liquid Disposal - Waste Management Image 7",
+        "title": "Hazardous Liquid Disposal - Waste Management 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-8.webp",
+        "alt": "Hazardous Liquid Disposal - Waste Management Image 8",
+        "title": "Hazardous Liquid Disposal - Waste Management 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-9.webp",
+        "alt": "Hazardous Liquid Disposal - Waste Management Image 9",
+        "title": "Hazardous Liquid Disposal - Waste Management 9"
+      }
+    ]
+  },
+  "hazardwaste.co.uk": {
+    "title": "Complete Hazardous Waste Management",
+    "text": "Professional hazardous waste management services throughout the UK. Our specialist team provides comprehensive solutions for the identification, collection, transportation and disposal of all hazardous waste types.",
+    "forYou": "Our professional hazardous waste service delivers complete management solutions for dangerous and regulated wastes of all categories. We understand the complex challenges presented by hazardous waste streams, providing expert services that ensure compliance whilst protecting both human health and the environment. Our comprehensive service covers all aspects of hazardous waste management from initial characterisation and classification through to compliant collection, transportation, treatment, and disposal.",
+    "heroImg": "assets/website-hero-images/liquid-waste.png",
+    "video": "www.youtube.com/watch?v=11X2ye7wDZ4",
+    "services": [
+      {
+        "title": "Hazardous Waste Collection",
+        "desc": "Compliant collection of all hazardous waste categories.",
+        "icon": "fa-solid fa-truck-container"
+      },
+      {
+        "title": "Dangerous Goods Transport",
+        "desc": "ADR-compliant transportation of hazardous materials.",
+        "icon": "fa-solid fa-truck-moving"
+      },
+      {
+        "title": "Waste Classification",
+        "desc": "Expert classification and assessment of waste streams.",
+        "icon": "fa-solid fa-tags"
+      },
+      {
+        "title": "Complete Documentation",
+        "desc": "Comprehensive paperwork for regulatory compliance.",
+        "icon": "fa-regular fa-file-lines"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-1.jpg",
+        "alt": "Complete Hazardous Waste Management - Waste Management Image 1",
+        "title": "Complete Hazardous Waste Management - Waste Management 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-2.jpg",
+        "alt": "Complete Hazardous Waste Management - Waste Management Image 2",
+        "title": "Complete Hazardous Waste Management - Waste Management 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-3.jpg",
+        "alt": "Complete Hazardous Waste Management - Waste Management Image 3",
+        "title": "Complete Hazardous Waste Management - Waste Management 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-4.jpg",
+        "alt": "Complete Hazardous Waste Management - Waste Management Image 4",
+        "title": "Complete Hazardous Waste Management - Waste Management 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-5.jpg",
+        "alt": "Complete Hazardous Waste Management - Waste Management Image 5",
+        "title": "Complete Hazardous Waste Management - Waste Management 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-6.jpg",
+        "alt": "Complete Hazardous Waste Management - Waste Management Image 6",
+        "title": "Complete Hazardous Waste Management - Waste Management 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-7.webp",
+        "alt": "Complete Hazardous Waste Management - Waste Management Image 7",
+        "title": "Complete Hazardous Waste Management - Waste Management 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-8.webp",
+        "alt": "Complete Hazardous Waste Management - Waste Management Image 8",
+        "title": "Complete Hazardous Waste Management - Waste Management 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-9.webp",
+        "alt": "Complete Hazardous Waste Management - Waste Management Image 9",
+        "title": "Complete Hazardous Waste Management - Waste Management 9"
+      }
+    ]
+  },
+  "hclwaste.com": {
+    "title": "Advanced Waste Management",
+    "text": "Seeking comprehensive waste management, especially for liquids? We deliver complete solutions, leveraging our advanced recycling facility (achieving 99% rates), powerful bespoke tanker fleet including the 'Terminator', and highly experienced team.",
+    "forYou": "Looking for advanced waste management solutions with exceptional environmental credentials? Our comprehensive service combines powerful equipment, including our signature 'Terminator' vacuum tanker, with expert personnel and our own treatment facility achieving 99% recycling rates. We specialise in liquid waste management, from sewage and industrial effluent to hazardous liquids, providing responsive 24/7 service for both scheduled collections and emergencies.",
+    "heroImg": "assets/website-hero-images/liquid-waste.png",
+    "video": "www.youtube.com/watch?v=11X2ye7wDZ4",
+    "services": [
+      {
+        "title": "Liquid Waste Specialists",
+        "desc": "Expertise in handling sewage, industrial effluent, hazardous liquids, and more.",
+        "icon": "fa-solid fa-droplet"
+      },
+      {
+        "title": "Advanced Recycling Facility",
+        "desc": "Our own facility achieves 99% recycling rates for processed wet waste.",
+        "icon": "fa-solid fa-recycle"
+      },
+      {
+        "title": "Powerful Tanker Fleet",
+        "desc": "Including the 'Terminator', the UK's most powerful vacuum tanker, for efficient collection.",
+        "icon": "fa-solid fa-truck-monster"
+      },
+      {
+        "title": "24/7 Emergency Response",
+        "desc": "Rapid deployment for spills, floods, and other waste-related emergencies.",
+        "icon": "fa-solid fa-bolt"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-1.webp",
+        "alt": "Advanced Waste Management - Tanker Image 1",
+        "title": "Advanced Waste Management - Tanker 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-2.webp",
+        "alt": "Advanced Waste Management - Tanker Image 2",
+        "title": "Advanced Waste Management - Tanker 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-3.webp",
+        "alt": "Advanced Waste Management - Tanker Image 3",
+        "title": "Advanced Waste Management - Tanker 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-4.webp",
+        "alt": "Advanced Waste Management - Tanker Image 4",
+        "title": "Advanced Waste Management - Tanker 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-5.webp",
+        "alt": "Advanced Waste Management - Tanker Image 5",
+        "title": "Advanced Waste Management - Tanker 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-6.webp",
+        "alt": "Advanced Waste Management - Tanker Image 6",
+        "title": "Advanced Waste Management - Tanker 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-7.jpeg",
+        "alt": "Advanced Waste Management - Tanker Image 7",
+        "title": "Advanced Waste Management - Tanker 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-8.jpg",
+        "alt": "Advanced Waste Management - Tanker Image 8",
+        "title": "Advanced Waste Management - Tanker 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-9.webp",
+        "alt": "Advanced Waste Management - Tanker Image 9",
+        "title": "Advanced Waste Management - Tanker 9"
+      }
+    ]
+  },
+  "liquid-ingenuity.co.uk": {
+    "title": "Innovative Liquid Waste Solutions",
+    "text": "Facing complex liquid waste challenges? We apply innovative thinking and advanced technology, like our state-of-the-art 'Terminator' tanker, to deliver effective, bespoke solutions with a focus on resource recovery.",
+    "forYou": "When standard liquid waste solutions aren't sufficient for your complex challenges, our innovative approach delivers results. We combine creative problem-solving with advanced technology, including our powerful 'Terminator' vacuum tanker, to tackle difficult liquid waste scenarios that others can't handle. Our experienced team analyses your specific requirements to develop bespoke strategies that maximise efficiency and sustainability.",
+    "heroImg": "assets/website-hero-images/liquid-waste.png",
+    "video": "www.youtube.com/watch?v=x94tjxcArU8",
+    "services": [
+      {
+        "title": "Innovative Waste Solutions",
+        "desc": "Developing bespoke solutions for complex liquid waste management problems.",
+        "icon": "fa-solid fa-lightbulb"
+      },
+      {
+        "title": "Advanced Technology Fleet",
+        "desc": "Utilising state-of-the-art tankers and equipment like 'The Terminator'.",
+        "icon": "fa-solid fa-robot"
+      },
+      {
+        "title": "Resource Recovery Focus",
+        "desc": "Maximising recycling (99% rate) and resource recovery from wet waste.",
+        "icon": "fa-solid fa-recycle"
+      },
+      {
+        "title": "Experienced Problem Solvers",
+        "desc": "Decades of experience in tackling diverse and challenging liquid waste scenarios.",
+        "icon": "fa-solid fa-user-gear"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-1.webp",
+        "alt": "Innovative Liquid Waste Solutions - Tanker Image 1",
+        "title": "Innovative Liquid Waste Solutions - Tanker 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-2.webp",
+        "alt": "Innovative Liquid Waste Solutions - Tanker Image 2",
+        "title": "Innovative Liquid Waste Solutions - Tanker 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-3.webp",
+        "alt": "Innovative Liquid Waste Solutions - Tanker Image 3",
+        "title": "Innovative Liquid Waste Solutions - Tanker 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-4.webp",
+        "alt": "Innovative Liquid Waste Solutions - Tanker Image 4",
+        "title": "Innovative Liquid Waste Solutions - Tanker 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-5.webp",
+        "alt": "Innovative Liquid Waste Solutions - Tanker Image 5",
+        "title": "Innovative Liquid Waste Solutions - Tanker 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-6.webp",
+        "alt": "Innovative Liquid Waste Solutions - Tanker Image 6",
+        "title": "Innovative Liquid Waste Solutions - Tanker 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-7.jpeg",
+        "alt": "Innovative Liquid Waste Solutions - Tanker Image 7",
+        "title": "Innovative Liquid Waste Solutions - Tanker 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-8.jpg",
+        "alt": "Innovative Liquid Waste Solutions - Tanker Image 8",
+        "title": "Innovative Liquid Waste Solutions - Tanker 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-9.webp",
+        "alt": "Innovative Liquid Waste Solutions - Tanker Image 9",
+        "title": "Innovative Liquid Waste Solutions - Tanker 9"
+      }
+    ]
+  },
+  "liquid-waste.co.uk": {
+    "title": "Professional Liquid Waste Services",
+    "text": "Require professional removal of any liquid waste? We handle it all \u2013 hazardous or non-hazardous \u2013 using powerful vacuum tankers for efficient collection with a 99% recycling rate at our own treatment facility.",
+    "forYou": "For professional handling of all liquid waste types, our comprehensive collection and disposal service delivers reliable, compliant solutions. We manage the complete process, from efficient collection using our advanced vacuum tanker fleet through to sustainable treatment at our own licensed facility. Whether you need regular scheduled services or one-off collections, we handle hazardous and non-hazardous liquids including sewage, sludge, industrial effluent, interceptor waste, and contaminated water.",
+    "heroImg": "assets/website-hero-images/liquid-waste.png",
+    "video": "www.youtube.com/watch?v=EgXahIFszfE",
+    "services": [
+      {
+        "title": "Hazardous & Non-Hazardous Disposal",
+        "desc": "Safe collection and environmentally responsible disposal of all liquid waste types, from sewage to industrial effluent.",
+        "icon": "fa-solid fa-biohazard"
+      },
+      {
+        "title": "Interceptor Cleaning",
+        "desc": "Professional cleaning of oil/water separators and grease traps to maintain compliance with environmental regulations.",
+        "icon": "fa-solid fa-filter"
+      },
+      {
+        "title": "Advanced Vacuum Tankers",
+        "desc": "Powerful fleet capable of collecting sewage sludge, drilling slurry, flood water, and more.",
+        "icon": "fa-solid fa-truck-monster"
+      },
+      {
+        "title": "99% Recycling Rate",
+        "desc": "Commitment to sustainability through our own waste treatment and recycling facility, minimising landfill.",
+        "icon": "fa-solid fa-recycle"
+      }
+    ],
+    "testimonials": [
+      {
+        "text": "Hydro-Cleansing handles all our liquid waste efficiently and professionally. Their recycling rate gives us confidence in our environmental commitments.",
+        "author": "Site Manager, Manufacturing Plant"
+      },
+      {
+        "text": "The team responded incredibly quickly to an emergency spill, containing and removing the hazardous liquid waste safely. Excellent service.",
+        "author": "Health & Safety Officer, Logistics Firm"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-1.jpg",
+        "alt": "Professional Liquid Waste Services - Waste Management Image 1",
+        "title": "Professional Liquid Waste Services - Waste Management 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-2.jpg",
+        "alt": "Professional Liquid Waste Services - Waste Management Image 2",
+        "title": "Professional Liquid Waste Services - Waste Management 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-3.jpg",
+        "alt": "Professional Liquid Waste Services - Waste Management Image 3",
+        "title": "Professional Liquid Waste Services - Waste Management 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-4.jpg",
+        "alt": "Professional Liquid Waste Services - Waste Management Image 4",
+        "title": "Professional Liquid Waste Services - Waste Management 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-5.jpg",
+        "alt": "Professional Liquid Waste Services - Waste Management Image 5",
+        "title": "Professional Liquid Waste Services - Waste Management 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-6.jpg",
+        "alt": "Professional Liquid Waste Services - Waste Management Image 6",
+        "title": "Professional Liquid Waste Services - Waste Management 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-7.webp",
+        "alt": "Professional Liquid Waste Services - Waste Management Image 7",
+        "title": "Professional Liquid Waste Services - Waste Management 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-8.webp",
+        "alt": "Professional Liquid Waste Services - Waste Management Image 8",
+        "title": "Professional Liquid Waste Services - Waste Management 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-9.webp",
+        "alt": "Professional Liquid Waste Services - Waste Management Image 9",
+        "title": "Professional Liquid Waste Services - Waste Management 9"
+      }
+    ]
+  },
+  "liquid-waste.uk": {
+    "title": "UK Liquid Waste Experts",
+    "text": "Operating nationwide, we are the UK experts in managing all liquid waste streams. Our modern tanker fleet ensures efficient collection across the country, followed by compliant transport and sustainable treatment or recycling.",
+    "forYou": "Managing liquid waste effectively requires nationwide coverage and specialist capabilities. Our UK-wide service provides complete liquid waste management solutions for all sectors, from regular scheduled collections to emergency response. We handle all liquid waste types including sewage, sludge, industrial effluents, and hazardous liquids, using our modern fleet of vacuum tankers.",
+    "heroImg": "assets/website-hero-images/liquid-waste.png",
+    "video": "www.youtube.com/watch?v=11X2ye7wDZ4",
+    "services": [
+      {
+        "title": "Nationwide Collection Service",
+        "desc": "Vacuum tanker fleet operating across the UK for efficient liquid waste collection.",
+        "icon": "fa-solid fa-truck"
+      },
+      {
+        "title": "All Liquid Waste Types",
+        "desc": "Handling sewage, sludge, industrial effluent, hazardous liquids, grease, oils, etc.",
+        "icon": "fa-solid fa-fill-drip"
+      },
+      {
+        "title": "Compliant Transport & Disposal",
+        "desc": "Fully licensed waste carriers ensuring legal and environmentally sound disposal.",
+        "icon": "fa-solid fa-shield-check"
+      },
+      {
+        "title": "Emergency Spill Response",
+        "desc": "24/7 availability across the UK for urgent liquid waste spills and incidents.",
+        "icon": "fa-solid fa-triangle-exclamation"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-1.webp",
+        "alt": "UK Liquid Waste Experts - Tanker Image 1",
+        "title": "UK Liquid Waste Experts - Tanker 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-2.webp",
+        "alt": "UK Liquid Waste Experts - Tanker Image 2",
+        "title": "UK Liquid Waste Experts - Tanker 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-3.webp",
+        "alt": "UK Liquid Waste Experts - Tanker Image 3",
+        "title": "UK Liquid Waste Experts - Tanker 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-4.webp",
+        "alt": "UK Liquid Waste Experts - Tanker Image 4",
+        "title": "UK Liquid Waste Experts - Tanker 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-5.webp",
+        "alt": "UK Liquid Waste Experts - Tanker Image 5",
+        "title": "UK Liquid Waste Experts - Tanker 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-6.webp",
+        "alt": "UK Liquid Waste Experts - Tanker Image 6",
+        "title": "UK Liquid Waste Experts - Tanker 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-7.jpeg",
+        "alt": "UK Liquid Waste Experts - Tanker Image 7",
+        "title": "UK Liquid Waste Experts - Tanker 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-8.jpg",
+        "alt": "UK Liquid Waste Experts - Tanker Image 8",
+        "title": "UK Liquid Waste Experts - Tanker 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-9.webp",
+        "alt": "UK Liquid Waste Experts - Tanker Image 9",
+        "title": "UK Liquid Waste Experts - Tanker 9"
+      }
+    ]
+  }
+}

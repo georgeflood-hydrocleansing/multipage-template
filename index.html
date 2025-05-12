@@ -1,0 +1,2084 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#3ed2a7" />
+
+    <link rel="shortcut icon" href="./assets/img/favicon.png" />
+
+    <title>Loading...</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,700"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="assets/vendors/liquid-icon/liquid-icon.min.css"
+    />
+    <!-- Replace old Font Awesome with Font Awesome 6 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/theme-vendors.min.css" />
+    <link rel="stylesheet" href="assets/css/theme.min.css" />
+    <link rel="stylesheet" href="assets/css/themes/creative.css" />
+
+    <!-- Head Libs -->
+    <script async src="assets/vendors/modernizr.min.js"></script>
+  </head>
+  <body
+    data-mobile-nav-trigger-alignment="right"
+    data-mobile-nav-align="left"
+    data-mobile-nav-style="modern"
+    data-mobile-nav-shceme="gray"
+    data-mobile-header-scheme="gray"
+    data-mobile-nav-breakpoint="1199"
+  >
+    <!-- Loading Overlay -->
+    <div id="loading-overlay">
+      <div class="spinner-container">
+        <div class="spinner"></div>
+        <p>Loading...</p>
+      </div>
+    </div>
+    <style>
+      #loading-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.98);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+      }
+      .spinner-container {
+        text-align: center;
+      }
+      .spinner {
+        width: 50px;
+        height: 50px;
+        border: 5px solid rgba(254, 80, 108, 0.2);
+        border-top-color: rgb(254, 80, 108);
+        border-radius: 50%;
+        margin: 0 auto 20px;
+        animation: spin 1s linear infinite;
+      }
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      #loading-overlay p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        color: #333;
+      }
+    </style>
+    <!-- /. Loading Overlay -->
+
+    <div id="wrap">
+      <header
+        class="main-header main-header-overlay"
+        data-sticky-header="true"
+        data-sticky-options='{ "stickyTrigger": "first-section" }'
+      >
+        <div class="mainbar-wrap">
+          <div class="megamenu-hover-bg"></div>
+          <!-- /.megamenu-hover-bg -->
+          <div class="container-fluid mainbar-container">
+            <div class="mainbar">
+              <div class="row mainbar-row align-items-lg-stretch px-4">
+                <div class="col-auto pr-5">
+                  <div class="navbar-header">
+                    <button
+                      type="button"
+                      class="navbar-toggle collapsed nav-trigger style-mobile"
+                      data-toggle="collapse"
+                      data-target="#main-header-collapse"
+                      aria-expanded="false"
+                      data-changeclassnames='{ "html": "mobile-nav-activated overflow-hidden" }'
+                    >
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="bars">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                      </span>
+                    </button>
+                  </div>
+                  <!-- /.navbar-header -->
+                </div>
+                <!-- /.col -->
+
+                <div class="col">
+                  <div
+                    class="collapse navbar-collapse"
+                    id="main-header-collapse"
+                  >
+                    <ul
+                      id="primary-nav"
+                      class="main-nav nav align-items-lg-stretch justify-content-lg-start"
+                      data-submenu-options='{ "toggleType":"fade", "handler":"mouse-in-out" }'
+                      data-localscroll="true"
+                    >
+                      <li>
+                        <a href="#content">
+                          <span class="link-icon"></span>
+                          <span class="link-txt">
+                            <span class="link-ext"></span>
+                            <span class="txt">Home</span>
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#services">
+                          <span class="link-icon"></span>
+                          <span class="link-txt">
+                            <span class="link-ext"></span>
+                            <span class="txt">Services</span>
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#works">
+                          <span class="link-icon"></span>
+                          <span class="link-txt">
+                            <span class="link-ext"></span>
+                            <span class="txt">Works</span>
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#about">
+                          <span class="link-icon"></span>
+                          <span class="link-txt">
+                            <span class="link-ext"></span>
+                            <span class="txt">About</span>
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#testimonials">
+                          <span class="link-icon"></span>
+                          <span class="link-txt">
+                            <span class="link-ext"></span>
+                            <span class="txt">Testimonials</span>
+                          </span>
+                        </a>
+                      </li>
+                    </ul>
+                    <!-- /#primary-nav  -->
+                  </div>
+                  <!-- /#main-header-collapse -->
+                </div>
+                <!-- /.col -->
+
+                <div class="col text-right">
+                  <div class="header-module">
+                    <a
+                      href="#"
+                      target="_blank"
+                      class="btn btn-default text-uppercase circle btn-bordered border-thick font-size-12 font-weight-semibold btn-white"
+                    ></a>
+                  </div>
+                  <!-- /.header-module -->
+                </div>
+                <!-- /.col -->
+              </div>
+              <!-- /.mainbar-row -->
+            </div>
+            <!-- /.mainbar -->
+          </div>
+          <!-- /.mainbar-container -->
+        </div>
+        <!-- /.mainbar-wrap -->
+      </header>
+      <!-- /.main-header -->
+
+      <main id="content" class="content">
+        <section
+          class="vc_row fullheight d-flex flex-wrap align-items-center pb-50"
+        >
+          <div class="lqd-particles-bg-wrap">
+            <div class="ld-particles-container">
+              <div
+                class="ld-particles-inner"
+                id="ld-1527244273759-519b63e0-a9d6"
+                data-particles="true"
+                data-particles-options='{"particles":{"number":{"value":5,"density":2},"color":{"value":["#F45827","#FF7B0D","#FF2A08","#FF9403"]},"shape":{"type":["circle","edge","triangle"]},"size":{"value":55,"random":true,"anim":{"enable":true,"size_min":40,"speed":5}},"move":{"enable":true,"direction":"right","speed":1,"random":true,"out_mode":"out","attract":{"enable":true,"rotateX":1200,"rotateY":600}}},"interactivity":[],"retina_detect":true}'
+              ></div>
+            </div>
+          </div>
+          <!-- /.lqd-particles-bg-wrap -->
+
+          <div class="container">
+            <div class="row d-flex flex-wrap align-items-center">
+              <div
+                class="lqd-column col-lg-5 col-md-6 lqd-column"
+                data-custom-animations="true"
+                data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":1200,"delay":100,"initValues":{"translateY":50,"opacity":0},"animations":{"translateY":0,"opacity":1}}'
+              >
+                <div class="ld-fancy-heading mask-text">
+                  <h1
+                    id="hero-title"
+                    data-split-text="true"
+                    data-custom-animations="true"
+                    data-ca-options='{"triggerHandler":"inview","animationTarget":".split-inner","duration":1200,"delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"scale":1},"animations":{"scale":1}}'
+                    data-split-options='{"type":"lines"}'
+                  >
+                    <span class="ld-fh-txt">Adventures in creative age</span>
+                  </h1>
+                </div>
+                <!-- /.ld-fancy-heading -->
+
+                <div class="ld-fancy-heading mask-text mb-75">
+                  <p
+                    id="hero-text"
+                    class="subtitle lead"
+                    data-split-text="true"
+                    data-custom-animations="true"
+                    data-ca-options='{"triggerHandler":"inview","animationTarget":".split-inner","duration":1200,"delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"scale":1},"animations":{"scale":1}}'
+                    data-split-options='{"type":"lines"}'
+                  >
+                    <span class="ld-fh-txt">
+                      We believe that designing products and services in close
+                      partnership with our clients is the only way to have a
+                      real impact on their business.
+                    </span>
+                  </p>
+                </div>
+                <!-- /.ld-fancy-heading -->
+
+                <div class="row">
+                  <div class="lqd-column col-sm-6 mb-3 mb-md-0">
+                    <a
+                      href="#contact"
+                      class="btn btn-solid text-uppercase circle btn-bordered border-thin font-size-14 font-weight-semibold"
+                    >
+                      <span>
+                        <span class="btn-txt">Contact For Free Quote</span>
+                      </span>
+                    </a>
+                  </div>
+                  <!-- /.col-sm-6 -->
+
+                  <!-- <div class="lqd-column col-sm-6">
+                    <div class="ld-fancy-heading">
+                      <p>
+                        <span class="ld-fh-txt">
+                          <strong>
+                            <span style="color: #fe688b">
+                              Call us (0123) 456 – 789
+                            </span>
+                          </strong>
+                          <br />
+                          <span style="color: #a7a9b8">
+                            For any question or concern
+                          </span>
+                        </span>
+                      </p>
+                    </div>
+                  </div> -->
+                  <!-- /.col-sm-6 -->
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- /.col-lg-5 col-md-6 -->
+
+              <div
+                class="lqd-column col-lg-7 col-md-6 hidden-xs hidden-sm hidden-md"
+              >
+                <div class="ld-masked-image" data-dynamic-shape="true">
+                  <svg
+                    version="1.1"
+                    class="scene"
+                    width="0"
+                    height="0"
+                    preserveAspectRatio="none"
+                    viewBox="0 0 1440 800"
+                  >
+                    <defs>
+                      <clipPath id="masked-image-1">
+                        <path
+                          fill="black"
+                          d="M131,40 C84.135,83.534 96.819,148.446 63.283,217.394 C31.508,282.723 -3.621,324.812 1.461,394.323 C3.451,421.533 12.117,449.828 29.796,480.002 C87.412,578.34 -15.301,663.448 94.611,833.387 C156.302,928.77 316.559,918.015 435.971,936.052 C572.741,956.711 653.384,1003.601 753.566,971.715 C877.689,932.209 924.99262,809.932822 972.63862,707.700822 C1063.84662,512.000822 1038.71071,197.732895 884.476705,67.2268952 C788.919705,-13.6291048 714.704,70.008 529,43 C339.693,15.468 212.609,-35.808 131,40 Z"
+                          pathdata:id="
+											M175.270836,26.7977911 C128.405836,70.3317911 129.938279,144.739124 96.4022789,213.687124 C64.6272789,279.016124 41.242383,286.071679 46.324383,355.582679 C48.314383,382.792679 79.5246278,459.251586 88.7738696,492.334164 C116.497714,591.496483 -75.3047466,680.552915 34.6072534,850.491915 C96.2982534,945.874915 281.559,906.015 400.971,924.052 C537.741,944.711 678.161685,902.348368 778.343685,870.462368 C902.466685,830.956368 927.354,806.232 975,704 C1066.208,508.3 1058.68971,185.848951 896.455709,55.3429506 C800.898709,-25.5130494 778.027661,117.60054 600.323661,90.5925401 C411.016661,63.0605401 256.879836,-49.0102089 175.270836,26.7977911 Z;
+											M200.391256,6 C138.06059,22.7990703 77.9622177,42.6445401 44.4262177,111.59254 C12.6512177,176.92154 -4.1051307,212.01786 0.976869296,281.52886 C2.9668693,308.73886 99.0297526,534.545109 108.278994,567.627688 C136.002839,666.790006 -29.1381304,721.523368 80.7738696,891.462368 C142.46487,986.845368 331.636556,840.153183 451.048556,858.190183 C587.818556,878.849183 705.371102,948.496676 805.553102,916.610676 C929.676102,877.104676 941.497784,689.3436 989.143784,587.1116 C1080.35178,391.4116 1050.68971,206.848951 896.455709,76.3429506 C800.898709,-4.5130494 778.027661,138.60054 592.323661,111.59254 C403.016661,84.0605401 312.765712,-24.2866392 200.391256,6 Z"
+                        />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <figure
+                    class="clip-svg"
+                    data-responsive-bg="true"
+                    style="
+                      clip-path: url(#masked-image-1);
+                      -webkit-clip-path: url(#masked-image-1);
+                    "
+                  >
+                    <img
+                      id="hero-img"
+                      src="./assets/website-hero-images/liquid-waste.png"
+                      alt="Image"
+                      style="
+                        width: 100% !important;
+                        height: 100% !important;
+                        object-fit: contain !important;
+                        object-position: center !important;
+                        display: block !important;
+                      "
+                    />
+                  </figure>
+                </div>
+                <!-- /ld-masked-image -->
+              </div>
+              <!-- /.col-lg-7 col-md-6 -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.container -->
+        </section>
+
+        <section
+          id="services"
+          class="vc_row pt-90 pb-90 bg-no-repeat"
+          style="
+            background-image: url(./assets/demo/bg/bg-77.svg);
+            background-position: 500% 0%;
+          "
+        >
+          <div class="container">
+            <div class="row d-flex flex-wrap align-items-center">
+              <div
+                class="lqd-column col-md-5 mb-30"
+                data-custom-animations="true"
+                data-ca-options='{"triggerHandler":"inview", "animationTarget":"all-childs", "duration":"1600", "delay":"160", "easing":"easeOutQuint", "direction":"forward", "initValues":{"translateY":30, "opacity":0}, "animations":{"translateY":0, "opacity":1}}'
+              >
+                <header class="fancy-title pr-md-4">
+                  <h6 class="text-uppercase">Services</h6>
+                  <h2>
+                    <strong>Best solutions</strong>
+                    for you
+                  </h2>
+                </header>
+
+                <p class="font-size-18 lh-15 mb-55" id="for-you-text">
+                  We provide professional water-based cleaning services
+                  throughout Croydon and surrounding areas. Our services
+                  include:
+                  <br />
+                  <br />
+
+                  <strong>For residential and commercial properties</strong>
+                  , we offer high-pressure jet washing for driveways, patios and
+                  decking. Using only water (no chemicals), we effectively
+                  remove moss, algae and built-up grime to restore surfaces to
+                  their original condition.
+                  <br />
+                  <br />
+
+                  <strong>For industrial and commercial clients</strong>
+                  , we deliver comprehensive drainage solutions including
+                  emergency unblocking, CCTV surveys, liquid waste management
+                  and flood response. Our 24/7 service ensures rapid response
+                  when you need it most.
+                  <br />
+                  <br />
+
+                  With years of experience in the Croydon area, we're committed
+                  to environmentally responsible methods whilst delivering
+                  exceptional results. Whether you need exterior cleaning or
+                  complex drainage solutions, our specialist equipment and
+                  trained technicians ensure professional service every time.
+                  <br />
+                  <br />
+
+                  <strong>
+                    Contact us today for a free, no-obligation quote.
+                  </strong>
+                </p>
+
+                <a
+                  href="tel:08007408888"
+                  class="btn btn-solid text-uppercase btn-md circle btn-bordered border-thin btn-gradient font-weight-bold px-2"
+                >
+                  <span>
+                    <span class="btn-gradient-bg"></span>
+                    <span class="btn-txt">Call us now: 0800 740 8888</span>
+                    <span class="btn-gradient-bg btn-gradient-bg-hover"></span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xml:space="preserve"
+                      class="btn-gradient-border"
+                      width="100%"
+                      height="100%"
+                    >
+                      <defs>
+                        <linearGradient
+                          id="svg-border-3"
+                          x1="0%"
+                          y1="0%"
+                          x2="100%"
+                          y2="0%"
+                        >
+                          <stop offset="0%"></stop>
+                          <stop offset="100%"></stop>
+                        </linearGradient>
+                      </defs>
+                      <rect
+                        x="0.5"
+                        y="0.5"
+                        rx="29.5"
+                        ry="29.5"
+                        width="100%"
+                        height="100%"
+                        stroke="url(#svg-border-3)"
+                      ></rect>
+                    </svg>
+                  </span>
+                </a>
+              </div>
+              <!-- /.lqd-column col-md-5 -->
+
+              <div class="lqd-column col-md-3 col-md-offset-1">
+                <div
+                  class="lqd-column-inner"
+                  data-parallax="true"
+                  data-parallax-from='{"translateY":-30}'
+                  data-parallax-to='{"translateY":120}'
+                  data-parallax-options='{"duration":"2000", "easing":"linear", "reverse":true, "triggerHook":"onEnter", "overflowHidden": false}'
+                >
+                  <div
+                    class="iconbox text-left iconbox-round iconbox-lg iconbox-filled iconbox-filled iconbox-filled-hover iconbox-icon-image iconbox-shadow pt-50 pb-40"
+                  >
+                    <div class="iconbox-icon-wrap">
+                      <span class="iconbox-icon-container mb-35">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          width="42.375"
+                          height="45.188"
+                          viewBox="0 0 42.375 45.188"
+                        >
+                          <defs>
+                            <filter
+                              id="filter-seo-icon-4"
+                              x="0.813"
+                              y="0"
+                              width="42.375"
+                              height="45.188"
+                              filterUnits="userSpaceOnUse"
+                            >
+                              <feImage
+                                preserveAspectRatio="none"
+                                x="0.8125"
+                                y="0"
+                                width="42.375"
+                                height="45.188"
+                                result="image"
+                                xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNDIuMzc1IiBoZWlnaHQ9IjQ1LjE4OCIgdmlld0JveD0iMCAwIDQyLjM3NSA0NS4xODgiPgogIDxkZWZzPgogICAgPHN0eWxlPgogICAgICAuY2xzLTEgewogICAgICAgIGZpbGw6IHVybCgjbGluZWFyLWdyYWRpZW50KTsKICAgICAgfQogICAgPC9zdHlsZT4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50IiB5MT0iMjIuNTk0IiB4Mj0iNDIuMzc1IiB5Mj0iMjIuNTk0IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZlNTA2YyIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmYzZhMmEiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IGNsYXNzPSJjbHMtMSIgd2lkdGg9IjQyLjM3NSIgaGVpZ2h0PSI0NS4xODgiLz4KPC9zdmc+Cg=="
+                              />
+                              <feComposite
+                                result="composite"
+                                operator="in"
+                                in2="SourceGraphic"
+                              />
+                              <feBlend result="blend" in2="SourceGraphic" />
+                            </filter>
+                          </defs>
+                          <path
+                            filter="url(#filter-seo-icon-4)"
+                            d="M26.313,28.406l-8.531-5.719L9.25,28.406V0H26.313V28.406h0Zm-14.25-5.25,5.719-3.937L23.5,23.156V2.813H12.063V23.156h0ZM43.188,2.813H29.031V5.625H40.375v36.75H3.625V5.625H6.438V2.813H0.813V45.188H43.188V2.813h0Z"
+                            transform="translate(-0.813)"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                    <!-- /.iconbox-icon-wrap -->
+                    <div class="contents">
+                      <h3>Branding</h3>
+                      <p class="font-size-16 lh-165">
+                        Introduction and kick-off meeting checklist. Lorem
+                        ispumdolor sit amet. lore
+                      </p>
+                    </div>
+                    <!-- /.contents -->
+                  </div>
+                  <!-- /.iconbox -->
+
+                  <div
+                    class="iconbox text-left iconbox-round iconbox-lg iconbox-filled iconbox-filled iconbox-filled-hover iconbox-icon-image iconbox-shadow pt-50 pb-40"
+                  >
+                    <div class="iconbox-icon-wrap">
+                      <span class="iconbox-icon-container mb-35">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          width="48"
+                          height="42.375"
+                          viewBox="0 0 48 42.375"
+                        >
+                          <defs>
+                            <filter
+                              id="filter-seo-icon-6"
+                              x="0"
+                              y="0.813"
+                              width="48"
+                              height="42.375"
+                              filterUnits="userSpaceOnUse"
+                            >
+                              <feImage
+                                preserveAspectRatio="none"
+                                x="0"
+                                y="0.8125"
+                                width="48"
+                                height="42.375"
+                                result="image"
+                                xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNDgiIGhlaWdodD0iNDIuMzc1IiB2aWV3Qm94PSIwIDAgNDggNDIuMzc1Ij4KICA8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgLmNscy0xIHsKICAgICAgICBmaWxsOiB1cmwoI2xpbmVhci1ncmFkaWVudCk7CiAgICAgIH0KICAgIDwvc3R5bGU+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudCIgeTE9IjIxLjE4OCIgeDI9IjQ4IiB5Mj0iMjEuMTg4IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZlNTA2YyIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmYzZhMmEiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IGNsYXNzPSJjbHMtMSIgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQyLjM3NSIvPgo8L3N2Zz4K"
+                              />
+                              <feComposite
+                                result="composite"
+                                operator="in"
+                                in2="SourceGraphic"
+                              />
+                              <feBlend result="blend" in2="SourceGraphic" />
+                            </filter>
+                          </defs>
+                          <path
+                            filter="url(#filter-seo-icon-6)"
+                            d="M0,0.813H48V43.188H0V0.813H0ZM45.188,9.25V3.625H37.781L44.438,9.25h0.75ZM24.656,17.781h8.25l6.656-5.625h-8.25l-6.656,5.625h0ZM19.219,9.25h8.25L20.813,3.625h-8.25L19.219,9.25h0ZM27,12.156H18.75l-6.656,5.625h8.25L27,12.156h0ZM31.781,9.25h8.25L33.375,3.625h-8.25L31.781,9.25h0ZM2.813,3.625V9.25h12L8.156,3.625H2.813Zm0,8.531v5.625H7.688l6.656-5.625H2.813ZM45.188,40.375V20.594H2.813V40.375H45.188Zm0-22.594V12.156H43.969l-6.656,5.625h7.875Z"
+                            transform="translate(0 -0.813)"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                    <!-- /.iconbox-icon-wrap -->
+                    <div class="contents">
+                      <h3>Animation</h3>
+                      <p class="font-size-16 lh-165">
+                        Introduction and kick-off meeting checklist. Lorem
+                        ispumdolor sit amet.
+                      </p>
+                    </div>
+                    <!-- /.contents -->
+                  </div>
+                  <!-- /.iconbox -->
+                </div>
+                <!-- /.lqd-column-inner -->
+              </div>
+              <!-- /.lqd-column col-md-3 -->
+
+              <div class="lqd-column col-md-3">
+                <div
+                  class="lqd-column-inner"
+                  data-parallax="true"
+                  data-parallax-from='{"translateY":50}'
+                  data-parallax-to='{"translateY":-130}'
+                  data-parallax-options='{"duration":"2000", "easing":"linear", "reverse":true, "triggerHook":"onEnter", "overflowHidden": false}'
+                >
+                  <div
+                    class="iconbox text-left iconbox-round iconbox-lg iconbox-filled iconbox-filled iconbox-filled-hover iconbox-icon-image iconbox-shadow pt-50 pb-40"
+                  >
+                    <div class="iconbox-icon-wrap">
+                      <span class="iconbox-icon-container mb-35">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          width="31.219"
+                          height="48"
+                          viewBox="0 0 31.219 48"
+                        >
+                          <defs>
+                            <filter
+                              id="filter-seo-icon-5"
+                              x="0.344"
+                              y="0"
+                              width="31.219"
+                              height="48"
+                              filterUnits="userSpaceOnUse"
+                            >
+                              <feImage
+                                preserveAspectRatio="none"
+                                x="0.34375"
+                                y="0"
+                                width="31.219"
+                                height="48"
+                                result="image"
+                                xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzEuMjE5IiBoZWlnaHQ9IjQ4IiB2aWV3Qm94PSIwIDAgMzEuMjE5IDQ4Ij4KICA8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgLmNscy0xIHsKICAgICAgICBmaWxsOiB1cmwoI2xpbmVhci1ncmFkaWVudCk7CiAgICAgIH0KICAgIDwvc3R5bGU+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudCIgeTE9IjI0IiB4Mj0iMzEuMjE5IiB5Mj0iMjQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZmU1MDZjIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZjNmEyYSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iMzEuMjE5IiBoZWlnaHQ9IjQ4Ii8+Cjwvc3ZnPgo="
+                              />
+                              <feComposite
+                                result="composite"
+                                operator="in"
+                                in2="SourceGraphic"
+                              />
+                              <feBlend result="blend" in2="SourceGraphic" />
+                            </filter>
+                          </defs>
+                          <path
+                            filter="url(#filter-seo-icon-5)"
+                            d="M27.25,0a4.281,4.281,0,0,1,1.641.328,4.134,4.134,0,0,1,1.359.891,4.8,4.8,0,0,1,.938,1.359,3.026,3.026,0,0,1,.281,1.641l0.094,39.562a7.368,7.368,0,0,1-.375,1.641,3.156,3.156,0,0,1-.937,1.359,6.025,6.025,0,0,1-1.359.891A4.1,4.1,0,0,1,27.156,48H4.75a4.1,4.1,0,0,1-1.734-.328,5.993,5.993,0,0,1-1.359-.891,3.143,3.143,0,0,1-.937-1.359,7.287,7.287,0,0,1-.375-1.641L0.438,4.219A3,3,0,0,1,.719,2.578a4.77,4.77,0,0,1,.938-1.359A4.119,4.119,0,0,1,3.016.328,4.276,4.276,0,0,1,4.656,0H27.25ZM4.656,2.813a1.8,1.8,0,0,0-.562.094,0.754,0.754,0,0,0-.422.328,4.2,4.2,0,0,1-.328.469,0.514,0.514,0,0,0-.094.516L3.156,8.438H28.75L28.656,4.219A0.521,0.521,0,0,0,28.563,3.7a4,4,0,0,1-.328-0.469,0.754,0.754,0,0,0-.422-0.328,1.8,1.8,0,0,0-.562-0.094H4.656ZM28.75,11.25H3.156L3.25,33.844H28.656L28.75,11.25h0ZM27.156,45.188a1.632,1.632,0,0,0,.656-0.094,1.744,1.744,0,0,0,.422-0.328,1.436,1.436,0,0,0,.328-0.469c0.061-.155.125-0.328,0.188-0.516L28.656,36.75H3.25L3.156,43.781c0.062,0.188.125,0.36,0.188,0.516a1.392,1.392,0,0,0,.328.469,1.688,1.688,0,0,0,.422.328,1.622,1.622,0,0,0,.656.094H27.156Zm-9.75-4.219a3.6,3.6,0,0,1-.141-0.563,0.752,0.752,0,0,0-.281-0.469,1.923,1.923,0,0,0-.469-0.281,1.691,1.691,0,0,0-.609-0.094,2.045,2.045,0,0,0-.516.094,0.86,0.86,0,0,0-.469.281,3.142,3.142,0,0,0-.281.469,0.709,0.709,0,0,0-.047.563,0.592,0.592,0,0,0,.047.516,4.792,4.792,0,0,0,.281.422,1.112,1.112,0,0,0,.469.328,1.417,1.417,0,0,0,.516.141,1.177,1.177,0,0,0,.609-0.141,4.28,4.28,0,0,0,.469-0.328,0.733,0.733,0,0,0,.281-0.422,4.218,4.218,0,0,1,.141-0.516h0Z"
+                            transform="translate(-0.344)"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                    <!-- /.iconbox-icon-wrap -->
+                    <div class="contents">
+                      <h3>UI/UX Design</h3>
+                      <p class="font-size-16 lh-165">
+                        Introduction and kick-off meeting checklist. Lorem
+                        ispumdolor sit amet.
+                      </p>
+                    </div>
+                    <!-- /.contents -->
+                  </div>
+                  <!-- /.iconbox -->
+
+                  <div
+                    class="iconbox text-left iconbox-round iconbox-lg iconbox-filled iconbox-filled iconbox-filled-hover iconbox-icon-image iconbox-shadow pt-50 pb-40"
+                  >
+                    <div class="iconbox-icon-wrap">
+                      <span class="iconbox-icon-container mb-35">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          width="48"
+                          height="36.75"
+                          viewBox="0 0 48 36.75"
+                        >
+                          <defs>
+                            <filter
+                              id="filter-seo-icon-7"
+                              x="0"
+                              y="0.625"
+                              width="48"
+                              height="36.75"
+                              filterUnits="userSpaceOnUse"
+                            >
+                              <feImage
+                                preserveAspectRatio="none"
+                                x="0"
+                                y="0.625"
+                                width="48"
+                                height="36.75"
+                                result="image"
+                                xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNDgiIGhlaWdodD0iMzYuNzUiIHZpZXdCb3g9IjAgMCA0OCAzNi43NSI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogdXJsKCNsaW5lYXItZ3JhZGllbnQpOwogICAgICB9CiAgICA8L3N0eWxlPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQiIHkxPSIxOC4zNzUiIHgyPSI0OCIgeTI9IjE4LjM3NSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmZTUwNmMiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZmM2YTJhIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCBjbGFzcz0iY2xzLTEiIHdpZHRoPSI0OCIgaGVpZ2h0PSIzNi43NSIvPgo8L3N2Zz4K"
+                              />
+                              <feComposite
+                                result="composite"
+                                operator="in"
+                                in2="SourceGraphic"
+                              />
+                              <feBlend result="blend" in2="SourceGraphic" />
+                            </filter>
+                          </defs>
+                          <path
+                            filter="url(#filter-seo-icon-7)"
+                            d="M16.781,3.438H48V37.375H0V3.438H8.625V0.625h8.156V3.438h0ZM45.188,34.563V14.781H40.781a6.936,6.936,0,0,1,.656,1.266,12.542,12.542,0,0,1,.469,1.406q0.187,0.7.328,1.453a8.139,8.139,0,0,1,.141,1.5,11,11,0,0,1-.891,4.406,11.446,11.446,0,0,1-6.047,6.047,10.984,10.984,0,0,1-4.406.891,10.645,10.645,0,0,1-4.359-.891,11.635,11.635,0,0,1-3.562-2.437,11.482,11.482,0,0,1-2.437-3.609,10.972,10.972,0,0,1-.891-4.406,12,12,0,0,1,.094-1.5,10.585,10.585,0,0,1,.281-1.453,8.381,8.381,0,0,1,.516-1.406,9.473,9.473,0,0,1,.7-1.266H2.813V34.563H45.188ZM39.563,20.406a7.951,7.951,0,0,0-.7-3.328,9.009,9.009,0,0,0-1.828-2.672,8.347,8.347,0,0,0-2.672-1.781,8.454,8.454,0,0,0-3.328-.656,8.216,8.216,0,0,0-3.234.656,8.916,8.916,0,0,0-2.719,1.781,7.95,7.95,0,0,0-1.828,2.672,8.768,8.768,0,0,0,0,6.656,7.949,7.949,0,0,0,1.828,2.672A8.889,8.889,0,0,0,27.8,28.188a8.189,8.189,0,0,0,3.234.656,8.427,8.427,0,0,0,3.328-.656,8.323,8.323,0,0,0,2.672-1.781,9.009,9.009,0,0,0,1.828-2.672,7.947,7.947,0,0,0,.7-3.328h0Zm-1.125-8.437h6.75V6.25H2.813v5.719H23.625A10.4,10.4,0,0,1,25.266,10.8a15.889,15.889,0,0,1,1.781-.891,9.251,9.251,0,0,1,1.922-.562,11.54,11.54,0,0,1,2.062-.187,11.312,11.312,0,0,1,2.109.188,10.571,10.571,0,0,1,1.922.563,12.033,12.033,0,0,1,1.781.891,11.792,11.792,0,0,1,1.594,1.172h0Z"
+                            transform="translate(0 -0.625)"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                    <!-- /.iconbox-icon-wrap -->
+                    <div class="contents">
+                      <h3>Photography</h3>
+                      <p class="font-size-16 lh-165">
+                        Introduction and kick-off meeting checklist. Lorem
+                        ispumdolor sit amet.
+                      </p>
+                    </div>
+                    <!-- /.contents -->
+                  </div>
+                  <!-- /.iconbox -->
+                </div>
+                <!-- /.lqd-column-inner -->
+              </div>
+              <!-- /.lqd-column col-md-3 -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.container -->
+        </section>
+
+        <section class="vc_row pt-80 pb-120" id="works">
+          <div class="container">
+            <div class="row">
+              <div class="lqd-column col-md-12">
+                <div class="liquid-portfolio-list">
+                  <div
+                    class="row liquid-portfolio-list-row"
+                    data-columns="3"
+                    data-liquid-masonry="true"
+                    data-masonry-options='{ "layoutMode": "masonry", "alignMid": true }'
+                    data-custom-animations="true"
+                    data-ca-options='{"triggerHandler":"inview","animationTarget":".ld-pf-item","animateTargetsWhenVisible":"true","duration":"1400","delay":"180","easing":"easeOutQuint","initValues":{"translateY":75,"scale":0.75,"opacity":0},"animations":{"translateY":0,"scale":1,"opacity":1}}'
+                  >
+                    <div
+                      class="lqd-column col-md-4 col-sm-6 col-xs-12 grid-stamp creative-masonry-grid-stamp"
+                    ></div>
+
+                    <div
+                      class="lqd-column col-md-4 col-sm-6 col-xs-12 masonry-item"
+                    >
+                      <div
+                        class="ld-pf-item ld-pf-light pf-details-inside pf-details-full pf-details-h-mid pf-details-v-mid title-size-32 ld-pf-semiround"
+                      >
+                        <div class="ld-pf-inner">
+                          <div class="ld-pf-image">
+                            <figure
+                              style="
+                                background-image: url('./assets/demo/portfolio/pf-11.jpg');
+                              "
+                            >
+                              <img
+                                src="./assets/demo/portfolio/pf-11.jpg"
+                                alt="Portfolio Image"
+                              />
+                            </figure>
+                          </div>
+                          <!-- /.ld-pf-image -->
+
+                          <div
+                            class="ld-pf-bg bg-gradient-primary-bl opacity-08"
+                          ></div>
+                          <!-- /.ld-pf-bg -->
+
+                          <div
+                            class="ld-pf-details"
+                            data-custom-animations="true"
+                            data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "duration": 200, "delay": 35, "offDuration": 100, "easing": "easeOutCubic", "initValues": { "translateX": 50, "rotateZ": -75, "opacity": 0, "transformOrigin": [0, "-100%", 0] }, "animations": { "translateX": 0, "rotateZ": 0, "opacity": 1, "transformOrigin": [0, "0%", 0] } }'
+                          >
+                            <div class="ld-pf-details-inner">
+                              <h3
+                                class="ld-pf-title h4 font-weight-semibold"
+                                data-split-text="true"
+                                data-split-options='{ "type": "chars" }'
+                              >
+                                Discover
+                              </h3>
+                            </div>
+                            <!-- /.ld-pf-details-inner -->
+                          </div>
+                          <!-- /.ld-pf-details -->
+
+                          <a href="#" class="liquid-overlay-link"></a>
+                        </div>
+                        <!-- /.ld-pf-inner -->
+                      </div>
+                      <!-- /.ld-pf-item -->
+                    </div>
+                    <!-- /.col-lg-4 col-md-6 -->
+
+                    <div
+                      class="lqd-column col-md-4 col-sm-6 col-xs-12 masonry-item"
+                    >
+                      <div
+                        class="ld-pf-item ld-pf-light pf-details-inside pf-details-full pf-details-h-mid pf-details-v-mid title-size-32 ld-pf-semiround"
+                      >
+                        <div class="ld-pf-inner">
+                          <div class="ld-pf-image">
+                            <figure
+                              style="
+                                background-image: url('./assets/demo/portfolio/pf-10.jpg');
+                              "
+                            >
+                              <img
+                                src="./assets/demo/portfolio/pf-10.jpg"
+                                alt="Portfolio Image"
+                              />
+                            </figure>
+                          </div>
+                          <!-- /.ld-pf-image -->
+
+                          <div
+                            class="ld-pf-bg bg-gradient-primary-bl opacity-08"
+                          ></div>
+                          <!-- /.ld-pf-bg -->
+
+                          <div
+                            class="ld-pf-details"
+                            data-custom-animations="true"
+                            data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "duration": 200, "delay": 35, "offDuration": 100, "easing": "easeOutCubic", "initValues": { "translateX": 50, "rotateZ": -75, "opacity": 0, "transformOrigin": [0, "-100%", 0] }, "animations": { "translateX": 0, "rotateZ": 0, "opacity": 1, "transformOrigin": [0, "0%", 0] } }'
+                          >
+                            <div class="ld-pf-details-inner">
+                              <h3
+                                class="ld-pf-title h4 font-weight-semibold"
+                                data-split-text="true"
+                                data-split-options='{ "type": "chars" }'
+                              >
+                                Discover
+                              </h3>
+                            </div>
+                            <!-- /.ld-pf-details-inner -->
+                          </div>
+                          <!-- /.ld-pf-details -->
+
+                          <a href="#" class="liquid-overlay-link"></a>
+                        </div>
+                        <!-- /.ld-pf-inner -->
+                      </div>
+                      <!-- /.ld-pf-item -->
+                    </div>
+                    <!-- /.col-lg-4 col-md-6 -->
+
+                    <div
+                      class="lqd-column col-md-4 col-sm-6 col-xs-12 grid-stamp creative-masonry-grid-stamp is-right"
+                    ></div>
+
+                    <div
+                      class="lqd-column col-md-4 col-sm-6 col-xs-12 masonry-item"
+                    >
+                      <div
+                        class="ld-pf-item ld-pf-light pf-details-inside pf-details-full pf-details-h-mid pf-details-v-mid title-size-32 ld-pf-semiround"
+                      >
+                        <div class="ld-pf-inner">
+                          <div class="ld-pf-image">
+                            <figure
+                              style="
+                                background-image: url('./assets/demo/portfolio/pf-18.jpg');
+                              "
+                            >
+                              <img
+                                src="./assets/demo/portfolio/pf-18.jpg"
+                                alt="Portfolio Image"
+                              />
+                            </figure>
+                          </div>
+                          <!-- /.ld-pf-image -->
+
+                          <div
+                            class="ld-pf-bg bg-gradient-primary-bl opacity-08"
+                          ></div>
+                          <!-- /.ld-pf-bg -->
+
+                          <div
+                            class="ld-pf-details"
+                            data-custom-animations="true"
+                            data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "duration": 200, "delay": 35, "offDuration": 100, "easing": "easeOutCubic", "initValues": { "translateX": 50, "rotateZ": -75, "opacity": 0, "transformOrigin": [0, "-100%", 0] }, "animations": { "translateX": 0, "rotateZ": 0, "opacity": 1, "transformOrigin": [0, "0%", 0] } }'
+                          >
+                            <div class="ld-pf-details-inner">
+                              <h3
+                                class="ld-pf-title h4 font-weight-semibold"
+                                data-split-text="true"
+                                data-split-options='{ "type": "chars" }'
+                              >
+                                Discover
+                              </h3>
+                            </div>
+                            <!-- /.ld-pf-details-inner -->
+                          </div>
+                          <!-- /.ld-pf-details -->
+
+                          <a href="#" class="liquid-overlay-link"></a>
+                        </div>
+                        <!-- /.ld-pf-inner -->
+                      </div>
+                      <!-- /.ld-pf-item -->
+                    </div>
+                    <!-- /.col-lg-4 col-md-6 -->
+
+                    <div
+                      class="lqd-column col-md-4 col-sm-6 col-xs-12 masonry-item"
+                    >
+                      <div
+                        class="ld-pf-item ld-pf-light pf-details-inside pf-details-full pf-details-h-mid pf-details-v-mid title-size-32 ld-pf-semiround"
+                      >
+                        <div class="ld-pf-inner">
+                          <div class="ld-pf-image">
+                            <figure
+                              style="
+                                background-image: url('./assets/demo/portfolio/pf-12.jpg');
+                              "
+                            >
+                              <img
+                                src="./assets/demo/portfolio/pf-12.jpg"
+                                alt="Portfolio Image"
+                              />
+                            </figure>
+                          </div>
+                          <!-- /.ld-pf-image -->
+
+                          <div
+                            class="ld-pf-bg bg-gradient-primary-bl opacity-08"
+                          ></div>
+                          <!-- /.ld-pf-bg -->
+
+                          <div
+                            class="ld-pf-details"
+                            data-custom-animations="true"
+                            data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "duration": 200, "delay": 35, "offDuration": 100, "easing": "easeOutCubic", "initValues": { "translateX": 50, "rotateZ": -75, "opacity": 0, "transformOrigin": [0, "-100%", 0] }, "animations": { "translateX": 0, "rotateZ": 0, "opacity": 1, "transformOrigin": [0, "0%", 0] } }'
+                          >
+                            <div class="ld-pf-details-inner">
+                              <h3
+                                class="ld-pf-title h4 font-weight-semibold"
+                                data-split-text="true"
+                                data-split-options='{ "type": "chars" }'
+                              >
+                                Discover
+                              </h3>
+                            </div>
+                            <!-- /.ld-pf-details-inner -->
+                          </div>
+                          <!-- /.ld-pf-details -->
+
+                          <a href="#" class="liquid-overlay-link"></a>
+                        </div>
+                        <!-- /.ld-pf-inner -->
+                      </div>
+                      <!-- /.ld-pf-item -->
+                    </div>
+                    <!-- /.col-lg-4 col-md-6 -->
+
+                    <div
+                      class="lqd-column col-md-4 col-sm-6 col-xs-12 masonry-item"
+                    >
+                      <div
+                        class="ld-pf-item ld-pf-light pf-details-inside pf-details-full pf-details-h-mid pf-details-v-mid title-size-32 ld-pf-semiround"
+                      >
+                        <div class="ld-pf-inner">
+                          <div class="ld-pf-image">
+                            <figure
+                              style="
+                                background-image: url('./assets/demo/portfolio/pf-14.jpg');
+                              "
+                            >
+                              <img
+                                src="./assets/demo/portfolio/pf-14.jpg"
+                                alt="Portfolio Image"
+                              />
+                            </figure>
+                          </div>
+                          <!-- /.ld-pf-image -->
+
+                          <div
+                            class="ld-pf-bg bg-gradient-primary-bl opacity-08"
+                          ></div>
+                          <!-- /.ld-pf-bg -->
+
+                          <div
+                            class="ld-pf-details"
+                            data-custom-animations="true"
+                            data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "duration": 200, "delay": 35, "offDuration": 100, "easing": "easeOutCubic", "initValues": { "translateX": 50, "rotateZ": -75, "opacity": 0, "transformOrigin": [0, "-100%", 0] }, "animations": { "translateX": 0, "rotateZ": 0, "opacity": 1, "transformOrigin": [0, "0%", 0] } }'
+                          >
+                            <div class="ld-pf-details-inner">
+                              <h3
+                                class="ld-pf-title h4 font-weight-semibold"
+                                data-split-text="true"
+                                data-split-options='{ "type": "chars" }'
+                              >
+                                Discover
+                              </h3>
+                            </div>
+                            <!-- /.ld-pf-details-inner -->
+                          </div>
+                          <!-- /.ld-pf-details -->
+
+                          <a href="#" class="liquid-overlay-link"></a>
+                        </div>
+                        <!-- /.ld-pf-inner -->
+                      </div>
+                      <!-- /.ld-pf-item -->
+                    </div>
+                    <!-- /.col-lg-4 col-md-6 -->
+
+                    <div
+                      class="lqd-column col-md-4 col-sm-6 col-xs-12 masonry-item"
+                    >
+                      <div
+                        class="ld-pf-item ld-pf-light pf-details-inside pf-details-full pf-details-h-mid pf-details-v-mid title-size-32 ld-pf-semiround"
+                      >
+                        <div class="ld-pf-inner">
+                          <div class="ld-pf-image">
+                            <figure
+                              style="
+                                background-image: url('./assets/demo/portfolio/pf-13.jpg');
+                              "
+                            >
+                              <img
+                                src="./assets/demo/portfolio/pf-13.jpg"
+                                alt="Portfolio Image"
+                              />
+                            </figure>
+                          </div>
+                          <!-- /.ld-pf-image -->
+
+                          <div
+                            class="ld-pf-bg bg-gradient-primary-bl opacity-08"
+                          ></div>
+                          <!-- /.ld-pf-bg -->
+
+                          <div
+                            class="ld-pf-details"
+                            data-custom-animations="true"
+                            data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "duration": 200, "delay": 35, "offDuration": 100, "easing": "easeOutCubic", "initValues": { "translateX": 50, "rotateZ": -75, "opacity": 0, "transformOrigin": [0, "-100%", 0] }, "animations": { "translateX": 0, "rotateZ": 0, "opacity": 1, "transformOrigin": [0, "0%", 0] } }'
+                          >
+                            <div class="ld-pf-details-inner">
+                              <h3
+                                class="ld-pf-title h4 font-weight-semibold"
+                                data-split-text="true"
+                                data-split-options='{ "type": "chars" }'
+                              >
+                                Discover
+                              </h3>
+                            </div>
+                            <!-- /.ld-pf-details-inner -->
+                          </div>
+                          <!-- /.ld-pf-details -->
+
+                          <a href="#" class="liquid-overlay-link"></a>
+                        </div>
+                        <!-- /.ld-pf-inner -->
+                      </div>
+                      <!-- /.ld-pf-item -->
+                    </div>
+                    <!-- /.col-lg-4 col-md-6 -->
+
+                    <div
+                      class="lqd-column col-md-4 col-sm-6 col-xs-12 masonry-item"
+                    >
+                      <div
+                        class="ld-pf-item ld-pf-light pf-details-inside pf-details-full pf-details-h-mid pf-details-v-mid title-size-32 ld-pf-semiround"
+                      >
+                        <div class="ld-pf-inner">
+                          <div class="ld-pf-image">
+                            <figure
+                              style="
+                                background-image: url('./assets/demo/portfolio/pf-16.jpg');
+                              "
+                            >
+                              <img
+                                src="./assets/demo/portfolio/pf-16.jpg"
+                                alt="Portfolio Image"
+                              />
+                            </figure>
+                          </div>
+                          <!-- /.ld-pf-image -->
+
+                          <div
+                            class="ld-pf-bg bg-gradient-primary-bl opacity-08"
+                          ></div>
+                          <!-- /.ld-pf-bg -->
+
+                          <div
+                            class="ld-pf-details"
+                            data-custom-animations="true"
+                            data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "duration": 200, "delay": 35, "offDuration": 100, "easing": "easeOutCubic", "initValues": { "translateX": 50, "rotateZ": -75, "opacity": 0, "transformOrigin": [0, "-100%", 0] }, "animations": { "translateX": 0, "rotateZ": 0, "opacity": 1, "transformOrigin": [0, "0%", 0] } }'
+                          >
+                            <div class="ld-pf-details-inner">
+                              <h3
+                                class="ld-pf-title h4 font-weight-semibold"
+                                data-split-text="true"
+                                data-split-options='{ "type": "chars" }'
+                              >
+                                Discover
+                              </h3>
+                            </div>
+                            <!-- /.ld-pf-details-inner -->
+                          </div>
+                          <!-- /.ld-pf-details -->
+
+                          <a href="#" class="liquid-overlay-link"></a>
+                        </div>
+                        <!-- /.ld-pf-inner -->
+                      </div>
+                      <!-- /.ld-pf-item -->
+                    </div>
+                    <!-- /.col-lg-4 col-md-6 -->
+
+                    <div
+                      class="lqd-column col-md-4 col-sm-6 col-xs-12 masonry-item"
+                    >
+                      <div
+                        class="ld-pf-item ld-pf-light pf-details-inside pf-details-full pf-details-h-mid pf-details-v-mid title-size-32 ld-pf-semiround"
+                      >
+                        <div class="ld-pf-inner">
+                          <div class="ld-pf-image">
+                            <figure
+                              style="
+                                background-image: url('./assets/demo/portfolio/pf-15.jpg');
+                              "
+                            >
+                              <img
+                                src="./assets/demo/portfolio/pf-15.jpg"
+                                alt="Portfolio Image"
+                              />
+                            </figure>
+                          </div>
+                          <!-- /.ld-pf-image -->
+
+                          <div
+                            class="ld-pf-bg bg-gradient-primary-bl opacity-08"
+                          ></div>
+                          <!-- /.ld-pf-bg -->
+
+                          <div
+                            class="ld-pf-details"
+                            data-custom-animations="true"
+                            data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "duration": 200, "delay": 35, "offDuration": 100, "easing": "easeOutCubic", "initValues": { "translateX": 50, "rotateZ": -75, "opacity": 0, "transformOrigin": [0, "-100%", 0] }, "animations": { "translateX": 0, "rotateZ": 0, "opacity": 1, "transformOrigin": [0, "0%", 0] } }'
+                          >
+                            <div class="ld-pf-details-inner">
+                              <h3
+                                class="ld-pf-title h4 font-weight-semibold"
+                                data-split-text="true"
+                                data-split-options='{ "type": "chars" }'
+                              >
+                                Discover
+                              </h3>
+                            </div>
+                            <!-- /.ld-pf-details-inner -->
+                          </div>
+                          <!-- /.ld-pf-details -->
+
+                          <a href="#" class="liquid-overlay-link"></a>
+                        </div>
+                        <!-- /.ld-pf-inner -->
+                      </div>
+                      <!-- /.ld-pf-item -->
+                    </div>
+                    <!-- /.col-lg-4 col-md-6 -->
+
+                    <div
+                      class="lqd-column col-md-4 col-sm-6 col-xs-12 masonry-item"
+                    >
+                      <div
+                        class="ld-pf-item ld-pf-light pf-details-inside pf-details-full pf-details-h-mid pf-details-v-mid title-size-32 ld-pf-semiround"
+                      >
+                        <div class="ld-pf-inner">
+                          <div class="ld-pf-image">
+                            <figure
+                              style="
+                                background-image: url('./assets/demo/portfolio/pf-17.jpg');
+                              "
+                            >
+                              <img
+                                src="./assets/demo/portfolio/pf-17.jpg"
+                                alt="Portfolio Image"
+                              />
+                            </figure>
+                          </div>
+                          <!-- /.ld-pf-image -->
+
+                          <div
+                            class="ld-pf-bg bg-gradient-primary-bl opacity-08"
+                          ></div>
+                          <!-- /.ld-pf-bg -->
+
+                          <div
+                            class="ld-pf-details"
+                            data-custom-animations="true"
+                            data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "duration": 200, "delay": 35, "offDuration": 100, "easing": "easeOutCubic", "initValues": { "translateX": 50, "rotateZ": -75, "opacity": 0, "transformOrigin": [0, "-100%", 0] }, "animations": { "translateX": 0, "rotateZ": 0, "opacity": 1, "transformOrigin": [0, "0%", 0] } }'
+                          >
+                            <div class="ld-pf-details-inner">
+                              <h3
+                                class="ld-pf-title h4 font-weight-semibold"
+                                data-split-text="true"
+                                data-split-options='{ "type": "chars" }'
+                              >
+                                Discover
+                              </h3>
+                            </div>
+                            <!-- /.ld-pf-details-inner -->
+                          </div>
+                          <!-- /.ld-pf-details -->
+
+                          <a href="#" class="liquid-overlay-link"></a>
+                        </div>
+                        <!-- /.ld-pf-inner -->
+                      </div>
+                      <!-- /.ld-pf-item -->
+                    </div>
+                    <!-- /.col-lg-4 col-md-6 -->
+                  </div>
+                  <!-- /.row liquid-portfolio-list-row -->
+                </div>
+                <!-- /.liquid-portfolio-list -->
+              </div>
+              <!-- /.col-md-12 -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.container -->
+        </section>
+
+        <!-- <section class="vc_row pt-60 pb-90" id="video-section">
+          <div class="container">
+            <div class="row d-flex flex-wrap align-items-center">
+              <div
+                class="lqd-column col-lg-5 col-md-6 mb-5 mb-md-0"
+                data-custom-animations="true"
+                data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":1200,"delay":160,"initValues":{"translateY":50,"opacity":0},"animations":{"translateY":0,"opacity":1}}'
+              >
+                <header class="fancy-title mb-60">
+                  <h6
+                    class="text-uppercase ltr-sp-2 font-size-12 font-weight-semibold text-secondary"
+                  >
+                    OUR STORY
+                  </h6>
+                  <h2 class="mt-4 mb-4">See the Magic in Action</h2>
+                  <p>
+                    We could talk all day about our work, but honestly, seeing
+                    is believing. This short video gives you a real taste of how
+                    we transform spaces across Croydon.
+                  </p>
+                  <p>
+                    There's something seriously satisfying about watching grime
+                    disappear and spaces come back to life—like rediscovering a
+                    place you forgot could look so good. Whether it's your home
+                    driveway or your business premises, we're here to deliver
+                    that \"wow\" moment every single time.
+                  </p>
+                  <p>
+                    We've come a long way from those humble beginnings with just
+                    basic kit. Today, with upgraded gear and a dedicated local
+                    team, our passion for a spotless finish hasn't changed one
+                    bit. The reaction when customers see the before-and-after
+                    still makes our day—every day.
+                  </p>
+                  <p>
+                    So hit play, sit back, and see exactly why we love what we
+                    do.
+                  </p>
+                </header>
+
+                
+                <a
+                  href="https://www.youtube.com/watch?v=LjaKHqDbzSA&feature=youtu.be"
+                  class="btn btn-naked text-uppercase fresco btn-icon-left btn-icon-xlg btn-icon-circle btn-icon-solid font-size-12 font-weight-semibold"
+                >
+                  <span>
+                    <span class="btn-txt">See how we work</span>
+                    <span class="btn-icon font-size-18">
+                      <i class="fa fa-play"></i>
+                    </span>
+                  </span>
+                </a>
+              </div>
+          /.col-lg-5 col-md-6
+
+              <div class="lqd-column col-lg-6 col-md-5 col-md-offset-1">
+                <div
+                  class="liquid-img-group-single stretch-to-right"
+                  data-shadow-style="4"
+                  data-roundness="4"
+                  data-inview="true"
+                  data-animate-shadow="true"
+                  data-reveal="true"
+                  data-reveal-options='{"direction":"rl","bgcolor":"rgb(25, 38, 47)"}'
+                >
+                  <div class="liquid-img-group-img-container">
+                    <div class="liquid-img-container-inner">
+                      <figure>
+                        <img
+                          src="./assets/demo/banners/banner-1.jpg"
+                          alt="Banner"
+                        />
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </div>
+             /.col-lg-6 col-md-5 col-md-offset-1
+            </div>
+         /.row 
+          </div>
+        /.container 
+        </section> -->
+
+        <section class="vc_row pt-90 pb-150" id="about">
+          <div class="container">
+            <div class="row d-flex flex-wrap align-items-center">
+              <div class="lqd-column col-md-5 hidden-xs hidden-sm">
+                <div class="lqd-parallax-team-members">
+                  <div class="liquid-img-group-container">
+                    <div class="liquid-img-group-inner">
+                      <div class="liquid-img-group-single" data-roundness="4">
+                        <div class="liquid-img-group-img-container">
+                          <div
+                            class="liquid-img-container-inner"
+                            data-parallax="true"
+                            data-parallax-from='{"translateY":47}'
+                            data-parallax-to='{"translateY":-74}'
+                            data-parallax-options='{"overflowHidden": false, "easing": "linear"}'
+                          >
+                            <figure>
+                              <img
+                                src="./assets/static-imgs/static1.jpg"
+                                alt="Team Member"
+                              />
+                            </figure>
+                          </div>
+                          <!-- /.liquid-img-container-inner -->
+                        </div>
+                        <!-- /.liquid-img-group-img-container -->
+                      </div>
+                      <!-- /.liquid-img-group-single -->
+                    </div>
+                    <!-- /.liquid-img-group-inner -->
+                  </div>
+                  <!-- /.liquid-img-group-container -->
+
+                  <div class="liquid-img-group-container">
+                    <div class="liquid-img-group-inner">
+                      <div class="liquid-img-group-single" data-roundness="4">
+                        <div class="liquid-img-group-img-container">
+                          <div
+                            class="liquid-img-container-inner"
+                            data-parallax="true"
+                            data-parallax-from='{"translateY":83}'
+                            data-parallax-to='{"translateY":-94}'
+                            data-parallax-options='{"overflowHidden": false, "easing": "linear"}'
+                          >
+                            <figure>
+                              <img
+                                src="./assets/static-imgs/static2.jpg"
+                                alt="Team Member"
+                              />
+                            </figure>
+                          </div>
+                          <!-- /.liquid-img-container-inner -->
+                        </div>
+                        <!-- /.liquid-img-group-img-container -->
+                      </div>
+                      <!-- /.liquid-img-group-single -->
+                    </div>
+                    <!-- /.liquid-img-group-inner -->
+                  </div>
+                  <!-- /.liquid-img-group-container -->
+
+                  <div class="liquid-img-group-container">
+                    <div class="liquid-img-group-inner">
+                      <div class="liquid-img-group-single" data-roundness="4">
+                        <div class="liquid-img-group-img-container">
+                          <div
+                            class="liquid-img-container-inner"
+                            data-parallax="true"
+                            data-parallax-from='{"translateY":167}'
+                            data-parallax-to='{"translateY":-151}'
+                            data-parallax-options='{"overflowHidden": false, "easing": "linear"}'
+                          >
+                            <figure>
+                              <img
+                                src="./assets/static-imgs/static3.jpg"
+                                alt="Team Member"
+                              />
+                            </figure>
+                          </div>
+                          <!-- /.liquid-img-container-inner -->
+                        </div>
+                        <!-- /.liquid-img-group-img-container -->
+                      </div>
+                      <!-- /.liquid-img-group-single -->
+                    </div>
+                    <!-- /.liquid-img-group-inner -->
+                  </div>
+                  <!-- /.liquid-img-group-container -->
+                </div>
+                <!-- /.lqd-parallax-team-members -->
+              </div>
+              <!-- /.col-md-5 -->
+
+              <div
+                class="lqd-column col-md-6 col-md-offset-1"
+                data-custom-animations="true"
+                data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":1200,"delay":160,"initValues":{"translateY":50,"opacity":0},"animations":{"translateY":0,"opacity":1}}'
+              >
+                <header class="fancy-title mb-60">
+                  <h6
+                    class="text-uppercase ltr-sp-2 font-size-12 font-weight-semibold text-secondary"
+                  >
+                    WHAT WE'RE ALL ABOUT
+                  </h6>
+                  <h2 class="mt-4 mb-4">
+                    Not Just a Clean, Bringing Your Space Back to Life
+                  </h2>
+                  <p>
+                    Every stubborn stain has a story to tell. Think about the
+                    driveway that's seen countless school runs, or the patio
+                    that proudly shows off memories of sunny barbecues. And
+                    let's not forget those gutters—quiet heroes that keep your
+                    home safe through every British downpour. We're not here to
+                    erase those stories; we're here to honour them by giving
+                    your spaces a new lease of life.
+                  </p>
+                  <p>
+                    Whether it's high-powered jet washing, sorting out your
+                    drains, managing waste, or being there in an emergency,
+                    there's one simple rule we swear by: do it right, or don't
+                    bother at all. Industrial-level cleaning with a friendly
+                    local touch. High-tech kit meets old-fashioned pride.
+                    Because your home deserves much better than "that'll do".
+                  </p>
+                  <p>
+                    It's never just about speed or price for us—it's about being
+                    the team you'll actually remember. The ones who treated your
+                    place like it was their own, leaving it fresher, cleaner,
+                    and better every time we visit.
+                  </p>
+                </header>
+                <!-- /.fancy-title -->
+
+                <!-- <a
+                  href="#"
+                  class="btn btn-solid text-uppercase circle btn-bordered border-thin font-size-14 font-weight-semibold"
+                  data-localscroll="true"
+                  data-localscroll-options='{"scrollBelowSection":true}'
+                >
+                  <span>
+                    <span class="btn-txt">Join the team</span>
+                  </span>
+                </a> -->
+              </div>
+              <!-- /.col-md-7 -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.container -->
+        </section>
+
+        <section class="vc_row pt-200 pb-100" id="testimonials">
+          <div class="container">
+            <div class="row">
+              <div
+                class="lqd-column col-lg-4 col-md-12"
+                data-custom-animations="true"
+                data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":1200,"delay":160,"initValues":{"translateY":50,"opacity":0},"animations":{"translateY":0,"opacity":1}}'
+              >
+                <header class="fancy-title mb-130">
+                  <h6
+                    class="text-uppercase ltr-sp-2 font-size-12 font-weight-semibold text-secondary"
+                  >
+                    TESTIMONIALS
+                  </h6>
+                  <h2 class="mt-4 mb-4">What they said</h2>
+                  <p>
+                    We're proud to serve a diverse range of clients throughout
+                    Croydon and surrounding areas, from residential homeowners
+                    to industrial facilities. Here's what they have to say about
+                    our services.
+                  </p>
+                </header>
+                <!-- /.fancy-title -->
+              </div>
+              <!-- /.col-lg-4 col-md-12 -->
+
+              <div
+                class="lqd-column col-lg-7 col-lg-offset-1 col-xs-12 mb-7 mb-md-0"
+              >
+                <div class="carousel-container carousel-vertical-3d">
+                  <div class="carousel-items">
+                    <div class="carousel-item is-active">
+                      <div
+                        class="testimonial testimonial-whole-filled testimonial-whole-shadowed text-left testimonial-details-sm testimonial-avatar-sm"
+                      >
+                        <div class="testimonial-quote">
+                          <blockquote>
+                            <p class="font-size-16 lh-185">
+                              "Their 24/7 emergency response service was a
+                              lifesaver when we had severe flooding at our
+                              industrial unit. The team arrived within the hour
+                              as promised and had the right equipment to handle
+                              the job efficiently."
+                            </p>
+                          </blockquote>
+                        </div>
+                        <!-- /.testimonial-quote -->
+                        <div class="testimonial-details">
+                          <!-- <figure class="avatar">
+                            <img
+                              src="./assets/demo/testimonials/testi-3.png"
+                              alt="John M."
+                            />
+                          </figure> -->
+                          <div class="testimonial-info">
+                            <h5>John M.</h5>
+                            <h6 class="font-weight-normal">
+                              Commercial Property Manager
+                            </h6>
+                          </div>
+                          <!-- /.testimonial-info -->
+                        </div>
+                        <!-- /.testimonial-details -->
+                      </div>
+                      <!-- /.testimonial -->
+                    </div>
+                    <!-- /.carousel-item -->
+
+                    <div class="carousel-item">
+                      <div
+                        class="testimonial testimonial-whole-filled testimonial-whole-shadowed text-left testimonial-details-sm testimonial-avatar-sm"
+                      >
+                        <div class="testimonial-quote">
+                          <blockquote>
+                            <p class="font-size-16 lh-185">
+                              "We've been using their wet waste management
+                              services for our construction projects for years.
+                              Having access to their licensed waste recycling
+                              facility in Croydon has made compliance
+                              documentation much more straightforward."
+                            </p>
+                          </blockquote>
+                        </div>
+                        <!-- /.testimonial-quote -->
+                        <div class="testimonial-details">
+                          <!-- <figure class="avatar">
+                            <img
+                              src="./assets/demo/testimonials/testi-4.png"
+                              alt="Sarah T."
+                            />
+                          </figure> -->
+                          <div class="testimonial-info">
+                            <h5>Sarah T.</h5>
+                            <h6 class="font-weight-normal">
+                              Construction Site Manager
+                            </h6>
+                          </div>
+                          <!-- /.testimonial-info -->
+                        </div>
+                        <!-- /.testimonial-details -->
+                      </div>
+                      <!-- /.testimonial -->
+                    </div>
+                    <!-- /.carousel-item -->
+
+                    <div class="carousel-item">
+                      <div
+                        class="testimonial testimonial-whole-filled testimonial-whole-shadowed text-left testimonial-details-sm testimonial-avatar-sm"
+                      >
+                        <div class="testimonial-quote">
+                          <blockquote>
+                            <p class="font-size-16 lh-185">
+                              "When our main sewer line needed urgent jetting
+                              and CCTV inspection, their team handled it
+                              professionally. The ability to both diagnose and
+                              fix drainage issues with their specialised
+                              equipment saved us considerable downtime."
+                            </p>
+                          </blockquote>
+                        </div>
+                        <!-- /.testimonial-quote -->
+                        <div class="testimonial-details">
+                          <!-- <figure class="avatar">
+                            <img
+                              src="./assets/demo/testimonials/testi-5.png"
+                              alt="David P."
+                            />
+                          </figure> -->
+                          <div class="testimonial-info">
+                            <h5>David P.</h5>
+                            <h6 class="font-weight-normal">
+                              Factory Operations Director
+                            </h6>
+                          </div>
+                          <!-- /.testimonial-info -->
+                        </div>
+                        <!-- /.testimonial-details -->
+                      </div>
+                      <!-- /.testimonial -->
+                    </div>
+                    <!-- /.carousel-item -->
+
+                    <div class="carousel-item">
+                      <div
+                        class="testimonial testimonial-whole-filled testimonial-whole-shadowed text-left testimonial-details-sm testimonial-avatar-sm"
+                      >
+                        <div class="testimonial-quote">
+                          <blockquote>
+                            <p class="font-size-16 lh-185">
+                              "The water-only approach was exactly what we
+                              wanted for our natural stone patio. No chemicals
+                              around our pets and plants, but still removed all
+                              the moss and algae that had built up over winter."
+                            </p>
+                          </blockquote>
+                        </div>
+                        <!-- /.testimonial-quote -->
+                        <div class="testimonial-details">
+                          <!-- <figure class="avatar">
+                            <img
+                              src="./assets/demo/testimonials/testi-1.png"
+                              alt="Emma W."
+                            />
+                          </figure> -->
+                          <div class="testimonial-info">
+                            <h5>Emma W.</h5>
+                            <h6 class="font-weight-normal">Purley Resident</h6>
+                          </div>
+                          <!-- /.testimonial-info -->
+                        </div>
+                        <!-- /.testimonial-details -->
+                      </div>
+                      <!-- /.testimonial -->
+                    </div>
+                    <!-- /.carousel-item -->
+
+                    <div class="carousel-item">
+                      <div
+                        class="testimonial testimonial-whole-filled testimonial-whole-shadowed text-left testimonial-details-sm testimonial-avatar-sm"
+                      >
+                        <div class="testimonial-quote">
+                          <blockquote>
+                            <p class="font-size-16 lh-185">
+                              "My block paving driveway looks like new again!
+                              Their industrial-grade equipment made short work
+                              of years of dirt and staining. Appreciated the
+                              free, no-obligation quote before starting."
+                            </p>
+                          </blockquote>
+                        </div>
+                        <!-- /.testimonial-quote -->
+                        <div class="testimonial-details">
+                          <figure class="avatar">
+                            <img
+                              src="./assets/demo/testimonials/testi-2.png"
+                              alt="Michael J."
+                            />
+                          </figure>
+                          <div class="testimonial-info">
+                            <h5>Michael J.</h5>
+                            <h6 class="font-weight-normal">South Norwood</h6>
+                          </div>
+                          <!-- /.testimonial-info -->
+                          <time datetime="2023-11-05" class="text-uppercase">
+                            Hydro Pressure Clean
+                          </time>
+                        </div>
+                        <!-- /.testimonial-details -->
+                      </div>
+                      <!-- /.testimonial -->
+                    </div>
+                    <!-- /.carousel-item -->
+
+                    <div class="carousel-item">
+                      <div
+                        class="testimonial testimonial-whole-filled testimonial-whole-shadowed text-left testimonial-details-sm testimonial-avatar-sm"
+                      >
+                        <div class="testimonial-quote">
+                          <blockquote>
+                            <p class="font-size-16 lh-185">
+                              "Our wooden decking was dangerously slippery with
+                              algae. Their specialised cleaning technique
+                              removed it all without damaging the wood. Their 19
+                              years of experience really shows in the results."
+                            </p>
+                          </blockquote>
+                        </div>
+                        <!-- /.testimonial-quote -->
+                        <div class="testimonial-details">
+                          <!-- <figure class="avatar">
+                            <img
+                              src="./assets/demo/testimonials/testi-6.png"
+                              alt="Laura S."
+                            />
+                          </figure> -->
+                          <div class="testimonial-info">
+                            <h5>Laura S.</h5>
+                            <h6 class="font-weight-normal">Sanderstead</h6>
+                          </div>
+                          <!-- /.testimonial-info -->
+                          <time datetime="2023-12-18" class="text-uppercase">
+                            Hydro Pressure Clean
+                          </time>
+                        </div>
+                        <!-- /.testimonial-details -->
+                      </div>
+                      <!-- /.testimonial -->
+                    </div>
+                    <!-- /.carousel-item -->
+                  </div>
+                  <!-- /.carousel-items -->
+                </div>
+                <!-- /.carousel-container -->
+              </div>
+              <!-- /.col-lg-7 col-lg-offset-1 -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.container -->
+        </section>
+
+        <section class="vc_row pt-50 pb-60" id="news">
+          <div class="container">
+            <div class="row">
+              <div
+                class="lqd-column col-md-10 col-md-offset-1 text-center"
+                data-custom-animations="true"
+                data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":1200,"delay":100,"initValues":{"translateY":80,"opacity":0},"animations":{"translateY":0,"opacity":1}}'
+              >
+                <header class="fancy-title fancy-title-big mb-6">
+                  <h2
+                    data-split-text="true"
+                    data-split-options='{"type":"lines"}'
+                  >
+                    Let's create something extraordinary
+                    <br />
+                    <span
+                      class="font-size-2-15x lh-15 text-primary"
+                      data-fittext="true"
+                      data-fittext-options='{ "maxFontSize": 70, "minFontSize": 40, "compressor": 0.5 }'
+                    >
+                      together
+                    </span>
+                  </h2>
+                </header>
+                <!-- /.fancy-title -->
+              </div>
+              <!-- /.col-md-10 col-md-offset-1 -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.container -->
+        </section>
+
+        <section class="vc_row pt-100 pb-100" id="contact">
+          <div class="container">
+            <div class="row">
+              <div
+                class="lqd-column col-md-12 px-4 pt-45 pb-30 bg-white box-shadow-1"
+              >
+                <div class="row d-flex flex-wrap align-items-center">
+                  <div class="lqd-column col-md-6 col-md-offset-1">
+                    <header class="fancy-title">
+                      <h2>Drop us a line</h2>
+                      <p>We are here to answer any question you may have</p>
+                    </header>
+                    <!-- /.fancy-title -->
+                  </div>
+                  <!-- /.lqd-column col-md-6 col-md-offset-1 -->
+
+                  <div
+                    class="lqd-column col-md-4 hidden-sm hidden-xs text-right"
+                  >
+                    <div
+                      class="iconbox text-right iconbox-xl"
+                      data-animate-icon="true"
+                      data-plugin-options='{"resetOnHover":true,"color":"rgb(216, 219, 226)","hoverColor":"rgb(0, 0, 0)"}'
+                    >
+                      <div class="iconbox-icon-wrap">
+                        <span class="iconbox-icon-container">
+                          <svg
+                            version="1.1"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            x="0px"
+                            y="0px"
+                            width="64px"
+                            height="64px"
+                            viewBox="0 0 64 64"
+                            enable-background="new 0 0 64 64"
+                            xml:space="preserve"
+                          >
+                            <polygon
+                              stroke-width="2"
+                              stroke-linejoin="bevel"
+                              stroke-miterlimit="10"
+                              points="1,30 63,1 23,41"
+                            />
+                            <polygon
+                              stroke-width="2"
+                              stroke-linejoin="bevel"
+                              stroke-miterlimit="10"
+                              points="34,63 63,1 23,41"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                      <!-- /.iconbox-icon-wrap -->
+                    </div>
+                    <!-- /.iconbox -->
+                  </div>
+                  <!-- /.lqd-column col-md-4 hidden-sm hidden-xs -->
+                </div>
+                <!-- /.row -->
+
+                <div class="row">
+                  <div class="lqd-column col-md-10 col-md-offset-1">
+                    <div
+                      class="contact-form contact-form-inputs-underlined contact-form-button-circle"
+                    >
+                      <form
+                        action="assets/php/mailer.php"
+                        method="post"
+                        novalidate="novalidate"
+                      >
+                        <div class="row d-flex flex-wrap">
+                          <div class="lqd-column col-md-6 mb-20">
+                            <input
+                              class="lh-25 mb-30"
+                              type="text"
+                              name="name"
+                              aria-required="true"
+                              aria-invalid="false"
+                              placeholder="First Name"
+                              required
+                            />
+                            <input
+                              class="lh-25 mb-30"
+                              type="email"
+                              name="email"
+                              aria-required="true"
+                              aria-invalid="false"
+                              placeholder="Your email address"
+                              required
+                            />
+                            <input
+                              class="lh-25 mb-30"
+                              type="tel"
+                              name="mobile"
+                              aria-required="true"
+                              aria-invalid="false"
+                              placeholder="Mobile no"
+                              required
+                            />
+                          </div>
+                          <!-- /.col-md-6 -->
+                          <div class="lqd-column col-md-6 mb-20">
+                            <textarea
+                              cols="10"
+                              rows="6"
+                              name="message"
+                              aria-required="true"
+                              aria-invalid="false"
+                              placeholder="Message"
+                              required
+                            ></textarea>
+                          </div>
+                          <!-- /.col-md-12 -->
+                          <div class="lqd-column col-md-6">
+                            <p class="font-size-16 opacity-07">
+                              <em>
+                                We all know how important your information is.
+                                They are always safe with us.
+                              </em>
+                            </p>
+                          </div>
+                          <!-- /.col-md-6 -->
+                          <div class="lqd-column col-md-6 text-md-right">
+                            <input
+                              type="submit"
+                              value="Send message"
+                              class="font-size-13 ltr-sp-1 font-weight-bold"
+                            />
+                          </div>
+                          <!-- /.col-md-6 -->
+                        </div>
+                        <!-- /.row -->
+                      </form>
+                      <div class="contact-form-result hidden"></div>
+                      <!-- /.contact-form-result -->
+                    </div>
+                    <!-- /.contact-form -->
+                  </div>
+                  <!-- /.col-md-10 col-md-offset-1 -->
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- /.lqd-column col-md-12 -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.container -->
+        </section>
+
+        <section class="vc_row pt-50 pb-100 bg-zircon">
+          <div class="container">
+            <div class="row">
+              <div class="lqd-column col-md-12">
+                <header class="fancy-heading text-center mb-5">
+                  <h2>Content underline</h2>
+                </header>
+              </div>
+              <!-- /.lqd-column col-md-12 -->
+
+              <div class="lqd-column col-md-8 col-md-offset-2">
+                <div class="lqd-column-inner bg-white px-2 px-md-6 pt-55 pb-40">
+                  <div
+                    class="accordion accordion-tall accordion-body-underlined accordion-expander-lg accordion-active-color-primary"
+                    id="accordion-2"
+                    role="tablist"
+                  >
+                    <div class="accordion-item panel active">
+                      <div
+                        class="accordion-heading"
+                        role="tab"
+                        id="accordion-collapse-heading-1"
+                      >
+                        <h4 class="accordion-title font-size-19">
+                          <a
+                            class=""
+                            data-toggle="collapse"
+                            data-parent="#accordion-2"
+                            href="#accordion-collapse-panel-1"
+                            aria-expanded="true"
+                            aria-controls="accordion-collapse-panel-1"
+                          >
+                            Common PayPal and credit card issues
+                            <span class="accordion-expander">
+                              <i class="icon-arrows_circle_plus"></i>
+                              <i class="icon-arrows_circle_minus"></i>
+                            </span>
+                          </a>
+                        </h4>
+                      </div>
+                      <!-- /.accordion-heading -->
+                      <div
+                        id="accordion-collapse-panel-1"
+                        class="accordion-collapse collapse in"
+                        role="tabpanel"
+                        aria-labelledby="accordion-collapse-heading-1"
+                      >
+                        <div class="accordion-content">
+                          <p>
+                            Bitcoin is designed around the idea of using
+                            cryptography to control the creation and transfer of
+                            money in any time.
+                          </p>
+                        </div>
+                        <!-- /.accordion-content -->
+                      </div>
+                      <!-- /.collapse -->
+                    </div>
+                    <!-- /.accordion-item -->
+
+                    <div class="accordion-item panel">
+                      <div
+                        class="accordion-heading"
+                        role="tab"
+                        id="accordion-collapse-heading-2"
+                      >
+                        <h4 class="accordion-title font-size-19">
+                          <a
+                            class="collapsed"
+                            data-toggle="collapse"
+                            data-parent="#accordion-2"
+                            href="#accordion-collapse-collapse-2"
+                            aria-expanded="false"
+                            aria-controls="accordion-collapse-collapse-2"
+                          >
+                            How to trade with Litecoin
+                            <span class="accordion-expander">
+                              <i class="icon-arrows_circle_plus"></i>
+                              <i class="icon-arrows_circle_minus"></i>
+                            </span>
+                          </a>
+                        </h4>
+                      </div>
+                      <!-- /.accordion-heading -->
+                      <div
+                        id="accordion-collapse-collapse-2"
+                        class="accordion-collapse collapse"
+                        role="tabpanel"
+                        aria-labelledby="accordion-collapse-heading-2"
+                      >
+                        <div class="accordion-content">
+                          <p>
+                            Bitcoin is designed around the idea of using
+                            cryptography to control the creation and transfer of
+                            money in any time.
+                          </p>
+                        </div>
+                        <!-- /.accordion-content -->
+                      </div>
+                      <!-- /.collapse -->
+                    </div>
+                    <!-- /.accordion-item -->
+
+                    <div class="accordion-item panel">
+                      <div
+                        class="accordion-heading"
+                        role="tab"
+                        id="accordion-collapse-heading-3"
+                      >
+                        <h4 class="accordion-title font-size-19">
+                          <a
+                            class="collapsed"
+                            data-toggle="collapse"
+                            data-parent="#accordion-2"
+                            href="#accordion-collapse-collapse-3"
+                            aria-expanded="false"
+                            aria-controls="accordion-collapse-collapse-3"
+                          >
+                            Transfer and trade digital currencies in England
+                            <span class="accordion-expander">
+                              <i class="icon-arrows_circle_plus"></i>
+                              <i class="icon-arrows_circle_minus"></i>
+                            </span>
+                          </a>
+                        </h4>
+                      </div>
+                      <!-- /.accordion-heading -->
+                      <div
+                        id="accordion-collapse-collapse-3"
+                        class="accordion-collapse collapse"
+                        role="tabpanel"
+                        aria-labelledby="accordion-3-heading-3"
+                      >
+                        <div class="accordion-content">
+                          <p>
+                            Bitcoin is designed around the idea of using
+                            cryptography to control the creation and transfer of
+                            money in any time.
+                          </p>
+                        </div>
+                        <!-- /.accordion-content -->
+                      </div>
+                      <!-- /.collapse -->
+                    </div>
+                    <!-- /.accordion-item -->
+                  </div>
+                  <!-- /.accordion -->
+                </div>
+                <!-- /.lqd-column-inner bg-athens-gray -->
+              </div>
+              <!-- /.lqd-column col-md-8 col-md-offset-2 -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.container -->
+        </section>
+      </main>
+      <!-- /#content.content -->
+
+      <footer class="main-footer pt-10">
+        <section class="bt-fade-white-015 pt-90 pb-20">
+          <div class="container">
+            <div class="row">
+              <div class="lqd-column col-md-6 col-md-offset-3 text-center">
+                <p>
+                  ©
+                  <span id="copyright-year"></span>
+                  . All Rights Reserved.
+                </p>
+              </div>
+              <!-- /.col-md-6 -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.container -->
+        </section>
+      </footer>
+      <!-- /.main-footer -->
+    </div>
+    <!-- /#wrap -->
+
+    <!-- Essential Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./script.js"></script>
+    <script src="./assets/vendors/jquery.min.js"></script>
+    <script src="./assets/js/theme-vendors.js"></script>
+    <script src="./assets/js/theme.min.js"></script>
+  </body>
+</html>

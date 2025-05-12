@@ -1,0 +1,990 @@
+
+  "bulk-tanker.com": {
+    "title": "Industrial Liquid Transport",
+    "text": "Specialists in bulk liquid and powder transport – our modern fleet handles hazardous materials with precision and care throughout the UK and Europe!",
+    "heroImg": "assets/website-hero-images/liquid-waste.png",
+    "forYou": "Our specialist tanker fleet provides comprehensive solutions for industries requiring reliable bulk transport. We handle hazardous and non-hazardous materials including chemicals, food-grade products, industrial liquids, and waste streams with expert precision. Our modern, well-maintained tankers are equipped for diverse product requirements, and our experienced drivers ensure safe, efficient logistics both domestically and internationally. Choose our dependable bulk tanker transport service for your specific industry needs.",
+    "services": [
+      {
+        "title": "Liquid Bulk Transport",
+        "desc": "Tanker services for chemicals, oils, food products, and other bulk liquids.",
+        "icon": "fa-solid fa-fill-drip"
+      },
+      {
+        "title": "Powder Bulk Transport",
+        "desc": "Specialist tankers for the transport of dry bulk powders and granules.",
+        "icon": "fa-solid fa-cubes-stacked"
+      },
+      {
+        "title": "Hazardous Goods Transport",
+        "desc": "ADR-compliant tankers and trained drivers for hazardous material transport.",
+        "icon": "fa-solid fa-triangle-exclamation"
+      },
+      {
+        "title": "International Logistics",
+        "desc": "Providing bulk tanker transport solutions across the UK and Europe.",
+        "icon": "fa-solid fa-globe-europe"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-1.webp",
+        "alt": "Industrial Liquid Transport - Tanker Image 1",
+        "title": "Industrial Liquid Transport - Tanker 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-2.webp",
+        "alt": "Industrial Liquid Transport - Tanker Image 2",
+        "title": "Industrial Liquid Transport - Tanker 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-3.webp",
+        "alt": "Industrial Liquid Transport - Tanker Image 3",
+        "title": "Industrial Liquid Transport - Tanker 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-4.webp",
+        "alt": "Industrial Liquid Transport - Tanker Image 4",
+        "title": "Industrial Liquid Transport - Tanker 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-5.webp",
+        "alt": "Industrial Liquid Transport - Tanker Image 5",
+        "title": "Industrial Liquid Transport - Tanker 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-6.webp",
+        "alt": "Industrial Liquid Transport - Tanker Image 6",
+        "title": "Industrial Liquid Transport - Tanker 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-7.jpeg",
+        "alt": "Industrial Liquid Transport - Tanker Image 7",
+        "title": "Industrial Liquid Transport - Tanker 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-8.jpg",
+        "alt": "Industrial Liquid Transport - Tanker Image 8",
+        "title": "Industrial Liquid Transport - Tanker 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-9.webp",
+        "alt": "Industrial Liquid Transport - Tanker Image 9",
+        "title": "Industrial Liquid Transport - Tanker 9"
+      }
+    ],
+    "video": "www.youtube.com/watch?v=11X2ye7wDZ4"
+  },
+  "bulktanker.co.uk": {
+    "title": "UK Wet Waste Transport",
+    "text": "Nationwide transport for liquid waste and bulk materials – ADR-certified fleet with advanced containment systems for the environmental services sector!",
+    "heroImg": "assets/website-hero-images/liquid-waste.png",
+    "forYou": "Our UK-wide bulk tanker transport service specialises in wet waste management and environmental services. We operate a modern fleet of tankers equipped for the efficient and compliant movement of liquid waste, sludges, and other bulk materials. With ADR-certified drivers and vehicles meeting stringent safety standards, we ensure the safe transport of hazardous and non-hazardous waste streams. Our services support waste recycling facilities, industrial cleaning operations, and environmental service providers throughout Great Britain with reliable, cost-effective logistics.",
+    "services": [
+      {
+        "title": "Wet Waste Transport",
+        "desc": "Specialised transport for liquid waste, sludges and slurries across the UK.",
+        "icon": "fa-solid fa-truck-droplet"
+      },
+      {
+        "title": "Environmental Tanker Services",
+        "desc": "Supporting environmental operations with specialist liquid transport solutions.",
+        "icon": "fa-solid fa-recycle"
+      },
+      {
+        "title": "ADR Waste Transport",
+        "desc": "Compliant transport of hazardous liquid waste requiring special handling.",
+        "icon": "fa-solid fa-shield-virus"
+      },
+      {
+        "title": "Treatment Facility Logistics",
+        "desc": "Transport between waste producers and licensed treatment facilities.",
+        "icon": "fa-solid fa-industry"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-1.webp",
+        "alt": "UK Wet Waste Transport - Tanker Image 1",
+        "title": "UK Wet Waste Transport - Tanker 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-2.webp",
+        "alt": "UK Wet Waste Transport - Tanker Image 2",
+        "title": "UK Wet Waste Transport - Tanker 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-3.webp",
+        "alt": "UK Wet Waste Transport - Tanker Image 3",
+        "title": "UK Wet Waste Transport - Tanker 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-4.webp",
+        "alt": "UK Wet Waste Transport - Tanker Image 4",
+        "title": "UK Wet Waste Transport - Tanker 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-5.webp",
+        "alt": "UK Wet Waste Transport - Tanker Image 5",
+        "title": "UK Wet Waste Transport - Tanker 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-6.webp",
+        "alt": "UK Wet Waste Transport - Tanker Image 6",
+        "title": "UK Wet Waste Transport - Tanker 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-7.jpeg",
+        "alt": "UK Wet Waste Transport - Tanker Image 7",
+        "title": "UK Wet Waste Transport - Tanker 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-8.jpg",
+        "alt": "UK Wet Waste Transport - Tanker Image 8",
+        "title": "UK Wet Waste Transport - Tanker 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-9.webp",
+        "alt": "UK Wet Waste Transport - Tanker Image 9",
+        "title": "UK Wet Waste Transport - Tanker 9"
+      }
+    ],
+    "video": "www.youtube.com/watch?v=11X2ye7wDZ4"
+  },
+  "cctvsurvey.co.uk": {
+    "title": "Advanced Drain Diagnostics",
+    "text": "Reveal hidden drain problems with our state-of-the-art CCTV technology – detailed inspections showing exactly what's lurking in your pipes!",
+    "heroImg": "assets/website-hero-images/cctv.png",
+    "forYou": "Our CCTV drain survey service provides comprehensive internal inspections of drainage systems using advanced camera technology. Our qualified technicians identify blockages, cracks, root intrusion, and structural defects with pinpoint accuracy. Each survey delivers a detailed report with clear footage and practical recommendations, perfect for homeowners experiencing persistent problems, businesses requiring preventative maintenance, or property buyers needing pre-purchase assurance. Gain complete clarity on your drainage system's condition with our reliable, thorough inspection service.",
+    "services": [
+      {
+        "title": "Domestic Drain Surveys",
+        "desc": "Detailed inspections to identify blockages and damage in residential properties.",
+        "icon": "fa-solid fa-house-chimney-medical"
+      },
+      {
+        "title": "Commercial CCTV Inspections",
+        "desc": "Comprehensive drainage assessments for businesses and industrial sites.",
+        "icon": "fa-solid fa-building-shield"
+      },
+      {
+        "title": "Pre-Purchase Drain Reports",
+        "desc": "Thorough checks of drainage systems before property purchases.",
+        "icon": "fa-solid fa-file-signature"
+      },
+      {
+        "title": "Visual Evidence & Reports",
+        "desc": "High-resolution footage and detailed assessment of drainage condition.",
+        "icon": "fa-solid fa-chart-pie"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/CCTV-Inspection/cctv1.jpg",
+        "alt": "Advanced Drain Diagnostics - CCTV-Inspection Image 1",
+        "title": "Advanced Drain Diagnostics - CCTV-Inspection 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV-Inspection/cctv2.jpg",
+        "alt": "Advanced Drain Diagnostics - CCTV-Inspection Image 2",
+        "title": "Advanced Drain Diagnostics - CCTV-Inspection 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV-Inspection/cctv3.jpg",
+        "alt": "Advanced Drain Diagnostics - CCTV-Inspection Image 3",
+        "title": "Advanced Drain Diagnostics - CCTV-Inspection 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV-Inspection/cctv4.jpg",
+        "alt": "Advanced Drain Diagnostics - CCTV-Inspection Image 4",
+        "title": "Advanced Drain Diagnostics - CCTV-Inspection 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV-Inspection/cctv5.jpg",
+        "alt": "Advanced Drain Diagnostics - CCTV-Inspection Image 5",
+        "title": "Advanced Drain Diagnostics - CCTV-Inspection 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV-Inspection/cctv6.jpg",
+        "alt": "Advanced Drain Diagnostics - CCTV-Inspection Image 6",
+        "title": "Advanced Drain Diagnostics - CCTV-Inspection 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV-Inspection/cctv7.jpg",
+        "alt": "Advanced Drain Diagnostics - CCTV-Inspection Image 7",
+        "title": "Advanced Drain Diagnostics - CCTV-Inspection 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV-Inspection/cctv8.jpg",
+        "alt": "Advanced Drain Diagnostics - CCTV-Inspection Image 8",
+        "title": "Advanced Drain Diagnostics - CCTV-Inspection 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV-Inspection/cctv9.jpg",
+        "alt": "Advanced Drain Diagnostics - CCTV-Inspection Image 9",
+        "title": "Advanced Drain Diagnostics - CCTV-Inspection 9"
+      }
+    ],
+    "video": "www.youtube.com/watch?v=bVhy_ZnYtGk"
+  },
+  "cctvsurvey.uk": {
+    "title": "Nationwide Drain Inspection",
+    "text": "See exactly what's causing your drainage problems with our UK-wide CCTV survey service – crystal-clear footage and expert analysis for total peace of mind!",
+    "heroImg": "assets/website-hero-images/cctv.png",
+    "forYou": "Our nationwide CCTV drain survey service offers precise diagnosis of drainage problems across the UK. Our experienced technicians use the latest high-resolution camera technology to inspect pipes of all sizes, clearly identifying blockages, cracks, root ingress, and structural defects. We provide comprehensive reports with detailed footage and expert recommendations for effective remediation. Perfect for problem diagnosis, pre-purchase property checks, or build-over applications, our UK-wide inspection service gives you complete confidence in your drainage system's condition and necessary actions.",
+    "services": [
+      {
+        "title": "UK-Wide Survey Coverage",
+        "desc": "Comprehensive drain inspections available throughout the United Kingdom.",
+        "icon": "fa-solid fa-map-marked-alt"
+      },
+      {
+        "title": "HD Camera Technology",
+        "desc": "Crystal-clear footage of pipe interiors for accurate diagnosis.",
+        "icon": "fa-solid fa-camera-retro"
+      },
+      {
+        "title": "Root Cause Analysis",
+        "desc": "Expert identification of drainage problems with detailed reporting.",
+        "icon": "fa-solid fa-magnifying-glass-chart"
+      },
+      {
+        "title": "Property Surveys",
+        "desc": "Pre-purchase and building regulation surveys for property transactions.",
+        "icon": "fa-solid fa-house-circle-check"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/CCTV-Inspection/cctv1.jpg",
+        "alt": "Nationwide Drain Inspection - CCTV-Inspection Image 1",
+        "title": "Nationwide Drain Inspection - CCTV-Inspection 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV-Inspection/cctv2.jpg",
+        "alt": "Nationwide Drain Inspection - CCTV-Inspection Image 2",
+        "title": "Nationwide Drain Inspection - CCTV-Inspection 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV-Inspection/cctv3.jpg",
+        "alt": "Nationwide Drain Inspection - CCTV-Inspection Image 3",
+        "title": "Nationwide Drain Inspection - CCTV-Inspection 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV-Inspection/cctv4.jpg",
+        "alt": "Nationwide Drain Inspection - CCTV-Inspection Image 4",
+        "title": "Nationwide Drain Inspection - CCTV-Inspection 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV-Inspection/cctv5.jpg",
+        "alt": "Nationwide Drain Inspection - CCTV-Inspection Image 5",
+        "title": "Nationwide Drain Inspection - CCTV-Inspection 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV-Inspection/cctv6.jpg",
+        "alt": "Nationwide Drain Inspection - CCTV-Inspection Image 6",
+        "title": "Nationwide Drain Inspection - CCTV-Inspection 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV-Inspection/cctv7.jpg",
+        "alt": "Nationwide Drain Inspection - CCTV-Inspection Image 7",
+        "title": "Nationwide Drain Inspection - CCTV-Inspection 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV-Inspection/cctv8.jpg",
+        "alt": "Nationwide Drain Inspection - CCTV-Inspection Image 8",
+        "title": "Nationwide Drain Inspection - CCTV-Inspection 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV-Inspection/cctv9.jpg",
+        "alt": "Nationwide Drain Inspection - CCTV-Inspection Image 9",
+        "title": "Nationwide Drain Inspection - CCTV-Inspection 9"
+      }
+    ],
+    "video": "www.youtube.com/watch?v=bVhy_ZnYtGk"
+  },
+  "cdrain.co.uk": {
+    "title": "Croydon Drainage Solutions",
+    "text": "Fast, effective drainage services across Croydon – from emergency unblocking to CCTV surveys and no-dig repairs for homes and businesses!",
+    "heroImg": "assets/website-hero-images/cctv.png",
+    "forYou": "Need reliable drainage solutions in Croydon? Our local team offers comprehensive services for residential and commercial properties throughout the area. We handle everything from emergency drain unblocking and toilet clearance to detailed CCTV surveys and long-lasting repairs. Using the latest technology for accurate diagnostics and efficient solutions, we minimise disruption while resolving your drainage issues quickly. Whether you're facing a sudden blockage or require preventative maintenance, our experienced technicians provide professional, transparent service with clear pricing and expert advice.",
+    "services": [
+      {
+        "title": "Emergency Drain Clearance",
+        "desc": "Rapid response to blocked drains, toilets and sinks throughout Croydon.",
+        "icon": "fa-solid fa-bolt"
+      },
+      {
+        "title": "CCTV Drain Inspections",
+        "desc": "Identifying blockages and damage with advanced camera technology.",
+        "icon": "fa-solid fa-video"
+      },
+      {
+        "title": "No-Dig Drain Repairs",
+        "desc": "Efficient drain lining and patch repairs without excavation.",
+        "icon": "fa-solid fa-tools"
+      },
+      {
+        "title": "Scheduled Maintenance",
+        "desc": "Preventative cleaning programmes to avoid future blockages.",
+        "icon": "fa-solid fa-calendar-days"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/CCTV-Inspection/cctv1.jpg",
+        "alt": "Croydon Drainage Solutions - CCTV-Inspection Image 1",
+        "title": "Croydon Drainage Solutions - CCTV-Inspection 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV-Inspection/cctv2.jpg",
+        "alt": "Croydon Drainage Solutions - CCTV-Inspection Image 2",
+        "title": "Croydon Drainage Solutions - CCTV-Inspection 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV-Inspection/cctv3.jpg",
+        "alt": "Croydon Drainage Solutions - CCTV-Inspection Image 3",
+        "title": "Croydon Drainage Solutions - CCTV-Inspection 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV-Inspection/cctv4.jpg",
+        "alt": "Croydon Drainage Solutions - CCTV-Inspection Image 4",
+        "title": "Croydon Drainage Solutions - CCTV-Inspection 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV-Inspection/cctv5.jpg",
+        "alt": "Croydon Drainage Solutions - CCTV-Inspection Image 5",
+        "title": "Croydon Drainage Solutions - CCTV-Inspection 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV-Inspection/cctv6.jpg",
+        "alt": "Croydon Drainage Solutions - CCTV-Inspection Image 6",
+        "title": "Croydon Drainage Solutions - CCTV-Inspection 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV-Inspection/cctv7.jpg",
+        "alt": "Croydon Drainage Solutions - CCTV-Inspection Image 7",
+        "title": "Croydon Drainage Solutions - CCTV-Inspection 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV-Inspection/cctv8.jpg",
+        "alt": "Croydon Drainage Solutions - CCTV-Inspection Image 8",
+        "title": "Croydon Drainage Solutions - CCTV-Inspection 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/CCTV-Inspection/cctv9.jpg",
+        "alt": "Croydon Drainage Solutions - CCTV-Inspection Image 9",
+        "title": "Croydon Drainage Solutions - CCTV-Inspection 9"
+      }
+    ],
+    "video": "www.youtube.com/watch?v=2OEFRlmy8bU"
+  },
+  "cdrain.com": {
+    "title": "Industrial Drainage Technology",
+    "text": "Advanced solutions for complex drainage infrastructure – innovative technology for municipal networks, industrial systems and large-scale projects!",
+    "heroImg": "assets/website-hero-images/pump-station.png",
+    "forYou": "Our specialist drainage technology provides solutions for the most challenging infrastructure projects worldwide. We focus on large-scale systems for municipal authorities, industrial facilities, and major commercial developments, offering non-invasive diagnostics, trenchless rehabilitation, and comprehensive maintenance programs. Our innovative approaches to drainage management help clients address aging infrastructure, improve operational efficiency, reduce water loss, and ensure environmental compliance. With expertise in advanced pipeline assessment, robotic repairs, and system-wide maintenance, we deliver sophisticated solutions to complex drainage challenges.",
+    "services": [
+      {
+        "title": "Advanced Pipeline Assessment",
+        "desc": "Comprehensive diagnostics using sonar, laser profiling and specialist CCTV.",
+        "icon": "fa-solid fa-network-wired"
+      },
+      {
+        "title": "Trenchless Rehabilitation",
+        "desc": "No-excavation repairs using CIPP lining and robotic technology.",
+        "icon": "fa-solid fa-layer-group"
+      },
+      {
+        "title": "Large-Scale Sewer Management",
+        "desc": "Maintenance and rehabilitation of municipal drainage networks.",
+        "icon": "fa-solid fa-city"
+      },
+      {
+        "title": "Industrial Drainage Systems",
+        "desc": "Specialist solutions for complex industrial waste networks.",
+        "icon": "fa-solid fa-industry"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/Pump-Station/pump-station-1.jpg",
+        "alt": "Industrial Drainage Technology - Pump-Station Image 1",
+        "title": "Industrial Drainage Technology - Pump-Station 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/Pump-Station/pump-station-2.jpg",
+        "alt": "Industrial Drainage Technology - Pump-Station Image 2",
+        "title": "Industrial Drainage Technology - Pump-Station 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/Pump-Station/pump-station-3.jpg",
+        "alt": "Industrial Drainage Technology - Pump-Station Image 3",
+        "title": "Industrial Drainage Technology - Pump-Station 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/Pump-Station/pump-station-4.jpg",
+        "alt": "Industrial Drainage Technology - Pump-Station Image 4",
+        "title": "Industrial Drainage Technology - Pump-Station 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/Pump-Station/pump-station-5.jpg",
+        "alt": "Industrial Drainage Technology - Pump-Station Image 5",
+        "title": "Industrial Drainage Technology - Pump-Station 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/Pump-Station/pump-station-6.jpg",
+        "alt": "Industrial Drainage Technology - Pump-Station Image 6",
+        "title": "Industrial Drainage Technology - Pump-Station 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/Pump-Station/pump-station-7.jpg",
+        "alt": "Industrial Drainage Technology - Pump-Station Image 7",
+        "title": "Industrial Drainage Technology - Pump-Station 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/Pump-Station/pump-station-8.jpg",
+        "alt": "Industrial Drainage Technology - Pump-Station Image 8",
+        "title": "Industrial Drainage Technology - Pump-Station 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/Pump-Station/pump-station-9.jpg",
+        "alt": "Industrial Drainage Technology - Pump-Station Image 9",
+        "title": "Industrial Drainage Technology - Pump-Station 9"
+      }
+    ],
+    "video": "www.youtube.com/watch?v=bVhy_ZnYtGk"
+  },
+  "clean-my-carpark.co.uk": {
+    "title": "Car Park Cleaning Specialists",
+    "text": "Transform dirty, stained car parks into clean, safe environments – expert pressure washing and mechanical sweeping for all parking facilities!",
+    "heroImg": "assets/website-hero-images/road-sweeping.png",
+    "forYou": "Revitalise your tired, dirty car park with our professional cleaning service. We specialise in all types of parking facilities – multi-storey, underground, and surface car parks for retail, commercial, and residential properties. Our comprehensive service includes high-pressure washing to remove stubborn oil stains and grime, mechanical sweeping to clear debris, and optional line marking refreshment. A clean car park significantly improves your property's appearance, enhances safety for users, prevents surface deterioration, and complies with health and safety regulations. Our efficient service causes minimal disruption to your operations.",
+    "services": [
+      {
+        "title": "High-Pressure Washing",
+        "desc": "Removing stubborn oil stains, algae, and grime from all surfaces.",
+        "icon": "fa-solid fa-soap"
+      },
+      {
+        "title": "Mechanical Sweeping",
+        "desc": "Clearing loose debris, litter, and leaves from parking areas.",
+        "icon": "fa-solid fa-wind"
+      },
+      {
+        "title": "Multi-Level Car Park Cleaning",
+        "desc": "Specialist service for enclosed and multi-storey parking facilities.",
+        "icon": "fa-solid fa-car-tunnel"
+      },
+      {
+        "title": "Surface Restoration",
+        "desc": "Improving appearance and extending the life of parking surfaces.",
+        "icon": "fa-solid fa-eraser"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning1.jpg",
+        "alt": "Car Park Cleaning Specialists - Cleaning-Services Image 1",
+        "title": "Car Park Cleaning Specialists - Cleaning-Services 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning2.jpg",
+        "alt": "Car Park Cleaning Specialists - Cleaning-Services Image 2",
+        "title": "Car Park Cleaning Specialists - Cleaning-Services 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning3.jpg",
+        "alt": "Car Park Cleaning Specialists - Cleaning-Services Image 3",
+        "title": "Car Park Cleaning Specialists - Cleaning-Services 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning4.jpg",
+        "alt": "Car Park Cleaning Specialists - Cleaning-Services Image 4",
+        "title": "Car Park Cleaning Specialists - Cleaning-Services 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning5.jpg",
+        "alt": "Car Park Cleaning Specialists - Cleaning-Services Image 5",
+        "title": "Car Park Cleaning Specialists - Cleaning-Services 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning6.jpg",
+        "alt": "Car Park Cleaning Specialists - Cleaning-Services Image 6",
+        "title": "Car Park Cleaning Specialists - Cleaning-Services 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning7.jpg",
+        "alt": "Car Park Cleaning Specialists - Cleaning-Services Image 7",
+        "title": "Car Park Cleaning Specialists - Cleaning-Services 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning8.jpg",
+        "alt": "Car Park Cleaning Specialists - Cleaning-Services Image 8",
+        "title": "Car Park Cleaning Specialists - Cleaning-Services 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning9.jpg",
+        "alt": "Car Park Cleaning Specialists - Cleaning-Services Image 9",
+        "title": "Car Park Cleaning Specialists - Cleaning-Services 9"
+      }
+    ],
+    "video": "www.youtube.com/watch?v=4p2htIH3NOc"
+  },
+  "cleansafe-services.co.uk": {
+    "title": "Specialist Cleaning Experts",
+    "text": "Professional solutions for challenging cleaning scenarios – from trauma scenes to biohazards and extreme cleaning with 24/7 emergency response!",
+    "heroImg": "assets/website-hero-images/road-sweeping.png",
+    "forYou": "When standard cleaning isn't sufficient, our specialist team provides solutions for the most challenging environments. We handle sensitive situations requiring expertise and discretion, including trauma scene cleaning, biohazard removal, extreme cleaning for hoarded properties, and disaster recovery after floods or fires. Our highly trained technicians use specialised equipment and follow strict protocols to ensure safe, thorough cleaning while maintaining confidentiality. With 24/7 availability for emergencies, we restore properties to safe, clean conditions with minimal disruption and maximum professionalism.",
+    "services": [
+      {
+        "title": "Trauma Scene Cleaning",
+        "desc": "Discreet, professional cleaning of trauma and crime scenes.",
+        "icon": "fa-solid fa-hands-holding-circle"
+      },
+      {
+        "title": "Biohazard Remediation",
+        "desc": "Safe removal and disposal of hazardous biological materials.",
+        "icon": "fa-solid fa-biohazard"
+      },
+      {
+        "title": "Extreme Cleaning",
+        "desc": "Specialist cleaning for hoarding situations and severely neglected properties.",
+        "icon": "fa-solid fa-dumpster"
+      },
+      {
+        "title": "Disaster Recovery",
+        "desc": "Professional cleaning after floods, fires and other property damage.",
+        "icon": "fa-solid fa-house-fire"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning1.jpg",
+        "alt": "Specialist Cleaning Experts - Cleaning-Services Image 1",
+        "title": "Specialist Cleaning Experts - Cleaning-Services 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning2.jpg",
+        "alt": "Specialist Cleaning Experts - Cleaning-Services Image 2",
+        "title": "Specialist Cleaning Experts - Cleaning-Services 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning3.jpg",
+        "alt": "Specialist Cleaning Experts - Cleaning-Services Image 3",
+        "title": "Specialist Cleaning Experts - Cleaning-Services 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning4.jpg",
+        "alt": "Specialist Cleaning Experts - Cleaning-Services Image 4",
+        "title": "Specialist Cleaning Experts - Cleaning-Services 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning5.jpg",
+        "alt": "Specialist Cleaning Experts - Cleaning-Services Image 5",
+        "title": "Specialist Cleaning Experts - Cleaning-Services 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning6.jpg",
+        "alt": "Specialist Cleaning Experts - Cleaning-Services Image 6",
+        "title": "Specialist Cleaning Experts - Cleaning-Services 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning7.jpg",
+        "alt": "Specialist Cleaning Experts - Cleaning-Services Image 7",
+        "title": "Specialist Cleaning Experts - Cleaning-Services 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning8.jpg",
+        "alt": "Specialist Cleaning Experts - Cleaning-Services Image 8",
+        "title": "Specialist Cleaning Experts - Cleaning-Services 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning9.jpg",
+        "alt": "Specialist Cleaning Experts - Cleaning-Services Image 9",
+        "title": "Specialist Cleaning Experts - Cleaning-Services 9"
+      }
+    ],
+    "video": "www.youtube.com/watch?v=4p2htIH3NOc"
+  },
+  "cleansafe-services.com": {
+    "title": "Global Specialist Cleaning",
+    "text": "International decontamination and specialist cleaning services – expert teams deploying advanced solutions for complex environments worldwide!",
+    "heroImg": "assets/website-hero-images/road-sweeping.png",
+    "forYou": "Our global specialist cleaning and decontamination services provide solutions for challenging environments across multiple countries. We offer professional services including biohazard remediation, trauma scene cleaning, extreme cleaning for severely neglected properties, and disaster recovery after fires, floods, or other incidents. Our internationally trained technicians follow strict safety protocols while using advanced equipment and techniques to ensure thorough, discreet cleaning. With operations across multiple countries, we deliver consistent quality for multinational clients requiring specialist cleaning services across different locations.",
+    "services": [
+      {
+        "title": "Global Biohazard Management",
+        "desc": "Internationally deployed services for handling biological hazards safely.",
+        "icon": "fa-solid fa-virus-covid-slash"
+      },
+      {
+        "title": "International Trauma Cleaning",
+        "desc": "Sensitive cleaning services following traumatic incidents worldwide.",
+        "icon": "fa-solid fa-globe"
+      },
+      {
+        "title": "Cross-Border Recovery",
+        "desc": "Post-disaster cleaning and restoration across international locations.",
+        "icon": "fa-solid fa-building-flood"
+      },
+      {
+        "title": "Worldwide Specialist Cleaning",
+        "desc": "Advanced solutions for challenging environments in multiple countries.",
+        "icon": "fa-solid fa-spray-can-sparkles"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning1.jpg",
+        "alt": "Global Specialist Cleaning - Cleaning-Services Image 1",
+        "title": "Global Specialist Cleaning - Cleaning-Services 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning2.jpg",
+        "alt": "Global Specialist Cleaning - Cleaning-Services Image 2",
+        "title": "Global Specialist Cleaning - Cleaning-Services 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning3.jpg",
+        "alt": "Global Specialist Cleaning - Cleaning-Services Image 3",
+        "title": "Global Specialist Cleaning - Cleaning-Services 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning4.jpg",
+        "alt": "Global Specialist Cleaning - Cleaning-Services Image 4",
+        "title": "Global Specialist Cleaning - Cleaning-Services 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning5.jpg",
+        "alt": "Global Specialist Cleaning - Cleaning-Services Image 5",
+        "title": "Global Specialist Cleaning - Cleaning-Services 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning6.jpg",
+        "alt": "Global Specialist Cleaning - Cleaning-Services Image 6",
+        "title": "Global Specialist Cleaning - Cleaning-Services 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning7.jpg",
+        "alt": "Global Specialist Cleaning - Cleaning-Services Image 7",
+        "title": "Global Specialist Cleaning - Cleaning-Services 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning8.jpg",
+        "alt": "Global Specialist Cleaning - Cleaning-Services Image 8",
+        "title": "Global Specialist Cleaning - Cleaning-Services 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning9.jpg",
+        "alt": "Global Specialist Cleaning - Cleaning-Services Image 9",
+        "title": "Global Specialist Cleaning - Cleaning-Services 9"
+      }
+    ],
+    "video": "www.youtube.com/watch?v=4p2htIH3NOc"
+  },
+  "combination-unit.com": {
+    "title": "Advanced Vacuum-Jetting Units",
+    "text": "Powerful combination of high-pressure jetting and vacuum technology – one versatile unit for efficient drainage and waste removal tasks!",
+    "heroImg": "assets/website-hero-images/pump-station.png",
+    "forYou": "Our combination units represent the pinnacle of versatility for drainage, sewer and industrial cleaning applications. These advanced vehicles integrate powerful vacuum systems with high-pressure water jetting capabilities in a single unit, enabling efficient blockage clearance, debris removal and waste transport in one operation. Perfect for drain cleaning, sewer maintenance, gully emptying and industrial applications, these units minimise operational time and maximise effectiveness. Our experienced operators harness this dual technology to deliver rapid results for even the most challenging cleaning tasks while reducing disruption and site visits.",
+    "services": [
+      {
+        "title": "Powerful Jetting Systems",
+        "desc": "High-pressure water jetting for effective drainage cleaning and blockage removal.",
+        "icon": "fa-solid fa-water"
+      },
+      {
+        "title": "Industrial Vacuum Recovery",
+        "desc": "Strong vacuum extraction of liquid waste, sludge and debris.",
+        "icon": "fa-solid fa-vacuum-robot"
+      },
+      {
+        "title": "Drain & Gully Cleaning",
+        "desc": "Comprehensive cleaning of drainage systems and roadside gullies.",
+        "icon": "fa-solid fa-road"
+      },
+      {
+        "title": "Confined Space Cleaning",
+        "desc": "Accessing and cleaning chambers, tanks and confined areas safely.",
+        "icon": "fa-solid fa-industry"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-1.webp",
+        "alt": "Advanced Vacuum-Jetting Units - Tanker Image 1",
+        "title": "Advanced Vacuum-Jetting Units - Tanker 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-2.webp",
+        "alt": "Advanced Vacuum-Jetting Units - Tanker Image 2",
+        "title": "Advanced Vacuum-Jetting Units - Tanker 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-3.webp",
+        "alt": "Advanced Vacuum-Jetting Units - Tanker Image 3",
+        "title": "Advanced Vacuum-Jetting Units - Tanker 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-4.webp",
+        "alt": "Advanced Vacuum-Jetting Units - Tanker Image 4",
+        "title": "Advanced Vacuum-Jetting Units - Tanker 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-5.webp",
+        "alt": "Advanced Vacuum-Jetting Units - Tanker Image 5",
+        "title": "Advanced Vacuum-Jetting Units - Tanker 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-6.webp",
+        "alt": "Advanced Vacuum-Jetting Units - Tanker Image 6",
+        "title": "Advanced Vacuum-Jetting Units - Tanker 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-7.jpeg",
+        "alt": "Advanced Vacuum-Jetting Units - Tanker Image 7",
+        "title": "Advanced Vacuum-Jetting Units - Tanker 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-8.jpg",
+        "alt": "Advanced Vacuum-Jetting Units - Tanker Image 8",
+        "title": "Advanced Vacuum-Jetting Units - Tanker 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-9.webp",
+        "alt": "Advanced Vacuum-Jetting Units - Tanker Image 9",
+        "title": "Advanced Vacuum-Jetting Units - Tanker 9"
+      }
+    ],
+    "video": "www.youtube.com/watch?v=4p2htIH3NOc"
+  },
+  "combinationunit.uk": {
+    "title": "UK Environmental Maintenance",
+    "text": "Nationwide fleet of advanced jetting-vacuum units – maintaining critical infrastructure with powerful cleaning technology across the UK!",
+    "heroImg": "assets/website-hero-images/gully.png",
+    "forYou": "Our nationwide combination unit service provides essential environmental maintenance across the UK. Using versatile vehicles that integrate high-pressure jetting with powerful vacuum systems, we deliver efficient solutions for drainage networks, sewer systems, and waste management infrastructure. Our services include thorough cleaning of sewers and large pipelines, gully emptying and roadside drainage maintenance, interceptor cleaning, and emergency response for flooding incidents. With comprehensive UK coverage, we support both scheduled maintenance programmes and responsive service for urgent environmental needs.",
+    "services": [
+      {
+        "title": "National Sewer Maintenance",
+        "desc": "Comprehensive cleaning of sewers and large drainage networks UK-wide.",
+        "icon": "fa-solid fa-archway"
+      },
+      {
+        "title": "Highway Drainage Cleaning",
+        "desc": "Maintaining roadside gullies and drainage systems across Britain.",
+        "icon": "fa-solid fa-road-bridge"
+      },
+      {
+        "title": "Interceptor Management",
+        "desc": "Regular cleaning and emptying of interceptors and separators.",
+        "icon": "fa-solid fa-oil-well"
+      },
+      {
+        "title": "Emergency Flood Response",
+        "desc": "Rapid pumping and cleaning services following flooding incidents.",
+        "icon": "fa-solid fa-house-flood-water"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-1.webp",
+        "alt": "UK Environmental Maintenance - Tanker Image 1",
+        "title": "UK Environmental Maintenance - Tanker 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-2.webp",
+        "alt": "UK Environmental Maintenance - Tanker Image 2",
+        "title": "UK Environmental Maintenance - Tanker 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-3.webp",
+        "alt": "UK Environmental Maintenance - Tanker Image 3",
+        "title": "UK Environmental Maintenance - Tanker 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-4.webp",
+        "alt": "UK Environmental Maintenance - Tanker Image 4",
+        "title": "UK Environmental Maintenance - Tanker 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-5.webp",
+        "alt": "UK Environmental Maintenance - Tanker Image 5",
+        "title": "UK Environmental Maintenance - Tanker 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-6.webp",
+        "alt": "UK Environmental Maintenance - Tanker Image 6",
+        "title": "UK Environmental Maintenance - Tanker 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-7.jpeg",
+        "alt": "UK Environmental Maintenance - Tanker Image 7",
+        "title": "UK Environmental Maintenance - Tanker 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-8.jpg",
+        "alt": "UK Environmental Maintenance - Tanker Image 8",
+        "title": "UK Environmental Maintenance - Tanker 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/Tanker/tanker-9.webp",
+        "alt": "UK Environmental Maintenance - Tanker Image 9",
+        "title": "UK Environmental Maintenance - Tanker 9"
+      }
+    ],
+    "video": "www.youtube.com/watch?v=4p2htIH3NOc"
+  },
+  "hydro-cleansing.co.uk": {
+    "title": "Industrial Environmental Services",
+    "text": "Leading wet waste management and drainage specialists in Croydon – 24/7 emergency response and industrial-scale environmental solutions!",
+    "heroImg": "assets/website-hero-images/liquid-waste.png",
+    "forYou": "Based in Croydon, Hydro Cleansing Limited is a leading environmental services provider operating our own licensed waste recycling facility. We specialise in wet waste management, comprehensive drainage solutions, and emergency environmental services. Our extensive fleet and experienced team (with over 50 years of combined experience) provide industrial-scale services including emergency drain unblocking, drain jetting, CCTV surveys, drain repairs, and liquid waste collection and treatment. We operate 24/7/365 for emergency response, serving commercial, industrial, council and domestic clients across London and the South East.",
+    "services": [
+      {
+        "title": "Wet Waste Management",
+        "desc": "Collection, transport, treatment and disposal of liquid waste streams.",
+        "icon": "fa-solid fa-recycle"
+      },
+      {
+        "title": "Emergency Drainage Response",
+        "desc": "24/7 availability for rapid resolution of urgent drainage issues.",
+        "icon": "fa-solid fa-truck-fast"
+      },
+      {
+        "title": "CCTV & Drain Repairs",
+        "desc": "Comprehensive diagnostics and repairs for drainage systems.",
+        "icon": "fa-solid fa-camera"
+      },
+      {
+        "title": "Environmental Specialists",
+        "desc": "Expert services for environmental remediation and compliance.",
+        "icon": "fa-solid fa-leaf"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-1.jpg",
+        "alt": "Industrial Environmental Services - Waste-Management Image 1",
+        "title": "Industrial Environmental Services - Waste-Management 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-2.jpg",
+        "alt": "Industrial Environmental Services - Waste-Management Image 2",
+        "title": "Industrial Environmental Services - Waste-Management 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-3.jpg",
+        "alt": "Industrial Environmental Services - Waste-Management Image 3",
+        "title": "Industrial Environmental Services - Waste-Management 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-4.jpg",
+        "alt": "Industrial Environmental Services - Waste-Management Image 4",
+        "title": "Industrial Environmental Services - Waste-Management 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-5.jpg",
+        "alt": "Industrial Environmental Services - Waste-Management Image 5",
+        "title": "Industrial Environmental Services - Waste-Management 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-6.jpg",
+        "alt": "Industrial Environmental Services - Waste-Management Image 6",
+        "title": "Industrial Environmental Services - Waste-Management 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-7.webp",
+        "alt": "Industrial Environmental Services - Waste-Management Image 7",
+        "title": "Industrial Environmental Services - Waste-Management 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-8.webp",
+        "alt": "Industrial Environmental Services - Waste-Management Image 8",
+        "title": "Industrial Environmental Services - Waste-Management 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/Waste-Management/waste-9.webp",
+        "alt": "Industrial Environmental Services - Waste-Management Image 9",
+        "title": "Industrial Environmental Services - Waste-Management 9"
+      }
+    ],
+    "video": "www.youtube.com/watch?v=M2eBeHSSKHM"
+  },
+  "hydro-pressure-clean.co.uk": {
+    "title": "Eco-Friendly Surface Cleaning",
+    "text": "Transform your outdoor spaces with our 100% chemical-free pressure washing service – restoring driveways, patios and decking to pristine condition!",
+    "heroImg": "assets/website-hero-images/road-sweeping.png",
+    "forYou": "Hydro Pressure Clean specialises in exterior surface cleaning throughout Croydon and surrounding Surrey areas. Our 100% chemical-free, eco-friendly approach uses only water at high pressure to effectively clean driveways, patios, and decking. With 19 years of pressure washing expertise and a background in landscaping, we understand different surface materials and how to clean them safely and effectively. Our industrial-grade equipment removes algae, moss, weeds, and dirt without damaging your surfaces or harming surrounding plants. We offer free, no-obligation quotes, flexible scheduling, and a professional, customer-focused service.",
+    "services": [
+      {
+        "title": "Chemical-Free Driveway Cleaning",
+        "desc": "Restoring block paving, concrete, and tarmac driveways with pure water.",
+        "icon": "fa-solid fa-car-side"
+      },
+      {
+        "title": "Eco-Friendly Patio Cleaning",
+        "desc": "Revitalising natural stone, concrete, and paved outdoor spaces.",
+        "icon": "fa-solid fa-seedling"
+      },
+      {
+        "title": "Gentle Decking Restoration",
+        "desc": "Removing slippery algae and grime while preserving wood integrity.",
+        "icon": "fa-solid fa-hot-tub-person"
+      },
+      {
+        "title": "Water-Only Pressure Washing",
+        "desc": "100% chemical-free cleaning that's safe for pets, plants and children.",
+        "icon": "fa-solid fa-droplet"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning1.jpg",
+        "alt": "Eco-Friendly Surface Cleaning - Cleaning-Services Image 1",
+        "title": "Eco-Friendly Surface Cleaning - Cleaning-Services 1"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning2.jpg",
+        "alt": "Eco-Friendly Surface Cleaning - Cleaning-Services Image 2",
+        "title": "Eco-Friendly Surface Cleaning - Cleaning-Services 2"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning3.jpg",
+        "alt": "Eco-Friendly Surface Cleaning - Cleaning-Services Image 3",
+        "title": "Eco-Friendly Surface Cleaning - Cleaning-Services 3"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning4.jpg",
+        "alt": "Eco-Friendly Surface Cleaning - Cleaning-Services Image 4",
+        "title": "Eco-Friendly Surface Cleaning - Cleaning-Services 4"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning5.jpg",
+        "alt": "Eco-Friendly Surface Cleaning - Cleaning-Services Image 5",
+        "title": "Eco-Friendly Surface Cleaning - Cleaning-Services 5"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning6.jpg",
+        "alt": "Eco-Friendly Surface Cleaning - Cleaning-Services Image 6",
+        "title": "Eco-Friendly Surface Cleaning - Cleaning-Services 6"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning7.jpg",
+        "alt": "Eco-Friendly Surface Cleaning - Cleaning-Services Image 7",
+        "title": "Eco-Friendly Surface Cleaning - Cleaning-Services 7"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning8.jpg",
+        "alt": "Eco-Friendly Surface Cleaning - Cleaning-Services Image 8",
+        "title": "Eco-Friendly Surface Cleaning - Cleaning-Services 8"
+      },
+      {
+        "src": "assets/Website-Service-Images/Cleaning-Services/cleaning9.jpg",
+        "alt": "Eco-Friendly Surface Cleaning - Cleaning-Services Image 9",
+        "title": "Eco-Friendly Surface Cleaning - Cleaning-Services 9"
+      }
+    ],
+    "video": "www.youtube.com/watch?v=4p2htIH3NOc"
+  }
+}
