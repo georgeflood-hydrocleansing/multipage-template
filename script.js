@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
 // FAQ data for all service categories
 const faqData = {
   liquidWaste: {
-    title: 'Liquid Waste Management & Disposal FAQs',
+    title: 'FAQs',
     faqs: [
       {
         question: 'What liquid waste management services do you offer?',
@@ -117,7 +117,7 @@ const faqData = {
     ],
   },
   pumpStations: {
-    title: 'Pump Station & Interceptor Services FAQs',
+    title: 'FAQs',
     faqs: [
       {
         question: 'What pump station services do you offer?',
@@ -186,7 +186,7 @@ const faqData = {
     ],
   },
   roadSweeping: {
-    title: 'Road Sweeping Services FAQs',
+    title: 'FAQs',
     faqs: [
       {
         question: 'What road sweeping services do you provide?',
@@ -253,7 +253,7 @@ const faqData = {
     ],
   },
   tunnelCleaning: {
-    title: 'Tunnel Cleaning Services FAQs',
+    title: 'FAQs',
     faqs: [
       {
         question: 'What types of tunnel cleaning services do you provide?',
@@ -312,7 +312,7 @@ const faqData = {
     ],
   },
   general: {
-    title: 'Hydro-Cleansing Services FAQs',
+    title: 'FAQs',
     faqs: [
       {
         question: 'What services does Hydro-Cleansing offer?',
@@ -353,7 +353,7 @@ const faqData = {
     ],
   },
   uhpwj: {
-    title: 'Ultra-High-Pressure Water Jetting (UHPWJ) FAQs',
+    title: 'FAQs',
     faqs: [
       {
         question: 'What is UHPWJ?',
@@ -395,7 +395,7 @@ const faqData = {
     ],
   },
   cctv: {
-    title: 'CCTV Drain Survey FAQs',
+    title: 'FAQs',
     faqs: [
       {
         question: 'Why would I need a CCTV survey?',
@@ -442,7 +442,7 @@ const faqData = {
     ],
   },
   drainageServices: {
-    title: 'Drain Unblocking & Jetting FAQs',
+    title: 'FAQs',
     faqs: [
       {
         question: 'What are the warning signs of a blocked drain?',
@@ -490,7 +490,7 @@ const faqData = {
     ],
   },
   emergencyWaste: {
-    title: 'Emergency Waste Removal FAQs',
+    title: 'FAQs',
     faqs: [
       {
         question: 'What incidents qualify as an emergency?',
@@ -656,22 +656,45 @@ function updatePageContent(domainConfig, currentDomain, allConfig) {
   // --- hero image swap ---------------------------------------------
   const heroImgEl = document.querySelector('.clip-svg img');
   if (heroImgEl && domainConfig.heroImg?.trim()) {
+    console.log(`Updating hero image to: ${domainConfig.heroImg}`);
+
     let imgPath = domainConfig.heroImg.trim();
 
     // If it isn't absolute already, make it absolute to the site-root
-    // so we don't depend on where the script is executed from.
-    if (!imgPath.startsWith('/')) {
-      imgPath = '/' + imgPath.replace(/^(\.\/)+/, '');
+    if (
+      !imgPath.startsWith('/') &&
+      !imgPath.startsWith('http') &&
+      !imgPath.startsWith('./')
+    ) {
+      imgPath = '/' + imgPath;
     }
 
+    // Also update the figure's background-image which is what's actually shown
+    const figure = heroImgEl.closest('figure');
+    if (figure) {
+      figure.style.backgroundImage = `url('${imgPath}')`;
+    }
+
+    // Update the img src as well
     heroImgEl.src = imgPath;
 
+    // Set up error handling in case the image fails to load
     heroImgEl.onerror = () => {
       console.warn(
-        `[HCL] Hero image "assets/website-hero-images/liquid-waste.png" failed, falling back.`
+        `Hero image "${imgPath}" failed to load, falling back to default.`
       );
-      heroImgEl.src = 'assets/website-hero-images/liquid-waste.png';
-      heroImgEl.onerror = null; // stop the loop
+
+      // Try the fallback image
+      const fallbackPath = 'assets/website-hero-images/liquid-waste.png';
+      heroImgEl.src = fallbackPath;
+
+      // Also update the figure background
+      if (figure) {
+        figure.style.backgroundImage = `url('${fallbackPath}')`;
+      }
+
+      // Prevent infinite error loop
+      heroImgEl.onerror = null;
     };
   }
 
