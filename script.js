@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
 // FAQ data for all service categories
 const faqData = {
   liquidWaste: {
-    title: 'FAQs',
+    title: 'Things to Know',
     faqs: [
       {
         question: 'What liquid waste management services do you offer?',
@@ -117,7 +117,7 @@ const faqData = {
     ],
   },
   pumpStations: {
-    title: 'FAQs',
+    title: 'Things to Know',
     faqs: [
       {
         question: 'What pump station services do you offer?',
@@ -186,7 +186,7 @@ const faqData = {
     ],
   },
   roadSweeping: {
-    title: 'FAQs',
+    title: 'Things to Know',
     faqs: [
       {
         question: 'What road sweeping services do you provide?',
@@ -253,7 +253,7 @@ const faqData = {
     ],
   },
   tunnelCleaning: {
-    title: 'FAQs',
+    title: 'Things to Know',
     faqs: [
       {
         question: 'What types of tunnel cleaning services do you provide?',
@@ -312,7 +312,7 @@ const faqData = {
     ],
   },
   general: {
-    title: 'FAQs',
+    title: 'Things to Know',
     faqs: [
       {
         question: 'What services does Hydro-Cleansing offer?',
@@ -353,7 +353,7 @@ const faqData = {
     ],
   },
   uhpwj: {
-    title: 'FAQs',
+    title: 'Things to Know',
     faqs: [
       {
         question: 'What is UHPWJ?',
@@ -395,7 +395,7 @@ const faqData = {
     ],
   },
   cctv: {
-    title: 'FAQs',
+    title: 'Things to Know',
     faqs: [
       {
         question: 'Why would I need a CCTV survey?',
@@ -442,7 +442,7 @@ const faqData = {
     ],
   },
   drainageServices: {
-    title: 'FAQs',
+    title: 'Things to Know',
     faqs: [
       {
         question: 'What are the warning signs of a blocked drain?',
@@ -490,7 +490,7 @@ const faqData = {
     ],
   },
   emergencyWaste: {
-    title: 'FAQs',
+    title: 'Things to Know',
     faqs: [
       {
         question: 'What incidents qualify as an emergency?',
