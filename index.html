@@ -30,23 +30,9 @@
 
     <!-- Head Libs -->
     <script async src="assets/vendors/modernizr.min.js"></script>
-  </head>
-  <body
-    data-mobile-nav-trigger-alignment="right"
-    data-mobile-nav-align="left"
-    data-mobile-nav-style="modern"
-    data-mobile-nav-shceme="gray"
-    data-mobile-header-scheme="gray"
-    data-mobile-nav-breakpoint="1199"
-  >
-    <!-- Loading Overlay -->
-    <div id="loading-overlay">
-      <div class="spinner-container">
-        <div class="spinner"></div>
-        <p>Loading...</p>
-      </div>
-    </div>
+
     <style>
+      /* Improved loading styles */
       #loading-overlay {
         position: fixed;
         top: 0;
@@ -58,6 +44,7 @@
         justify-content: center;
         align-items: center;
         z-index: 9999;
+        flex-direction: column;
       }
       .spinner-container {
         text-align: center;
@@ -81,7 +68,89 @@
         font-size: 16px;
         color: #333;
       }
+      #loading-message {
+        margin-top: 10px;
+        font-size: 14px;
+        color: #888;
+      }
+
+      /* Debug panel styles - only visible when ?debug=true is in URL */
+      #debug-panel {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.8);
+        color: lime;
+        font-family: monospace;
+        padding: 10px;
+        max-width: 400px;
+        max-height: 300px;
+        overflow: auto;
+        z-index: 9999;
+        display: none;
+        border-top-left-radius: 5px;
+        font-size: 12px;
+      }
+      #debug-panel.visible {
+        display: block;
+      }
+      #debug-panel div {
+        margin-bottom: 4px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        padding-bottom: 4px;
+      }
+
+      /* Style for elements while their content is loading */
+      .content-loading {
+        min-height: 20px;
+        position: relative;
+        overflow: hidden;
+      }
+      .content-loading::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          90deg,
+          transparent,
+          rgba(255, 255, 255, 0.5),
+          transparent
+        );
+        animation: loading-shimmer 1.5s infinite;
+      }
+      @keyframes loading-shimmer {
+        0% {
+          transform: translateX(-100%);
+        }
+        100% {
+          transform: translateX(100%);
+        }
+      }
     </style>
+  </head>
+  <body
+    data-mobile-nav-trigger-alignment="right"
+    data-mobile-nav-align="left"
+    data-mobile-nav-style="modern"
+    data-mobile-nav-shceme="gray"
+    data-mobile-header-scheme="gray"
+    data-mobile-nav-breakpoint="1199"
+  >
+    <!-- Loading Overlay -->
+    <div id="loading-overlay">
+      <div class="spinner-container">
+        <div class="spinner"></div>
+        <p>Loading...</p>
+        <div id="loading-message">Initializing content...</div>
+      </div>
+    </div>
+
+    <!-- Debug panel for troubleshooting -->
+    <div id="debug-panel"></div>
+
     <!-- /. Loading Overlay -->
 
     <div id="wrap">

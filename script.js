@@ -529,6 +529,102 @@ const faqData = {
 let faqsLoadedByTester = false;
 
 /**
+ * Debug utilities to help diagnose loading issues
+ */
+const DEBUG = {
+  logs: [],
+  init: function () {
+    // Check if debug mode is enabled via URL parameter
+    const urlParams = new URLSearchParams(window.location.search);
+    const isDebugMode = urlParams.get('debug') === 'true';
+
+    // Make the debug panel visible if in debug mode
+    if (isDebugMode) {
+      const debugPanel = document.getElementById('debug-panel');
+      if (debugPanel) {
+        debugPanel.classList.add('visible');
+      }
+
+      // Override console.log and other methods to capture in our debug panel
+      const originalConsole = {
+        log: console.log,
+        warn: console.warn,
+        error: console.error,
+      };
+
+      console.log = function () {
+        DEBUG.addLog('log', arguments);
+        originalConsole.log.apply(console, arguments);
+      };
+
+      console.warn = function () {
+        DEBUG.addLog('warn', arguments);
+        originalConsole.warn.apply(console, arguments);
+      };
+
+      console.error = function () {
+        DEBUG.addLog('error', arguments);
+        originalConsole.error.apply(console, arguments);
+      };
+    }
+
+    // Also update loading message
+    const loadingMessage = document.getElementById('loading-message');
+    if (loadingMessage) {
+      loadingMessage.textContent = 'Checking configuration...';
+    }
+  },
+
+  addLog: function (level, args) {
+    const debugPanel = document.getElementById('debug-panel');
+    if (!debugPanel) return;
+
+    // Convert args to array
+    const argsArray = Array.from(args).map(arg =>
+      typeof arg === 'object' ? JSON.stringify(arg) : arg
+    );
+
+    // Create log entry
+    const logText = argsArray.join(' ');
+    const logEntry = document.createElement('div');
+    logEntry.textContent = `[${level.toUpperCase()}] ${logText}`;
+
+    // Style based on level
+    if (level === 'warn') {
+      logEntry.style.color = 'yellow';
+    } else if (level === 'error') {
+      logEntry.style.color = 'red';
+    }
+
+    // Add to panel
+    debugPanel.appendChild(logEntry);
+
+    // Auto-scroll to bottom
+    debugPanel.scrollTop = debugPanel.scrollHeight;
+
+    // Store log
+    this.logs.push({
+      level,
+      text: logText,
+      time: new Date().toISOString(),
+    });
+  },
+
+  updateLoadingMessage: function (message) {
+    const loadingMessage = document.getElementById('loading-message');
+    if (loadingMessage) {
+      loadingMessage.textContent = message;
+    }
+    console.log(`Loading status: ${message}`);
+  },
+};
+
+// Initialize debug tools
+document.addEventListener('DOMContentLoaded', function () {
+  DEBUG.init();
+});
+
+/**
  * Updates the page content based on the domain configuration
  * @param {Object} domainConfig - The configuration for the current domain
  * @param {String} currentDomain - The current domain being accessed
@@ -1340,6 +1436,9 @@ $(document).ready(function () {
 document.addEventListener('DOMContentLoaded', function () {
   document.getElementById('copyright-year').textContent =
     new Date().getFullYear();
+
+  // Initialize dynamic content based on current domain
+  initializeDynamicContent();
 });
 
 // Dynamic title configuration
@@ -1377,6 +1476,219 @@ function updatePageTitle() {
   };
 
   loadConfig();
+}
+
+// Function to test if a URL is accessible
+async function isUrlAccessible(url) {
+  try {
+    DEBUG.updateLoadingMessage(`Testing URL accessibility: ${url}`);
+    const response = await fetch(url, { method: 'HEAD' });
+    return response.ok;
+  } catch (error) {
+    console.warn(`URL ${url} is not accessible:`, error);
+    return false;
+  }
+}
+
+// Initialize all dynamic content based on domain
+function initializeDynamicContent() {
+  const currentDomain = window.location.hostname;
+
+  console.log(`Initializing dynamic content for domain: ${currentDomain}`);
+  DEBUG.updateLoadingMessage(`Initializing for domain: ${currentDomain}`);
+
+  // If on localhost or file protocol, use a test domain for development
+  const effectiveDomain =
+    currentDomain === 'localhost' ||
+    currentDomain === '127.0.0.1' ||
+    window.location.protocol === 'file:'
+      ? faqData.general &&
+        faqData.general.urls &&
+        faqData.general.urls.length > 0
+        ? faqData.general.urls[0]
+        : 'hydro-cleansing.com'
+      : currentDomain;
+
+  DEBUG.updateLoadingMessage(`Using effective domain: ${effectiveDomain}`);
+
+  // Add loading classes to elements that will be updated
+  document.getElementById('hero-title')?.classList.add('content-loading');
+  document.getElementById('hero-text')?.classList.add('content-loading');
+  document
+    .querySelectorAll('.iconbox .contents h3')
+    .forEach(el => el.classList.add('content-loading'));
+  document
+    .querySelectorAll('.iconbox .contents p')
+    .forEach(el => el.classList.add('content-loading'));
+
+  // Load config from all possible locations
+  const configPaths = [
+    './config.json',
+    '../config.json',
+    '/config.json',
+    '/ave-html/config.json',
+    'https://hydro-cleansing.com/config.json', // Fallback to main domain if local configs fail
+  ];
+
+  let configLoaded = false;
+
+  // Try to load the config from each path
+  const loadConfigAndUpdateContent = async () => {
+    // First check which config URLs are accessible
+    const accessibleConfigPaths = [];
+
+    DEBUG.updateLoadingMessage('Checking accessible config paths...');
+
+    for (const path of configPaths) {
+      if (path.startsWith('http')) {
+        // For absolute URLs, check if they're accessible first
+        const isAccessible = await isUrlAccessible(path);
+        if (isAccessible) {
+          accessibleConfigPaths.push(path);
+        }
+      } else {
+        // For relative paths, we'll try to fetch them directly
+        accessibleConfigPaths.push(path);
+      }
+    }
+
+    console.log(`Accessible config paths: ${accessibleConfigPaths.join(', ')}`);
+    DEBUG.updateLoadingMessage(
+      `Found ${accessibleConfigPaths.length} accessible config paths`
+    );
+
+    // Now try to load from accessible paths
+    for (const path of accessibleConfigPaths) {
+      if (configLoaded) continue;
+
+      try {
+        console.log(`Attempting to load config from: ${path}`);
+        DEBUG.updateLoadingMessage(`Loading config from: ${path}`);
+
+        const response = await fetch(path);
+
+        if (response.ok) {
+          const allConfig = await response.json();
+
+          if (!allConfig || Object.keys(allConfig).length === 0) {
+            console.warn(`Config loaded from ${path} is empty or invalid`);
+            DEBUG.updateLoadingMessage(
+              `Config from ${path} is empty or invalid`
+            );
+            continue;
+          }
+
+          let domainConfig = allConfig[effectiveDomain];
+
+          // If no exact match, try without www
+          if (!domainConfig && effectiveDomain.startsWith('www.')) {
+            const domainWithoutWww = effectiveDomain.replace(/^www\./, '');
+            DEBUG.updateLoadingMessage(
+              `Trying domain without www: ${domainWithoutWww}`
+            );
+            domainConfig = allConfig[domainWithoutWww];
+          }
+
+          // If still no match, use the first domain in the config
+          if (!domainConfig) {
+            const firstDomain = Object.keys(allConfig)[0];
+            DEBUG.updateLoadingMessage(
+              `No config for ${effectiveDomain}, using ${firstDomain}`
+            );
+            domainConfig = allConfig[firstDomain];
+            console.log(
+              `No config found for ${effectiveDomain}, using ${firstDomain} instead`
+            );
+          }
+
+          if (domainConfig) {
+            console.log(`Config loaded successfully for ${effectiveDomain}`);
+            DEBUG.updateLoadingMessage(
+              `Config loaded successfully, updating content...`
+            );
+
+            // Update all content with the loaded config
+            updatePageContent(domainConfig, effectiveDomain, allConfig);
+            updateServiceCardsByDomainCategory(effectiveDomain);
+            loadFAQs(effectiveDomain);
+            if (domainConfig.gallery) {
+              loadGallery(domainConfig);
+            }
+            configLoaded = true;
+
+            // Remove loading classes
+            document.querySelectorAll('.content-loading').forEach(el => {
+              el.classList.remove('content-loading');
+            });
+
+            DEBUG.updateLoadingMessage('Content updated successfully');
+            break;
+          }
+        }
+      } catch (error) {
+        console.warn(`Error loading config from ${path}:`, error);
+        DEBUG.updateLoadingMessage(
+          `Error loading from ${path}: ${error.message}`
+        );
+      }
+    }
+
+    // If no config was loaded from any source, try to at least load FAQs and services
+    if (!configLoaded) {
+      console.warn(
+        'Failed to load config from any source, using fallback functionality'
+      );
+      DEBUG.updateLoadingMessage('Using fallback configuration');
+
+      // Create a minimal fallback config for this domain
+      const fallbackConfig = {
+        title: document.title || effectiveDomain,
+        text: 'Professional environmental services',
+        services: [
+          {
+            title: 'Professional Services',
+            desc: 'Expert solutions for your environmental needs',
+            icon: 'fa-solid fa-star',
+          },
+          {
+            title: '24/7 Support',
+            desc: 'Round the clock assistance when you need it most',
+            icon: 'fa-solid fa-clock',
+          },
+          {
+            title: 'Quality Guarantee',
+            desc: 'We stand behind all our work with quality assurance',
+            icon: 'fa-solid fa-check',
+          },
+          {
+            title: 'Eco-Friendly',
+            desc: 'Environmentally responsible practices and solutions',
+            icon: 'fa-solid fa-leaf',
+          },
+        ],
+      };
+
+      // Use the fallback config for minimal styling
+      updatePageContent(fallbackConfig, effectiveDomain, {
+        [effectiveDomain]: fallbackConfig,
+      });
+
+      // Still try to load domain-specific FAQs and services
+      loadFAQs(effectiveDomain);
+      updateServiceCardsByDomainCategory(effectiveDomain);
+
+      // Remove loading classes
+      document.querySelectorAll('.content-loading').forEach(el => {
+        el.classList.remove('content-loading');
+      });
+    }
+
+    // Hide loading overlay once everything is done
+    DEBUG.updateLoadingMessage('Finalizing and hiding loading overlay...');
+    setTimeout(hideLoadingOverlay, 500);
+  };
+
+  loadConfigAndUpdateContent();
 }
 
 // Call this when the page loads
