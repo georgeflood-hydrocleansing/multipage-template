@@ -764,7 +764,7 @@ document.addEventListener('DOMContentLoaded', function () {
 function updateCopyrightWithTitle(title) {
   const copyrightElement = document.getElementById('copyright-year');
   if (copyrightElement && title) {
-    copyrightElement.textContent = `${title} | ${new Date().getFullYear()}`;
+    copyrightElement.textContent = `${title} ${new Date().getFullYear()}. All rights reserved`;
     console.log(`Updated copyright with title: ${title}`);
   }
 }
