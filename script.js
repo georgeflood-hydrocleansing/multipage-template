@@ -762,9 +762,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // Add this function to update the copyright
 function updateCopyrightWithTitle(title) {
-  const copyrightElement = document.getElementById('copyright-year');
-  if (copyrightElement && title) {
-    copyrightElement.textContent = `${title} ${new Date().getFullYear()}. All rights reserved`;
+  const websiteTitleElement = document.getElementById('website-title');
+  if (websiteTitleElement && title) {
+    websiteTitleElement.textContent = title;
     console.log(`Updated copyright with title: ${title}`);
   }
 }
@@ -865,6 +865,9 @@ function updatePageContent(domainConfig, currentDomain, allConfig) {
 
   // Inject Schema markup
   injectSchema(domainConfig, currentDomain);
+
+  // Check elements after updating content
+  setTimeout(checkElements, 1000);
 }
 
 /**
@@ -1078,10 +1081,27 @@ function initLightbox() {
  * @param {Boolean} isFromTester - Whether this call comes from the URL tester
  */
 function loadFAQs(domain, isFromTester = false) {
-  // If content is already loaded and this is not a tester call, skip
+  // If content is already loaded and this is not a tester call, try to restore from localStorage first
   if (contentSuccessfullyLoaded && !isFromTester) {
-    console.log('Content already loaded, skipping FAQ load');
-    return;
+    console.log('Content already loaded, checking for stored FAQs');
+
+    // Try to restore from localStorage
+    try {
+      const storedFAQs = localStorage.getItem('faqData');
+      const storedDomain = localStorage.getItem('faqDomain');
+
+      if (storedFAQs && storedDomain === domain) {
+        console.log('Restoring FAQs from localStorage');
+        const faqsData = JSON.parse(storedFAQs);
+
+        // Apply the stored FAQs to the page
+        applyFAQsToPage(faqsData, domain);
+        return;
+      }
+    } catch (e) {
+      console.warn('Error restoring FAQs from localStorage', e);
+      // Continue with normal loading if restoration fails
+    }
   }
 
   console.log(`Attempting to load FAQs for domain: ${domain}`);
@@ -1176,6 +1196,21 @@ function loadFAQs(domain, isFromTester = false) {
     }
   }
 
+  // Store FAQs in localStorage for persistence
+  try {
+    localStorage.setItem('faqData', JSON.stringify(matchedFaqData));
+    localStorage.setItem('faqDomain', domain);
+    console.log('FAQs stored in localStorage');
+  } catch (e) {
+    console.warn('Error storing FAQs in localStorage', e);
+  }
+
+  // Apply the FAQs to the page
+  applyFAQsToPage(matchedFaqData, domain);
+}
+
+// New function to apply FAQs to the page
+function applyFAQsToPage(matchedFaqData, domain) {
   // Find the accordion by its specific ID
   const accordionElement = document.getElementById('accordion-2');
   if (!accordionElement) {
@@ -1258,7 +1293,7 @@ function loadFAQs(domain, isFromTester = false) {
   });
 
   console.log(
-    `FAQ section successfully updated for domain category: ${faqCategory}`
+    `FAQ section successfully updated for domain category: ${matchedFaqData.title}`
   );
 }
 
@@ -1518,160 +1553,128 @@ function loadGallery(domainConfig) {
   initLightbox(); // make the new tiles clickable
 }
 
-// Contact form handler
-$(document).ready(function () {
-  // Target the contact form
-  const contactForm = $('.contact-form form');
+$(function () {
+  $('#storeLead').validate({
+    rules: {
+      name: { required: true },
+      email: { required: true, email: true },
+      mobile: { required: true },
+      message: { required: false },
+    },
+    messages: {
+      name: 'Please enter your name',
+      email: 'Please enter a valid email address',
+      mobile: 'Please enter your mobile number',
+      message: 'Please enter a message',
+    },
+    submitHandler: function (form) {
+      const $form = $(form);
+      const formData = $form.serialize();
+      const $submitBtn = $('#submitButton'); // Use the button by ID
 
-  // Only proceed if we found the contact form
-  if (contactForm.length === 0) {
-    console.log('Contact form not found on this page');
-    return;
-  }
+      $submitBtn.prop('disabled', true);
 
-  console.log('Contact form found, setting up handler');
+      if (typeof Swal !== 'undefined') {
+        Swal.fire({
+          title: 'Sending...',
+          text: 'Please wait while we process your request.',
+          allowOutsideClick: false,
+          didOpen: () => {
+            Swal.showLoading();
+          },
+        });
+      }
 
-  // Set form submission to the correct endpoint
-  contactForm.attr('action', 'https://hydro-cleansing.com/api/capture-leads');
-
-  // Handle form submission
-  contactForm.on('submit', function (e) {
-    e.preventDefault(); // Stop normal form submission
-
-    console.log('Form submitted, preparing data');
-
-    // Create URL-encoded form data string (the old-fashioned way)
-    const formData = contactForm.serialize();
-
-    // Show loading message
-    let loadingMessage;
-    if (typeof Swal !== 'undefined') {
-      loadingMessage = Swal.fire({
-        title: 'Sending...',
-        text: 'Please wait while we process your request',
-        allowOutsideClick: false,
-        didOpen: () => {
-          Swal.showLoading();
-        },
-      });
-    } else {
-      alert('Sending your message...');
-    }
-
-    // Log what we're about to send for debugging
-    console.log('Sending data to API:', formData);
-
-    // Create a fallback solution using regular form submission
-    const fallbackSubmit = function () {
-      console.log('Trying fallback form submission');
-      // Store indication we're coming back from a form submit
-      localStorage.setItem('formSubmitted', 'true');
-
-      // Set form to use POST method
-      contactForm.attr('method', 'POST');
-
-      // Submit form the old-fashioned way
-      contactForm[0].submit();
-    };
-
-    // Try submitting via fetch API (modern approach)
-    fetch('https://hydro-cleansing.com/api/capture-leads', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/x-www-form-urlencoded',
-      },
-      body: formData,
-    })
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('Server returned ' + response.status);
-        }
-        return response.text();
+      fetch('https://hydro-cleansing.com/api/capture-leads', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: formData,
       })
-      .then(data => {
-        console.log('Success response:', data);
-
-        // Show success message
-        if (typeof Swal !== 'undefined') {
+        .then(response => {
+          if (!response.ok)
+            throw new Error('Server returned ' + response.status);
+          return response.text();
+        })
+        .then(data => {
           Swal.fire({
             title: 'Thank you!',
-            html: 'If you need us urgently please call us on <br><b><a href="tel:08007408888" style="color: #e55f36; text-decoration: none; font-size: 20px">0800 740 8888</a></b>',
+            html: 'Your message has been sent.<br>If you need us urgently, call <b><a href="tel:08007408888">0800 740 8888</a></b>.',
             icon: 'success',
+          }).then(() => {
+            form.reset();
+            $submitBtn.prop('disabled', false);
           });
-        } else {
-          alert('Thank you for your message! We will contact you shortly.');
-        }
+        })
+        .catch(err => {
+          console.error('Form submission error:', err);
+          Swal.fire(
+            'Error',
+            'There was a problem sending your message. Please try again later.',
+            'error'
+          );
+          $submitBtn.prop('disabled', false);
+        });
 
-        // Reset the form
-        contactForm[0].reset();
-      })
-      .catch(error => {
-        console.error('Form submission error:', error);
-
-        // Try fallback submission method
-        fallbackSubmit();
-      });
+      return false;
+    },
   });
-
-  // Check if we just returned from a form submission via fallback
-  if (localStorage.getItem('formSubmitted') === 'true') {
-    // Clear the flag
-    localStorage.removeItem('formSubmitted');
-
-    // Show success message
-    if (typeof Swal !== 'undefined') {
-      Swal.fire({
-        title: 'Thank you!',
-        html: 'If you need us urgently please call us on <br><b><a href="tel:08007408888" style="color: #e55f36; text-decoration: none; font-size: 20px">0800 740 8888</a></b>',
-        icon: 'success',
-      });
-    } else {
-      alert('Thank you for your message! We will contact you shortly.');
-    }
-  }
 });
 
 // Update copyright year
 document.addEventListener('DOMContentLoaded', function () {
-  // Set the copyright year with the website title
+  // Set the copyright year and website title separately
+  const websiteTitleElement = document.getElementById('website-title');
   const copyrightElement = document.getElementById('copyright-year');
-  if (copyrightElement) {
-    // Get the website title - either from document.title or localStorage
-    let websiteTitle = '';
 
-    // Try to get from localStorage first
-    try {
-      const storedConfig = localStorage.getItem('domainConfig');
-      if (storedConfig) {
-        const domainConfig = JSON.parse(storedConfig);
-        if (domainConfig && domainConfig.title) {
-          websiteTitle = domainConfig.title;
-        }
+  let websiteTitle = '';
+
+  // Try to get from localStorage first
+  try {
+    const storedConfig = localStorage.getItem('domainConfig');
+    if (storedConfig) {
+      const domainConfig = JSON.parse(storedConfig);
+      if (domainConfig && domainConfig.title) {
+        websiteTitle = domainConfig.title;
       }
-    } catch (e) {
-      console.warn('Error accessing stored domain config', e);
     }
+  } catch (e) {
+    console.warn('Error accessing stored domain config', e);
+  }
 
-    // If we couldn't get it from localStorage, use document.title
-    if (!websiteTitle && document.title) {
-      // Extract just the main part of the title (in case it has additional text)
-      websiteTitle = document.title.split('|')[0].trim();
-      websiteTitle = websiteTitle.split('-')[0].trim();
-    }
+  // If we couldn't get it from localStorage, use document.title
+  if (!websiteTitle && document.title) {
+    // Extract just the main part of the title (in case it has additional text)
+    websiteTitle = document.title.split('|')[0].trim();
+    websiteTitle = websiteTitle.split('-')[0].trim();
+  }
 
-    // If we still don't have a title, use a default
-    if (!websiteTitle) {
-      const currentDomain = window.location.hostname || 'Hydro Cleansing';
-      websiteTitle = currentDomain.replace(/^www\./, '');
-    }
+  // If we still don't have a title, use a default
+  if (!websiteTitle) {
+    const currentDomain = window.location.hostname || 'Hydro Cleansing';
+    websiteTitle = currentDomain.replace(/^www\./, '');
+  }
 
-    // Set the copyright text
-    copyrightElement.textContent = `${websiteTitle} ${new Date().getFullYear()}.`;
+  // Set the website title and copyright year separately
+  if (websiteTitleElement) {
+    websiteTitleElement.textContent = websiteTitle;
+  }
+
+  if (copyrightElement) {
+    copyrightElement.textContent = new Date().getFullYear().toString();
   }
 
   // Initialize dynamic content based on current domain
   initializeDynamicContent();
 });
+
+// Update the updateCopyrightWithTitle function to match
+function updateCopyrightWithTitle(title) {
+  const websiteTitleElement = document.getElementById('website-title');
+  if (websiteTitleElement && title) {
+    websiteTitleElement.textContent = title;
+    console.log(`Updated copyright with title: ${title}`);
+  }
+}
 
 // Dynamic title configuration
 function updatePageTitle() {
@@ -2061,4 +2064,212 @@ function initializeDynamicContent() {
   };
 
   loadConfigAndUpdateContent();
+}
+
+// Add a debug function to check key elements
+function checkElements() {
+  console.log('---- CHECKING KEY ELEMENTS ----');
+
+  // Check copyright element
+  const copyrightElement = document.getElementById('copyright-year');
+  console.log('Copyright element exists:', !!copyrightElement);
+  if (copyrightElement) {
+    console.log('Copyright text:', copyrightElement.textContent);
+    console.log('Copyright parent:', copyrightElement.parentElement.outerHTML);
+  }
+
+  // Check FAQ accordion
+  const accordionElement = document.getElementById('accordion-2');
+  console.log('FAQ accordion exists:', !!accordionElement);
+  if (accordionElement) {
+    console.log(
+      'FAQ accordion children count:',
+      accordionElement.children.length
+    );
+  }
+
+  // Check stored values
+  try {
+    console.log(
+      'Stored domain config:',
+      localStorage.getItem('domainConfig') ? 'exists' : 'missing'
+    );
+    console.log(
+      'Stored FAQs:',
+      localStorage.getItem('faqData') ? 'exists' : 'missing'
+    );
+    console.log(
+      'Content locked status:',
+      localStorage.getItem('contentLocked')
+    );
+  } catch (e) {
+    console.warn('Error checking localStorage', e);
+  }
+
+  console.log('---- END ELEMENT CHECK ----');
+}
+
+// Call this function after DOM is loaded and after content is loaded
+document.addEventListener('DOMContentLoaded', function () {
+  // Existing code...
+
+  // Run the element check on load
+  setTimeout(checkElements, 1000);
+  // Attach mutation observers
+  setTimeout(observeCriticalElements, 1200);
+});
+
+// Add a MutationObserver to watch for unwanted changes
+function observeCriticalElements() {
+  // Helper to log mutations
+  function logMutations(mutationsList, observer, label) {
+    for (const mutation of mutationsList) {
+      if (mutation.type === 'childList' || mutation.type === 'characterData') {
+        console.warn(`[MutationObserver] ${label} changed!`, mutation);
+      }
+    }
+  }
+
+  // Observe FAQ accordion
+  const faqAccordion = document.getElementById('accordion-2');
+  if (faqAccordion) {
+    const faqObserver = new MutationObserver((mutationsList, observer) => {
+      logMutations(mutationsList, observer, 'FAQ Accordion');
+    });
+    faqObserver.observe(faqAccordion, {
+      childList: true,
+      subtree: true,
+      characterData: true,
+    });
+    console.log('FAQ accordion observer attached');
+  }
+
+  // Observe copyright/title
+  const copyright = document.getElementById('copyright-year');
+  const websiteTitle = document.getElementById('website-title');
+  if (copyright) {
+    const copyrightObserver = new MutationObserver(
+      (mutationsList, observer) => {
+        logMutations(mutationsList, observer, 'Copyright Year');
+      }
+    );
+    copyrightObserver.observe(copyright, {
+      childList: true,
+      characterData: true,
+    });
+    console.log('Copyright observer attached');
+  }
+  if (websiteTitle) {
+    const titleObserver = new MutationObserver((mutationsList, observer) => {
+      logMutations(mutationsList, observer, 'Website Title');
+    });
+    titleObserver.observe(websiteTitle, {
+      childList: true,
+      characterData: true,
+    });
+    console.log('Website title observer attached');
+  }
+}
+
+// Add a function to restore content
+function restoreCriticalContent() {
+  // Restore FAQs
+  try {
+    const storedFAQs = localStorage.getItem('faqData');
+    const storedDomain = localStorage.getItem('faqDomain');
+    if (storedFAQs && storedDomain) {
+      const faqsData = JSON.parse(storedFAQs);
+      applyFAQsToPage(faqsData, storedDomain);
+      console.log('[AutoRestore] FAQs restored');
+    }
+  } catch (e) {
+    console.warn('[AutoRestore] Error restoring FAQs', e);
+  }
+  // Restore website title and copyright
+  try {
+    const storedConfig = localStorage.getItem('domainConfig');
+    let websiteTitle = '';
+    if (storedConfig) {
+      const domainConfig = JSON.parse(storedConfig);
+      if (domainConfig && domainConfig.title) {
+        websiteTitle = domainConfig.title;
+      }
+    }
+    if (!websiteTitle && document.title) {
+      websiteTitle = document.title.split('|')[0].trim();
+      websiteTitle = websiteTitle.split('-')[0].trim();
+    }
+    if (!websiteTitle) {
+      const currentDomain = window.location.hostname || 'Hydro Cleansing';
+      websiteTitle = currentDomain.replace(/^www\./, '');
+    }
+    const websiteTitleElement = document.getElementById('website-title');
+    const copyrightElement = document.getElementById('copyright-year');
+    if (websiteTitleElement) {
+      websiteTitleElement.textContent = websiteTitle;
+    }
+    if (copyrightElement) {
+      copyrightElement.textContent = new Date().getFullYear().toString();
+    }
+    console.log('[AutoRestore] Website title and copyright restored');
+  } catch (e) {
+    console.warn('[AutoRestore] Error restoring website title/copyright', e);
+  }
+}
+
+// Update the MutationObserver to auto-restore content
+function observeCriticalElements() {
+  // Helper to log mutations and auto-restore
+  function logMutations(mutationsList, observer, label) {
+    let needsRestore = false;
+    for (const mutation of mutationsList) {
+      if (mutation.type === 'childList' || mutation.type === 'characterData') {
+        console.warn(`[MutationObserver] ${label} changed!`, mutation);
+        needsRestore = true;
+      }
+    }
+    if (needsRestore) {
+      restoreCriticalContent();
+    }
+  }
+
+  // Observe FAQ accordion
+  const faqAccordion = document.getElementById('accordion-2');
+  if (faqAccordion) {
+    const faqObserver = new MutationObserver((mutationsList, observer) => {
+      logMutations(mutationsList, observer, 'FAQ Accordion');
+    });
+    faqObserver.observe(faqAccordion, {
+      childList: true,
+      subtree: true,
+      characterData: true,
+    });
+    console.log('FAQ accordion observer attached');
+  }
+
+  // Observe copyright/title
+  const copyright = document.getElementById('copyright-year');
+  const websiteTitle = document.getElementById('website-title');
+  if (copyright) {
+    const copyrightObserver = new MutationObserver(
+      (mutationsList, observer) => {
+        logMutations(mutationsList, observer, 'Copyright Year');
+      }
+    );
+    copyrightObserver.observe(copyright, {
+      childList: true,
+      characterData: true,
+    });
+    console.log('Copyright observer attached');
+  }
+  if (websiteTitle) {
+    const titleObserver = new MutationObserver((mutationsList, observer) => {
+      logMutations(mutationsList, observer, 'Website Title');
+    });
+    titleObserver.observe(websiteTitle, {
+      childList: true,
+      characterData: true,
+    });
+    console.log('Website title observer attached');
+  }
 }
