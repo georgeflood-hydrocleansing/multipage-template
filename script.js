@@ -3,6 +3,10 @@
  * This script loads content dynamically based on the current domain from config.json
  */
 
+// Add this near the top of the file, with the other global variables
+let contentSuccessfullyLoaded = false;
+let contentLoadingInProgress = false;
+
 // Function to hide the loading overlay
 function hideLoadingOverlay() {
   const loadingOverlay = document.getElementById('loading-overlay');
@@ -93,7 +97,6 @@ const faqData = {
       'emergancyliquidstorage.co.uk',
       'emergency-bulk-storage.co.uk',
       'emergency-liquid-storage.co.uk',
-      'emergency-waste-removal.co.uk',
       'environmental-waste.co.uk',
       'environmental-waste.uk',
       'environmentalwaterrecycling.co.uk',
@@ -101,9 +104,6 @@ const faqData = {
       'hazardouswasteclearance.co.uk',
       'hazardouswasteliquiddisposal.co.uk',
       'hclwaste.com',
-      'hydro-cleansing.co',
-      'hydro-cleansing.com',
-      'hydropressureclean.co.uk',
       'liquid-ingenuity.co.uk',
       'liquid-waste.co.uk',
       'liquid-waste.uk',
@@ -113,7 +113,78 @@ const faqData = {
       'recycle-waste.uk',
       'tanker-waste.co.uk',
       'waste-logistics.co.uk',
-      'waste-removal-tideway.co.uk',
+      'bentonite-slurry.co.uk',
+      'bentonite-slurry.uk',
+      'bentoniteremoval.co.uk',
+      'bentoniteremoval.uk',
+      'bulk-tanker.com',
+      'bulktanker.co.uk',
+      'combination-unit.com',
+      'combinationunit.co.uk',
+      'combinationunit.uk',
+      'combinationunittanker.uk',
+      'construction-liquid.org',
+      'croydon-waste-services.co.uk',
+      'digestercleaning.co.uk',
+      'drilling-mud-storage.co.uk',
+      'drilling-slurry.co.uk',
+      'drilling-slurry.uk',
+      'drillingmud-storage.co.uk',
+      'drillingmud.co.uk',
+      'drillingmud.uk',
+      'drillingslurry.co.uk',
+      'drillingslurry.uk',
+      'environmentalwaterrecycling.uk',
+      'fatbergremoval.blog',
+      'fatbergremoval.com',
+      'fatbergremoval.london',
+      'fatbergremoval.net',
+      'fatbergremoval.org.uk',
+      'fatbergremoval.uk',
+      'fatbergremoval.website',
+      'frackingwatertanks.co.uk',
+      'fracktankuk.co.uk',
+      'fractankuk.co.uk',
+      'ground-water.co.uk',
+      'ground-water.org.uk',
+      'hcl-haulage.co.uk',
+      'hcl-haulage.com',
+      'hcl-logistics.co.uk',
+      'hcl-logistics.com',
+      'hcllogistics.co.uk',
+      'hcllogistics.com',
+      'hcltransport.co.uk',
+      'hcltransportation.co.uk',
+      'jetvactanker.co.uk',
+      'jetvactanker.uk',
+      'london-food-waste.co.uk',
+      'manholeemptying.co.uk',
+      'manholeemptying.uk',
+      'marine-waste-management.co.uk',
+      'mega-float.co.uk',
+      'mega-float.uk',
+      'mega-heat.co.uk',
+      'mega-heat.com',
+      'megafloat.co.uk',
+      'mobile-incinerator-services.co.uk',
+      'mobileheatedtank.co.uk',
+      'mobilewaterstorage.co.uk',
+      'portable-liquid-storage-tanks.co.uk',
+      'portable-storage-tanks.co.uk',
+      'septicwaste.co.uk',
+      'septicwaste.uk',
+      'sewagedigester.co.uk',
+      'sewagedisposal.co.uk',
+      'sewagetanker.com',
+      'sewagetankers.co.uk',
+      'sewerage-waste.co.uk',
+      'sewerage-waste.com',
+      'sewerdigester.co.uk',
+      'super-sucker-tanker.co.uk',
+      'supercombinationunit.uk',
+      'tanker-hire.com',
+      'terminator-genisys.co.uk',
+      'wastetankers.co.uk',
     ],
   },
   pumpStations: {
@@ -183,6 +254,14 @@ const faqData = {
       'pumpstationservices.co.uk',
       'sewage-waste.uk',
       'sewagetreatmentpump.co.uk',
+      'diesel-interceptors.co.uk',
+      'drainpumps.co.uk',
+      'fuel-interceptors.co.uk',
+      'fuelinterceptors.co.uk',
+      'gullygulper.co.uk',
+      'oil-interceptor.co.uk',
+      'petrol-interceptor.co.uk',
+      'temporarysitepumps.co.uk',
     ],
   },
   roadSweeping: {
@@ -230,26 +309,36 @@ const faqData = {
       },
     ],
     urls: [
+      'clean-my-carpark.co.uk',
       'construction-sweepers.co.uk',
       'croydonsweepers.co.uk',
       'event-road-sweepers.co.uk',
       'eventroadsweepers.co.uk',
-      'hcl-commercial-bodywork.co.uk',
-      'hcl-commercial-bodywork.com',
       'hclsweepers.co.uk',
+      'local-roadsweepers.co.uk',
       'london-sweeperhire.co.uk',
       'london-sweepers.co.uk',
       'mega-sweep.co.uk',
       'mega-sweep.com',
+      'mega-sweep.uk',
       'mega-sweeper.com',
       'mega-sweepers.com',
       'road-sweeper-waste-disposal.co.uk',
       'road-sweeper.co',
       'road-sweepers.co',
       'road-sweeping-waste.co.uk',
+      'roadsweeperwaste.co.uk',
+      'sweeperwaste.co.uk',
+      'construction-cleaning.co.uk',
+      'event-cleanup.co.uk',
+      'festival-cleanup.co.uk',
+      'festivalcleanup.co.uk',
+      'forecourt-cleansing.co.uk',
+      'forecourtcleansing.co.uk',
+      'major-event-cleanup.co.uk',
+      'majoreventcleanup.co.uk',
       'roadgullysweeper.co.uk',
       'roadgullysweeper.uk',
-      'roadsweeperwaste.co.uk',
     ],
   },
   tunnelCleaning: {
@@ -298,17 +387,30 @@ const faqData = {
       },
     ],
     urls: [
-      'digestercleaning.co.uk',
       'london-tunnels.co.uk',
       'london-tunnels.com',
-      'sewagedigester.co.uk',
-      'sewerdigester.co.uk',
+      'mega-reel.co.uk',
+      'mega-reel.com',
+      'mega-reel.uk',
+      'megareel.co.uk',
       'subway-cleaning.co.uk',
+      'super-sewer-london.co.uk',
+      'supersewerlondon.co.uk',
       'tunnel-cleaning.com',
       'tunnelcleaning.co.uk',
       'tunnelcleaning.uk',
       'tunnelwaste.co.uk',
       'tunnelwaste.com',
+      'waste-removal-tideway.co.uk',
+      'confinedspacework.co.uk',
+      'confinedspacework.uk',
+      'cross-rail.co.uk',
+      'cross-rail.com',
+      'crossrail-cleaning.co.uk',
+      'crossrail-servicing.co.uk',
+      'crossrail-servicing.com',
+      'crossrail-waste.co.uk',
+      'crossrail-waste.com',
     ],
   },
   general: {
@@ -350,6 +452,19 @@ const faqData = {
       'hydro-cleansing.co',
       'hydrocleansing.net',
       'hydrocleansing.co',
+      'akisv.com',
+      'cleansafe-services.co.uk',
+      'cleansafe-services.com',
+      'construction-services.co',
+      'disinfecting.co.uk',
+      'foggingservice.co.uk',
+      'hrdro-cleansing.com',
+      'hydro-cleansing.london',
+      'london-cleaning-services.co.uk',
+      'london-industrial-services.co.uk',
+      'london-industrial-services.com',
+      'sanitizing.co.uk',
+      'thames-water-services.co.uk',
     ],
   },
   uhpwj: {
@@ -431,14 +546,17 @@ const faqData = {
     urls: [
       'cctvsurvey.co.uk',
       'cctvsurvey.uk',
-      'wincan-cctv.co.uk',
-      'wincan-london.co.uk',
-      'wincan-surveys.co.uk',
-      'wincan-surveys.com',
+      'draineyehire.com',
+      'mega-cam.co',
+      'mega-cam.co.uk',
       'mega-cam.com',
       'mega-cam.uk',
       'mega-cctv.co',
       'mega-cctv.co.uk',
+      'wincan-cctv.co.uk',
+      'wincan-london.co.uk',
+      'wincan-surveys.co.uk',
+      'wincan-surveys.com',
     ],
   },
   drainageServices: {
@@ -482,11 +600,20 @@ const faqData = {
       'cdrain.co.uk',
       'cdrain.com',
       'croydon-drain-services.co.uk',
-      'draineyehire.com',
       'jetting-drains.co.uk',
       'jetting-drians.co.uk',
       'jettingvans.co.uk',
       'jettingvans.com',
+      'blockeddrains-london.com',
+      'drainlining.co',
+      'sewagemaintenance.co.uk',
+      'sewageservice.co.uk',
+      'sewercleansing.co.uk',
+      'sewerdrains.co.uk',
+      'sewerdrains.uk',
+      'sewerjetting.co.uk',
+      'uvline.co.uk',
+      'uvlinging.co.uk',
     ],
   },
   emergencyWaste: {
@@ -521,7 +648,16 @@ const faqData = {
           'Full clean-down, surface testing, and "all-clear" documentation provided.',
       },
     ],
-    urls: ['emergency-waste-removal.co.uk'],
+    urls: [
+      'emergency-waste-removal.co.uk',
+      'emergencyflood.co.uk',
+      'emergencyflood.uk',
+      'flood-cleanup-services.co.uk',
+      'flood-cleanup.uk',
+      'flood-damage-control.co.uk',
+      'spill-graud.co.uk',
+      'spill-guard.co.uk',
+    ],
   },
 };
 
@@ -624,6 +760,15 @@ document.addEventListener('DOMContentLoaded', function () {
   DEBUG.init();
 });
 
+// Add this function to update the copyright
+function updateCopyrightWithTitle(title) {
+  const copyrightElement = document.getElementById('copyright-year');
+  if (copyrightElement && title) {
+    copyrightElement.textContent = `${title} | ${new Date().getFullYear()}`;
+    console.log(`Updated copyright with title: ${title}`);
+  }
+}
+
 /**
  * Updates the page content based on the domain configuration
  * @param {Object} domainConfig - The configuration for the current domain
@@ -633,6 +778,9 @@ document.addEventListener('DOMContentLoaded', function () {
 function updatePageContent(domainConfig, currentDomain, allConfig) {
   // Site title and meta tags
   document.title = domainConfig.title || 'Hydro Cleansing';
+
+  // Also update the copyright with the title
+  updateCopyrightWithTitle(domainConfig.title);
 
   // Update meta description
   const metaDescription = document.querySelector('meta[name="description"]');
@@ -930,6 +1078,12 @@ function initLightbox() {
  * @param {Boolean} isFromTester - Whether this call comes from the URL tester
  */
 function loadFAQs(domain, isFromTester = false) {
+  // If content is already loaded and this is not a tester call, skip
+  if (contentSuccessfullyLoaded && !isFromTester) {
+    console.log('Content already loaded, skipping FAQ load');
+    return;
+  }
+
   console.log(`Attempting to load FAQs for domain: ${domain}`);
 
   // If FAQs have been loaded by the tester and this is not a tester call, skip it
@@ -1093,7 +1247,9 @@ function loadFAQs(domain, isFromTester = false) {
            role="tabpanel" 
            aria-labelledby="${itemId}-heading">
         <div class="accordion-content">
-          <p>${faq.answer}</p>
+          <p class="font-size-18 lh-15 mb-55" id="for-you-text">${
+            faq.answer
+          }</p>
         </div>
       </div>
     `;
@@ -1477,8 +1633,41 @@ $(document).ready(function () {
 
 // Update copyright year
 document.addEventListener('DOMContentLoaded', function () {
-  document.getElementById('copyright-year').textContent =
-    new Date().getFullYear();
+  // Set the copyright year with the website title
+  const copyrightElement = document.getElementById('copyright-year');
+  if (copyrightElement) {
+    // Get the website title - either from document.title or localStorage
+    let websiteTitle = '';
+
+    // Try to get from localStorage first
+    try {
+      const storedConfig = localStorage.getItem('domainConfig');
+      if (storedConfig) {
+        const domainConfig = JSON.parse(storedConfig);
+        if (domainConfig && domainConfig.title) {
+          websiteTitle = domainConfig.title;
+        }
+      }
+    } catch (e) {
+      console.warn('Error accessing stored domain config', e);
+    }
+
+    // If we couldn't get it from localStorage, use document.title
+    if (!websiteTitle && document.title) {
+      // Extract just the main part of the title (in case it has additional text)
+      websiteTitle = document.title.split('|')[0].trim();
+      websiteTitle = websiteTitle.split('-')[0].trim();
+    }
+
+    // If we still don't have a title, use a default
+    if (!websiteTitle) {
+      const currentDomain = window.location.hostname || 'Hydro Cleansing';
+      websiteTitle = currentDomain.replace(/^www\./, '');
+    }
+
+    // Set the copyright text
+    copyrightElement.textContent = `${websiteTitle} ${new Date().getFullYear()}.`;
+  }
 
   // Initialize dynamic content based on current domain
   initializeDynamicContent();
@@ -1486,6 +1675,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // Dynamic title configuration
 function updatePageTitle() {
+  // Skip if content has already been successfully loaded
+  if (contentSuccessfullyLoaded) {
+    console.log('Content already loaded, skipping title update');
+    return;
+  }
+
   const currentDomain = window.location.hostname;
 
   // If on localhost or file protocol, use a test domain for development
@@ -1558,6 +1753,86 @@ async function isUrlAccessible(url) {
 
 // Initialize all dynamic content based on domain
 function initializeDynamicContent() {
+  // Check if we have a stored config in localStorage
+  try {
+    const storedConfig = localStorage.getItem('domainConfig');
+    const storedDomain = localStorage.getItem('effectiveDomain');
+    const storedTimestamp = localStorage.getItem('configTimestamp');
+
+    // If we have stored config that's less than 1 hour old, use it
+    if (storedConfig && storedDomain && storedTimestamp) {
+      const configAge = Date.now() - parseInt(storedTimestamp, 10);
+      // Only use stored config if it's less than 1 hour old (3600000 ms)
+      if (configAge < 3600000) {
+        console.log(
+          `Using stored config for ${storedDomain} (${Math.round(
+            configAge / 1000 / 60
+          )} minutes old)`
+        );
+
+        try {
+          const domainConfig = JSON.parse(storedConfig);
+          const effectiveDomain = storedDomain;
+          const allConfig = { [effectiveDomain]: domainConfig };
+
+          // Set the success flag immediately
+          contentSuccessfullyLoaded = true;
+
+          // Update content with stored config
+          updatePageContent(domainConfig, effectiveDomain, allConfig);
+          updateServiceCardsByDomainCategory(effectiveDomain);
+          loadFAQs(effectiveDomain);
+
+          if (domainConfig.gallery) {
+            loadGallery(domainConfig);
+          }
+
+          // Still hide the loading overlay
+          setTimeout(hideLoadingOverlay, 300);
+
+          console.log('Content loaded from storage successfully');
+          return;
+        } catch (parseError) {
+          console.warn('Error parsing stored config:', parseError);
+          // Continue with normal loading if parsing fails
+          localStorage.removeItem('domainConfig');
+          localStorage.removeItem('effectiveDomain');
+          localStorage.removeItem('configTimestamp');
+        }
+      } else {
+        console.log('Stored config is too old, fetching fresh config');
+        // Clear old config
+        localStorage.removeItem('domainConfig');
+        localStorage.removeItem('effectiveDomain');
+        localStorage.removeItem('configTimestamp');
+      }
+    }
+  } catch (storageError) {
+    console.warn('Error accessing localStorage:', storageError);
+    // Continue with normal loading if localStorage access fails
+  }
+
+  // If content has already been successfully loaded, don't reload it
+  if (contentSuccessfullyLoaded) {
+    console.log(
+      'Content already successfully loaded, skipping reinitialization'
+    );
+    // Still hide the loading overlay in case it's still showing
+    setTimeout(hideLoadingOverlay, 300);
+    return;
+  }
+
+  // If content loading is already in progress, don't start a second process
+  if (contentLoadingInProgress) {
+    console.log(
+      'Content loading already in progress, skipping duplicate initialization'
+    );
+    return;
+  }
+
+  // Set the loading lock
+  contentLoadingInProgress = true;
+
   const currentDomain = window.location.hostname;
 
   console.log(`Initializing dynamic content for domain: ${currentDomain}`);
@@ -1600,158 +1875,189 @@ function initializeDynamicContent() {
 
   // Try to load the config from each path
   const loadConfigAndUpdateContent = async () => {
-    // First check which config URLs are accessible
-    const accessibleConfigPaths = [];
+    try {
+      // First check which config URLs are accessible
+      const accessibleConfigPaths = [];
 
-    DEBUG.updateLoadingMessage('Checking accessible config paths...');
+      DEBUG.updateLoadingMessage('Checking accessible config paths...');
 
-    for (const path of configPaths) {
-      if (path.startsWith('http')) {
-        // For absolute URLs, check if they're accessible first
-        const isAccessible = await isUrlAccessible(path);
-        if (isAccessible) {
+      for (const path of configPaths) {
+        if (path.startsWith('http')) {
+          // For absolute URLs, check if they're accessible first
+          const isAccessible = await isUrlAccessible(path);
+          if (isAccessible) {
+            accessibleConfigPaths.push(path);
+          }
+        } else {
+          // For relative paths, we'll try to fetch them directly
           accessibleConfigPaths.push(path);
         }
-      } else {
-        // For relative paths, we'll try to fetch them directly
-        accessibleConfigPaths.push(path);
       }
-    }
 
-    console.log(`Accessible config paths: ${accessibleConfigPaths.join(', ')}`);
-    DEBUG.updateLoadingMessage(
-      `Found ${accessibleConfigPaths.length} accessible config paths`
-    );
-
-    // Now try to load from accessible paths
-    for (const path of accessibleConfigPaths) {
-      if (configLoaded) continue;
-
-      try {
-        console.log(`Attempting to load config from: ${path}`);
-        DEBUG.updateLoadingMessage(`Loading config from: ${path}`);
-
-        const response = await fetch(path);
-
-        if (response.ok) {
-          const allConfig = await response.json();
-
-          if (!allConfig || Object.keys(allConfig).length === 0) {
-            console.warn(`Config loaded from ${path} is empty or invalid`);
-            DEBUG.updateLoadingMessage(
-              `Config from ${path} is empty or invalid`
-            );
-            continue;
-          }
-
-          let domainConfig = allConfig[effectiveDomain];
-
-          // If no exact match, try without www
-          if (!domainConfig && effectiveDomain.startsWith('www.')) {
-            const domainWithoutWww = effectiveDomain.replace(/^www\./, '');
-            DEBUG.updateLoadingMessage(
-              `Trying domain without www: ${domainWithoutWww}`
-            );
-            domainConfig = allConfig[domainWithoutWww];
-          }
-
-          // If still no match, use the first domain in the config
-          if (!domainConfig) {
-            const firstDomain = Object.keys(allConfig)[0];
-            DEBUG.updateLoadingMessage(
-              `No config for ${effectiveDomain}, using ${firstDomain}`
-            );
-            domainConfig = allConfig[firstDomain];
-            console.log(
-              `No config found for ${effectiveDomain}, using ${firstDomain} instead`
-            );
-          }
-
-          if (domainConfig) {
-            console.log(`Config loaded successfully for ${effectiveDomain}`);
-            DEBUG.updateLoadingMessage(
-              `Config loaded successfully, updating content...`
-            );
-
-            // Update all content with the loaded config
-            updatePageContent(domainConfig, effectiveDomain, allConfig);
-            updateServiceCardsByDomainCategory(effectiveDomain);
-            loadFAQs(effectiveDomain);
-            if (domainConfig.gallery) {
-              loadGallery(domainConfig);
-            }
-            configLoaded = true;
-
-            // Remove loading classes
-            document.querySelectorAll('.content-loading').forEach(el => {
-              el.classList.remove('content-loading');
-            });
-
-            DEBUG.updateLoadingMessage('Content updated successfully');
-            break;
-          }
-        }
-      } catch (error) {
-        console.warn(`Error loading config from ${path}:`, error);
-        DEBUG.updateLoadingMessage(
-          `Error loading from ${path}: ${error.message}`
-        );
-      }
-    }
-
-    // If no config was loaded from any source, try to at least load FAQs and services
-    if (!configLoaded) {
-      console.warn(
-        'Failed to load config from any source, using fallback functionality'
+      console.log(
+        `Accessible config paths: ${accessibleConfigPaths.join(', ')}`
       );
-      DEBUG.updateLoadingMessage('Using fallback configuration');
+      DEBUG.updateLoadingMessage(
+        `Found ${accessibleConfigPaths.length} accessible config paths`
+      );
 
-      // Create a minimal fallback config for this domain
-      const fallbackConfig = {
-        title: document.title || effectiveDomain,
-        text: 'Professional environmental services',
-        services: [
-          {
-            title: 'Professional Services',
-            desc: 'Expert solutions for your environmental needs',
-            icon: 'fa-solid fa-star',
-          },
-          {
-            title: '24/7 Support',
-            desc: 'Round the clock assistance when you need it most',
-            icon: 'fa-solid fa-clock',
-          },
-          {
-            title: 'Quality Guarantee',
-            desc: 'We stand behind all our work with quality assurance',
-            icon: 'fa-solid fa-check',
-          },
-          {
-            title: 'Eco-Friendly',
-            desc: 'Environmentally responsible practices and solutions',
-            icon: 'fa-solid fa-leaf',
-          },
-        ],
-      };
+      // Now try to load from accessible paths
+      for (const path of accessibleConfigPaths) {
+        if (configLoaded) continue;
 
-      // Use the fallback config for minimal styling
-      updatePageContent(fallbackConfig, effectiveDomain, {
-        [effectiveDomain]: fallbackConfig,
-      });
+        try {
+          console.log(`Attempting to load config from: ${path}`);
+          DEBUG.updateLoadingMessage(`Loading config from: ${path}`);
 
-      // Still try to load domain-specific FAQs and services
-      loadFAQs(effectiveDomain);
-      updateServiceCardsByDomainCategory(effectiveDomain);
+          const response = await fetch(path);
 
-      // Remove loading classes
-      document.querySelectorAll('.content-loading').forEach(el => {
-        el.classList.remove('content-loading');
-      });
+          if (response.ok) {
+            const allConfig = await response.json();
+
+            if (!allConfig || Object.keys(allConfig).length === 0) {
+              console.warn(`Config loaded from ${path} is empty or invalid`);
+              DEBUG.updateLoadingMessage(
+                `Config from ${path} is empty or invalid`
+              );
+              continue;
+            }
+
+            let domainConfig = allConfig[effectiveDomain];
+
+            // If no exact match, try without www
+            if (!domainConfig && effectiveDomain.startsWith('www.')) {
+              const domainWithoutWww = effectiveDomain.replace(/^www\./, '');
+              DEBUG.updateLoadingMessage(
+                `Trying domain without www: ${domainWithoutWww}`
+              );
+              domainConfig = allConfig[domainWithoutWww];
+            }
+
+            // If still no match, use the first domain in the config
+            if (!domainConfig) {
+              const firstDomain = Object.keys(allConfig)[0];
+              DEBUG.updateLoadingMessage(
+                `No config for ${effectiveDomain}, using ${firstDomain}`
+              );
+              domainConfig = allConfig[firstDomain];
+              console.log(
+                `No config found for ${effectiveDomain}, using ${firstDomain} instead`
+              );
+            }
+
+            if (domainConfig) {
+              console.log(`Config loaded successfully for ${effectiveDomain}`);
+              DEBUG.updateLoadingMessage(
+                `Config loaded successfully, updating content...`
+              );
+
+              // Update all content with the loaded config
+              updatePageContent(domainConfig, effectiveDomain, allConfig);
+              updateServiceCardsByDomainCategory(effectiveDomain);
+              loadFAQs(effectiveDomain);
+              if (domainConfig.gallery) {
+                loadGallery(domainConfig);
+              }
+              configLoaded = true;
+
+              // Set the global flag to indicate content has been successfully loaded
+              contentSuccessfullyLoaded = true;
+
+              // Store the config in localStorage for future use
+              try {
+                localStorage.setItem(
+                  'domainConfig',
+                  JSON.stringify(domainConfig)
+                );
+                localStorage.setItem('effectiveDomain', effectiveDomain);
+                localStorage.setItem('configTimestamp', Date.now().toString());
+                console.log('Config stored in localStorage');
+              } catch (storageError) {
+                console.warn(
+                  'Unable to store config in localStorage:',
+                  storageError
+                );
+              }
+
+              // Remove loading classes
+              document.querySelectorAll('.content-loading').forEach(el => {
+                el.classList.remove('content-loading');
+              });
+
+              DEBUG.updateLoadingMessage('Content updated successfully');
+              break;
+            }
+          }
+        } catch (error) {
+          console.warn(`Error loading config from ${path}:`, error);
+          DEBUG.updateLoadingMessage(
+            `Error loading from ${path}: ${error.message}`
+          );
+        }
+      }
+
+      // If no config was loaded from any source, try to at least load FAQs and services
+      if (!configLoaded) {
+        console.warn(
+          'Failed to load config from any source, using fallback functionality'
+        );
+        DEBUG.updateLoadingMessage('Using fallback configuration');
+
+        // Create a minimal fallback config for this domain
+        const fallbackConfig = {
+          title: document.title || effectiveDomain,
+          text: 'Professional environmental services',
+          services: [
+            {
+              title: 'Professional Services',
+              desc: 'Expert solutions for your environmental needs',
+              icon: 'fa-solid fa-star',
+            },
+            {
+              title: '24/7 Support',
+              desc: 'Round the clock assistance when you need it most',
+              icon: 'fa-solid fa-clock',
+            },
+            {
+              title: 'Quality Guarantee',
+              desc: 'We stand behind all our work with quality assurance',
+              icon: 'fa-solid fa-check',
+            },
+            {
+              title: 'Eco-Friendly',
+              desc: 'Environmentally responsible practices and solutions',
+              icon: 'fa-solid fa-leaf',
+            },
+          ],
+        };
+
+        // Use the fallback config for minimal styling
+        updatePageContent(fallbackConfig, effectiveDomain, {
+          [effectiveDomain]: fallbackConfig,
+        });
+
+        // Still try to load domain-specific FAQs and services
+        loadFAQs(effectiveDomain);
+        updateServiceCardsByDomainCategory(effectiveDomain);
+
+        // Set the global flag to indicate content has been loaded (even with fallback)
+        contentSuccessfullyLoaded = true;
+
+        // Remove loading classes
+        document.querySelectorAll('.content-loading').forEach(el => {
+          el.classList.remove('content-loading');
+        });
+      }
+    } catch (error) {
+      console.error('Unexpected error in content loading:', error);
+    } finally {
+      // Always release the lock when done, whether successful or not
+      contentLoadingInProgress = false;
+
+      // Hide loading overlay once everything is done
+      DEBUG.updateLoadingMessage('Finalizing and hiding loading overlay...');
+      setTimeout(hideLoadingOverlay, 500);
     }
-
-    // Hide loading overlay once everything is done
-    DEBUG.updateLoadingMessage('Finalizing and hiding loading overlay...');
-    setTimeout(hideLoadingOverlay, 500);
   };
 
   loadConfigAndUpdateContent();
