@@ -1496,15 +1496,8 @@ function loadGallery(domainConfig) {
           </figure>
         </div>
   
-        <div class="ld-pf-bg bg-gradient-primary-bl opacity-08"></div>
+        <div></div>
   
-        <div class="ld-pf-details">
-          <div class="ld-pf-details-inner">
-            <h3 class="ld-pf-title h4 font-weight-semibold">${
-              img.title || ''
-            }</h3>
-          </div>
-        </div>
   
         <!-- the important bit ↓ -->
         <a href="${imageSrc}"
