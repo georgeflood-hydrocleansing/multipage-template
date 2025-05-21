@@ -1718,52 +1718,6 @@ async function isUrlAccessible(url) {
 
 // Initialize all dynamic content based on domain
 function initializeDynamicContent() {
-  // Check if we have a stored config in localStorage
-  try {
-    // If we have stored config that's less than 1 hour old, use it
-    if (storedConfig && storedDomain && storedTimestamp) {
-      const configAge = Date.now() - parseInt(storedTimestamp, 10);
-      // Only use stored config if it's less than 1 hour old (3600000 ms)
-      if (configAge < 3600000) {
-        console.log(
-          `Using stored config for ${storedDomain} (${Math.round(
-            configAge / 1000 / 60
-          )} minutes old)`
-        );
-
-        try {
-          const domainConfig = JSON.parse(storedConfig);
-          const effectiveDomain = storedDomain;
-          const allConfig = { [effectiveDomain]: domainConfig };
-
-          // Set the success flag immediately
-          contentSuccessfullyLoaded = true;
-
-          // Update content with stored config
-          updatePageContent(domainConfig, effectiveDomain, allConfig);
-          updateServiceCardsByDomainCategory(effectiveDomain);
-          loadFAQs(effectiveDomain);
-
-          if (domainConfig.gallery) {
-            loadGallery(domainConfig);
-          }
-
-          // Still hide the loading overlay
-          setTimeout(hideLoadingOverlay, 300);
-
-          console.log('Content loaded from storage successfully');
-          return;
-        } catch (parseError) {
-          console.warn('Error parsing stored config:', parseError);
-        }
-      } else {
-        console.log('Stored config is too old, fetching fresh config');
-      }
-    }
-  } catch (storageError) {
-    // Continue with normal loading if localStorage access fails
-  }
-
   // If content has already been successfully loaded, don't reload it
   if (contentSuccessfullyLoaded) {
     console.log(
@@ -2210,13 +2164,6 @@ function restoreCriticalContent() {
       e
     );
   }
-
-  // After restoring, re-attach observers and release the lock
-  setTimeout(() => {
-    observeCriticalElements(); // Re-attach observers
-    isRestoringContent = false;
-    console.log('[AutoRestore] Restoration complete, observers re-attached.');
-  }, 150);
 }
 
 // Update the MutationObserver to auto-restore content and manage instances
@@ -2401,15 +2348,5 @@ setInterval(() => {
       );
       criticalContentMissing = true;
     }
-  } catch (e) {
-    console.warn(
-      '[Watchdog] Error checking document.title against stored config:',
-      e
-    );
-  }
-
-  if (criticalContentMissing) {
-    console.warn('[Watchdog] Critical content missing, triggering restore...');
-    restoreCriticalContent();
-  }
-}, 3000); // every 3 seconds
+  } catch (e) {}
+}); // every 3 seconds
