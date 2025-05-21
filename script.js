@@ -33,7 +33,7 @@ function hideLoadingOverlay() {
 // Hide loading overlay when window is fully loaded (all assets including images)
 window.onload = function () {
   // Add a small delay to ensure everything is rendered
-  setTimeout(hideLoadingOverlay, 300);
+  setTimeout(hideLoadingOverlay, 400);
 };
 
 // Also attempt to hide it if DOMContentLoaded fires but window.onload doesn't
@@ -1090,27 +1090,6 @@ function initLightbox() {
  */
 function loadFAQs(domain, isFromTester = false) {
   // If content is already loaded and this is not a tester call, try to restore from localStorage first
-  if (contentSuccessfullyLoaded && !isFromTester) {
-    console.log('Content already loaded, checking for stored FAQs');
-
-    // Try to restore from localStorage
-    try {
-      const storedFAQs = localStorage.getItem('faqData');
-      const storedDomain = localStorage.getItem('faqDomain');
-
-      if (storedFAQs && storedDomain === domain) {
-        console.log('Restoring FAQs from localStorage');
-        const faqsData = JSON.parse(storedFAQs);
-
-        // Apply the stored FAQs to the page
-        applyFAQsToPage(faqsData, domain);
-        return;
-      }
-    } catch (e) {
-      console.warn('Error restoring FAQs from localStorage', e);
-      // Continue with normal loading if restoration fails
-    }
-  }
 
   console.log(`Attempting to load FAQs for domain: ${domain}`);
 
@@ -1205,13 +1184,6 @@ function loadFAQs(domain, isFromTester = false) {
   }
 
   // Store FAQs in localStorage for persistence
-  try {
-    localStorage.setItem('faqData', JSON.stringify(matchedFaqData));
-    localStorage.setItem('faqDomain', domain);
-    console.log('FAQs stored in localStorage');
-  } catch (e) {
-    console.warn('Error storing FAQs in localStorage', e);
-  }
 
   // Apply the FAQs to the page
   applyFAQsToPage(matchedFaqData, domain);
@@ -1630,17 +1602,6 @@ document.addEventListener('DOMContentLoaded', function () {
   let websiteTitle = '';
 
   // Try to get from localStorage first
-  try {
-    const storedConfig = localStorage.getItem('domainConfig');
-    if (storedConfig) {
-      const domainConfig = JSON.parse(storedConfig);
-      if (domainConfig && domainConfig.title) {
-        websiteTitle = domainConfig.title;
-      }
-    }
-  } catch (e) {
-    console.warn('Error accessing stored domain config', e);
-  }
 
   // If we couldn't get it from localStorage, use document.title
   if (!websiteTitle && document.title) {
@@ -1759,10 +1720,6 @@ async function isUrlAccessible(url) {
 function initializeDynamicContent() {
   // Check if we have a stored config in localStorage
   try {
-    const storedConfig = localStorage.getItem('domainConfig');
-    const storedDomain = localStorage.getItem('effectiveDomain');
-    const storedTimestamp = localStorage.getItem('configTimestamp');
-
     // If we have stored config that's less than 1 hour old, use it
     if (storedConfig && storedDomain && storedTimestamp) {
       const configAge = Date.now() - parseInt(storedTimestamp, 10);
@@ -1798,21 +1755,12 @@ function initializeDynamicContent() {
           return;
         } catch (parseError) {
           console.warn('Error parsing stored config:', parseError);
-          // Continue with normal loading if parsing fails
-          localStorage.removeItem('domainConfig');
-          localStorage.removeItem('effectiveDomain');
-          localStorage.removeItem('configTimestamp');
         }
       } else {
         console.log('Stored config is too old, fetching fresh config');
-        // Clear old config
-        localStorage.removeItem('domainConfig');
-        localStorage.removeItem('effectiveDomain');
-        localStorage.removeItem('configTimestamp');
       }
     }
   } catch (storageError) {
-    console.warn('Error accessing localStorage:', storageError);
     // Continue with normal loading if localStorage access fails
   }
 
@@ -1963,26 +1911,9 @@ function initializeDynamicContent() {
                 loadGallery(domainConfig);
               }
               configLoaded = true;
-
               // Set the global flag to indicate content has been successfully loaded
               contentSuccessfullyLoaded = true;
-
               // Store the config in localStorage for future use
-              try {
-                localStorage.setItem(
-                  'domainConfig',
-                  JSON.stringify(domainConfig)
-                );
-                localStorage.setItem('effectiveDomain', effectiveDomain);
-                localStorage.setItem('configTimestamp', Date.now().toString());
-                console.log('Config stored in localStorage');
-              } catch (storageError) {
-                console.warn(
-                  'Unable to store config in localStorage:',
-                  storageError
-                );
-              }
-
               // Remove loading classes
               document.querySelectorAll('.content-loading').forEach(el => {
                 el.classList.remove('content-loading');
@@ -2089,24 +2020,6 @@ function checkElements() {
     );
   }
 
-  // Check stored values
-  try {
-    console.log(
-      'Stored domain config:',
-      localStorage.getItem('domainConfig') ? 'exists' : 'missing'
-    );
-    console.log(
-      'Stored FAQs:',
-      localStorage.getItem('faqData') ? 'exists' : 'missing'
-    );
-    console.log(
-      'Content locked status:',
-      localStorage.getItem('contentLocked')
-    );
-  } catch (e) {
-    console.warn('Error checking localStorage', e);
-  }
-
   console.log('---- END ELEMENT CHECK ----');
 }
 
@@ -2179,18 +2092,6 @@ function restoreCriticalContent() {
   console.log('[AutoRestore] Attempting to restore critical content...');
 
   let domainConfig = null;
-  try {
-    const storedConfigJSON = localStorage.getItem('domainConfig');
-    if (storedConfigJSON) {
-      domainConfig = JSON.parse(storedConfigJSON);
-    } else {
-      console.warn(
-        '[AutoRestore] No stored domainConfig found in localStorage.'
-      );
-    }
-  } catch (e) {
-    console.error('[AutoRestore] Error parsing stored domainConfig:', e);
-  }
 
   // Restore Hero Title and Text if domainConfig is available
   if (domainConfig) {
@@ -2261,38 +2162,10 @@ function restoreCriticalContent() {
       document.title || currentDomainForTitle.replace(/^www\./, ''); // Keep existing or use domain
     const heroTitleElement = document.getElementById('hero-title');
     if (heroTitleElement && !heroTitleElement.textContent.trim())
-      heroTitleElement.textContent = 'Site Title';
+      heroTitleElement.textContent = `${domainConfig.title}`;
     const heroTextElement = document.getElementById('hero-text');
     if (heroTextElement && !heroTextElement.textContent.trim())
       heroTextElement.textContent = 'Content loading...';
-  }
-
-  // Restore FAQs
-  try {
-    const storedFAQs = localStorage.getItem('faqData');
-    const storedDomain = localStorage.getItem('faqDomain');
-    if (storedFAQs && storedDomain) {
-      const faqsData = JSON.parse(storedFAQs);
-      if (
-        faqsData &&
-        faqsData.faqs &&
-        Array.isArray(faqsData.faqs) &&
-        faqsData.faqs.length > 0
-      ) {
-        applyFAQsToPage(faqsData, storedDomain);
-        console.log('[AutoRestore] FAQs restored successfully.');
-      } else {
-        console.warn(
-          '[AutoRestore] Stored FAQ data is invalid, empty, or missing the "faqs" array. Cannot restore FAQs from localStorage.'
-        );
-      }
-    } else {
-      console.warn(
-        '[AutoRestore] No stored FAQ data or domain found in localStorage.'
-      );
-    }
-  } catch (e) {
-    console.error('[AutoRestore] Error restoring FAQs:', e);
   }
 
   // Restore website title in footer and copyright year
@@ -2507,7 +2380,6 @@ setInterval(() => {
 
   // Also check document.title (can't check if it's "empty" easily, but can check if it's a generic default)
   try {
-    const storedConfigJSON = localStorage.getItem('domainConfig');
     if (storedConfigJSON) {
       const dConfig = JSON.parse(storedConfigJSON);
       if (dConfig && dConfig.title && document.title !== dConfig.title.trim()) {
@@ -2519,7 +2391,7 @@ setInterval(() => {
         criticalContentMissing = true;
       }
     } else if (
-      document.title === 'Ave HTML Template' ||
+      document.title === 'Hydro Cleansing' ||
       document.title === '' ||
       document.title === window.location.hostname
     ) {
