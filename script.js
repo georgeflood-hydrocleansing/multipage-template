@@ -6,6 +6,7 @@
 // Add this near the top of the file, with the other global variables
 let contentSuccessfullyLoaded = false;
 let contentLoadingInProgress = false;
+let isRestoringContent = false;
 
 // Function to hide the loading overlay
 function hideLoadingOverlay() {
@@ -2166,6 +2167,9 @@ function observeCriticalElements() {
 
 // Add a function to restore content
 function restoreCriticalContent() {
+  if (isRestoringContent) return;
+  isRestoringContent = true;
+
   // Restore FAQs
   try {
     const storedFAQs = localStorage.getItem('faqData');
@@ -2208,6 +2212,12 @@ function restoreCriticalContent() {
   } catch (e) {
     console.warn('[AutoRestore] Error restoring website title/copyright', e);
   }
+
+  // After restoring, re-attach observers
+  setTimeout(() => {
+    observeCriticalElements();
+    isRestoringContent = false;
+  }, 100); // small delay to allow DOM update
 }
 
 // Update the MutationObserver to auto-restore content
@@ -2266,3 +2276,21 @@ function observeCriticalElements() {
     console.log('Website title observer attached');
   }
 }
+
+setInterval(() => {
+  // Check if FAQ or copyright/title is missing or empty
+  const faq = document.getElementById('accordion-2');
+  const copyright = document.getElementById('copyright-year');
+  const websiteTitle = document.getElementById('website-title');
+  if (
+    !faq ||
+    faq.children.length === 0 ||
+    !copyright ||
+    !copyright.textContent.trim() ||
+    !websiteTitle ||
+    !websiteTitle.textContent.trim()
+  ) {
+    console.warn('[Watchdog] Critical content missing, restoring...');
+    restoreCriticalContent();
+  }
+}, 3000); // every 3 seconds
