@@ -8,6 +8,13 @@ let contentSuccessfullyLoaded = false;
 let contentLoadingInProgress = false;
 let isRestoringContent = false;
 
+// Global observer instances
+let faqObserverInstance = null;
+let copyrightObserverInstance = null;
+let titleObserverInstance = null;
+let heroTitleObserverInstance = null; // Added for hero-title
+let heroTextObserverInstance = null; // Added for hero-text
+
 // Function to hide the loading overlay
 function hideLoadingOverlay() {
   const loadingOverlay = document.getElementById('loading-overlay');
@@ -2169,6 +2176,96 @@ function observeCriticalElements() {
 function restoreCriticalContent() {
   if (isRestoringContent) return;
   isRestoringContent = true;
+  console.log('[AutoRestore] Attempting to restore critical content...');
+
+  let domainConfig = null;
+  try {
+    const storedConfigJSON = localStorage.getItem('domainConfig');
+    if (storedConfigJSON) {
+      domainConfig = JSON.parse(storedConfigJSON);
+    } else {
+      console.warn(
+        '[AutoRestore] No stored domainConfig found in localStorage.'
+      );
+    }
+  } catch (e) {
+    console.error('[AutoRestore] Error parsing stored domainConfig:', e);
+  }
+
+  // Restore Hero Title and Text if domainConfig is available
+  if (domainConfig) {
+    // Restore document.title
+    if (
+      domainConfig.title &&
+      typeof domainConfig.title === 'string' &&
+      domainConfig.title.trim() !== ''
+    ) {
+      document.title = domainConfig.title.trim();
+      console.log(
+        `[AutoRestore] Document title restored to: ${document.title}`
+      );
+    } else {
+      // Fallback for document.title if not in domainConfig
+      const currentDomainForTitle =
+        window.location.hostname || 'Hydro Cleansing';
+      document.title = currentDomainForTitle.replace(/^www\./, '');
+      console.warn(
+        `[AutoRestore] Document title restored to fallback: ${document.title}`
+      );
+    }
+
+    const heroTitleElement = document.getElementById('hero-title');
+    if (heroTitleElement) {
+      if (
+        domainConfig.title &&
+        typeof domainConfig.title === 'string' &&
+        domainConfig.title.trim() !== ''
+      ) {
+        heroTitleElement.textContent = domainConfig.title.trim();
+        console.log('[AutoRestore] Hero title restored.');
+      } else {
+        heroTitleElement.textContent = 'Welcome'; // Fallback hero title
+        console.warn(
+          '[AutoRestore] Hero title restored to fallback "Welcome".'
+        );
+      }
+    } else {
+      console.warn('[AutoRestore] Hero title element (hero-title) not found.');
+    }
+
+    const heroTextElement = document.getElementById('hero-text');
+    if (heroTextElement) {
+      if (
+        domainConfig.text &&
+        typeof domainConfig.text === 'string' &&
+        domainConfig.text.trim() !== ''
+      ) {
+        heroTextElement.textContent = domainConfig.text.trim();
+        console.log('[AutoRestore] Hero text restored.');
+      } else {
+        heroTextElement.textContent = 'Your default description here.'; // Fallback hero text
+        console.warn(
+          '[AutoRestore] Hero text restored to fallback description.'
+        );
+      }
+    } else {
+      console.warn('[AutoRestore] Hero text element (hero-text) not found.');
+    }
+  } else {
+    console.warn(
+      '[AutoRestore] Cannot restore hero elements or document.title without domainConfig.'
+    );
+    // Attempt to restore document.title with a basic fallback even if domainConfig is missing
+    const currentDomainForTitle = window.location.hostname || 'Hydro Cleansing';
+    document.title =
+      document.title || currentDomainForTitle.replace(/^www\./, ''); // Keep existing or use domain
+    const heroTitleElement = document.getElementById('hero-title');
+    if (heroTitleElement && !heroTitleElement.textContent.trim())
+      heroTitleElement.textContent = 'Site Title';
+    const heroTextElement = document.getElementById('hero-text');
+    if (heroTextElement && !heroTextElement.textContent.trim())
+      heroTextElement.textContent = 'Content loading...';
+  }
 
   // Restore FAQs
   try {
@@ -2176,104 +2273,204 @@ function restoreCriticalContent() {
     const storedDomain = localStorage.getItem('faqDomain');
     if (storedFAQs && storedDomain) {
       const faqsData = JSON.parse(storedFAQs);
-      applyFAQsToPage(faqsData, storedDomain);
-      console.log('[AutoRestore] FAQs restored');
+      if (
+        faqsData &&
+        faqsData.faqs &&
+        Array.isArray(faqsData.faqs) &&
+        faqsData.faqs.length > 0
+      ) {
+        applyFAQsToPage(faqsData, storedDomain);
+        console.log('[AutoRestore] FAQs restored successfully.');
+      } else {
+        console.warn(
+          '[AutoRestore] Stored FAQ data is invalid, empty, or missing the "faqs" array. Cannot restore FAQs from localStorage.'
+        );
+      }
+    } else {
+      console.warn(
+        '[AutoRestore] No stored FAQ data or domain found in localStorage.'
+      );
     }
   } catch (e) {
-    console.warn('[AutoRestore] Error restoring FAQs', e);
+    console.error('[AutoRestore] Error restoring FAQs:', e);
   }
-  // Restore website title and copyright
+
+  // Restore website title in footer and copyright year
   try {
-    const storedConfig = localStorage.getItem('domainConfig');
-    let websiteTitle = '';
-    if (storedConfig) {
-      const domainConfig = JSON.parse(storedConfig);
-      if (domainConfig && domainConfig.title) {
-        websiteTitle = domainConfig.title;
-      }
-    }
-    if (!websiteTitle && document.title) {
-      websiteTitle = document.title.split('|')[0].trim();
-      websiteTitle = websiteTitle.split('-')[0].trim();
-    }
-    if (!websiteTitle) {
+    let websiteTitleText = '';
+    if (
+      domainConfig &&
+      domainConfig.title &&
+      typeof domainConfig.title === 'string' &&
+      domainConfig.title.trim() !== ''
+    ) {
+      websiteTitleText = domainConfig.title.trim();
+    } else if (document.title) {
+      // Fallback to current document.title if needed
+      websiteTitleText = document.title.split('|')[0].trim();
+      websiteTitleText = websiteTitleText.split('-')[0].trim();
+    } else {
+      // Ultimate fallback
       const currentDomain = window.location.hostname || 'Hydro Cleansing';
-      websiteTitle = currentDomain.replace(/^www\./, '');
+      websiteTitleText = currentDomain.replace(/^www\./, '');
     }
-    const websiteTitleElement = document.getElementById('website-title');
+
+    const websiteTitleElement = document.getElementById('website-title'); // Footer title
     const copyrightElement = document.getElementById('copyright-year');
-    if (websiteTitleElement) {
-      websiteTitleElement.textContent = websiteTitle;
+
+    if (websiteTitleElement && websiteTitleText) {
+      websiteTitleElement.textContent = websiteTitleText;
+    } else if (websiteTitleElement) {
+      websiteTitleElement.textContent =
+        window.location.hostname || 'Site Title'; // Fallback
     }
+
     if (copyrightElement) {
       copyrightElement.textContent = new Date().getFullYear().toString();
     }
-    console.log('[AutoRestore] Website title and copyright restored');
+    console.log(
+      '[AutoRestore] Footer website title and copyright year updated/restored.'
+    );
   } catch (e) {
-    console.warn('[AutoRestore] Error restoring website title/copyright', e);
+    console.error(
+      '[AutoRestore] Error restoring footer website title/copyright:',
+      e
+    );
   }
 
-  // After restoring, re-attach observers
+  // After restoring, re-attach observers and release the lock
   setTimeout(() => {
-    observeCriticalElements();
+    observeCriticalElements(); // Re-attach observers
     isRestoringContent = false;
-  }, 100); // small delay to allow DOM update
+    console.log('[AutoRestore] Restoration complete, observers re-attached.');
+  }, 150);
 }
 
-// Update the MutationObserver to auto-restore content
+// Update the MutationObserver to auto-restore content and manage instances
 function observeCriticalElements() {
-  // Helper to log mutations and auto-restore
-  function logMutations(mutationsList, observer, label) {
+  // Disconnect previous observers if they exist
+  if (faqObserverInstance) faqObserverInstance.disconnect();
+  if (copyrightObserverInstance) copyrightObserverInstance.disconnect();
+  if (titleObserverInstance) titleObserverInstance.disconnect();
+  if (heroTitleObserverInstance) heroTitleObserverInstance.disconnect(); // Added
+  if (heroTextObserverInstance) heroTextObserverInstance.disconnect(); // Added
+
+  faqObserverInstance = null;
+  copyrightObserverInstance = null;
+  titleObserverInstance = null;
+  heroTitleObserverInstance = null; // Added
+  heroTextObserverInstance = null; // Added
+
+  // Helper to log mutations and trigger auto-restore
+  function logMutationsAndRestore(mutationsList, observer, label) {
+    if (isRestoringContent) return;
     let needsRestore = false;
     for (const mutation of mutationsList) {
-      if (mutation.type === 'childList' || mutation.type === 'characterData') {
-        console.warn(`[MutationObserver] ${label} changed!`, mutation);
+      if (
+        mutation.type === 'childList' &&
+        (mutation.addedNodes.length > 0 || mutation.removedNodes.length > 0)
+      ) {
+        console.warn(
+          `[MutationObserver] ${label} childList changed!`,
+          mutation
+        );
         needsRestore = true;
+      } else if (mutation.type === 'characterData') {
+        if (
+          mutation.target.textContent &&
+          mutation.target.textContent.trim() === ''
+        ) {
+          // Check if target exists
+          console.warn(
+            `[MutationObserver] ${label} characterData changed (became empty)!`,
+            mutation
+          );
+          needsRestore = true;
+        }
       }
     }
     if (needsRestore) {
+      console.log(
+        `[MutationObserver] ${label} needs restore, triggering restoreCriticalContent.`
+      );
       restoreCriticalContent();
     }
+  }
+
+  // Observe Hero Title
+  const heroTitleEl = document.getElementById('hero-title');
+  if (heroTitleEl) {
+    heroTitleObserverInstance = new MutationObserver(
+      (mutationsList, observer) => {
+        logMutationsAndRestore(mutationsList, observer, 'Hero Title');
+      }
+    );
+    heroTitleObserverInstance.observe(heroTitleEl, {
+      childList: true,
+      characterData: true,
+      subtree: true,
+    });
+    console.log('Hero Title observer attached/re-attached.');
+  } else {
+    console.warn('Hero Title element (hero-title) not found for observer.');
+  }
+
+  // Observe Hero Text
+  const heroTextEl = document.getElementById('hero-text');
+  if (heroTextEl) {
+    heroTextObserverInstance = new MutationObserver(
+      (mutationsList, observer) => {
+        logMutationsAndRestore(mutationsList, observer, 'Hero Text');
+      }
+    );
+    heroTextObserverInstance.observe(heroTextEl, {
+      childList: true,
+      characterData: true,
+      subtree: true,
+    });
+    console.log('Hero Text observer attached/re-attached.');
+  } else {
+    console.warn('Hero Text element (hero-text) not found for observer.');
   }
 
   // Observe FAQ accordion
   const faqAccordion = document.getElementById('accordion-2');
   if (faqAccordion) {
-    const faqObserver = new MutationObserver((mutationsList, observer) => {
-      logMutations(mutationsList, observer, 'FAQ Accordion');
+    faqObserverInstance = new MutationObserver((mutationsList, observer) => {
+      logMutationsAndRestore(mutationsList, observer, 'FAQ Accordion');
     });
-    faqObserver.observe(faqAccordion, {
+    faqObserverInstance.observe(faqAccordion, {
       childList: true,
-      subtree: true,
       characterData: true,
+      subtree: true,
     });
-    console.log('FAQ accordion observer attached');
+    console.log('FAQ accordion observer attached/re-attached.');
   }
 
   // Observe copyright/title
   const copyright = document.getElementById('copyright-year');
-  const websiteTitle = document.getElementById('website-title');
   if (copyright) {
-    const copyrightObserver = new MutationObserver(
+    copyrightObserverInstance = new MutationObserver(
       (mutationsList, observer) => {
-        logMutations(mutationsList, observer, 'Copyright Year');
+        logMutationsAndRestore(mutationsList, observer, 'Copyright Year');
       }
     );
-    copyrightObserver.observe(copyright, {
+    copyrightObserverInstance.observe(copyright, {
       childList: true,
       characterData: true,
     });
-    console.log('Copyright observer attached');
+    console.log('Copyright observer attached/re-attached.');
   }
-  if (websiteTitle) {
-    const titleObserver = new MutationObserver((mutationsList, observer) => {
-      logMutations(mutationsList, observer, 'Website Title');
+  const websiteTitleEl = document.getElementById('website-title'); // Footer title
+  if (websiteTitleEl) {
+    titleObserverInstance = new MutationObserver((mutationsList, observer) => {
+      logMutationsAndRestore(mutationsList, observer, 'Footer Website Title'); // Clarified label
     });
-    titleObserver.observe(websiteTitle, {
+    titleObserverInstance.observe(websiteTitleEl, {
       childList: true,
       characterData: true,
     });
-    console.log('Website title observer attached');
+    console.log('Footer website title observer attached/re-attached.');
   }
 }
 
@@ -2281,16 +2478,66 @@ setInterval(() => {
   // Check if FAQ or copyright/title is missing or empty
   const faq = document.getElementById('accordion-2');
   const copyright = document.getElementById('copyright-year');
-  const websiteTitle = document.getElementById('website-title');
-  if (
-    !faq ||
-    faq.children.length === 0 ||
-    !copyright ||
-    !copyright.textContent.trim() ||
-    !websiteTitle ||
-    !websiteTitle.textContent.trim()
-  ) {
-    console.warn('[Watchdog] Critical content missing, restoring...');
+  const websiteTitle = document.getElementById('website-title'); // Footer title
+  const heroTitle = document.getElementById('hero-title');
+  const heroText = document.getElementById('hero-text');
+
+  let criticalContentMissing = false;
+
+  if (!faq || faq.children.length === 0) {
+    console.warn('[Watchdog] FAQ content missing or empty.');
+    criticalContentMissing = true;
+  }
+  if (!copyright || !copyright.textContent.trim()) {
+    console.warn('[Watchdog] Copyright year missing or empty.');
+    criticalContentMissing = true;
+  }
+  if (!websiteTitle || !websiteTitle.textContent.trim()) {
+    console.warn('[Watchdog] Footer Website title missing or empty.');
+    criticalContentMissing = true;
+  }
+  if (!heroTitle || !heroTitle.textContent.trim()) {
+    console.warn('[Watchdog] Hero title missing or empty.');
+    criticalContentMissing = true;
+  }
+  if (!heroText || !heroText.textContent.trim()) {
+    console.warn('[Watchdog] Hero text missing or empty.');
+    criticalContentMissing = true;
+  }
+
+  // Also check document.title (can't check if it's "empty" easily, but can check if it's a generic default)
+  try {
+    const storedConfigJSON = localStorage.getItem('domainConfig');
+    if (storedConfigJSON) {
+      const dConfig = JSON.parse(storedConfigJSON);
+      if (dConfig && dConfig.title && document.title !== dConfig.title.trim()) {
+        console.warn(
+          `[Watchdog] Document.title ("${
+            document.title
+          }") differs from stored config title ("${dConfig.title.trim()}").`
+        );
+        criticalContentMissing = true;
+      }
+    } else if (
+      document.title === 'Ave HTML Template' ||
+      document.title === '' ||
+      document.title === window.location.hostname
+    ) {
+      // If no stored config, check against known undesirable defaults
+      console.warn(
+        `[Watchdog] Document.title ("${document.title}") appears to be a generic default.`
+      );
+      criticalContentMissing = true;
+    }
+  } catch (e) {
+    console.warn(
+      '[Watchdog] Error checking document.title against stored config:',
+      e
+    );
+  }
+
+  if (criticalContentMissing) {
+    console.warn('[Watchdog] Critical content missing, triggering restore...');
     restoreCriticalContent();
   }
 }, 3000); // every 3 seconds
