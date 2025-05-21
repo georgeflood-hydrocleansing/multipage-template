@@ -2040,131 +2040,131 @@ function observeCriticalElements() {
 }
 
 // Add a function to restore content
-function restoreCriticalContent() {
-  if (isRestoringContent) return;
-  isRestoringContent = true;
-  console.log('[AutoRestore] Attempting to restore critical content...');
+// function restoreCriticalContent() {
+//   if (isRestoringContent) return;
+//   isRestoringContent = true;
+//   console.log('[AutoRestore] Attempting to restore critical content...');
 
-  let domainConfig = null;
+//   let domainConfig = null;
 
-  // Restore Hero Title and Text if domainConfig is available
-  if (domainConfig) {
-    // Restore document.title
-    if (
-      domainConfig.title &&
-      typeof domainConfig.title === 'string' &&
-      domainConfig.title.trim() !== ''
-    ) {
-      document.title = domainConfig.title.trim();
-      console.log(
-        `[AutoRestore] Document title restored to: ${document.title}`
-      );
-    } else {
-      // Fallback for document.title if not in domainConfig
-      const currentDomainForTitle =
-        window.location.hostname || 'Hydro Cleansing';
-      document.title = currentDomainForTitle.replace(/^www\./, '');
-      console.warn(
-        `[AutoRestore] Document title restored to fallback: ${document.title}`
-      );
-    }
+//   // Restore Hero Title and Text if domainConfig is available
+//   if (domainConfig) {
+//     // Restore document.title
+//     if (
+//       domainConfig.title &&
+//       typeof domainConfig.title === 'string' &&
+//       domainConfig.title.trim() !== ''
+//     ) {
+//       document.title = domainConfig.title.trim();
+//       console.log(
+//         `[AutoRestore] Document title restored to: ${document.title}`
+//       );
+//     } else {
+//       // Fallback for document.title if not in domainConfig
+//       const currentDomainForTitle =
+//         window.location.hostname || 'Hydro Cleansing';
+//       document.title = currentDomainForTitle.replace(/^www\./, '');
+//       console.warn(
+//         `[AutoRestore] Document title restored to fallback: ${document.title}`
+//       );
+//     }
 
-    const heroTitleElement = document.getElementById('hero-title');
-    if (heroTitleElement) {
-      if (
-        domainConfig.title &&
-        typeof domainConfig.title === 'string' &&
-        domainConfig.title.trim() !== ''
-      ) {
-        heroTitleElement.textContent = domainConfig.title.trim();
-        console.log('[AutoRestore] Hero title restored.');
-      } else {
-        heroTitleElement.textContent = 'Welcome'; // Fallback hero title
-        console.warn(
-          '[AutoRestore] Hero title restored to fallback "Welcome".'
-        );
-      }
-    } else {
-      console.warn('[AutoRestore] Hero title element (hero-title) not found.');
-    }
+//     const heroTitleElement = document.getElementById('hero-title');
+//     if (heroTitleElement) {
+//       if (
+//         domainConfig.title &&
+//         typeof domainConfig.title === 'string' &&
+//         domainConfig.title.trim() !== ''
+//       ) {
+//         heroTitleElement.textContent = domainConfig.title.trim();
+//         console.log('[AutoRestore] Hero title restored.');
+//       } else {
+//         heroTitleElement.textContent = 'Welcome'; // Fallback hero title
+//         console.warn(
+//           '[AutoRestore] Hero title restored to fallback "Welcome".'
+//         );
+//       }
+//     } else {
+//       console.warn('[AutoRestore] Hero title element (hero-title) not found.');
+//     }
 
-    const heroTextElement = document.getElementById('hero-text');
-    if (heroTextElement) {
-      if (
-        domainConfig.text &&
-        typeof domainConfig.text === 'string' &&
-        domainConfig.text.trim() !== ''
-      ) {
-        heroTextElement.textContent = domainConfig.text.trim();
-        console.log('[AutoRestore] Hero text restored.');
-      } else {
-        heroTextElement.textContent = 'Your default description here.'; // Fallback hero text
-        console.warn(
-          '[AutoRestore] Hero text restored to fallback description.'
-        );
-      }
-    } else {
-      console.warn('[AutoRestore] Hero text element (hero-text) not found.');
-    }
-  } else {
-    console.warn(
-      '[AutoRestore] Cannot restore hero elements or document.title without domainConfig.'
-    );
-    // Attempt to restore document.title with a basic fallback even if domainConfig is missing
-    const currentDomainForTitle = window.location.hostname || 'Hydro Cleansing';
-    document.title =
-      document.title || currentDomainForTitle.replace(/^www\./, ''); // Keep existing or use domain
-    const heroTitleElement = document.getElementById('hero-title');
-    if (heroTitleElement && !heroTitleElement.textContent.trim())
-      heroTitleElement.textContent = `${domainConfig.title}`;
-    const heroTextElement = document.getElementById('hero-text');
-    if (heroTextElement && !heroTextElement.textContent.trim())
-      heroTextElement.textContent = 'Content loading...';
-  }
+//     const heroTextElement = document.getElementById('hero-text');
+//     if (heroTextElement) {
+//       if (
+//         domainConfig.text &&
+//         typeof domainConfig.text === 'string' &&
+//         domainConfig.text.trim() !== ''
+//       ) {
+//         heroTextElement.textContent = domainConfig.text.trim();
+//         console.log('[AutoRestore] Hero text restored.');
+//       } else {
+//         heroTextElement.textContent = 'Your default description here.'; // Fallback hero text
+//         console.warn(
+//           '[AutoRestore] Hero text restored to fallback description.'
+//         );
+//       }
+//     } else {
+//       console.warn('[AutoRestore] Hero text element (hero-text) not found.');
+//     }
+//   } else {
+//     console.warn(
+//       '[AutoRestore] Cannot restore hero elements or document.title without domainConfig.'
+//     );
+//     // Attempt to restore document.title with a basic fallback even if domainConfig is missing
+//     const currentDomainForTitle = window.location.hostname || 'Hydro Cleansing';
+//     document.title =
+//       document.title || currentDomainForTitle.replace(/^www\./, ''); // Keep existing or use domain
+//     const heroTitleElement = document.getElementById('hero-title');
+//     if (heroTitleElement && !heroTitleElement.textContent.trim())
+//       heroTitleElement.textContent = `${domainConfig.title}`;
+//     const heroTextElement = document.getElementById('hero-text');
+//     if (heroTextElement && !heroTextElement.textContent.trim())
+//       heroTextElement.textContent = 'Content loading...';
+//   }
 
-  // Restore website title in footer and copyright year
-  try {
-    let websiteTitleText = '';
-    if (
-      domainConfig &&
-      domainConfig.title &&
-      typeof domainConfig.title === 'string' &&
-      domainConfig.title.trim() !== ''
-    ) {
-      websiteTitleText = domainConfig.title.trim();
-    } else if (document.title) {
-      // Fallback to current document.title if needed
-      websiteTitleText = document.title.split('|')[0].trim();
-      websiteTitleText = websiteTitleText.split('-')[0].trim();
-    } else {
-      // Ultimate fallback
-      const currentDomain = window.location.hostname || 'Hydro Cleansing';
-      websiteTitleText = currentDomain.replace(/^www\./, '');
-    }
+//   // Restore website title in footer and copyright year
+//   try {
+//     let websiteTitleText = '';
+//     if (
+//       domainConfig &&
+//       domainConfig.title &&
+//       typeof domainConfig.title === 'string' &&
+//       domainConfig.title.trim() !== ''
+//     ) {
+//       websiteTitleText = domainConfig.title.trim();
+//     } else if (document.title) {
+//       // Fallback to current document.title if needed
+//       websiteTitleText = document.title.split('|')[0].trim();
+//       websiteTitleText = websiteTitleText.split('-')[0].trim();
+//     } else {
+//       // Ultimate fallback
+//       const currentDomain = window.location.hostname || 'Hydro Cleansing';
+//       websiteTitleText = currentDomain.replace(/^www\./, '');
+//     }
 
-    const websiteTitleElement = document.getElementById('website-title'); // Footer title
-    const copyrightElement = document.getElementById('copyright-year');
+//     const websiteTitleElement = document.getElementById('website-title'); // Footer title
+//     const copyrightElement = document.getElementById('copyright-year');
 
-    if (websiteTitleElement && websiteTitleText) {
-      websiteTitleElement.textContent = websiteTitleText;
-    } else if (websiteTitleElement) {
-      websiteTitleElement.textContent =
-        window.location.hostname || 'Site Title'; // Fallback
-    }
+//     if (websiteTitleElement && websiteTitleText) {
+//       websiteTitleElement.textContent = websiteTitleText;
+//     } else if (websiteTitleElement) {
+//       websiteTitleElement.textContent =
+//         window.location.hostname || 'Site Title'; // Fallback
+//     }
 
-    if (copyrightElement) {
-      copyrightElement.textContent = new Date().getFullYear().toString();
-    }
-    console.log(
-      '[AutoRestore] Footer website title and copyright year updated/restored.'
-    );
-  } catch (e) {
-    console.error(
-      '[AutoRestore] Error restoring footer website title/copyright:',
-      e
-    );
-  }
-}
+//     if (copyrightElement) {
+//       copyrightElement.textContent = new Date().getFullYear().toString();
+//     }
+//     console.log(
+//       '[AutoRestore] Footer website title and copyright year updated/restored.'
+//     );
+//   } catch (e) {
+//     console.error(
+//       '[AutoRestore] Error restoring footer website title/copyright:',
+//       e
+//     );
+//   }
+// }
 
 // Update the MutationObserver to auto-restore content and manage instances
 function observeCriticalElements() {
@@ -2208,12 +2208,6 @@ function observeCriticalElements() {
           needsRestore = true;
         }
       }
-    }
-    if (needsRestore) {
-      console.log(
-        `[MutationObserver] ${label} needs restore, triggering restoreCriticalContent.`
-      );
-      restoreCriticalContent();
     }
   }
 
