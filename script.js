@@ -6,14 +6,6 @@
 // Add this near the top of the file, with the other global variables
 let contentSuccessfullyLoaded = false;
 let contentLoadingInProgress = false;
-let isRestoringContent = false;
-
-// Global observer instances
-let faqObserverInstance = null;
-let copyrightObserverInstance = null;
-let titleObserverInstance = null;
-let heroTitleObserverInstance = null; // Added for hero-title
-let heroTextObserverInstance = null; // Added for hero-text
 
 // Function to hide the loading overlay
 function hideLoadingOverlay() {
@@ -1980,11 +1972,7 @@ function checkElements() {
 // Call this function after DOM is loaded and after content is loaded
 document.addEventListener('DOMContentLoaded', function () {
   // Existing code...
-
   // Run the element check on load
-  setTimeout(checkElements, 1000);
-  // Attach mutation observers
-  setTimeout(observeCriticalElements, 1200);
 });
 
 // Add a MutationObserver to watch for unwanted changes
@@ -2287,60 +2275,3 @@ function observeCriticalElements() {
     console.log('Footer website title observer attached/re-attached.');
   }
 }
-
-setInterval(() => {
-  // Check if FAQ or copyright/title is missing or empty
-  const faq = document.getElementById('accordion-2');
-  const copyright = document.getElementById('copyright-year');
-  const websiteTitle = document.getElementById('website-title'); // Footer title
-  const heroTitle = document.getElementById('hero-title');
-  const heroText = document.getElementById('hero-text');
-
-  let criticalContentMissing = false;
-
-  if (!faq || faq.children.length === 0) {
-    console.warn('[Watchdog] FAQ content missing or empty.');
-    criticalContentMissing = true;
-  }
-  if (!copyright || !copyright.textContent.trim()) {
-    console.warn('[Watchdog] Copyright year missing or empty.');
-    criticalContentMissing = true;
-  }
-  if (!websiteTitle || !websiteTitle.textContent.trim()) {
-    console.warn('[Watchdog] Footer Website title missing or empty.');
-    criticalContentMissing = true;
-  }
-  if (!heroTitle || !heroTitle.textContent.trim()) {
-    console.warn('[Watchdog] Hero title missing or empty.');
-    criticalContentMissing = true;
-  }
-  if (!heroText || !heroText.textContent.trim()) {
-    console.warn('[Watchdog] Hero text missing or empty.');
-    criticalContentMissing = true;
-  }
-
-  // Also check document.title (can't check if it's "empty" easily, but can check if it's a generic default)
-  try {
-    if (storedConfigJSON) {
-      const dConfig = JSON.parse(storedConfigJSON);
-      if (dConfig && dConfig.title && document.title !== dConfig.title.trim()) {
-        console.warn(
-          `[Watchdog] Document.title ("${
-            document.title
-          }") differs from stored config title ("${dConfig.title.trim()}").`
-        );
-        criticalContentMissing = true;
-      }
-    } else if (
-      document.title === 'Hydro Cleansing' ||
-      document.title === '' ||
-      document.title === window.location.hostname
-    ) {
-      // If no stored config, check against known undesirable defaults
-      console.warn(
-        `[Watchdog] Document.title ("${document.title}") appears to be a generic default.`
-      );
-      criticalContentMissing = true;
-    }
-  } catch (e) {}
-}); // every 3 seconds
