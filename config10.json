@@ -1,1142 +1,1145 @@
 {
   "drilling-slurry.uk": {
-    "title": "UK Slurry Specialists",
-    "text": "Premier drilling fluid management across Britain – comprehensive nationwide services from supply to disposal with our mobile treatment fleet!",
+    "title": "Drilling Slurry Sorted Across Britain",
+    "text": "All your drilling fluid headaches, gone. Supply, treatment, disposal – we handle the lot, anywhere in the UK!",
     "heroImg": "assets/website-hero-images/liquid-waste.png",
-    "forYou": "Need specialist drilling slurry management throughout the UK? Our nationwide service delivers comprehensive solutions for all drilling fluid requirements across Britain. We supply premium-quality drilling fluids tailored to specific ground conditions and project needs, with rapid delivery to any location. Our mobile processing units operate nationwide, providing on-site treatment and recycling to maximise reuse while minimising waste. With established relationships with licensed disposal facilities across the country, we ensure compliant management regardless of your project location. Our British team combines extensive experience with local knowledge, delivering reliable, cost-effective drilling fluid solutions anywhere in the UK.",
+    "forYou": "Got messy drilling slurry and nowhere to put it? We’re the UK’s go-to team for hassle-free drilling fluid management, nationwide. From delivering quality slurries that suit your site and soil, to rocking up with mobile treatment rigs and sorting out on-the-spot recycling, we’ve got it nailed. We work with top licensed disposal sites up and down the country, so you’re always covered for compliant waste handling. If you want a British team that knows their stuff, keeps costs low, and gets your job done quickly, we’re your crew.",
     "services": [
       {
         "title": "Nationwide Fluid Supply",
-        "desc": "Quality drilling slurries delivered to any UK location.",
+        "desc": "Get drilling slurry delivered right to your site – fast.",
         "icon": "fa-solid fa-truck-arrow-right"
       },
       {
         "title": "Mobile Treatment Fleet",
-        "desc": "On-site processing units operating throughout Britain.",
-        "icon": "fa-solid fa-map-location-dot"
+        "desc": "On-site processing vans ready to roll across Britain.",
+        "icon": "fa-solid fa-truck-moving"
       },
       {
         "title": "UK-Wide Transport",
-        "desc": "Compliant slurry transportation across all regions.",
-        "icon": "fa-solid fa-truck-container"
+        "desc": "Licensed, legal slurry haulage all over the UK.",
+        "icon": "fa-solid fa-truck"
       },
       {
         "title": "British Disposal Network",
-        "desc": "Access to licensed facilities throughout the country.",
-        "icon": "fa-solid fa-trash-arrow-up"
+        "desc": "Easy access to licensed waste tips nationwide.",
+        "icon": "fa-solid fa-dumpster"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-1.jpg",
-        "alt": "UK Slurry Specialists - Waste-Management Image 1",
-        "title": "UK Slurry Specialists - Waste-Management 1"
+        "alt": "Drilling Slurry Job - Before and After",
+        "title": "Slurry Sorted – Gallery 1"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-2.jpg",
-        "alt": "UK Slurry Specialists - Waste-Management Image 2",
-        "title": "UK Slurry Specialists - Waste-Management 2"
+        "alt": "Mobile Treatment Rig On-Site",
+        "title": "Mobile Slurry Kit – Gallery 2"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-3.jpg",
-        "alt": "UK Slurry Specialists - Waste-Management Image 3",
-        "title": "UK Slurry Specialists - Waste-Management 3"
+        "alt": "Nationwide Slurry Transport",
+        "title": "UK Haulage – Gallery 3"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-4.jpg",
-        "alt": "UK Slurry Specialists - Waste-Management Image 4",
-        "title": "UK Slurry Specialists - Waste-Management 4"
+        "alt": "Slurry Disposal Process",
+        "title": "Licensed Disposal – Gallery 4"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-5.jpg",
-        "alt": "UK Slurry Specialists - Waste-Management Image 5",
-        "title": "UK Slurry Specialists - Waste-Management 5"
+        "alt": "Slurry Recycling On Location",
+        "title": "On-Site Recycling – Gallery 5"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-6.jpg",
-        "alt": "UK Slurry Specialists - Waste-Management Image 6",
-        "title": "UK Slurry Specialists - Waste-Management 6"
+        "alt": "Clean Site After Slurry Removal",
+        "title": "Sorted Site – Gallery 6"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-7.webp",
-        "alt": "UK Slurry Specialists - Waste-Management Image 7",
-        "title": "UK Slurry Specialists - Waste-Management 7"
+        "alt": "Ready for Action - Fleet",
+        "title": "Fleet Ready – Gallery 7"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-8.webp",
-        "alt": "UK Slurry Specialists - Waste-Management Image 8",
-        "title": "UK Slurry Specialists - Waste-Management 8"
+        "alt": "British Team On Site",
+        "title": "UK Crew – Gallery 8"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-9.webp",
-        "alt": "UK Slurry Specialists - Waste-Management Image 9",
-        "title": "UK Slurry Specialists - Waste-Management 9"
+        "alt": "Happy Client After Slurry Sorted",
+        "title": "Happy Client – Gallery 9"
       }
     ],
     "video": "www.youtube.com/watch?v=M2eBeHSSKHM"
   },
   "drillingslurry.co.uk": {
-    "title": "Slurry Management Solutions",
-    "text": "Complete drilling fluid lifecycle management – from custom formulation to eco-friendly recycling and compliant disposal for optimal efficiency!",
+    "title": "Drilling Slurry Solutions UK",
+    "text": "Drilling fluid headaches? Not anymore. Bespoke slurry, eco-friendly recycling, and fuss-free disposal – we’re your UK experts.",
     "heroImg": "assets/website-hero-images/liquid-waste.png",
-    "forYou": "Looking for comprehensive drilling slurry management? Our specialised service provides complete solutions for all drilling fluid requirements throughout the project lifecycle. We supply premium-quality bentonite slurries formulated to match your specific ground conditions and drilling methods. Our mobile processing units deliver effective on-site treatment, separating solids from used slurries to maximise recycling potential and minimise disposal volumes. With in-depth knowledge of environmental regulations and waste classification, we ensure your operations maintain full compliance while optimising costs. From major infrastructure projects to specialised drilling operations, we deliver efficient, environmentally-responsible slurry management that enhances your drilling process performance.",
+    "forYou": "Looking for a one-stop shop for drilling slurry? We blend slurries to match your site and method, deliver straight to you, and bring mobile kit for on-site treatment that cuts down on waste and boosts recycling. Our team know their way round waste regs, so you’ll always be fully compliant and cost-efficient. From mega infrastructure to specialist bores, we’ll make your project cleaner, greener and easier.",
     "services": [
       {
-        "title": "Custom Fluid Formulation",
-        "desc": "Tailored drilling slurries for specific project requirements.",
-        "icon": "fa-solid fa-fill-drip"
+        "title": "Custom Fluid Blends",
+        "desc": "We mix slurries to suit your job and geology.",
+        "icon": "fa-solid fa-flask"
       },
       {
         "title": "On-Site Processing",
-        "desc": "Mobile treatment units for efficient slurry recycling.",
+        "desc": "Mobile kit to recycle and treat slurries as you drill.",
         "icon": "fa-solid fa-recycle"
       },
       {
-        "title": "Expert Waste Classification",
-        "desc": "Accurate assessment for proper handling and disposal.",
-        "icon": "fa-solid fa-clipboard-list"
+        "title": "Waste Classification",
+        "desc": "Expert sorting for legal, safe waste disposal.",
+        "icon": "fa-solid fa-clipboard-check"
       },
       {
         "title": "Licensed Disposal",
-        "desc": "Compliant management of waste through approved facilities.",
-        "icon": "fa-solid fa-truck-container"
+        "desc": "We handle all the paperwork and disposal.",
+        "icon": "fa-solid fa-trash-alt"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-1.jpg",
-        "alt": "Slurry Management Solutions - Waste-Management Image 1",
-        "title": "Slurry Management Solutions - Waste-Management 1"
+        "alt": "Drilling Slurry – Custom Blend",
+        "title": "Bespoke Slurry – Gallery 1"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-2.jpg",
-        "alt": "Slurry Management Solutions - Waste-Management Image 2",
-        "title": "Slurry Management Solutions - Waste-Management 2"
+        "alt": "Eco-Friendly On-Site Treatment",
+        "title": "On-Site Treatment – Gallery 2"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-3.jpg",
-        "alt": "Slurry Management Solutions - Waste-Management Image 3",
-        "title": "Slurry Management Solutions - Waste-Management 3"
+        "alt": "Waste Classification Experts",
+        "title": "Sorting Waste – Gallery 3"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-4.jpg",
-        "alt": "Slurry Management Solutions - Waste-Management Image 4",
-        "title": "Slurry Management Solutions - Waste-Management 4"
+        "alt": "Slurry Disposal Complete",
+        "title": "Job Done – Gallery 4"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-5.jpg",
-        "alt": "Slurry Management Solutions - Waste-Management Image 5",
-        "title": "Slurry Management Solutions - Waste-Management 5"
+        "alt": "Recycling Drilling Fluids",
+        "title": "Green Drilling – Gallery 5"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-6.jpg",
-        "alt": "Slurry Management Solutions - Waste-Management Image 6",
-        "title": "Slurry Management Solutions - Waste-Management 6"
+        "alt": "Drilling Team In Action",
+        "title": "Team At Work – Gallery 6"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-7.webp",
-        "alt": "Slurry Management Solutions - Waste-Management Image 7",
-        "title": "Slurry Management Solutions - Waste-Management 7"
+        "alt": "All Sorted and Recycled",
+        "title": "Sorted & Recycled – Gallery 7"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-8.webp",
-        "alt": "Slurry Management Solutions - Waste-Management Image 8",
-        "title": "Slurry Management Solutions - Waste-Management 8"
+        "alt": "Disposal Vehicles",
+        "title": "Disposal Fleet – Gallery 8"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-9.webp",
-        "alt": "Slurry Management Solutions - Waste-Management Image 9",
-        "title": "Slurry Management Solutions - Waste-Management 9"
+        "alt": "Clean Up Complete",
+        "title": "Cleanup Crew – Gallery 9"
       }
     ],
     "video": "www.youtube.com/watch?v=M2eBeHSSKHM"
   },
   "drillingmud-storage.co.uk": {
-    "title": "Secure Fluid Containment",
-    "text": "Specialist drilling mud containment – modular tanks, lined lagoons and rapid-deploy storage systems with full environmental compliance!",
+    "title": "Drilling Mud Storage – UK Experts",
+    "text": "Keep your drilling mud under control! Secure tanks, lined lagoons and fast-deploy solutions for any size job.",
     "heroImg": "assets/website-hero-images/liquid-waste.png",
-    "forYou": "Need reliable drilling mud containment? Our specialised service provides secure storage systems designed specifically for drilling fluids and bentonite slurries. We offer modular tank solutions that can be rapidly deployed and scaled to match your project requirements, alongside custom-designed lined lagoons for larger operations. Our containment systems ensure environmental protection by preventing leakage or contamination while providing practical access for processing operations. With flexible rental options and nationwide delivery, we support construction projects, civil engineering operations, and drilling contractors with reliable, compliant fluid storage. Choose our expertise for secure, efficient drilling mud storage tailored to your specific site conditions and project timeline.",
+    "forYou": "Need somewhere safe to stash your drilling fluids? We sort all your drilling mud storage, from compact modular tanks to massive lined lagoons built for the biggest jobs. Our gear is leak-proof and fully compliant, so you can relax about spills or fines. Get fast delivery, flexible rental and a setup that fits your site. Whether you’re building a house or tunnelling under a city, we’ll keep your mud contained and your project running smoothly.",
     "services": [
       {
-        "title": "Modular Tank Systems",
-        "desc": "Scalable storage solutions with rapid deployment capability.",
-        "icon": "fa-solid fa-tank"
+        "title": "Modular Tanks",
+        "desc": "Clip-together tanks delivered and built in no time.",
+        "icon": "fa-solid fa-cube"
       },
       {
-        "title": "Lined Storage Lagoons",
-        "desc": "Custom-designed containment for larger fluid volumes.",
+        "title": "Lined Lagoons",
+        "desc": "Big jobs? We install lined lagoons for bulk storage.",
         "icon": "fa-solid fa-water"
       },
       {
-        "title": "Rapid Deployment Units",
-        "desc": "Quick-setup containment for time-critical projects.",
-        "icon": "fa-solid fa-toolbox"
+        "title": "Rapid Setup",
+        "desc": "Need storage yesterday? We deploy super quick.",
+        "icon": "fa-solid fa-bolt"
       },
       {
-        "title": "Environmental Safeguards",
-        "desc": "Secondary containment systems ensuring site compliance.",
-        "icon": "fa-solid fa-shield-heart"
+        "title": "Leak-Proof Security",
+        "desc": "No leaks, no stress – fully compliant storage.",
+        "icon": "fa-solid fa-shield-alt"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-1.jpg",
-        "alt": "Secure Fluid Containment - Waste-Management Image 1",
-        "title": "Secure Fluid Containment - Waste-Management 1"
+        "alt": "Modular Mud Tanks",
+        "title": "Modular Tanks – Gallery 1"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-2.jpg",
-        "alt": "Secure Fluid Containment - Waste-Management Image 2",
-        "title": "Secure Fluid Containment - Waste-Management 2"
+        "alt": "Lined Lagoon Install",
+        "title": "Lined Lagoons – Gallery 2"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-3.jpg",
-        "alt": "Secure Fluid Containment - Waste-Management Image 3",
-        "title": "Secure Fluid Containment - Waste-Management 3"
+        "alt": "Rapid Tank Setup",
+        "title": "Quick Setup – Gallery 3"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-4.jpg",
-        "alt": "Secure Fluid Containment - Waste-Management Image 4",
-        "title": "Secure Fluid Containment - Waste-Management 4"
+        "alt": "Compliant Fluid Storage",
+        "title": "Safe Storage – Gallery 4"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-5.jpg",
-        "alt": "Secure Fluid Containment - Waste-Management Image 5",
-        "title": "Secure Fluid Containment - Waste-Management 5"
+        "alt": "No Spills – Storage In Use",
+        "title": "No Spills – Gallery 5"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-6.jpg",
-        "alt": "Secure Fluid Containment - Waste-Management Image 6",
-        "title": "Secure Fluid Containment - Waste-Management 6"
+        "alt": "On-Site Storage Setup",
+        "title": "On-Site Setup – Gallery 6"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-7.webp",
-        "alt": "Secure Fluid Containment - Waste-Management Image 7",
-        "title": "Secure Fluid Containment - Waste-Management 7"
+        "alt": "Large Scale Lagoon",
+        "title": "Big Lagoon – Gallery 7"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-8.webp",
-        "alt": "Secure Fluid Containment - Waste-Management Image 8",
-        "title": "Secure Fluid Containment - Waste-Management 8"
+        "alt": "Site Storage Sorted",
+        "title": "Sorted Storage – Gallery 8"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-9.webp",
-        "alt": "Secure Fluid Containment - Waste-Management Image 9",
-        "title": "Secure Fluid Containment - Waste-Management 9"
+        "alt": "Compliant Storage Team",
+        "title": "Compliance Crew – Gallery 9"
       }
     ],
     "video": "www.youtube.com/watch?v=M2eBeHSSKHM"
   },
   "drillingmud.co.uk": {
-    "title": "Complete Fluid Solutions",
-    "text": "Total drilling mud management – expert formulation, supply, on-site recycling and responsible disposal with technical support throughout!",
+    "title": "Drilling Mud? We’ve Got It Covered",
+    "text": "From supply to site to safe disposal – your full UK drilling mud solution in one call.",
     "heroImg": "assets/website-hero-images/liquid-waste.png",
-    "forYou": "Need comprehensive drilling mud solutions? Our specialised service offers complete management of drilling fluids from initial supply through to final disposal. We provide quality drilling muds and bentonite slurries formulated for specific ground conditions and drilling methods. Our mobile processing units recover and recycle used fluids on-site, maximising reuse while reducing disposal costs. For waste slurries that can't be recycled, we ensure compliant disposal through licensed facilities. With expertise in environmental regulations and waste management, we help construction and engineering projects maintain compliance while optimising their drilling operations. Choose our integrated approach for efficient, cost-effective drilling mud management throughout your project lifecycle.",
+    "forYou": "Fed up with drilling mud mess and disposal worries? We handle every step – custom-blended fluids, fast delivery, on-site recycling, and no-fuss, legal waste disposal. We know British ground conditions inside out and keep your project tidy, compliant and on schedule. For drilling mud management that’s quick, easy and keeps you covered, call us.",
     "services": [
       {
-        "title": "Custom Fluid Supply",
-        "desc": "Project-specific drilling muds and bentonite slurries.",
-        "icon": "fa-solid fa-fill"
+        "title": "Bespoke Fluid Supply",
+        "desc": "Drilling muds tailored to your project and soil.",
+        "icon": "fa-solid fa-vial"
       },
       {
         "title": "On-Site Recycling",
-        "desc": "Mobile treatment units maximising fluid reuse.",
-        "icon": "fa-solid fa-filter-circle-xmark"
+        "desc": "Reuse your mud – we’ll treat it right there.",
+        "icon": "fa-solid fa-recycle"
       },
       {
         "title": "Compliant Waste Handling",
-        "desc": "Proper management of non-recyclable drilling waste.",
-        "icon": "fa-solid fa-dumpster"
+        "desc": "We sort your waste for legal, safe disposal.",
+        "icon": "fa-solid fa-trash"
       },
       {
-        "title": "Expert Consultation",
-        "desc": "Specialist advice on optimal drilling fluid management.",
+        "title": "Drilling Support",
+        "desc": "Expert help with your fluids and project planning.",
         "icon": "fa-solid fa-headset"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-1.jpg",
-        "alt": "Complete Fluid Solutions - Waste-Management Image 1",
-        "title": "Complete Fluid Solutions - Waste-Management 1"
+        "alt": "Drilling Mud Blending",
+        "title": "Mud Blends – Gallery 1"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-2.jpg",
-        "alt": "Complete Fluid Solutions - Waste-Management Image 2",
-        "title": "Complete Fluid Solutions - Waste-Management 2"
+        "alt": "On-Site Mud Recycling",
+        "title": "Recycling Mud – Gallery 2"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-3.jpg",
-        "alt": "Complete Fluid Solutions - Waste-Management Image 3",
-        "title": "Complete Fluid Solutions - Waste-Management 3"
+        "alt": "Disposal In Action",
+        "title": "Disposal Sorted – Gallery 3"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-4.jpg",
-        "alt": "Complete Fluid Solutions - Waste-Management Image 4",
-        "title": "Complete Fluid Solutions - Waste-Management 4"
+        "alt": "Compliant Mud Removal",
+        "title": "Compliance – Gallery 4"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-5.jpg",
-        "alt": "Complete Fluid Solutions - Waste-Management Image 5",
-        "title": "Complete Fluid Solutions - Waste-Management 5"
+        "alt": "Expert On-Site",
+        "title": "Expert Help – Gallery 5"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-6.jpg",
-        "alt": "Complete Fluid Solutions - Waste-Management Image 6",
-        "title": "Complete Fluid Solutions - Waste-Management 6"
+        "alt": "All-in-One Mud Service",
+        "title": "All-In-One – Gallery 6"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-7.webp",
-        "alt": "Complete Fluid Solutions - Waste-Management Image 7",
-        "title": "Complete Fluid Solutions - Waste-Management 7"
+        "alt": "Drilling Mud Sorted",
+        "title": "Sorted Mud – Gallery 7"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-8.webp",
-        "alt": "Complete Fluid Solutions - Waste-Management Image 8",
-        "title": "Complete Fluid Solutions - Waste-Management 8"
+        "alt": "Happy Crew On Site",
+        "title": "Crew On Site – Gallery 8"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-9.webp",
-        "alt": "Complete Fluid Solutions - Waste-Management Image 9",
-        "title": "Complete Fluid Solutions - Waste-Management 9"
+        "alt": "Project Complete",
+        "title": "Complete Project – Gallery 9"
       }
     ],
     "video": "www.youtube.com/watch?v=M2eBeHSSKHM"
   },
   "drillingmud.uk": {
-    "title": "UK Fluid Specialists",
-    "text": "British drilling mud experts – delivering quality fluids, processing and disposal services to projects across the entire UK!",
+    "title": "Drilling Mud Masters UK",
+    "text": "Fast, expert drilling mud supply and disposal – right across Britain.",
     "heroImg": "assets/website-hero-images/liquid-waste.png",
-    "forYou": "Seeking drilling mud expertise throughout the UK? Our nationwide service delivers specialised drilling fluid solutions to projects across Britain. We supply high-quality drilling muds and bentonite slurries tailored to your specific project requirements, with rapid delivery to any UK location. Our mobile processing units operate throughout the country, providing on-site recycling and treatment of used drilling fluids. With national coverage and established relationships with licensed disposal facilities across Britain, we ensure compliant management of your drilling fluids wherever your project is located. Choose our UK-wide expertise for consistent, reliable drilling mud services backed by extensive industry experience and technical knowledge.",
+    "forYou": "Looking for top-notch drilling mud, quick delivery, or compliant waste solutions anywhere in the UK? Our British team supplies the lot – rapid, reliable, and always on the right side of the law. We’ll blend the right fluid, get it to your site sharpish, and sort out all the messy stuff (including on-site recycling) wherever you are. From first pour to final disposal, your project’s sorted with us.",
     "services": [
       {
         "title": "UK Delivery Network",
-        "desc": "Rapid drilling fluid supply to any British location.",
-        "icon": "fa-solid fa-truck-ramp-box"
+        "desc": "Drilling mud to any corner of Britain – quick as you like.",
+        "icon": "fa-solid fa-truck"
       },
       {
         "title": "Nationwide Processing",
-        "desc": "Mobile recycling units operating across the country.",
-        "icon": "fa-solid fa-map-marked-alt"
+        "desc": "Mobile treatment kit for on-site mud recycling.",
+        "icon": "fa-solid fa-cogs"
       },
       {
         "title": "Compliant Disposal",
-        "desc": "Licensed waste facilities throughout Britain.",
-        "icon": "fa-solid fa-location-dot"
+        "desc": "Licensed waste disposal that keeps you legal.",
+        "icon": "fa-solid fa-certificate"
       },
       {
-        "title": "British Technical Team",
-        "desc": "Expert support available nationwide.",
-        "icon": "fa-solid fa-headset"
+        "title": "Expert Support",
+        "desc": "British techies who’ve seen it all.",
+        "icon": "fa-solid fa-user-cog"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-1.jpg",
-        "alt": "UK Fluid Specialists - Waste-Management Image 1",
-        "title": "UK Fluid Specialists - Waste-Management 1"
+        "alt": "Drilling Mud Fleet",
+        "title": "Delivery Network – Gallery 1"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-2.jpg",
-        "alt": "UK Fluid Specialists - Waste-Management Image 2",
-        "title": "UK Fluid Specialists - Waste-Management 2"
+        "alt": "Processing Mud On-Site",
+        "title": "Processing – Gallery 2"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-3.jpg",
-        "alt": "UK Fluid Specialists - Waste-Management Image 3",
-        "title": "UK Fluid Specialists - Waste-Management 3"
+        "alt": "Legal Disposal Team",
+        "title": "Disposal Team – Gallery 3"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-4.jpg",
-        "alt": "UK Fluid Specialists - Waste-Management Image 4",
-        "title": "UK Fluid Specialists - Waste-Management 4"
+        "alt": "Support On The Ground",
+        "title": "Support Crew – Gallery 4"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-5.jpg",
-        "alt": "UK Fluid Specialists - Waste-Management Image 5",
-        "title": "UK Fluid Specialists - Waste-Management 5"
+        "alt": "All Sorted",
+        "title": "All Sorted – Gallery 5"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-6.jpg",
-        "alt": "UK Fluid Specialists - Waste-Management Image 6",
-        "title": "UK Fluid Specialists - Waste-Management 6"
+        "alt": "British Team At Work",
+        "title": "Teamwork – Gallery 6"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-7.webp",
-        "alt": "UK Fluid Specialists - Waste-Management Image 7",
-        "title": "UK Fluid Specialists - Waste-Management 7"
+        "alt": "Quick Delivery",
+        "title": "Fast Delivery – Gallery 7"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-8.webp",
-        "alt": "UK Fluid Specialists - Waste-Management Image 8",
-        "title": "UK Fluid Specialists - Waste-Management 8"
+        "alt": "Compliant Job Done",
+        "title": "Compliant Job – Gallery 8"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-9.webp",
-        "alt": "UK Fluid Specialists - Waste-Management Image 9",
-        "title": "UK Fluid Specialists - Waste-Management 9"
+        "alt": "Job Well Done",
+        "title": "Well Done – Gallery 9"
       }
     ],
     "video": "www.youtube.com/watch?v=M2eBeHSSKHM"
   },
   "drillingslurry.uk": {
-    "title": "British Slurry Experts",
-    "text": "UK-wide drilling fluid management – from supply and on-site processing to environmentally compliant disposal anywhere in Britain!",
+    "title": "British Drilling Slurry Pros",
+    "text": "Top-quality drilling fluids, fast supply, and slick recycling – all across the UK.",
     "heroImg": "assets/website-hero-images/liquid-waste.png",
-    "forYou": "Require drilling slurry management anywhere in the UK? Our nationwide service provides comprehensive solutions for construction and engineering projects across Britain. We deliver high-quality drilling fluids to any UK location, with formulations tailored to specific project requirements and ground conditions. Our fleet of mobile processing units operates throughout the country, providing on-site treatment and recycling of used slurries to maximise material recovery and minimise environmental impact. With established relationships with licensed waste facilities across the UK, we ensure fully compliant disposal of waste fluids regardless of your project location. Choose our British expertise for consistent, reliable drilling slurry management backed by technical knowledge and industry experience.",
+    "forYou": "Want your drilling slurry sorted the British way? We deliver made-to-measure drilling fluids to any site in the UK, treat and recycle the waste right there, and handle all disposal – no drama, no delays. We make sure you get the right stuff for your job and stay green, clean, and compliant. Give us a bell for the best British drilling slurry support out there.",
     "services": [
       {
-        "title": "British Supply Chain",
-        "desc": "Quality drilling fluids delivered nationwide.",
-        "icon": "fa-solid fa-truck-fast"
+        "title": "Tailored Fluid Supply",
+        "desc": "We blend and deliver drilling fluids for any job.",
+        "icon": "fa-solid fa-tint"
       },
       {
-        "title": "UK Processing Fleet",
-        "desc": "Mobile units operating throughout Britain.",
-        "icon": "fa-solid fa-map-location-dot"
+        "title": "On-Site Treatment",
+        "desc": "Mobile kit for on-the-spot recycling and disposal.",
+        "icon": "fa-solid fa-sync"
       },
       {
-        "title": "Regional Compliance",
-        "desc": "Meeting regulations across all UK territories.",
-        "icon": "fa-solid fa-scale-balanced"
+        "title": "Compliance Sorted",
+        "desc": "We’ll keep you legal, safe, and green.",
+        "icon": "fa-solid fa-shield-check"
       },
       {
-        "title": "National Disposal Network",
-        "desc": "Licensed facilities throughout Britain.",
-        "icon": "fa-solid fa-network-wired"
+        "title": "Rapid Response",
+        "desc": "Need help in a hurry? We’re always ready.",
+        "icon": "fa-solid fa-bolt"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-1.jpg",
-        "alt": "British Slurry Experts - Waste-Management Image 1",
-        "title": "British Slurry Experts - Waste-Management 1"
+        "alt": "Drilling Slurry Supplied",
+        "title": "Supplied – Gallery 1"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-2.jpg",
-        "alt": "British Slurry Experts - Waste-Management Image 2",
-        "title": "British Slurry Experts - Waste-Management 2"
+        "alt": "On-Site Fluid Treatment",
+        "title": "On Site – Gallery 2"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-3.jpg",
-        "alt": "British Slurry Experts - Waste-Management Image 3",
-        "title": "British Slurry Experts - Waste-Management 3"
+        "alt": "Legal and Safe",
+        "title": "Legal – Gallery 3"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-4.jpg",
-        "alt": "British Slurry Experts - Waste-Management Image 4",
-        "title": "British Slurry Experts - Waste-Management 4"
+        "alt": "British Team in Action",
+        "title": "Action – Gallery 4"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-5.jpg",
-        "alt": "British Slurry Experts - Waste-Management Image 5",
-        "title": "British Slurry Experts - Waste-Management 5"
+        "alt": "Clean and Green",
+        "title": "Green – Gallery 5"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-6.jpg",
-        "alt": "British Slurry Experts - Waste-Management Image 6",
-        "title": "British Slurry Experts - Waste-Management 6"
+        "alt": "Sorted and Supplied",
+        "title": "Sorted – Gallery 6"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-7.webp",
-        "alt": "British Slurry Experts - Waste-Management Image 7",
-        "title": "British Slurry Experts - Waste-Management 7"
+        "alt": "Ready to Go",
+        "title": "Ready – Gallery 7"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-8.webp",
-        "alt": "British Slurry Experts - Waste-Management Image 8",
-        "title": "British Slurry Experts - Waste-Management 8"
+        "alt": "Top Team",
+        "title": "Top Team – Gallery 8"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-9.webp",
-        "alt": "British Slurry Experts - Waste-Management Image 9",
-        "title": "British Slurry Experts - Waste-Management 9"
+        "alt": "Happy Client",
+        "title": "Happy – Gallery 9"
       }
     ],
     "video": "www.youtube.com/watch?v=M2eBeHSSKHM"
   },
+
   "environmentalwaterrecycling.uk": {
-    "title": "UK Water Recovery",
-    "text": "Sustainable water solutions across Britain – innovative recycling systems that reduce consumption and environmental impact nationwide!",
+    "title": "Water Recycling UK – Save Water, Save Money",
+    "text": "Smart water recycling for homes and businesses across Britain. Eco-friendly, hassle-free, and cuts your bills.",
     "heroImg": "assets/website-hero-images/liquid-waste.png",
-    "forYou": "Seeking water recycling expertise throughout the UK? Our nationwide service delivers innovative water reuse technologies across Britain, helping organisations reduce consumption and enhance environmental performance. We design, install, and maintain advanced water recycling systems for various applications, from industrial processes to commercial facilities. With UK-wide coverage, we provide consistent quality and expert support for projects of all sizes. Our British team ensures compliance with local water regulations while implementing effective recycling solutions tailored to your specific requirements. Whether you're aiming to reduce water costs, meet sustainability targets, or minimise environmental impact, our national service provides reliable water recycling solutions anywhere in the UK backed by technical excellence and industry experience.",
+    "forYou": "Need to slash water costs or boost your green credentials? We’re your go-to for water recycling tech that works—no faff. Our team brings clever water reuse systems straight to you, wherever you are in the UK, and handles everything from design to fitting to maintenance. Whether it’s factories, office blocks or shopping centres, we’ll help you hit those sustainability targets, stay fully legal, and shrink your environmental impact. Best of all, you’ll see savings on your water bills from day one. From rainwater harvesting to greywater recycling, we’ve got the tools, the team, and the experience. Let’s make your water go further.",
     "services": [
       {
-        "title": "Nationwide Solutions",
-        "desc": "Water recycling systems available throughout Britain.",
-        "icon": "fa-solid fa-map-marked-alt"
+        "title": "Nationwide Coverage",
+        "desc": "Full water recycling installs anywhere in Britain.",
+        "icon": "fa-solid fa-map-location-dot"
       },
       {
-        "title": "UK Compliance",
-        "desc": "Meeting all British water regulations and standards.",
-        "icon": "fa-solid fa-scale-balanced"
+        "title": "Compliant by Design",
+        "desc": "We handle all the paperwork, regs and rules.",
+        "icon": "fa-solid fa-file-shield"
       },
       {
-        "title": "British Installation",
-        "desc": "Professional system implementation anywhere in the UK.",
-        "icon": "fa-solid fa-wrench"
+        "title": "British Installers",
+        "desc": "Expert engineers local to your area.",
+        "icon": "fa-solid fa-users-gear"
       },
       {
-        "title": "National Support",
-        "desc": "Maintenance services covering all British regions.",
-        "icon": "fa-solid fa-screwdriver-wrench"
+        "title": "Reliable Support",
+        "desc": "Aftercare and servicing—just a call away.",
+        "icon": "fa-solid fa-phone-volume"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning1.jpg",
-        "alt": "UK Water Recovery - Cleaning-Services Image 1",
-        "title": "UK Water Recovery - Cleaning-Services 1"
+        "alt": "Water recycling system install",
+        "title": "New System Fitted"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning2.jpg",
-        "alt": "UK Water Recovery - Cleaning-Services Image 2",
-        "title": "UK Water Recovery - Cleaning-Services 2"
+        "alt": "Greywater tanks in action",
+        "title": "Greywater Tanks"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning3.jpg",
-        "alt": "UK Water Recovery - Cleaning-Services Image 3",
-        "title": "UK Water Recovery - Cleaning-Services 3"
+        "alt": "Rainwater harvesting kit",
+        "title": "Rainwater Harvesting"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning4.jpg",
-        "alt": "UK Water Recovery - Cleaning-Services Image 4",
-        "title": "UK Water Recovery - Cleaning-Services 4"
+        "alt": "Commercial recycling plant",
+        "title": "Commercial Solutions"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning5.jpg",
-        "alt": "UK Water Recovery - Cleaning-Services Image 5",
-        "title": "UK Water Recovery - Cleaning-Services 5"
+        "alt": "System maintenance check",
+        "title": "Maintenance Visit"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning6.jpg",
-        "alt": "UK Water Recovery - Cleaning-Services Image 6",
-        "title": "UK Water Recovery - Cleaning-Services 6"
+        "alt": "Eco-friendly water solutions",
+        "title": "Eco-Friendly Kit"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning7.jpg",
-        "alt": "UK Water Recovery - Cleaning-Services Image 7",
-        "title": "UK Water Recovery - Cleaning-Services 7"
+        "alt": "British water recycling team",
+        "title": "Our Team"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning8.jpg",
-        "alt": "UK Water Recovery - Cleaning-Services Image 8",
-        "title": "UK Water Recovery - Cleaning-Services 8"
+        "alt": "Control panel setup",
+        "title": "Tech Install"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning9.jpg",
-        "alt": "UK Water Recovery - Cleaning-Services Image 9",
-        "title": "UK Water Recovery - Cleaning-Services 9"
+        "alt": "Happy customer",
+        "title": "Happy Client"
       }
     ],
     "video": "www.youtube.com/watch?v=M2eBeHSSKHM"
   },
   "event-cleanup.co.uk": {
-    "title": "Event Site Restoration",
-    "text": "Professional post-event recovery – transforming venues to pristine condition with expert cleaning, waste management and recycling services!",
+    "title": "Event Cleanup UK – Venue Sparkling, Zero Hassle",
+    "text": "Event over? Leave the mess to us! Fast, thorough site cleanups for every occasion across Britain.",
     "heroImg": "assets/website-hero-images/road-sweeping.png",
-    "forYou": "Planning post-event restoration? Our specialist service ensures venues and sites are returned to pristine condition after events of any size or type. We provide comprehensive cleanup solutions for festivals, concerts, exhibitions, sporting events, and public gatherings throughout the UK. Our comprehensive approach includes thorough litter picking, efficient waste collection, responsible recycling, high-pressure cleaning, and professional sanitation services, all coordinated to operate effectively during critical post-event windows. With flexible scheduling, rapid mobilisation, and scalable resources, we help event organisers fulfill venue contracts and environmental responsibilities while managing tight turnaround times. Choose our experienced teams for reliable, efficient post-event restoration that satisfies all stakeholders.",
+    "forYou": "Running an event is hard enough—don’t stress about the mess. Whether it’s a muddy festival, a big sports day, or a city-wide street party, our team swoops in after the last guest leaves. We do it all: litter picking, waste sorting, recycling, pressure washing, and a full sparkle-up of your venue. Our pros work fast, don’t miss a spot, and help you get your deposit back. You focus on the fun—we’ll handle the mess and get your site back to pristine condition in record time.",
     "services": [
       {
-        "title": "Festival Restoration",
-        "desc": "Complete cleanup for music events and festivals.",
+        "title": "Festival Clear-Up",
+        "desc": "Music fests, outdoor gigs, you name it—we clean up.",
         "icon": "fa-solid fa-music"
       },
       {
-        "title": "Exhibition Services",
-        "desc": "Rapid venue restoration after trade shows and conferences.",
+        "title": "Exhibition Reset",
+        "desc": "Trade shows and expos left spotless.",
         "icon": "fa-solid fa-building"
       },
       {
-        "title": "Sports Event Cleanup",
-        "desc": "Stadium and venue cleaning after sporting events.",
+        "title": "Stadium Cleaning",
+        "desc": "Sports venues blitzed and back to best.",
         "icon": "fa-solid fa-medal"
       },
       {
-        "title": "Event Waste Management",
-        "desc": "Efficient collection, segregation and recycling services.",
+        "title": "Green Waste Sorting",
+        "desc": "Efficient recycling and waste split.",
         "icon": "fa-solid fa-recycle"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/RoadSweeper/sweeper-1.webp",
-        "alt": "Event Site Restoration - RoadSweeper Image 1",
-        "title": "Event Site Restoration - RoadSweeper 1"
+        "alt": "Field after festival",
+        "title": "Festival Cleared"
       },
       {
         "src": "assets/Website-Service-Images/RoadSweeper/sweeper-2.webp",
-        "alt": "Event Site Restoration - RoadSweeper Image 2",
-        "title": "Event Site Restoration - RoadSweeper 2"
+        "alt": "Stadium after event",
+        "title": "Stadium Tidy"
       },
       {
         "src": "assets/Website-Service-Images/RoadSweeper/sweeper-3.webp",
-        "alt": "Event Site Restoration - RoadSweeper Image 3",
-        "title": "Event Site Restoration - RoadSweeper 3"
+        "alt": "Litter pickers at work",
+        "title": "Litter Pickers"
       },
       {
         "src": "assets/Website-Service-Images/RoadSweeper/sweeper-4.webp",
-        "alt": "Event Site Restoration - RoadSweeper Image 4",
-        "title": "Event Site Restoration - RoadSweeper 4"
+        "alt": "Cleaned up street",
+        "title": "Street Clean"
       },
       {
         "src": "assets/Website-Service-Images/RoadSweeper/sweeper-5.webp",
-        "alt": "Event Site Restoration - RoadSweeper Image 5",
-        "title": "Event Site Restoration - RoadSweeper 5"
+        "alt": "Team with sweepers",
+        "title": "Sweeper Fleet"
       },
       {
         "src": "assets/Website-Service-Images/RoadSweeper/sweeper-6.webp",
-        "alt": "Event Site Restoration - RoadSweeper Image 6",
-        "title": "Event Site Restoration - RoadSweeper 6"
+        "alt": "Recycling after event",
+        "title": "Sorted Recycling"
       },
       {
         "src": "assets/Website-Service-Images/RoadSweeper/sweeper-7.webp",
-        "alt": "Event Site Restoration - RoadSweeper Image 7",
-        "title": "Event Site Restoration - RoadSweeper 7"
+        "alt": "Event waste removal",
+        "title": "Waste Removal"
       },
       {
         "src": "assets/Website-Service-Images/RoadSweeper/sweeper-8.webp",
-        "alt": "Event Site Restoration - RoadSweeper Image 8",
-        "title": "Event Site Restoration - RoadSweeper 8"
+        "alt": "Before and after cleaning",
+        "title": "Before/After"
       },
       {
         "src": "assets/Website-Service-Images/RoadSweeper/sweeper-9.webp",
-        "alt": "Event Site Restoration - RoadSweeper Image 9",
-        "title": "Event Site Restoration - RoadSweeper 9"
+        "alt": "Big event cleanup",
+        "title": "Big Job Done"
       }
     ],
     "video": "www.youtube.com/watch?v=v4EJ-shbcVI"
   },
   "disposal-of-my-wife.co.uk": {
-    "title": "Home Clearance Specialists",
-    "text": "Professional domestic waste removal – convenient, compliant and eco-friendly collection services for all household items and materials!",
+    "title": "Home Clearance Pros UK",
+    "text": "Need a clear-out? We’ll take anything—from sofas to garden junk, quick and green.",
     "heroImg": "assets/website-hero-images/liquid-waste.png",
-    "forYou": "Need to clear household waste and unwanted items? Our professional service provides convenient, responsible solutions for domestic waste disposal and home clearances throughout the local area. We handle everything from general household waste and bulky furniture to garden debris and renovation materials, ensuring proper disposal through licensed facilities. Our efficient service includes collection directly from your property, saving you time and effort compared to DIY disposal methods. With full legal compliance and environmental responsibility at our core, we provide complete peace of mind that your waste is handled properly from collection to final disposal. Choose our reliable service for hassle-free household waste removal that's convenient, fully compliant and environmentally sound.",
+    "forYou": "House full of stuff you don’t want? Skip the tip run. We collect everything—old furniture, garden clippings, building rubble, even that mattress you’ve not shifted in years. Our team rocks up, loads up, and makes sure it’s all handled right—no dodgy fly-tipping, just legal, eco-friendly disposal at licensed sites. We’ll save you the backache and the paperwork. Plus, you only pay for what we take, and we sweep up after. It’s house clearance made easy—so you can get your space back.",
     "services": [
       {
-        "title": "Household Collection",
-        "desc": "Convenient removal of general domestic waste.",
+        "title": "Quick Collection",
+        "desc": "General waste gone fast—no fuss.",
         "icon": "fa-solid fa-trash-can"
       },
       {
-        "title": "Bulky Item Removal",
-        "desc": "Disposal of large furniture and household items.",
+        "title": "Big Stuff Gone",
+        "desc": "Old sofas, beds, wardrobes out the door.",
         "icon": "fa-solid fa-couch"
       },
       {
         "title": "Garden Waste",
-        "desc": "Clearance of green waste and garden materials.",
+        "desc": "Green waste, sheds, even old BBQs.",
         "icon": "fa-solid fa-leaf"
       },
       {
-        "title": "Renovation Debris",
-        "desc": "Removal of waste from home improvement projects.",
+        "title": "DIY Debris",
+        "desc": "Leftover tiles, wood, or bricks cleared up.",
         "icon": "fa-solid fa-hammer"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-1.jpg",
-        "alt": "Home Clearance Specialists - Waste-Management Image 1",
-        "title": "Home Clearance Specialists - Waste-Management 1"
+        "alt": "Home waste loaded",
+        "title": "Quick Load"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-2.jpg",
-        "alt": "Home Clearance Specialists - Waste-Management Image 2",
-        "title": "Home Clearance Specialists - Waste-Management 2"
+        "alt": "Furniture removal",
+        "title": "Furniture Gone"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-3.jpg",
-        "alt": "Home Clearance Specialists - Waste-Management Image 3",
-        "title": "Home Clearance Specialists - Waste-Management 3"
+        "alt": "Garden waste bags",
+        "title": "Garden Cleared"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-4.jpg",
-        "alt": "Home Clearance Specialists - Waste-Management Image 4",
-        "title": "Home Clearance Specialists - Waste-Management 4"
+        "alt": "Old junk out",
+        "title": "Junk Gone"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-5.jpg",
-        "alt": "Home Clearance Specialists - Waste-Management Image 5",
-        "title": "Home Clearance Specialists - Waste-Management 5"
+        "alt": "Room after clearance",
+        "title": "Fresh Start"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-6.jpg",
-        "alt": "Home Clearance Specialists - Waste-Management Image 6",
-        "title": "Home Clearance Specialists - Waste-Management 6"
+        "alt": "Team on site",
+        "title": "On The Job"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-7.webp",
-        "alt": "Home Clearance Specialists - Waste-Management Image 7",
-        "title": "Home Clearance Specialists - Waste-Management 7"
+        "alt": "Waste to recycling",
+        "title": "Eco Disposal"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-8.webp",
-        "alt": "Home Clearance Specialists - Waste-Management Image 8",
-        "title": "Home Clearance Specialists - Waste-Management 8"
+        "alt": "Van loaded up",
+        "title": "Van Loaded"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-9.webp",
-        "alt": "Home Clearance Specialists - Waste-Management Image 9",
-        "title": "Home Clearance Specialists - Waste-Management 9"
+        "alt": "Final sweep",
+        "title": "We Sweep Up"
       }
     ],
     "video": "www.youtube.com/watch?v=M2eBeHSSKHM"
   },
   "festival-cleanup.co.uk": {
-    "title": "Festival Site Recovery",
-    "text": "Dedicated post-festival restoration – transforming event grounds to pristine condition through expert waste management and recycling!",
+    "title": "Festival Cleanup Crew – UK",
+    "text": "From field to flawless: proper post-festival cleaning, recycling, and restoration nationwide.",
     "heroImg": "assets/website-hero-images/road-sweeping.png",
-    "forYou": "Planning your festival cleanup operation? Our specialist service ensures event sites are restored efficiently and responsibly after festivals of any size. We understand the unique challenges of festival waste management, from tight timeframes and difficult access to diverse waste streams and abandoned equipment. Our comprehensive approach includes systematic litter picking, thorough campsite clearance, sanitation facility cleaning, trader area restoration, and efficient recycling operations. With experienced teams and specialised equipment, we handle everything from general waste and recyclables to abandoned camping equipment and temporary infrastructure removal. Choose our festival cleanup expertise for professional site restoration that satisfies landowners, local authorities and environmental requirements while meeting your critical deadlines.",
+    "forYou": "Festival over, field trashed? Our crew blitzes it back to normal, fast. We handle the heavy lifting: campsites, main arenas, toilets, recycling—plus all that abandoned kit and mud. We work with festival organisers, councils, and landowners to hit tight deadlines, tick all the environmental boxes, and leave the site better than we found it. You won’t even know a festival happened by the time we’re done. Save yourself the headache, avoid fines, and get your site ready for the next big thing.",
     "services": [
       {
-        "title": "Rapid Site Clearance",
-        "desc": "Swift litter collection across entire festival grounds.",
+        "title": "Fast Litter Sweeps",
+        "desc": "Every field, every tent, every bit—cleared.",
         "icon": "fa-solid fa-broom"
       },
       {
-        "title": "Campsite Recovery",
-        "desc": "Clearing abandoned equipment and restoring camping areas.",
+        "title": "Campsite Blitz",
+        "desc": "Tents, chairs, inflatables—gone.",
         "icon": "fa-solid fa-campground"
       },
       {
-        "title": "Festival Recycling",
-        "desc": "Segregating and processing materials for maximum recovery.",
+        "title": "Green Recycling",
+        "desc": "Cans, plastics, all sorted and recycled.",
         "icon": "fa-solid fa-recycle"
       },
       {
-        "title": "Facility Sanitation",
-        "desc": "Cleaning toilet blocks, showers and communal areas.",
+        "title": "Toilet & Shower Clean",
+        "desc": "Facilities fresh and ready for handover.",
         "icon": "fa-solid fa-toilet"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning1.jpg",
-        "alt": "Festival Site Recovery - Cleaning-Services Image 1",
-        "title": "Festival Site Recovery - Cleaning-Services 1"
+        "alt": "Post-festival field",
+        "title": "Clean Field"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning2.jpg",
-        "alt": "Festival Site Recovery - Cleaning-Services Image 2",
-        "title": "Festival Site Recovery - Cleaning-Services 2"
+        "alt": "Litter picking",
+        "title": "Litter Picking"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning3.jpg",
-        "alt": "Festival Site Recovery - Cleaning-Services Image 3",
-        "title": "Festival Site Recovery - Cleaning-Services 3"
+        "alt": "Before and after",
+        "title": "Before/After"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning4.jpg",
-        "alt": "Festival Site Recovery - Cleaning-Services Image 4",
-        "title": "Festival Site Recovery - Cleaning-Services 4"
+        "alt": "Abandoned kit gone",
+        "title": "Abandoned Kit Gone"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning5.jpg",
-        "alt": "Festival Site Recovery - Cleaning-Services Image 5",
-        "title": "Festival Site Recovery - Cleaning-Services 5"
+        "alt": "Recycling station",
+        "title": "Recycling Sorted"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning6.jpg",
-        "alt": "Festival Site Recovery - Cleaning-Services Image 6",
-        "title": "Festival Site Recovery - Cleaning-Services 6"
+        "alt": "Toilets cleaned",
+        "title": "Facilities Clean"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning7.jpg",
-        "alt": "Festival Site Recovery - Cleaning-Services Image 7",
-        "title": "Festival Site Recovery - Cleaning-Services 7"
+        "alt": "Big event team",
+        "title": "Our Crew"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning8.jpg",
-        "alt": "Festival Site Recovery - Cleaning-Services Image 8",
-        "title": "Festival Site Recovery - Cleaning-Services 8"
+        "alt": "Tidy festival ground",
+        "title": "Tidy Again"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning9.jpg",
-        "alt": "Festival Site Recovery - Cleaning-Services Image 9",
-        "title": "Festival Site Recovery - Cleaning-Services 9"
+        "alt": "Landowner handover",
+        "title": "Ready for Handover"
       }
     ],
     "video": "www.youtube.com/watch?v=v4EJ-shbcVI"
   },
   "festivalcleanup.co.uk": {
-    "title": "Music Event Restoration",
-    "text": "Specialist festival site recovery – expert teams transforming muddy fields to pristine condition with comprehensive waste management!",
+    "title": "Festival Site Reset – Music Event Cleaning UK",
+    "text": "Field full of rubbish? We turn festival chaos into clean, green spaces—no drama.",
     "heroImg": "assets/website-hero-images/road-sweeping.png",
-    "forYou": "Need your festival site returned to pristine condition? Our specialised service focuses exclusively on festival cleanup operations, with deep expertise in managing post-event waste and site restoration. We understand the unique challenges of festival environments including complex waste streams, tight turnaround deadlines, and often challenging site conditions. Our experienced teams handle everything from systematic litter picking and abandoned campsite clearance to sophisticated recycling operations and infrastructure removal. We prioritise sustainability through maximising recycling rates and ensuring responsible disposal of non-recyclable materials. With our festival-specific expertise, purpose-designed equipment, and efficient approach, we ensure thorough cleanup operations that satisfy landowners, local authorities, and environmental requirements while meeting your critical deadlines.",
+    "forYou": "When the last band’s packed up and the field’s a tip, call us. We know festivals inside out, from the odd sock to full-on tent mountains and miles of mud. We bring a proper team, specialist kit, and green thinking. We’ll sweep every inch, recycle all we can, and hand the land back cleaner than we found it—without a trace of glitter. Quick, reliable, and up for any challenge, we’re the team landowners, organisers, and councils trust.",
     "services": [
       {
-        "title": "Comprehensive Litter Removal",
-        "desc": "Thorough ground clearance across the entire festival site.",
+        "title": "Ground Clearance",
+        "desc": "Every last cup, tent and bin bag gone.",
         "icon": "fa-solid fa-trash-can"
       },
       {
-        "title": "Abandoned Camp Clearance",
-        "desc": "Removal of leftover tents, equipment and materials.",
+        "title": "Abandoned Camp Kit",
+        "desc": "Leftover tents and gear? No problem.",
         "icon": "fa-solid fa-tent"
       },
       {
-        "title": "Material Segregation",
-        "desc": "Separating recyclables from general and specialist waste.",
+        "title": "Smart Sorting",
+        "desc": "All rubbish split for recycling—planet first.",
         "icon": "fa-solid fa-arrow-down-up-across-line"
       },
       {
-        "title": "Stage Area Restoration",
-        "desc": "Returning performance spaces to their original condition.",
+        "title": "Stage Area Tidy",
+        "desc": "Backstage and main stages sparkling.",
         "icon": "fa-solid fa-guitar"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning1.jpg",
-        "alt": "Music Event Restoration - Cleaning-Services Image 1",
-        "title": "Music Event Restoration - Cleaning-Services 1"
+        "alt": "Stage before and after",
+        "title": "Stage Tidy"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning2.jpg",
-        "alt": "Music Event Restoration - Cleaning-Services Image 2",
-        "title": "Music Event Restoration - Cleaning-Services 2"
+        "alt": "Festival ground cleared",
+        "title": "Field Cleared"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning3.jpg",
-        "alt": "Music Event Restoration - Cleaning-Services Image 3",
-        "title": "Music Event Restoration - Cleaning-Services 3"
+        "alt": "Rubbish sorted",
+        "title": "Sorting"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning4.jpg",
-        "alt": "Music Event Restoration - Cleaning-Services Image 4",
-        "title": "Music Event Restoration - Cleaning-Services 4"
+        "alt": "Kit removal",
+        "title": "Kit Gone"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning5.jpg",
-        "alt": "Music Event Restoration - Cleaning-Services Image 5",
-        "title": "Music Event Restoration - Cleaning-Services 5"
+        "alt": "Team recycling",
+        "title": "Recycling"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning6.jpg",
-        "alt": "Music Event Restoration - Cleaning-Services Image 6",
-        "title": "Music Event Restoration - Cleaning-Services 6"
+        "alt": "Event ground after",
+        "title": "All Clear"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning7.jpg",
-        "alt": "Music Event Restoration - Cleaning-Services Image 7",
-        "title": "Music Event Restoration - Cleaning-Services 7"
+        "alt": "Smiling team",
+        "title": "Team Smiles"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning8.jpg",
-        "alt": "Music Event Restoration - Cleaning-Services Image 8",
-        "title": "Music Event Restoration - Cleaning-Services 8"
+        "alt": "Organiser happy",
+        "title": "Happy Organiser"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning9.jpg",
-        "alt": "Music Event Restoration - Cleaning-Services Image 9",
-        "title": "Music Event Restoration - Cleaning-Services 9"
+        "alt": "Ready for next event",
+        "title": "Next Event Ready"
       }
     ],
     "video": "www.youtube.com/watch?v=v4EJ-shbcVI"
   },
   "flood-cleanup.uk": {
-    "title": "UK Flood Recovery",
-    "text": "Nationwide water damage restoration – rapid response teams across Britain providing extraction, drying, sanitisation and property recovery!",
+    "title": "Flood Cleanup UK – Water Gone, Homes Restored",
+    "text": "Flooded? We sort it fast. Extraction, drying, sanitising and repairs anywhere in Britain.",
     "heroImg": "assets/website-hero-images/pump-station.png",
-    "forYou": "Need flood cleanup services anywhere in the UK? Our nationwide network provides professional water damage restoration across Britain with strategically positioned teams and equipment. We deliver rapid response to flooding incidents throughout the country, with our comprehensive service covering the complete restoration process from emergency water extraction and structural drying to thorough decontamination and property repairs. We work efficiently with all major UK insurance companies and provide detailed documentation to support your claims process. With consistent standards, professional equipment, and experienced technicians available throughout Britain, we ensure quality flood recovery services regardless of your location. Choose our nationwide expertise for reliable flood restoration anywhere in the UK, delivered promptly by local teams with national resources.",
+    "forYou": "When water hits, every second counts. Our flood response crews get to you quick, with pro kit and years of know-how. We pump out water, dry everything properly, decontaminate, and handle repairs so you don’t have to juggle a dozen contractors. We work with insurers, councils, landlords and homeowners all over the UK. Your place will be safe, clean, and sorted—no lingering damp, no nasty surprises. We’re on standby 24/7, nationwide.",
     "services": [
       {
-        "title": "Rapid Water Extraction",
-        "desc": "Emergency pumping services throughout Britain.",
-        "icon": "fa-solid fa-pump"
+        "title": "Water Pump-Out",
+        "desc": "Emergency extraction—home or business, anytime.",
+        "icon": "fa-solid fa-person-swimming"
       },
       {
-        "title": "Professional Drying",
-        "desc": "Structural dehumidification anywhere in the UK.",
+        "title": "Fast Drying",
+        "desc": "We dry floors, walls, and structures fast.",
         "icon": "fa-solid fa-wind"
       },
       {
-        "title": "Complete Sanitisation",
-        "desc": "Thorough decontamination following British standards.",
-        "icon": "fa-solid fa-spray-can"
+        "title": "Deep Clean",
+        "desc": "Sanitising and deodorising, the works.",
+        "icon": "fa-solid fa-soap"
       },
       {
-        "title": "Full Property Restoration",
-        "desc": "Comprehensive repairs across all UK regions.",
-        "icon": "fa-solid fa-hammer"
+        "title": "Repairs Sorted",
+        "desc": "From plaster to electrics, we handle it.",
+        "icon": "fa-solid fa-house-circle-check"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning1.jpg",
-        "alt": "UK Flood Recovery - Cleaning-Services Image 1",
-        "title": "UK Flood Recovery - Cleaning-Services 1"
+        "alt": "Flood team at work",
+        "title": "Team at Work"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning2.jpg",
-        "alt": "UK Flood Recovery - Cleaning-Services Image 2",
-        "title": "UK Flood Recovery - Cleaning-Services 2"
+        "alt": "Pump in action",
+        "title": "Pump-Out"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning3.jpg",
-        "alt": "UK Flood Recovery - Cleaning-Services Image 3",
-        "title": "UK Flood Recovery - Cleaning-Services 3"
+        "alt": "Drying setup",
+        "title": "Drying Kit"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning4.jpg",
-        "alt": "UK Flood Recovery - Cleaning-Services Image 4",
-        "title": "UK Flood Recovery - Cleaning-Services 4"
+        "alt": "Sanitising floors",
+        "title": "Sanitising"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning5.jpg",
-        "alt": "UK Flood Recovery - Cleaning-Services Image 5",
-        "title": "UK Flood Recovery - Cleaning-Services 5"
+        "alt": "Repairs underway",
+        "title": "Repairs"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning6.jpg",
-        "alt": "UK Flood Recovery - Cleaning-Services Image 6",
-        "title": "UK Flood Recovery - Cleaning-Services 6"
+        "alt": "Restored room",
+        "title": "Room Restored"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning7.jpg",
-        "alt": "UK Flood Recovery - Cleaning-Services Image 7",
-        "title": "UK Flood Recovery - Cleaning-Services 7"
+        "alt": "Customer happy",
+        "title": "Happy Client"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning8.jpg",
-        "alt": "UK Flood Recovery - Cleaning-Services Image 8",
-        "title": "UK Flood Recovery - Cleaning-Services 8"
+        "alt": "Flood aftermath",
+        "title": "Before/After"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning9.jpg",
-        "alt": "UK Flood Recovery - Cleaning-Services Image 9",
-        "title": "UK Flood Recovery - Cleaning-Services 9"
+        "alt": "On site",
+        "title": "On Site"
       }
     ],
     "video": "www.youtube.com/watch?v=EgXahIFszfE"
   },
   "flood-damage-control.co.uk": {
-    "title": "Emergency Flood Protection",
-    "text": "Rapid flood defence solutions – immediate deployment of barriers, pumps and protection systems to minimise property damage!",
+    "title": "Emergency Flood Defence – UK Fast Response",
+    "text": "Flood threat? Get instant help—barriers, pumps, and property protection in hours, not days.",
     "heroImg": "assets/website-hero-images/pump-station.png",
-    "forYou": "Need to minimise flood damage quickly? Our specialised emergency service focuses on rapid response and effective mitigation during and immediately after flooding incidents. We deploy skilled teams with industrial pumps, flood barriers, and property protection systems to control water ingress and minimise damage to your buildings and assets. Our strategic approach prioritises protecting critical equipment, preventing structural damage, and creating optimal conditions for efficient recovery once floodwaters recede. With 24/7 availability and quick deployment capabilities, we help you take immediate action when flooding threatens or occurs. Choose our expert flood damage control service to limit impact, reduce recovery costs, and protect what matters most during water emergencies.",
+    "forYou": "Don’t wait until water’s at the door. If your property’s at risk, we’ll be there sharpish with flood barriers, pro pumps, and all the gear needed to stop the damage. We protect homes, shops, offices, and warehouses all over Britain. Need to save vital kit, prevent water getting in, or start pumping straight away? We’re on call 24/7. Our expert crews put your safety and your stuff first—let us take the stress out of flood emergencies.",
     "services": [
       {
-        "title": "Rapid Emergency Response",
-        "desc": "Immediate deployment when flooding threatens or occurs.",
+        "title": "Instant Response",
+        "desc": "Barriers and kit out to you in a flash.",
         "icon": "fa-solid fa-truck-fast"
       },
       {
-        "title": "Flood Barrier Installation",
-        "desc": "Strategic systems to control water entry into properties.",
+        "title": "Barrier Fitting",
+        "desc": "Stop water in its tracks with pro installs.",
         "icon": "fa-solid fa-shield-halved"
       },
       {
-        "title": "Critical Asset Protection",
-        "desc": "Safeguarding essential equipment and valuable items.",
+        "title": "Kit Protection",
+        "desc": "Keep your vital stuff dry and safe.",
         "icon": "fa-solid fa-box-archive"
       },
       {
-        "title": "Emergency Water Removal",
-        "desc": "Industrial pumping to minimise property damage.",
-        "icon": "fa-solid fa-pump"
+        "title": "Big Pumps Ready",
+        "desc": "Serious water removal—fast.",
+        "icon": "fa-solid fa-person-swimming"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-1.jpg",
-        "alt": "Emergency Flood Protection - Pump-Station Image 1",
-        "title": "Emergency Flood Protection - Pump-Station 1"
+        "alt": "Flood barrier installed",
+        "title": "Barriers In"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-2.jpg",
-        "alt": "Emergency Flood Protection - Pump-Station Image 2",
-        "title": "Emergency Flood Protection - Pump-Station 2"
+        "alt": "Emergency pumps",
+        "title": "Pumps Working"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-3.jpg",
-        "alt": "Emergency Flood Protection - Pump-Station Image 3",
-        "title": "Emergency Flood Protection - Pump-Station 3"
+        "alt": "Team on call",
+        "title": "Rapid Crew"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-4.jpg",
-        "alt": "Emergency Flood Protection - Pump-Station Image 4",
-        "title": "Emergency Flood Protection - Pump-Station 4"
+        "alt": "Protecting valuables",
+        "title": "Kit Protected"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-5.jpg",
-        "alt": "Emergency Flood Protection - Pump-Station Image 5",
-        "title": "Emergency Flood Protection - Pump-Station 5"
+        "alt": "Flooded property",
+        "title": "At Risk"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-6.jpg",
-        "alt": "Emergency Flood Protection - Pump-Station Image 6",
-        "title": "Emergency Flood Protection - Pump-Station 6"
+        "alt": "Water receding",
+        "title": "Water Down"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-7.jpg",
-        "alt": "Emergency Flood Protection - Pump-Station Image 7",
-        "title": "Emergency Flood Protection - Pump-Station 7"
+        "alt": "Flood response",
+        "title": "Response"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-8.jpg",
-        "alt": "Emergency Flood Protection - Pump-Station Image 8",
-        "title": "Emergency Flood Protection - Pump-Station 8"
+        "alt": "Control centre",
+        "title": "HQ"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-9.jpg",
-        "alt": "Emergency Flood Protection - Pump-Station Image 9",
-        "title": "Emergency Flood Protection - Pump-Station 9"
+        "alt": "Happy family",
+        "title": "Safe Again"
       }
     ],
     "video": "www.youtube.com/watch?v=EgXahIFszfE"
   },
   "hydro-cleansing.co.uk": {
-    "title": "Industrial Environmental Services",
-    "text": "Leading wet waste management in Croydon – 24/7 emergency drain unblocking, jetting, CCTV surveys and liquid waste collection from our local facility!",
+    "title": "Hydro Cleansing – Croydon’s No.1 for Drains & Waste",
+    "text": "Local, rapid and reliable—Croydon’s favourite for blocked drains, jetting, CCTV, and 24/7 waste help.",
     "heroImg": "assets/website-hero-images/liquid-waste.png",
-    "forYou": "Looking for comprehensive environmental services in Croydon? Hydro Cleansing Ltd offers expert solutions for wet waste management and emergency drainage issues. Established in 2000, our Croydon-based operation provides 24/7 emergency response for blocked drains with rapid one-hour response times. We offer complete drainage services including high-pressure jetting, CCTV surveys, and professional repairs. Our specialist capabilities extend to large structures like culverts and tunnels, and we operate our own licensed waste recycling facility in Croydon for processing various waste streams including street sweepings. With our comprehensive fleet, experienced management team with over 50 years of combined experience, and commitment to environmental compliance, we deliver reliable environmental solutions for commercial, industrial, council and domestic clients across London and the South East.",
+    "forYou": "Drains backing up? Need waste shifted—fast? Based in Croydon, we’re your local experts for all things drainage and wet waste. From emergency unblocking to tricky repairs, CCTV surveys to commercial liquid waste removal, we do it all—day or night. Our in-house recycling plant means we process waste right here (no shipping offsite), and our supercharged tankers handle the biggest jobs in London and the South East. Trusted by councils, businesses and homeowners for 20+ years, we’re the team to call when you want the job done right—first time, every time.",
     "services": [
       {
-        "title": "Wet Waste Management",
-        "desc": "Complete collection, transport and treatment of liquid waste.",
+        "title": "Wet Waste Removal",
+        "desc": "Fast, safe collection and treatment—local facility.",
         "icon": "fa-solid fa-droplet"
       },
       {
-        "title": "Emergency Drainage Response",
-        "desc": "24/7 drain unblocking with rapid one-hour response times.",
+        "title": "Drain Unblocking",
+        "desc": "24/7 call-outs—one hour response in Croydon.",
         "icon": "fa-solid fa-truck-fast"
       },
       {
-        "title": "CCTV & Drain Repairs",
-        "desc": "Advanced surveys and professional drainage repairs.",
+        "title": "CCTV & Repairs",
+        "desc": "Find, fix and future-proof your drains.",
         "icon": "fa-solid fa-camera"
       },
       {
-        "title": "Environmental Specialists",
-        "desc": "Expert services for flood response and confined spaces.",
+        "title": "Flood & Specialist Help",
+        "desc": "From tunnels to floods—we’re on it.",
         "icon": "fa-solid fa-leaf"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/CCTV-Inspection/cctv1.jpg",
-        "alt": "Industrial Environmental Services - CCTV-Inspection Image 1",
-        "title": "Industrial Environmental Services - CCTV-Inspection 1"
+        "alt": "Drain inspection",
+        "title": "CCTV Survey"
       },
       {
         "src": "assets/Website-Service-Images/CCTV-Inspection/cctv2.jpg",
-        "alt": "Industrial Environmental Services - CCTV-Inspection Image 2",
-        "title": "Industrial Environmental Services - CCTV-Inspection 2"
+        "alt": "High-pressure jetting",
+        "title": "Jetting in Action"
       },
       {
         "src": "assets/Website-Service-Images/CCTV-Inspection/cctv3.jpg",
-        "alt": "Industrial Environmental Services - CCTV-Inspection Image 3",
-        "title": "Industrial Environmental Services - CCTV-Inspection 3"
+        "alt": "Wet waste tanker",
+        "title": "Waste Tanker"
       },
       {
         "src": "assets/Website-Service-Images/CCTV-Inspection/cctv4.jpg",
-        "alt": "Industrial Environmental Services - CCTV-Inspection Image 4",
-        "title": "Industrial Environmental Services - CCTV-Inspection 4"
+        "alt": "Drain repairs",
+        "title": "Repairs"
       },
       {
         "src": "assets/Website-Service-Images/CCTV-Inspection/cctv5.jpg",
-        "alt": "Industrial Environmental Services - CCTV-Inspection Image 5",
-        "title": "Industrial Environmental Services - CCTV-Inspection 5"
+        "alt": "Team with tanker",
+        "title": "Teamwork"
       },
       {
         "src": "assets/Website-Service-Images/CCTV-Inspection/cctv6.jpg",
-        "alt": "Industrial Environmental Services - CCTV-Inspection Image 6",
-        "title": "Industrial Environmental Services - CCTV-Inspection 6"
+        "alt": "Blocked drain fixed",
+        "title": "Unblocked"
       },
       {
         "src": "assets/Website-Service-Images/CCTV-Inspection/cctv7.jpg",
-        "alt": "Industrial Environmental Services - CCTV-Inspection Image 7",
-        "title": "Industrial Environmental Services - CCTV-Inspection 7"
+        "alt": "On-site recycling",
+        "title": "Recycling Plant"
       },
       {
         "src": "assets/Website-Service-Images/CCTV-Inspection/cctv8.jpg",
-        "alt": "Industrial Environmental Services - CCTV-Inspection Image 8",
-        "title": "Industrial Environmental Services - CCTV-Inspection 8"
+        "alt": "Emergency callout",
+        "title": "Emergency"
       },
       {
         "src": "assets/Website-Service-Images/CCTV-Inspection/cctv9.jpg",
-        "alt": "Industrial Environmental Services - CCTV-Inspection Image 9",
-        "title": "Industrial Environmental Services - CCTV-Inspection 9"
+        "alt": "Customer happy",
+        "title": "Satisfied Client"
       }
     ],
     "video": "www.youtube.com/watch?v=M2eBeHSSKHM"
   },
   "hydro-pressure-clean.co.uk": {
-    "title": "Eco-Friendly Surface Cleaning",
-    "text": "Chemical-free pressure washing in Croydon – revitalising driveways, patios and decking using only water for a pristine, environmentally safe finish!",
+    "title": "Hydro Pressure Clean – Croydon’s Eco Surface Cleaning",
+    "text": "Top results, zero chemicals. Driveways, patios and decking washed safe for kids, pets, and plants.",
     "heroImg": "assets/website-hero-images/road-sweeping.png",
-    "forYou": "Need exterior surface cleaning in Croydon and Surrey? Hydro Pressure Clean specialises in eco-friendly pressure washing services for residential and commercial properties. With 19 years of expertise and a background in landscaping, we deliver outstanding results for driveways, patios, and decking without using any chemicals. Our 100% water-only approach ensures effective cleaning while protecting surrounding plants, wildlife, and the environment. Serving Croydon and surrounding areas including Purley, South Norwood, Coulsdon, Addiscombe, and Sanderstead, we use industrial-grade equipment operated by highly trained professionals. We offer free, no-obligation quotes, personalised service assessment, convenient scheduling, and clear communication throughout the process. Choose our local, environmentally conscious service for safe, effective exterior cleaning that enhances your property's appearance and safety.",
+    "forYou": "Fed up with a grubby drive or mossy patio? We clean it properly—no harsh stuff, just pure water and expert know-how. Our Croydon-based team tackles block paving, decking and stone, getting rid of algae, stains and dirt without risking your garden or the environment. We use the latest pro kit, quote up front, and work around you. Covering Croydon, Purley, Norwood, Coulsdon, Addiscombe and Sanderstead, we make your outdoors look like new again—and you don’t need to lift a finger.",
     "services": [
       {
-        "title": "Chemical-Free Driveway Cleaning",
-        "desc": "Restoring block paving, concrete and tarmac surfaces.",
+        "title": "Driveway Revive",
+        "desc": "Block paving and tarmac—back to brilliant.",
         "icon": "fa-solid fa-road"
       },
       {
-        "title": "Eco-Friendly Patio Cleaning",
-        "desc": "Revitalising natural stone, concrete and paved areas.",
+        "title": "Patio Refresh",
+        "desc": "Stone and concrete cleaned up bright.",
         "icon": "fa-solid fa-brush"
       },
       {
-        "title": "Gentle Decking Restoration",
-        "desc": "Removing algae and moss without damaging the wood.",
-        "icon": "fa-solid fa-table"
+        "title": "Decking Care",
+        "desc": "Wooden decks fresh, safe, and algae-free.",
+        "icon": "fa-solid fa-table-cells-large"
       },
       {
-        "title": "Water-Only Pressure Washing",
-        "desc": "Environmentally safe cleaning for all exterior surfaces.",
+        "title": "Pure Water Power",
+        "desc": "No chemicals—just effective, eco cleaning.",
         "icon": "fa-solid fa-droplet"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning1.jpg",
-        "alt": "Eco-Friendly Surface Cleaning - Cleaning-Services Image 1",
-        "title": "Eco-Friendly Surface Cleaning - Cleaning-Services 1"
+        "alt": "Driveway cleaned",
+        "title": "Driveway Before/After"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning2.jpg",
-        "alt": "Eco-Friendly Surface Cleaning - Cleaning-Services Image 2",
-        "title": "Eco-Friendly Surface Cleaning - Cleaning-Services 2"
+        "alt": "Patio cleaning",
+        "title": "Patio Sparkle"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning3.jpg",
-        "alt": "Eco-Friendly Surface Cleaning - Cleaning-Services Image 3",
-        "title": "Eco-Friendly Surface Cleaning - Cleaning-Services 3"
+        "alt": "Decking after wash",
+        "title": "Decking Clean"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning4.jpg",
-        "alt": "Eco-Friendly Surface Cleaning - Cleaning-Services Image 4",
-        "title": "Eco-Friendly Surface Cleaning - Cleaning-Services 4"
+        "alt": "Surface washing",
+        "title": "Surface Wash"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning5.jpg",
-        "alt": "Eco-Friendly Surface Cleaning - Cleaning-Services Image 5",
-        "title": "Eco-Friendly Surface Cleaning - Cleaning-Services 5"
+        "alt": "No-chemical clean",
+        "title": "Eco Job"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning6.jpg",
-        "alt": "Eco-Friendly Surface Cleaning - Cleaning-Services Image 6",
-        "title": "Eco-Friendly Surface Cleaning - Cleaning-Services 6"
+        "alt": "Happy customer",
+        "title": "Happy Home"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning7.jpg",
-        "alt": "Eco-Friendly Surface Cleaning - Cleaning-Services Image 7",
-        "title": "Eco-Friendly Surface Cleaning - Cleaning-Services 7"
+        "alt": "Local cleaning team",
+        "title": "Croydon Team"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning8.jpg",
-        "alt": "Eco-Friendly Surface Cleaning - Cleaning-Services Image 8",
-        "title": "Eco-Friendly Surface Cleaning - Cleaning-Services 8"
+        "alt": "Pressure wash kit",
+        "title": "Pro Kit"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning9.jpg",
-        "alt": "Eco-Friendly Surface Cleaning - Cleaning-Services Image 9",
-        "title": "Eco-Friendly Surface Cleaning - Cleaning-Services 9"
+        "alt": "Sparkling patio",
+        "title": "Patio After"
       }
     ],
     "video": "www.youtube.com/watch?v=4p2htIH3NOc"
   }
 }
+
+////DONE

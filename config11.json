@@ -455,664 +455,673 @@
     ],
     "video": "www.youtube.com/watch?v=EgXahIFszfE"
   },
+
   "fuelinterceptors.co.uk": {
-    "title": "Fuel Separator Specialists",
-    "text": "Complete oil interceptor solutions – design, installation, maintenance and cleaning of separation systems for environmental protection!",
+    "title": "UK Fuel Interceptor Pros",
+    "text": "Expert fuel and oil interceptor solutions – we design, fit, clean and fix, so you stay spill-free and compliant!",
     "heroImg": "assets/website-hero-images/liquid-waste.png",
-    "forYou": "Our dedicated fuel interceptor service delivers expert solutions for managing oil and fuel contamination in drainage systems, protecting both the environment and your regulatory compliance status. We understand the critical role that properly functioning interceptors play in preventing pollution incidents, providing professional services that ensure optimal performance and peace of mind. Our comprehensive approach covers all aspects of fuel interceptor systems, including initial site assessment, detailed design consultation, quality supply, professional installation, rigorous testing, scheduled maintenance, specialist cleaning and necessary repairs. With expertise in various interceptor types including full retention, bypass, and forecourt separators from leading manufacturers, we offer appropriate systems for all applications from small car parks to major industrial facilities. Our experienced team provides tailored guidance on system selection based on your specific site requirements, pollution risks, and drainage characteristics. Regular maintenance programmes include scheduled inspections, performance testing, silt removal, waste disposal, and comprehensive documentation to demonstrate due diligence and regulatory compliance.",
+    "forYou": "Don’t let blocked, overflowing or forgotten interceptors land you with a fine or a nasty clean-up bill. Our team sorts out everything from small car parks to massive forecourts, giving you solid advice, spot-on installations, full servicing, and professional cleaning for every type of oil or fuel separator. We know all the ins and outs of British regs, so you stay legal and keep the environment protected. With planned maintenance, expert repairs, and friendly, down-to-earth support, we keep your site safe, your paperwork sorted, and your drainage flowing. Simple as that.",
     "services": [
       {
-        "title": "Bespoke System Design",
-        "desc": "Custom interceptor specification for optimal performance.",
+        "title": "Custom System Design",
+        "desc": "Tailored interceptor plans to suit your site and spill risks.",
         "icon": "fa-solid fa-drafting-compass"
       },
       {
-        "title": "Expert Installation",
-        "desc": "Professional fitting of all separator types.",
+        "title": "Pro Installation",
+        "desc": "Skilled fitting for all separator types – quick, tidy, no fuss.",
         "icon": "fa-solid fa-hard-hat"
       },
       {
-        "title": "Preventative Maintenance",
-        "desc": "Scheduled servicing to prevent system failures.",
+        "title": "Scheduled Servicing",
+        "desc": "Regular checks and cleaning to keep things flowing and legal.",
         "icon": "fa-solid fa-screwdriver-wrench"
       },
       {
-        "title": "Chamber Cleaning",
-        "desc": "Thorough decontamination of separator compartments.",
-        "icon": "fa-solid fa-pump"
+        "title": "Deep Chamber Clean",
+        "desc": "Full separator clean-up and waste removal, hassle-free.",
+        "icon": "fa-solid fa-biohazard"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning1.jpg",
-        "alt": "Fuel Separator Specialists - Cleaning-Services Image 1",
-        "title": "Fuel Separator Specialists - Cleaning-Services 1"
+        "alt": "Interceptor maintenance",
+        "title": "Oil separator maintenance"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning2.jpg",
-        "alt": "Fuel Separator Specialists - Cleaning-Services Image 2",
-        "title": "Fuel Separator Specialists - Cleaning-Services 2"
+        "alt": "Separator cleaning",
+        "title": "Professional separator clean"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning3.jpg",
-        "alt": "Fuel Separator Specialists - Cleaning-Services Image 3",
-        "title": "Fuel Separator Specialists - Cleaning-Services 3"
+        "alt": "On-site checks",
+        "title": "On-site system checks"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning4.jpg",
-        "alt": "Fuel Separator Specialists - Cleaning-Services Image 4",
-        "title": "Fuel Separator Specialists - Cleaning-Services 4"
+        "alt": "Tank clean",
+        "title": "Chamber tank cleaning"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning5.jpg",
-        "alt": "Fuel Separator Specialists - Cleaning-Services Image 5",
-        "title": "Fuel Separator Specialists - Cleaning-Services 5"
+        "alt": "Site visit",
+        "title": "Site inspections"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning6.jpg",
-        "alt": "Fuel Separator Specialists - Cleaning-Services Image 6",
-        "title": "Fuel Separator Specialists - Cleaning-Services 6"
+        "alt": "Drain survey",
+        "title": "Drainage surveys"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning7.jpg",
-        "alt": "Fuel Separator Specialists - Cleaning-Services Image 7",
-        "title": "Fuel Separator Specialists - Cleaning-Services 7"
+        "alt": "Waste collection",
+        "title": "Waste removal services"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning8.jpg",
-        "alt": "Fuel Separator Specialists - Cleaning-Services Image 8",
-        "title": "Fuel Separator Specialists - Cleaning-Services 8"
+        "alt": "Compliance paperwork",
+        "title": "Compliance checks"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning9.jpg",
-        "alt": "Fuel Separator Specialists - Cleaning-Services Image 9",
-        "title": "Fuel Separator Specialists - Cleaning-Services 9"
+        "alt": "Happy customer",
+        "title": "Satisfied clients"
       }
     ],
     "video": "www.youtube.com/watch?v=EgXahIFszfE"
   },
+
   "ground-water.co.uk": {
-    "title": "Subsurface Water Management",
-    "text": "Professional groundwater services – expert monitoring, extraction, treatment and remediation solutions for all subsurface water challenges!",
+    "title": "Groundwater Solutions UK",
+    "text": "Expert groundwater management – monitoring, boreholes, clean-up and more for stress-free water control!",
     "heroImg": "assets/website-hero-images/pump-station.png",
-    "forYou": "Our specialist groundwater service delivers complete solutions for the monitoring, management and remediation of subsurface water resources across all sectors. We understand the complex nature of groundwater systems and the diverse challenges they present, providing professional services that address everything from initial resource assessment to contamination treatment. Our comprehensive approach covers all aspects of groundwater management, including detailed hydrogeological assessment, precision borehole installation, extensive monitoring well networks, accurate water quality analysis, informative pumping tests, effective extraction systems, advanced treatment solutions, and strategic remediation design. Utilising cutting-edge monitoring technology including automated level loggers, sophisticated sampling equipment, precise field testing instruments, and reliable remote telemetry systems, we provide the accurate, actionable data essential for informed decision-making. Our experienced team includes qualified hydrogeologists, environmental scientists, and water treatment specialists with expertise across different geological settings and contaminant types, ensuring appropriate solutions for your specific challenges.",
+    "forYou": "Got water under your site causing headaches? Our crew sorts out everything from initial surveys to borehole drilling, pollution checks, and even full clean-ups. We use the latest tech for fast, accurate results – so whether you need safe water extraction, tricky contamination solved, or ongoing monitoring, we’ve got the kit and the know-how. We handle all sectors, from new builds and car parks to factories and farmland. You get practical advice, smart solutions and proper reports that keep you and the regulators happy. Trust us to keep your groundwater safe, legal and under control.",
     "services": [
       {
-        "title": "Comprehensive Monitoring",
-        "desc": "Advanced tracking of groundwater levels and quality.",
+        "title": "Smart Monitoring",
+        "desc": "Top kit for real-time groundwater tracking and sampling.",
         "icon": "fa-solid fa-chart-line"
       },
       {
-        "title": "Precision Boreholes",
-        "desc": "Expert drilling and installation of monitoring wells.",
-        "icon": "fa-solid fa-drill"
+        "title": "Borehole Drilling",
+        "desc": "Precision boreholes and well installations.",
+        "icon": "fa-solid fa-dragon"
       },
       {
-        "title": "Pollution Assessment",
-        "desc": "Detailed analysis of groundwater contamination.",
+        "title": "Pollution Checks",
+        "desc": "Spot-on testing for contaminants and quality.",
         "icon": "fa-solid fa-microscope"
       },
       {
-        "title": "Treatment Systems",
-        "desc": "Effective remediation of contaminated groundwater.",
+        "title": "Remediation Works",
+        "desc": "Clean-ups and treatment for problem water.",
         "icon": "fa-solid fa-filter-circle-xmark"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-1.jpg",
-        "alt": "Subsurface Water Management - Pump-Station Image 1",
-        "title": "Subsurface Water Management - Pump-Station 1"
+        "alt": "Groundwater borehole",
+        "title": "Borehole drilling"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-2.jpg",
-        "alt": "Subsurface Water Management - Pump-Station Image 2",
-        "title": "Subsurface Water Management - Pump-Station 2"
+        "alt": "Water monitoring",
+        "title": "Remote monitoring setup"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-3.jpg",
-        "alt": "Subsurface Water Management - Pump-Station Image 3",
-        "title": "Subsurface Water Management - Pump-Station 3"
+        "alt": "Site testing",
+        "title": "On-site testing"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-4.jpg",
-        "alt": "Subsurface Water Management - Pump-Station Image 4",
-        "title": "Subsurface Water Management - Pump-Station 4"
+        "alt": "Treatment works",
+        "title": "Groundwater treatment"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-5.jpg",
-        "alt": "Subsurface Water Management - Pump-Station Image 5",
-        "title": "Subsurface Water Management - Pump-Station 5"
+        "alt": "Field sampling",
+        "title": "Sampling groundwater"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-6.jpg",
-        "alt": "Subsurface Water Management - Pump-Station Image 6",
-        "title": "Subsurface Water Management - Pump-Station 6"
+        "alt": "Clean-up crew",
+        "title": "Clean-up works"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-7.jpg",
-        "alt": "Subsurface Water Management - Pump-Station Image 7",
-        "title": "Subsurface Water Management - Pump-Station 7"
+        "alt": "Survey equipment",
+        "title": "Surveying gear"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-8.jpg",
-        "alt": "Subsurface Water Management - Pump-Station Image 8",
-        "title": "Subsurface Water Management - Pump-Station 8"
+        "alt": "Water level logging",
+        "title": "Automated water logger"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-9.jpg",
-        "alt": "Subsurface Water Management - Pump-Station Image 9",
-        "title": "Subsurface Water Management - Pump-Station 9"
+        "alt": "Satisfied client",
+        "title": "Job done right"
       }
     ],
     "video": "www.youtube.com/watch?v=EgXahIFszfE"
   },
+
   "ground-water.org.uk": {
-    "title": "Groundwater Protection",
-    "text": "UK water resource alliance – bringing together experts, stakeholders and advocates to safeguard Britain's vital subsurface water resources!",
+    "title": "The UK Groundwater Alliance",
+    "text": "Guardians of Britain’s groundwater – join our expert network for clean, safe water under every field and city!",
     "heroImg": "assets/website-hero-images/pump-station.png",
-    "forYou": "The Ground Water Alliance is a professional network committed to the protection, sustainable management, and public understanding of the UK's vital groundwater resources. We recognise groundwater as an essential but often overlooked component of the water cycle, providing approximately one-third of the UK's drinking water and supporting countless ecosystems. Our alliance brings together hydrogeologists, environmental scientists, water industry professionals, regulatory experts, and conservation advocates to address the significant challenges facing groundwater resources. Through collaborative working, we promote best practice in groundwater management, provide authoritative information on groundwater issues, advocate for protective policy frameworks, and encourage responsible utilisation of this precious resource. Operating as a non-profit organisation, we focus on knowledge sharing, professional development, public education, and evidence-based advocacy to ensure the long-term protection of Britain's subsurface water wealth. Our members receive access to specialist publications, technical guidance, professional networking opportunities, and continuing education resources to enhance their expertise and contribution to groundwater protection.",
+    "forYou": "We’re the voice for groundwater protection in the UK. Bringing together hydrogeologists, scientists, water pros and eco-advocates, we fight for cleaner, safer underground water everywhere. Our alliance means more know-how, more research and a much louder voice in protecting Britain’s biggest hidden resource. We back best practice, run public awareness projects, help shape policy, and share real advice for anyone managing groundwater. Members get the latest info, training and proper networking with the best in the business. If you care about Britain’s water, you’re in the right place.",
     "services": [
       {
         "title": "Expert Network",
-        "desc": "Community of groundwater specialists and stakeholders.",
+        "desc": "Connect with groundwater specialists, pros, and campaigners.",
         "icon": "fa-solid fa-users"
       },
       {
-        "title": "Authoritative Resources",
-        "desc": "Research and publications on groundwater management.",
+        "title": "Trusted Resources",
+        "desc": "Guides, research and real-world advice on groundwater.",
         "icon": "fa-solid fa-book-open"
       },
       {
-        "title": "Protection Standards",
-        "desc": "Best practice guidance for groundwater preservation.",
+        "title": "Best Practice",
+        "desc": "Setting the gold standard for groundwater care.",
         "icon": "fa-solid fa-clipboard-list"
       },
       {
-        "title": "Public Engagement",
-        "desc": "Educational initiatives promoting resource awareness.",
+        "title": "Public Campaigns",
+        "desc": "Raising awareness with fun events and easy-to-understand info.",
         "icon": "fa-solid fa-bullhorn"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-1.jpg",
-        "alt": "Groundwater Protection - Waste-Management Image 1",
-        "title": "Groundwater Protection - Waste-Management 1"
+        "alt": "Expert team",
+        "title": "Groundwater pros"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-2.jpg",
-        "alt": "Groundwater Protection - Waste-Management Image 2",
-        "title": "Groundwater Protection - Waste-Management 2"
+        "alt": "Resource hub",
+        "title": "Knowledge sharing"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-3.jpg",
-        "alt": "Groundwater Protection - Waste-Management Image 3",
-        "title": "Groundwater Protection - Waste-Management 3"
+        "alt": "Testing water",
+        "title": "Field work"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-4.jpg",
-        "alt": "Groundwater Protection - Waste-Management Image 4",
-        "title": "Groundwater Protection - Waste-Management 4"
+        "alt": "Education",
+        "title": "Public outreach"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-5.jpg",
-        "alt": "Groundwater Protection - Waste-Management Image 5",
-        "title": "Groundwater Protection - Waste-Management 5"
+        "alt": "Lab research",
+        "title": "Research projects"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-6.jpg",
-        "alt": "Groundwater Protection - Waste-Management Image 6",
-        "title": "Groundwater Protection - Waste-Management 6"
+        "alt": "Campaign",
+        "title": "Awareness campaign"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-7.webp",
-        "alt": "Groundwater Protection - Waste-Management Image 7",
-        "title": "Groundwater Protection - Waste-Management 7"
+        "alt": "Meeting",
+        "title": "Alliance events"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-8.webp",
-        "alt": "Groundwater Protection - Waste-Management Image 8",
-        "title": "Groundwater Protection - Waste-Management 8"
+        "alt": "Clean water",
+        "title": "UK groundwater clean-up"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-9.webp",
-        "alt": "Groundwater Protection - Waste-Management Image 9",
-        "title": "Groundwater Protection - Waste-Management 9"
+        "alt": "Stakeholder event",
+        "title": "Networking"
       }
     ],
     "video": "www.youtube.com/watch?v=M2eBeHSSKHM"
   },
+
   "hcl-commercial-bodywork.ltd": {
     "title": "Commercial Vehicle Bodies",
-    "text": "Premium transport bodywork manufacturing – expert creation of high-quality curtainsiders, box bodies, tippers and bespoke logistics solutions!",
+    "text": "Built-tough bodies for Britain’s hardest working fleets – box vans, tippers, curtainsiders and more!",
     "heroImg": "assets/website-hero-images/pump-station.png",
-    "forYou": "HCL Commercial Bodywork Ltd delivers premium vehicle body manufacturing services focused on exceptional quality, outstanding durability and optimal operational performance for commercial transport operators. Our skilled team specialises in creating superior body solutions that meet the specific requirements of your business operations, combining functional design with robust construction. Using premium materials and industry-leading production techniques, we manufacture bodies built to withstand the demands of intensive commercial use while maintaining their appearance and functionality. Our comprehensive design process ensures your specific operational requirements are fully incorporated, creating bespoke solutions that enhance efficiency and effectiveness. With meticulous attention to detail at every stage from initial concept through to final production, we maintain exceptional quality standards throughout the manufacturing process. Every body we produce undergoes comprehensive testing and certification to ensure full compliance with industry regulations and safety standards, providing complete peace of mind for our customers.",
+    "forYou": "We build commercial vehicle bodies that take whatever the road throws at them. From classic box vans to custom tippers and sleek curtainsiders, our Croydon workshop turns out top-quality kit designed to last. Tell us what you need – we’ll sort every detail, use premium gear, and deliver on time so you’re back in business faster. We’re sticklers for quality checks and compliance, so you get a body that looks the part, lasts for years and keeps your drivers safe. Want a bespoke look? No problem. Let’s get your trucks working smarter, not harder.",
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-1.webp",
-        "alt": "Commercial Vehicle Bodies - Tanker Image 1",
-        "title": "Commercial Vehicle Bodies - Tanker 1"
+        "alt": "Box body build",
+        "title": "Box body construction"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-2.webp",
-        "alt": "Commercial Vehicle Bodies - Tanker Image 2",
-        "title": "Commercial Vehicle Bodies - Tanker 2"
+        "alt": "Tipper body",
+        "title": "Tipper on site"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-3.webp",
-        "alt": "Commercial Vehicle Bodies - Tanker Image 3",
-        "title": "Commercial Vehicle Bodies - Tanker 3"
+        "alt": "Curtainsider",
+        "title": "Curtainsider body"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-4.webp",
-        "alt": "Commercial Vehicle Bodies - Tanker Image 4",
-        "title": "Commercial Vehicle Bodies - Tanker 4"
+        "alt": "Fleet delivery",
+        "title": "Fleet ready"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-5.webp",
-        "alt": "Commercial Vehicle Bodies - Tanker Image 5",
-        "title": "Commercial Vehicle Bodies - Tanker 5"
+        "alt": "Custom fit",
+        "title": "Custom vehicle build"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-6.webp",
-        "alt": "Commercial Vehicle Bodies - Tanker Image 6",
-        "title": "Commercial Vehicle Bodies - Tanker 6"
+        "alt": "Testing",
+        "title": "Quality testing"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-7.jpeg",
-        "alt": "Commercial Vehicle Bodies - Tanker Image 7",
-        "title": "Commercial Vehicle Bodies - Tanker 7"
+        "alt": "Side view",
+        "title": "Bodywork detail"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-8.jpg",
-        "alt": "Commercial Vehicle Bodies - Tanker Image 8",
-        "title": "Commercial Vehicle Bodies - Tanker 8"
+        "alt": "Workshop",
+        "title": "In the workshop"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-9.webp",
-        "alt": "Commercial Vehicle Bodies - Tanker Image 9",
-        "title": "Commercial Vehicle Bodies - Tanker 9"
+        "alt": "On the road",
+        "title": "Ready to roll"
       }
     ],
     "video": "www.youtube.com/watch?v=11X2ye7wDZ4"
   },
+
   "hcl-commercial-bodywork.services": {
-    "title": "Vehicle Body Solutions",
-    "text": "Comprehensive commercial bodywork services – design, manufacturing, repair, refurbishment and maintenance for all transport needs!",
+    "title": "Vehicle Body Repairs & Builds",
+    "text": "Bodywork for any job – new builds, repairs, refurbs, and regular maintenance for all your commercial fleet.",
     "heroImg": "assets/website-hero-images/pump-station.png",
-    "forYou": "HCL Commercial Bodywork Services delivers a comprehensive range of vehicle body solutions for commercial transport operators at every stage of the asset lifecycle. From concept to completion, our expert team provides end-to-end services to ensure your commercial vehicles maintain optimal performance and appearance throughout their operational life. Our new body manufacturing service creates premium-quality custom solutions perfectly matched to your specific requirements, while our professional repair service provides swift, effective restoration of damaged bodywork to minimise vehicle downtime. For older vehicles, our complete refurbishment service rejuvenates existing bodies to extend asset lifespan and enhance appearance, providing cost-effective alternatives to replacement. Supporting ongoing operations, our scheduled maintenance programmes offer preventative care that identifies and addresses potential issues before they impact vehicle availability, maintaining regulatory compliance and operational reliability. With an emphasis on quality workmanship, durable materials, and responsive service delivery, we ensure your commercial fleet presents a professional image while delivering reliable performance.",
+    "forYou": "When your lorry, van or trailer needs a facelift or a full rebuild, our Croydon team are the people to call. We handle everything: fresh custom builds, emergency repairs, full body refurbishments and reliable maintenance to keep you on the road. Our workshops are kitted out for fast turnarounds, and we only use quality parts and materials. We’ll have you sorted and legal, with all the paperwork you need and a finish you’ll be proud to show off.",
     "services": [
       {
-        "title": "Custom Manufacturing",
-        "desc": "Bespoke production of new commercial vehicle bodies.",
+        "title": "Custom Builds",
+        "desc": "New commercial bodies built to your spec.",
         "icon": "fa-solid fa-industry"
       },
       {
-        "title": "Professional Repairs",
-        "desc": "Swift restoration of damaged commercial bodywork.",
+        "title": "Speedy Repairs",
+        "desc": "Crash, dent or rust? We’ll fix it fast.",
         "icon": "fa-solid fa-hammer"
       },
       {
-        "title": "Complete Refurbishment",
-        "desc": "Comprehensive renovation of existing vehicle bodies.",
+        "title": "Full Refurbs",
+        "desc": "Give your fleet a second life with a full refurb.",
         "icon": "fa-solid fa-paint-roller"
       },
       {
-        "title": "Preventative Maintenance",
-        "desc": "Scheduled inspection and upkeep programmes.",
+        "title": "Regular Maintenance",
+        "desc": "Planned servicing to keep you on the road.",
         "icon": "fa-solid fa-calendar-check"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-1.webp",
-        "alt": "Vehicle Body Solutions - Tanker Image 1",
-        "title": "Vehicle Body Solutions - Tanker 1"
+        "alt": "Vehicle repairs",
+        "title": "Van repair"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-2.webp",
-        "alt": "Vehicle Body Solutions - Tanker Image 2",
-        "title": "Vehicle Body Solutions - Tanker 2"
+        "alt": "New bodywork",
+        "title": "Brand new body"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-3.webp",
-        "alt": "Vehicle Body Solutions - Tanker Image 3",
-        "title": "Vehicle Body Solutions - Tanker 3"
+        "alt": "Refurb workshop",
+        "title": "Fleet refurb"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-4.webp",
-        "alt": "Vehicle Body Solutions - Tanker Image 4",
-        "title": "Vehicle Body Solutions - Tanker 4"
+        "alt": "Trailer build",
+        "title": "Trailer construction"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-5.webp",
-        "alt": "Vehicle Body Solutions - Tanker Image 5",
-        "title": "Vehicle Body Solutions - Tanker 5"
+        "alt": "Testing",
+        "title": "Post-repair checks"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-6.webp",
-        "alt": "Vehicle Body Solutions - Tanker Image 6",
-        "title": "Vehicle Body Solutions - Tanker 6"
+        "alt": "Workshop action",
+        "title": "Busy workshop"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-7.jpeg",
-        "alt": "Vehicle Body Solutions - Tanker Image 7",
-        "title": "Vehicle Body Solutions - Tanker 7"
+        "alt": "Paint finish",
+        "title": "Fresh paint job"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-8.jpg",
-        "alt": "Vehicle Body Solutions - Tanker Image 8",
-        "title": "Vehicle Body Solutions - Tanker 8"
+        "alt": "Fleet lined up",
+        "title": "Ready for road"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-9.webp",
-        "alt": "Vehicle Body Solutions - Tanker Image 9",
-        "title": "Vehicle Body Solutions - Tanker 9"
+        "alt": "Final checks",
+        "title": "Quality assured"
       }
     ],
     "video": "www.youtube.com/watch?v=11X2ye7wDZ4"
   },
+
   "hcl-haulage.co.uk": {
-    "title": "UK Transport Services",
-    "text": "Reliable nationwide haulage – distributed logistics with modern fleet, experienced drivers and exceptional customer service standards!",
+    "title": "Haulage Across the UK",
+    "text": "Need something shifted? We haul it all, anywhere in the UK – safely, reliably, and on time.",
     "heroImg": "assets/website-hero-images/road-sweeping.png",
-    "forYou": "HCL Haulage delivers dependable transport solutions built on the core principles of reliability, efficiency and customer service excellence. We understand the critical importance of timely, secure deliveries for your business operations, providing professional haulage services that consistently meet your expectations. Our comprehensive service covers all aspects of road transport, from single pallet deliveries to full-load haulage, abnormal loads, and contract distribution tailored to your specific requirements. Operating a modern, well-maintained fleet with vehicles of various sizes and specifications, we accommodate different cargo types, volumes, and access requirements with appropriate transport solutions. All our vehicles feature advanced tracking technology, providing real-time location updates and accurate delivery time estimates for complete shipment visibility. Our professional drivers are fully qualified with extensive route knowledge, appropriate licences, and all necessary certifications including CPC and ADR for regulated loads. With a strong focus on careful cargo handling, punctual service, and regular communication, we ensure you remain fully informed throughout the transport process while your goods arrive safely and on schedule.",
+    "forYou": "From single pallets to massive loads, our modern haulage fleet and top drivers have got you covered. We move it all – quick, careful, and fully insured – from Croydon to the Highlands and everywhere in between. Get live tracking, real-time updates, and a friendly team that actually answers the phone. Our focus? Zero faff, proper service, and getting your goods there in one piece, every time.",
     "services": [
       {
-        "title": "Flexible Haulage",
-        "desc": "Transport solutions for diverse cargo requirements.",
+        "title": "UK-wide Haulage",
+        "desc": "We go everywhere, so your stuff always arrives.",
         "icon": "fa-solid fa-truck"
       },
       {
-        "title": "Pallet Network",
-        "desc": "Efficient distribution for palletised consignments.",
+        "title": "Pallet Networks",
+        "desc": "Fast, reliable pallet shipping at scale.",
         "icon": "fa-solid fa-pallet"
       },
       {
-        "title": "Dedicated Services",
-        "desc": "Contracted transport for regular requirements.",
+        "title": "Contract Runs",
+        "desc": "Regular haulage for repeat business – set your schedule.",
         "icon": "fa-solid fa-file-contract"
       },
       {
-        "title": "Urgent Delivery",
-        "desc": "Same-day transport for time-critical shipments.",
+        "title": "Same Day Delivery",
+        "desc": "Rush jobs? We do urgent drops all over the UK.",
         "icon": "fa-solid fa-truck-fast"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-1.webp",
-        "alt": "UK Transport Services - Tanker Image 1",
-        "title": "UK Transport Services - Tanker 1"
+        "alt": "Pallets on truck",
+        "title": "Pallet network"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-2.webp",
-        "alt": "UK Transport Services - Tanker Image 2",
-        "title": "UK Transport Services - Tanker 2"
+        "alt": "Fleet on road",
+        "title": "Fleet in action"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-3.webp",
-        "alt": "UK Transport Services - Tanker Image 3",
-        "title": "UK Transport Services - Tanker 3"
+        "alt": "Night delivery",
+        "title": "Night run"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-4.webp",
-        "alt": "UK Transport Services - Tanker Image 4",
-        "title": "UK Transport Services - Tanker 4"
+        "alt": "Artic truck",
+        "title": "Articulated lorry"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-5.webp",
-        "alt": "UK Transport Services - Tanker Image 5",
-        "title": "UK Transport Services - Tanker 5"
+        "alt": "Driver at work",
+        "title": "Our drivers"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-6.webp",
-        "alt": "UK Transport Services - Tanker Image 6",
-        "title": "UK Transport Services - Tanker 6"
+        "alt": "Loading site",
+        "title": "Loading up"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-7.jpeg",
-        "alt": "UK Transport Services - Tanker Image 7",
-        "title": "UK Transport Services - Tanker 7"
+        "alt": "On time",
+        "title": "Prompt delivery"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-8.jpg",
-        "alt": "UK Transport Services - Tanker Image 8",
-        "title": "UK Transport Services - Tanker 8"
+        "alt": "City delivery",
+        "title": "Urban haulage"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-9.webp",
-        "alt": "UK Transport Services - Tanker Image 9",
-        "title": "UK Transport Services - Tanker 9"
+        "alt": "Heavy loads",
+        "title": "Abnormal loads"
       }
     ],
     "video": "www.youtube.com/watch?v=11X2ye7wDZ4"
   },
+
   "hcl-haulage.com": {
-    "title": "Complete Logistics Solutions",
-    "text": "Comprehensive UK transport network – reliable nationwide haulage with diverse fleet options and exceptional customer service!",
+    "title": "Total UK Logistics",
+    "text": "Nationwide haulage made easy – any load, any location, every time.",
     "heroImg": "assets/website-hero-images/road-sweeping.png",
-    "forYou": "HCL Haulage provides comprehensive transport solutions for businesses throughout the United Kingdom, delivering the reliable logistics that are essential to maintaining effective supply chains and business operations. Our extensive service portfolio covers all aspects of road transport, from general haulage and distribution to specialised services including temperature-controlled transport, hazardous goods carriage, and abnormal load movement. With a diverse fleet including rigid vehicles, articulated lorries, flatbeds, curtainsiders, box vans, and specialised transport units, we accommodate virtually any cargo requirement with the appropriate vehicle specification. Our nationwide operation features strategically located depots, ensuring efficient coverage across all UK regions with optimised routing and delivery scheduling to minimise transit times. Behind every successful delivery is our professional team of transport managers, route planners, and qualified drivers who work collaboratively to deliver a seamless service experience. Customer satisfaction remains our priority through consistent performance, transparent communication, and responsive service adaptation to meet your changing requirements. We offer flexible approaches ranging from one-off shipments to regular scheduled services and fully integrated transport partnerships designed around your specific business model.",
+    "forYou": "Need reliable logistics? Our fleet covers every corner of the UK, from London to Land’s End and beyond. We handle everything: single pallets, heavy freight, temperature-sensitive goods and odd-shaped loads. Flexible scheduling, proper paperwork and a friendly, can-do approach – that’s how we’ve built our reputation. Whether you’re a one-off customer or looking for a long-term logistics partner, we keep your business moving, no stress and no excuses.",
     "services": [
       {
-        "title": "Complete UK Coverage",
-        "desc": "Nationwide transport reaching all British regions.",
+        "title": "Nationwide Coverage",
+        "desc": "We deliver everywhere, rain or shine.",
         "icon": "fa-solid fa-map-location-dot"
       },
       {
-        "title": "Specialist Transport",
-        "desc": "Solutions for hazardous, temperature-controlled and abnormal loads.",
-        "icon": "fa-solid fa-truck-container"
+        "title": "Specialist Loads",
+        "desc": "Hazardous, chilled, or extra-wide – we move it all.",
+        "icon": "fa-solid fa-truck-monster"
       },
       {
-        "title": "Capacity Options",
-        "desc": "Flexible solutions from single pallets to full loads.",
-        "icon": "fa-solid fa-boxes-packing"
+        "title": "Big or Small Jobs",
+        "desc": "From single box to full truckload, we’ve got the fleet.",
+        "icon": "fa-solid fa-boxes-stacked"
       },
       {
-        "title": "Supply Chain Integration",
-        "desc": "Seamless incorporation with your logistics systems.",
+        "title": "Logistics Integration",
+        "desc": "Seamless service with your supply chain systems.",
         "icon": "fa-solid fa-link"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-1.webp",
-        "alt": "Complete Logistics Solutions - Tanker Image 1",
-        "title": "Complete Logistics Solutions - Tanker 1"
+        "alt": "Multi-site delivery",
+        "title": "National delivery"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-2.webp",
-        "alt": "Complete Logistics Solutions - Tanker Image 2",
-        "title": "Complete Logistics Solutions - Tanker 2"
+        "alt": "Specialist transport",
+        "title": "Specialist loads"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-3.webp",
-        "alt": "Complete Logistics Solutions - Tanker Image 3",
-        "title": "Complete Logistics Solutions - Tanker 3"
+        "alt": "Temperature controlled",
+        "title": "Chilled transport"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-4.webp",
-        "alt": "Complete Logistics Solutions - Tanker Image 4",
-        "title": "Complete Logistics Solutions - Tanker 4"
+        "alt": "Full load",
+        "title": "Full load haulage"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-5.webp",
-        "alt": "Complete Logistics Solutions - Tanker Image 5",
-        "title": "Complete Logistics Solutions - Tanker 5"
+        "alt": "Team at depot",
+        "title": "Logistics team"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-6.webp",
-        "alt": "Complete Logistics Solutions - Tanker Image 6",
-        "title": "Complete Logistics Solutions - Tanker 6"
+        "alt": "Fleet ready",
+        "title": "Diverse fleet"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-7.jpeg",
-        "alt": "Complete Logistics Solutions - Tanker Image 7",
-        "title": "Complete Logistics Solutions - Tanker 7"
+        "alt": "Route planning",
+        "title": "Route planning"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-8.jpg",
-        "alt": "Complete Logistics Solutions - Tanker Image 8",
-        "title": "Complete Logistics Solutions - Tanker 8"
+        "alt": "In the yard",
+        "title": "At the depot"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-9.webp",
-        "alt": "Complete Logistics Solutions - Tanker Image 9",
-        "title": "Complete Logistics Solutions - Tanker 9"
+        "alt": "Efficient loading",
+        "title": "Quick turnarounds"
       }
     ],
     "video": "www.youtube.com/watch?v=11X2ye7wDZ4"
   },
+
   "hydro-cleansing.co.uk": {
-    "title": "Industrial Environmental Services",
-    "text": "Leading wet waste management in Croydon – 24/7 emergency drain unblocking, jetting, CCTV surveys and liquid waste collection from our local facility!",
+    "title": "Croydon Drain & Waste Pros",
+    "text": "24/7 wet waste, drain unblocking and emergency response – Croydon’s #1 environmental team!",
     "heroImg": "assets/website-hero-images/liquid-waste.png",
-    "forYou": "Established in 2000, Hydro Cleansing Ltd is Croydon's premier environmental services provider, offering comprehensive wet waste management, drainage solutions and emergency response services. Operating from our Beddington Farm Road facility in Croydon, our expert team delivers 24/7 emergency drainage response with one-hour arrival times for urgent situations. We provide complete drainage solutions including high-pressure jetting, CCTV surveys, repairs, and maintenance for commercial, industrial, and domestic properties throughout London and the South East. Our licensed waste recycling facility in Croydon enables us to process various liquid wastes while adhering to strict environmental standards, with proper documentation provided for complete compliance. Under the guidance of our experienced management team, with over 50 years of combined industry expertise, we deliver professional, reliable services for even the most challenging environmental and drainage situations.",
+    "forYou": "Blocked drains? Flooded yard? Dodgy waste tank? Our Croydon-based team sorts it fast – anytime, day or night. We do it all: super-fast drain jetting, CCTV surveys, expert repairs, and licensed waste collection from homes and businesses across London and the South East. Our on-site recycling plant means your waste is handled right, with all the compliance paperwork you need. With 50+ years’ experience on the team and a proper can-do attitude, we get you sorted with no faff. Whatever the problem, big or small, one call does it all.",
     "services": [
       {
-        "title": "Wet Waste Management",
-        "desc": "Complete liquid waste collection, transport and treatment.",
-        "icon": "fa-solid fa-truck-container"
+        "title": "Wet Waste Pick-Up",
+        "desc": "Licensed waste collection, transport and eco-friendly disposal.",
+        "icon": "fa-solid fa-truck-droplet"
       },
       {
-        "title": "Emergency Drainage Response",
-        "desc": "24/7 rapid response to blocked drains and flooding.",
-        "icon": "fa-solid fa-truck-fast"
+        "title": "24/7 Drain Emergencies",
+        "desc": "We unblock drains and fix floods – fast.",
+        "icon": "fa-solid fa-triangle-exclamation"
       },
       {
-        "title": "CCTV & Drain Repairs",
-        "desc": "Comprehensive surveys and professional repair solutions.",
+        "title": "CCTV Surveys & Repairs",
+        "desc": "Find faults, fix fast, keep drains flowing.",
         "icon": "fa-solid fa-camera"
       },
       {
-        "title": "Environmental Specialists",
-        "desc": "Expert handling of hazardous and challenging waste streams.",
+        "title": "Environmental Help",
+        "desc": "Expert handling of tricky waste and spills.",
         "icon": "fa-solid fa-leaf"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/CCTV-Inspection/cctv1.jpg",
-        "alt": "Industrial Environmental Services - CCTV-Inspection Image 1",
-        "title": "Industrial Environmental Services - CCTV-Inspection 1"
+        "alt": "Drain CCTV",
+        "title": "Drain CCTV inspection"
       },
       {
         "src": "assets/Website-Service-Images/CCTV-Inspection/cctv2.jpg",
-        "alt": "Industrial Environmental Services - CCTV-Inspection Image 2",
-        "title": "Industrial Environmental Services - CCTV-Inspection 2"
+        "alt": "Unblocking drains",
+        "title": "Jetting in action"
       },
       {
         "src": "assets/Website-Service-Images/CCTV-Inspection/cctv3.jpg",
-        "alt": "Industrial Environmental Services - CCTV-Inspection Image 3",
-        "title": "Industrial Environmental Services - CCTV-Inspection 3"
+        "alt": "Flood clean-up",
+        "title": "Flood response"
       },
       {
         "src": "assets/Website-Service-Images/CCTV-Inspection/cctv4.jpg",
-        "alt": "Industrial Environmental Services - CCTV-Inspection Image 4",
-        "title": "Industrial Environmental Services - CCTV-Inspection 4"
+        "alt": "Tank cleaning",
+        "title": "Tank clean"
       },
       {
         "src": "assets/Website-Service-Images/CCTV-Inspection/cctv5.jpg",
-        "alt": "Industrial Environmental Services - CCTV-Inspection Image 5",
-        "title": "Industrial Environmental Services - CCTV-Inspection 5"
+        "alt": "On call",
+        "title": "24/7 emergency team"
       },
       {
         "src": "assets/Website-Service-Images/CCTV-Inspection/cctv6.jpg",
-        "alt": "Industrial Environmental Services - CCTV-Inspection Image 6",
-        "title": "Industrial Environmental Services - CCTV-Inspection 6"
+        "alt": "Waste depot",
+        "title": "Waste transfer"
       },
       {
         "src": "assets/Website-Service-Images/CCTV-Inspection/cctv7.jpg",
-        "alt": "Industrial Environmental Services - CCTV-Inspection Image 7",
-        "title": "Industrial Environmental Services - CCTV-Inspection 7"
+        "alt": "Specialist crew",
+        "title": "Expert team"
       },
       {
         "src": "assets/Website-Service-Images/CCTV-Inspection/cctv8.jpg",
-        "alt": "Industrial Environmental Services - CCTV-Inspection Image 8",
-        "title": "Industrial Environmental Services - CCTV-Inspection 8"
+        "alt": "Happy customer",
+        "title": "Happy clients"
       },
       {
         "src": "assets/Website-Service-Images/CCTV-Inspection/cctv9.jpg",
-        "alt": "Industrial Environmental Services - CCTV-Inspection Image 9",
-        "title": "Industrial Environmental Services - CCTV-Inspection 9"
+        "alt": "Compliance checks",
+        "title": "Paperwork sorted"
       }
     ],
     "video": "www.youtube.com/watch?v=M2eBeHSSKHM"
   },
+
   "hydro-pressure-clean.co.uk": {
-    "title": "Eco-Friendly Surface Cleaning",
-    "text": "Chemical-free pressure washing in Croydon – revitalising driveways, patios and decking using only water for a pristine, environmentally safe finish!",
+    "title": "Croydon Pressure Washing",
+    "text": "Chemical-free, eco-friendly pressure washing – spotless drives, patios, and decking, all done with just water!",
     "heroImg": "assets/website-hero-images/road-sweeping.png",
-    "forYou": "With 19 years of exterior cleaning expertise, Hydro Pressure Clean specialises in eco-friendly pressure washing services throughout Croydon and surrounding Surrey areas including Purley, South Norwood, Coulsdon, Addiscombe, and Sanderstead. Our distinctive approach uses only water – no chemicals – to deliver impressive cleaning results while protecting the environment, surrounding plants, and wildlife. This water-only technique effectively removes dirt, algae, moss, and contaminants from various exterior surfaces without introducing harmful substances into your garden or local ecosystem. Our experienced team employs industrial-grade pressure washing equipment operated by skilled professionals who understand how to achieve optimal results for different surface types without causing damage. We pride ourselves on our customer-focused service, offering free, no-obligation quotes, personalised service assessment, convenient scheduling options, and clear communication throughout the process. Choose our environmentally responsible approach for superior cleaning results that protect both your property and the planet.",
+    "forYou": "Our Croydon-based team gives your drive, patio or deck a new lease of life using nothing but water – no harsh chemicals, no dodgy run-off. We cover all of Croydon and nearby areas, sorting out dirt, moss and algae the safe way. Friendly service, free quotes, and a spotless result every time. It’s better for your home, the local wildlife, and the planet. Simple, honest, and brilliantly clean.",
     "services": [
       {
-        "title": "Chemical-Free Driveway Cleaning",
-        "desc": "Restoring block paving, concrete and tarmac surfaces.",
+        "title": "Driveway Makeover",
+        "desc": "Block paving, tarmac or concrete – we’ll get it gleaming.",
         "icon": "fa-solid fa-road"
       },
       {
-        "title": "Eco-Friendly Patio Cleaning",
-        "desc": "Revitalising natural stone, concrete and paved areas.",
+        "title": "Eco Patio Cleaning",
+        "desc": "Natural stone or slabs, cleaned with care – no damage.",
         "icon": "fa-solid fa-border-all"
       },
       {
-        "title": "Gentle Decking Restoration",
-        "desc": "Removing algae and moss without damaging the wood.",
-        "icon": "fa-solid fa-table-picnic"
+        "title": "Decking Revival",
+        "desc": "Gentle, effective deck cleaning – no chemicals, no splinters.",
+        "icon": "fa-solid fa-table-cells-large"
       },
       {
-        "title": "Water-Only Pressure Washing",
-        "desc": "Environmentally safe cleaning for all exterior surfaces.",
+        "title": "All Surface Safe Wash",
+        "desc": "Jet washing for paths, fences, and more – safe for pets and plants.",
         "icon": "fa-solid fa-droplet"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning1.jpg",
-        "alt": "Eco-Friendly Surface Cleaning - Cleaning-Services Image 1",
-        "title": "Eco-Friendly Surface Cleaning - Cleaning-Services 1"
+        "alt": "Driveway before",
+        "title": "Driveway – before"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning2.jpg",
-        "alt": "Eco-Friendly Surface Cleaning - Cleaning-Services Image 2",
-        "title": "Eco-Friendly Surface Cleaning - Cleaning-Services 2"
+        "alt": "Driveway after",
+        "title": "Driveway – after"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning3.jpg",
-        "alt": "Eco-Friendly Surface Cleaning - Cleaning-Services Image 3",
-        "title": "Eco-Friendly Surface Cleaning - Cleaning-Services 3"
+        "alt": "Patio clean",
+        "title": "Patio freshened up"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning4.jpg",
-        "alt": "Eco-Friendly Surface Cleaning - Cleaning-Services Image 4",
-        "title": "Eco-Friendly Surface Cleaning - Cleaning-Services 4"
+        "alt": "Decking before",
+        "title": "Decking – before"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning5.jpg",
-        "alt": "Eco-Friendly Surface Cleaning - Cleaning-Services Image 5",
-        "title": "Eco-Friendly Surface Cleaning - Cleaning-Services 5"
+        "alt": "Decking after",
+        "title": "Decking – after"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning6.jpg",
-        "alt": "Eco-Friendly Surface Cleaning - Cleaning-Services Image 6",
-        "title": "Eco-Friendly Surface Cleaning - Cleaning-Services 6"
+        "alt": "Side path clean",
+        "title": "Side path done"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning7.jpg",
-        "alt": "Eco-Friendly Surface Cleaning - Cleaning-Services Image 7",
-        "title": "Eco-Friendly Surface Cleaning - Cleaning-Services 7"
+        "alt": "Team at work",
+        "title": "Pressure wash pros"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning8.jpg",
-        "alt": "Eco-Friendly Surface Cleaning - Cleaning-Services Image 8",
-        "title": "Eco-Friendly Surface Cleaning - Cleaning-Services 8"
+        "alt": "Eco-friendly results",
+        "title": "Eco-friendly finish"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning9.jpg",
-        "alt": "Eco-Friendly Surface Cleaning - Cleaning-Services Image 9",
-        "title": "Eco-Friendly Surface Cleaning - Cleaning-Services 9"
+        "alt": "Satisfied client",
+        "title": "Another happy customer"
       }
     ],
     "video": "www.youtube.com/watch?v=4p2htIH3NOc"

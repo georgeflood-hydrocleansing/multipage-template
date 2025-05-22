@@ -1,1142 +1,1144 @@
 {
   "hcl-logistics.co.uk": {
-    "title": "Integrated Logistics Solutions",
-    "text": "Streamlined UK supply chain services – comprehensive transport, warehousing, distribution, and inventory management with nationwide coverage!",
+    "title": "HCL Logistics: UK Supply Chain & Transport Sorted!",
+    "text": "Ace UK logistics! We nail transport, warehousing & distribution nationwide. Get your supply chain streamlined, hassle-free!",
     "heroImg": "assets/website-hero-images/road-sweeping.png",
-    "forYou": "HCL Logistics delivers integrated supply chain solutions that optimise your product flow from source to destination. We understand the complexities of modern logistics operations, providing professional services that enhance efficiency whilst reducing costs and administrative burden. Our comprehensive service encompasses all key logistics functions including transport, warehousing, inventory management, order fulfilment, distribution, and freight forwarding. We operate a modern fleet of distribution vehicles alongside strategically located warehousing facilities, creating a seamless logistics network with nationwide coverage. Our warehouse services include storage, pick and pack, kitting, cross-docking, returns management, and inventory control, with advanced warehouse management systems providing real-time stock visibility. Our transport division offers a complete range of distribution services from parcel delivery to full-load haulage, with flexible options including same-day, next-day, and scheduled services. Our experienced team includes logistics managers, warehouse specialists, transport planners, and customer service professionals working collaboratively to deliver exceptional performance. We provide tailored solutions designed around your specific business requirements, from individual service components to fully outsourced logistics operations. From SMEs to large enterprises, HCL Logistics provides the professional solution for streamlining your supply chain operations.",
+    "forYou": "Fed up with logistical nightmares? HCL Logistics is your go-to partner for smooth-as-silk supply chain solutions right here in the UK. From getting your goods from A to B, storing them safely in our top-notch warehouses, to managing your inventory and getting orders out the door, we've got the lot covered. Think less stress, more efficiency, and a friendly team always ready to help your business thrive. Let's get your products moving!",
     "services": [
       {
-        "title": "Integrated Logistics",
-        "desc": "Complete management of your entire supply chain.",
+        "title": "All-In-One Logistics Magic",
+        "desc": "Your whole supply chain managed, easy peasy.",
         "icon": "fa-solid fa-diagram-project"
       },
       {
-        "title": "Warehousing & Fulfilment",
-        "desc": "Professional storage and order processing services.",
+        "title": "Warehouse Wizards & Order Pros",
+        "desc": "Spotless storage and super-speedy order handling.",
         "icon": "fa-solid fa-warehouse"
       },
       {
-        "title": "Distribution & Transport",
-        "desc": "Nationwide delivery services for all product types.",
+        "title": "Nationwide Delivery Heroes",
+        "desc": "Getting your stuff anywhere in the UK, any type.",
         "icon": "fa-solid fa-truck"
       },
       {
-        "title": "Supply Chain Optimisation",
-        "desc": "Strategic improvement of logistics processes and flows.",
+        "title": "Supply Chain Superchargers",
+        "desc": "Making your logistics smarter and slicker.",
         "icon": "fa-solid fa-chart-line"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-1.webp",
-        "alt": "Integrated Logistics Solutions - Tanker Image 1",
-        "title": "Integrated Logistics Solutions - Tanker 1"
+        "alt": "HCL Logistics tanker transporting goods UK",
+        "title": "HCL Logistics UK Tanker Transport"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-2.webp",
-        "alt": "Integrated Logistics Solutions - Tanker Image 2",
-        "title": "Integrated Logistics Solutions - Tanker 2"
+        "alt": "HCL Logistics fleet vehicle on UK road",
+        "title": "HCL Logistics Fleet Vehicle"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-3.webp",
-        "alt": "Integrated Logistics Solutions - Tanker Image 3",
-        "title": "Integrated Logistics Solutions - Tanker 3"
+        "alt": "Secure warehousing solutions by HCL Logistics",
+        "title": "HCL Logistics Secure Warehousing"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-4.webp",
-        "alt": "Integrated Logistics Solutions - Tanker Image 4",
-        "title": "Integrated Logistics Solutions - Tanker 4"
+        "alt": "HCL Logistics distribution network in action",
+        "title": "HCL Logistics Distribution Network"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-5.webp",
-        "alt": "Integrated Logistics Solutions - Tanker Image 5",
-        "title": "Integrated Logistics Solutions - Tanker 5"
+        "alt": "Efficient supply chain management HCL Logistics",
+        "title": "Efficient Supply Chain by HCL"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-6.webp",
-        "alt": "Integrated Logistics Solutions - Tanker Image 6",
-        "title": "Integrated Logistics Solutions - Tanker 6"
+        "alt": "Integrated logistics solutions HCL tanker",
+        "title": "Integrated Logistics - HCL Tanker"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-7.jpeg",
-        "alt": "Integrated Logistics Solutions - Tanker Image 7",
-        "title": "Integrated Logistics Solutions - Tanker 7"
+        "alt": "HCL Logistics nationwide coverage tanker",
+        "title": "HCL Logistics Nationwide Coverage"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-8.jpg",
-        "alt": "Integrated Logistics Solutions - Tanker Image 8",
-        "title": "Integrated Logistics Solutions - Tanker 8"
+        "alt": "Professional transport services HCL Logistics",
+        "title": "Professional Transport HCL Logistics"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-9.webp",
-        "alt": "Integrated Logistics Solutions - Tanker Image 9",
-        "title": "Integrated Logistics Solutions - Tanker 9"
+        "alt": "HCL Logistics tanker fleet vehicle",
+        "title": "HCL Logistics Tanker Fleet"
       }
     ],
     "video": "www.youtube.com/watch?v=11X2ye7wDZ4"
   },
   "hcl-logistics.com": {
-    "title": "End-to-End Supply Chain",
-    "text": "Complete logistics management – expert warehousing, distribution, inventory control and order fulfilment with advanced technology integration!",
+    "title": "HCL Logistics: End-to-End UK Supply Chain Experts",
+    "text": "Total logistics management! Expert warehousing, distribution, inventory control & order fulfilment with smart tech.",
     "heroImg": "assets/website-hero-images/road-sweeping.png",
-    "forYou": "HCL Logistics provides end-to-end supply chain solutions designed to streamline your operations and enhance market responsiveness. We understand the critical role logistics plays in business success, delivering professional services that transform your supply chain into a competitive advantage. Our comprehensive service portfolio covers the entire logistics spectrum, creating seamless integration between warehousing, distribution, transport, inventory management, and order fulfilment. We operate a nationwide network of strategically located distribution centres equipped with advanced handling equipment, storage systems, and warehouse management technology. Our transport infrastructure includes a diverse fleet of vehicles supported by sophisticated route planning and tracking systems, ensuring efficient product movement throughout the UK. Our experienced team includes supply chain specialists, logistics planners, warehouse managers, and distribution experts who apply industry best practices to your operation. We utilise advanced supply chain technology including warehouse management systems, transport management platforms, inventory control software, and real-time tracking solutions to deliver complete visibility and control. We offer flexible engagement models from individual logistics components to fully managed 3PL solutions, with services tailored to your specific industry requirements and business objectives. Whether you're seeking to outsource a single logistics function or your entire supply chain operation, HCL Logistics provides the professional solution to optimise your product flow.",
+    "forYou": "Ready to transform your supply chain into your secret weapon? HCL Logistics offers brilliant end-to-end solutions that make your UK operations sing. We're talking everything from super-secure warehousing and eagle-eyed inventory management to getting your products distributed without a hitch. With our cutting-edge tech and a team of logistics pros, we’ll make your entire product journey smoother, faster, and more efficient, giving you a proper competitive edge!",
     "services": [
       {
-        "title": "3PL Solutions",
-        "desc": "Comprehensive third-party logistics management.",
+        "title": "3PL Solutions That Shine",
+        "desc": "Full third-party logistics, managed like a dream.",
         "icon": "fa-solid fa-cubes"
       },
       {
-        "title": "Multi-Channel Fulfilment",
-        "desc": "Integrated order processing across all sales channels.",
+        "title": "Multi-Channel Order Ace",
+        "desc": "Seamless order processing, no matter how you sell.",
         "icon": "fa-solid fa-store"
       },
       {
-        "title": "Supply Chain Technology",
-        "desc": "Advanced systems for logistics management and visibility.",
+        "title": "Smart Supply Chain Tech",
+        "desc": "Top-tier systems for total logistics visibility.",
         "icon": "fa-solid fa-laptop-code"
       },
       {
-        "title": "Logistics Consultancy",
-        "desc": "Expert advice on supply chain strategy and improvement.",
+        "title": "Logistics Brains On Demand",
+        "desc": "Expert advice to boost your supply chain strategy.",
         "icon": "fa-solid fa-lightbulb"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-1.webp",
-        "alt": "End-to-End Supply Chain - Tanker Image 1",
-        "title": "End-to-End Supply Chain - Tanker 1"
+        "alt": "End-to-End Supply Chain HCL Logistics Tanker",
+        "title": "HCL Logistics End-to-End Supply Chain"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-2.webp",
-        "alt": "End-to-End Supply Chain - Tanker Image 2",
-        "title": "End-to-End Supply Chain - Tanker 2"
+        "alt": "HCL Logistics comprehensive warehousing solution",
+        "title": "Comprehensive Warehousing by HCL"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-3.webp",
-        "alt": "End-to-End Supply Chain - Tanker Image 3",
-        "title": "End-to-End Supply Chain - Tanker 3"
+        "alt": "Advanced technology in HCL Logistics",
+        "title": "Advanced Logistics Technology HCL"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-4.webp",
-        "alt": "End-to-End Supply Chain - Tanker Image 4",
-        "title": "End-to-End Supply Chain - Tanker 4"
+        "alt": "HCL Logistics tanker fleet for distribution",
+        "title": "HCL Distribution Tanker Fleet"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-5.webp",
-        "alt": "End-to-End Supply Chain - Tanker Image 5",
-        "title": "End-to-End Supply Chain - Tanker 5"
+        "alt": "Inventory control expertise HCL Logistics",
+        "title": "Expert Inventory Control by HCL"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-6.webp",
-        "alt": "End-to-End Supply Chain - Tanker Image 6",
-        "title": "End-to-End Supply Chain - Tanker 6"
+        "alt": "Order fulfilment services HCL Logistics",
+        "title": "HCL Order Fulfilment Services"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-7.jpeg",
-        "alt": "End-to-End Supply Chain - Tanker Image 7",
-        "title": "End-to-End Supply Chain - Tanker 7"
+        "alt": "HCL Logistics UK nationwide network",
+        "title": "HCL Nationwide Logistics Network UK"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-8.jpg",
-        "alt": "End-to-End Supply Chain - Tanker Image 8",
-        "title": "End-to-End Supply Chain - Tanker 8"
+        "alt": "Professional 3PL solutions HCL Logistics",
+        "title": "Professional 3PL by HCL Logistics"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-9.webp",
-        "alt": "End-to-End Supply Chain - Tanker Image 9",
-        "title": "End-to-End Supply Chain - Tanker 9"
+        "alt": "HCL Logistics tanker delivering solutions",
+        "title": "HCL Logistics Delivering Solutions"
       }
     ],
     "video": "www.youtube.com/watch?v=11X2ye7wDZ4"
   },
   "hcl-recruitment.co.uk": {
-    "title": "Transport Staffing Experts",
-    "text": "Specialised logistics recruitment – connecting qualified drivers, warehouse staff and management professionals with leading transport companies!",
+    "title": "HCL Recruitment: UK Transport & Logistics Staffing Pros",
+    "text": "Need skilled logistics pros? We connect top drivers, warehouse wizards & managers with leading UK transport firms!",
     "heroImg": "assets/website-hero-images/road-sweeping.png",
-    "forYou": "HCL Recruitment delivers specialised staffing solutions for the transport, logistics and supply chain industries. We understand the unique personnel requirements of these sectors, providing professional recruitment services that connect employers with qualified, experienced candidates. Our comprehensive service covers all aspects of transport and logistics recruitment, from driver hiring and warehouse staffing to managerial and executive appointments. We specialise in roles including HGV drivers, delivery personnel, warehouse operatives, transport managers, logistics coordinators, fleet managers, and supply chain executives across all qualification and experience levels. Our dedicated recruitment team combines in-depth industry knowledge with professional recruitment expertise, ensuring accurate matching of candidate skills to position requirements. We offer various recruitment models including permanent placement, temporary staffing, contract provision, and managed service solutions, with tailored approaches based on your specific hiring needs. Our thorough candidate assessment includes qualification verification, licence checking, employment history validation, and reference confirmation, ensuring only suitable candidates progress to interview stage. We maintain an extensive database of pre-screened candidates alongside proactive talent acquisition strategies, enabling rapid response to both planned recruitment and urgent staffing requirements. From individual placements to complete workforce management, HCL Recruitment provides the professional solution for your transport and logistics staffing needs.",
+    "forYou": "Finding the right talent in the fast-paced world of UK transport and logistics can be a real game-changer. That's where HCL Recruitment steps in! We're experts at sourcing and placing everyone from top-notch HGV drivers and warehouse operatives to savvy transport managers. Whether you need permanent stars, temporary cover, or a fully managed staffing solution, we’ll find you the perfect fit, making your recruitment journey smooth and successful.",
     "services": [
       {
-        "title": "Driver Recruitment",
-        "desc": "Specialist hiring of qualified professional drivers.",
+        "title": "Expert Driver Recruitment",
+        "desc": "Connecting you with qualified, pro drivers.",
         "icon": "fa-solid fa-id-card"
       },
       {
-        "title": "Logistics Staff Placement",
-        "desc": "Recruitment for warehouse and distribution roles.",
+        "title": "Logistics Staff Sorted",
+        "desc": "Filling your warehouse & distribution roles sharpish.",
         "icon": "fa-solid fa-people-carry-box"
       },
       {
-        "title": "Transport Management Hiring",
-        "desc": "Executive and management level recruitment.",
+        "title": "Transport Management Talent",
+        "desc": "Finding your next exec or managerial superstar.",
         "icon": "fa-solid fa-user-tie"
       },
       {
-        "title": "Temporary Staffing Solutions",
-        "desc": "Flexible workforce provision for variable requirements.",
+        "title": "Flexible Temp Staffing",
+        "desc": "Agile workforce solutions when you need them.",
         "icon": "fa-regular fa-clock"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-1.webp",
-        "alt": "Transport Staffing Experts - Tanker Image 1",
-        "title": "Transport Staffing Experts - Tanker 1"
+        "alt": "HCL Recruitment connecting transport experts UK",
+        "title": "HCL Transport Staffing Experts UK"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-2.webp",
-        "alt": "Transport Staffing Experts - Tanker Image 2",
-        "title": "Transport Staffing Experts - Tanker 2"
+        "alt": "Qualified HGV drivers from HCL Recruitment",
+        "title": "Qualified HGV Drivers via HCL"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-3.webp",
-        "alt": "Transport Staffing Experts - Tanker Image 3",
-        "title": "Transport Staffing Experts - Tanker 3"
+        "alt": "Warehouse staff placement by HCL Recruitment",
+        "title": "HCL Warehouse Staff Placement"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-4.webp",
-        "alt": "Transport Staffing Experts - Tanker Image 4",
-        "title": "Transport Staffing Experts - Tanker 4"
+        "alt": "Logistics management professionals HCL Recruitment",
+        "title": "Logistics Management by HCL"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-5.webp",
-        "alt": "Transport Staffing Experts - Tanker Image 5",
-        "title": "Transport Staffing Experts - Tanker 5"
+        "alt": "HCL Recruitment temporary staffing solutions UK",
+        "title": "HCL Temporary Staffing UK"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-6.webp",
-        "alt": "Transport Staffing Experts - Tanker Image 6",
-        "title": "Transport Staffing Experts - Tanker 6"
+        "alt": "Specialised logistics recruitment HCL",
+        "title": "Specialised Logistics Recruitment HCL"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-7.jpeg",
-        "alt": "Transport Staffing Experts - Tanker Image 7",
-        "title": "Transport Staffing Experts - Tanker 7"
+        "alt": "Connecting talent with transport companies HCL",
+        "title": "HCL Connecting Talent & Transport"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-8.jpg",
-        "alt": "Transport Staffing Experts - Tanker Image 8",
-        "title": "Transport Staffing Experts - Tanker 8"
+        "alt": "HCL Recruitment for UK transport industry",
+        "title": "HCL Recruitment for UK Transport"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-9.webp",
-        "alt": "Transport Staffing Experts - Tanker Image 9",
-        "title": "Transport Staffing Experts - Tanker 9"
+        "alt": "Driving careers forward with HCL Recruitment",
+        "title": "Driving Careers with HCL Recruitment"
       }
     ],
     "video": "www.youtube.com/watch?v=11X2ye7wDZ4"
   },
   "hcl-recruitment.com": {
-    "title": "Logistics Staffing Specialists",
-    "text": "Industry-focused transport recruitment – comprehensive staffing for all roles from HGV drivers to supply chain executives with precision matching!",
+    "title": "HCL Recruitment: Your UK Logistics Staffing Gurus",
+    "text": "Laser-focused transport recruitment! We find stars for every role, from HGV drivers to supply chain execs, matched perfectly.",
     "heroImg": "assets/website-hero-images/road-sweeping.png",
-    "forYou": "HCL Recruitment delivers industry-focused staffing solutions specifically designed for the logistics, transport and supply chain sectors. We understand the distinct challenges these industries face in attracting and retaining quality personnel, providing specialised recruitment services that connect organisations with the right talent. Our comprehensive service encompasses the entire recruitment spectrum, from initial job profiling and candidate sourcing through to screening, selection, placement and onboarding support. We specialise in staffing all industry positions including Class 1 and 2 HGV drivers, delivery personnel, van drivers, warehouse staff, forklift operators, transport planners, logistics managers, distribution directors and supply chain executives. Our experienced recruitment consultants combine deep industry knowledge with professional staffing expertise, ensuring precise matching of candidate capabilities with role requirements. We employ advanced candidate assessment techniques including skills testing, qualification verification, licence checking, background screening and behavioural interviewing to ensure quality selection. Our proactive talent acquisition strategies include database development, networking, headhunting and industry-specific advertising, enabling us to identify both active and passive candidates. We offer flexible service models including retained search, contingency recruitment, contract staffing, temporary provision and complete recruitment process outsourcing, with solutions tailored to your specific hiring needs. Whether you're filling a single position or managing complete workforce requirements, HCL Recruitment provides the industry expertise to secure your ideal candidates.",
+    "forYou": "Tired of the recruitment runaround in the UK logistics game? HCL Recruitment gets it. We're specialists, meaning we know the transport and supply chain sectors inside out. We don't just find people; we find *your* people – from skilled HGV drivers and warehouse dynamos to visionary supply chain leaders. With our precision matching and deep industry knowledge, consider your staffing headaches sorted!",
     "services": [
       {
-        "title": "Specialist Industry Recruitment",
-        "desc": "Expert staffing focused on transport and logistics sectors.",
+        "title": "Logistics Recruitment Pros",
+        "desc": "Expert staffing specifically for transport & logistics.",
         "icon": "fa-solid fa-industry"
       },
       {
-        "title": "Executive Search",
-        "desc": "Targeted recruitment of senior management and executives.",
+        "title": "Top-Tier Exec Search",
+        "desc": "Headhunting senior managers & execs like a boss.",
         "icon": "fa-solid fa-magnifying-glass"
       },
       {
-        "title": "Contract & Temporary Staffing",
-        "desc": "Flexible workforce solutions for variable requirements.",
+        "title": "Contract & Temp Staffing",
+        "desc": "Flexible crew for when you need them, no fuss.",
         "icon": "fa-solid fa-user-clock"
       },
       {
-        "title": "Recruitment Process Outsourcing",
-        "desc": "Complete management of hiring functions and processes.",
+        "title": "Recruitment Process Power-Up",
+        "desc": "We'll handle your hiring from start to finish.",
         "icon": "fa-solid fa-diagram-project"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-1.webp",
-        "alt": "Logistics Staffing Specialists - Tanker Image 1",
-        "title": "Logistics Staffing Specialists - Tanker 1"
+        "alt": "HCL Logistics Staffing Specialists UK tanker",
+        "title": "HCL Logistics Staffing Specialists UK"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-2.webp",
-        "alt": "Logistics Staffing Specialists - Tanker Image 2",
-        "title": "Logistics Staffing Specialists - Tanker 2"
+        "alt": "Recruiting HGV drivers HCL Recruitment com",
+        "title": "HCL.com HGV Driver Recruitment"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-3.webp",
-        "alt": "Logistics Staffing Specialists - Tanker Image 3",
-        "title": "Logistics Staffing Specialists - Tanker 3"
+        "alt": "Supply chain executive search HCL Recruitment",
+        "title": "Supply Chain Executive Search HCL"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-4.webp",
-        "alt": "Logistics Staffing Specialists - Tanker Image 4",
-        "title": "Logistics Staffing Specialists - Tanker 4"
+        "alt": "Precision matching for logistics roles HCL",
+        "title": "Precision Role Matching by HCL"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-5.webp",
-        "alt": "Logistics Staffing Specialists - Tanker Image 5",
-        "title": "Logistics Staffing Specialists - Tanker 5"
+        "alt": "Contract staffing for transport HCL Recruitment",
+        "title": "Contract Transport Staffing HCL"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-6.webp",
-        "alt": "Logistics Staffing Specialists - Tanker Image 6",
-        "title": "Logistics Staffing Specialists - Tanker 6"
+        "alt": "UK focused transport recruitment HCL",
+        "title": "UK Transport Recruitment HCL.com"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-7.jpeg",
-        "alt": "Logistics Staffing Specialists - Tanker Image 7",
-        "title": "Logistics Staffing Specialists - Tanker 7"
+        "alt": "HCL Recruitment industry expertise tanker",
+        "title": "HCL Recruitment Industry Expertise"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-8.jpg",
-        "alt": "Logistics Staffing Specialists - Tanker Image 8",
-        "title": "Logistics Staffing Specialists - Tanker 8"
+        "alt": "Finding ideal candidates HCL Recruitment",
+        "title": "Finding Ideal Candidates with HCL"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-9.webp",
-        "alt": "Logistics Staffing Specialists - Tanker Image 9",
-        "title": "Logistics Staffing Specialists - Tanker 9"
+        "alt": "HCL Recruitment tanker for staffing solutions",
+        "title": "HCL Staffing Solutions Tanker"
       }
     ],
     "video": "www.youtube.com/watch?v=11X2ye7wDZ4"
   },
   "hclfleet.co.uk": {
-    "title": "Commercial Fleet Management",
-    "text": "Optimised vehicle operation – complete management solutions for acquisition, maintenance, compliance and cost control for HGVs and vans!",
+    "title": "HCL Fleet: UK Commercial Fleet Management Made Easy",
+    "text": "Ace vehicle operations! Total management for HGV & van acquisition, maintenance, compliance & cost control. Sorted!",
     "heroImg": "assets/website-hero-images/road-sweeping.png",
-    "forYou": "HCL Fleet delivers professional fleet management solutions designed to maximise vehicle efficiency whilst minimising operational costs. We understand the challenges of running a commercial fleet, providing comprehensive services that reduce administrative burden whilst ensuring compliance and reliability. Our complete fleet management package covers all aspects of vehicle operation, from initial specification and acquisition through to maintenance management, compliance monitoring, driver support, and eventual disposal. We specialise in commercial vehicle fleets including vans, trucks, HGVs, specialist vehicles, and mixed fleets, with services tailored to your specific operational requirements. Our experienced team includes fleet managers, compliance specialists, and vehicle technicians who work collaboratively to optimise every aspect of your fleet operation. We utilise advanced fleet management technology including vehicle telematics, maintenance tracking, driver performance monitoring, and compliance control systems to deliver complete visibility and control. Our service focuses on key performance areas including cost reduction, vehicle uptime, compliance assurance, and operational efficiency, with regular reporting on key metrics and continuous improvement initiatives. Whether you operate a small local fleet or a large national operation, HCL Fleet provides the professional solution to enhance performance and reduce the complexities of fleet management.",
+    "forYou": "Running a commercial fleet in the UK shouldn't be a headache. HCL Fleet takes the drama out of managing your vans, trucks, and HGVs. We're all about boosting your vehicle efficiency while slashing those pesky operational costs and paperwork. From finding the right vehicles to keeping them perfectly maintained, compliant, and on the road, we provide the professional touch that streamlines your entire fleet operation. Less faff, more focus on your business!",
     "services": [
       {
-        "title": "Complete Fleet Management",
-        "desc": "Comprehensive oversight of your entire vehicle operation.",
+        "title": "Total Fleet Management",
+        "desc": "Your entire vehicle operation, expertly handled.",
         "icon": "fa-solid fa-truck-monster"
       },
       {
-        "title": "Maintenance & Repair Control",
-        "desc": "Proactive management of vehicle servicing and repairs.",
+        "title": "Maintenance & Repair Masters",
+        "desc": "Keeping your vehicles serviced and sorted, proactively.",
         "icon": "fa-solid fa-wrench"
       },
       {
-        "title": "Compliance & Documentation",
-        "desc": "Ensuring adherence to all regulatory requirements.",
+        "title": "Compliance & Paperwork Pros",
+        "desc": "Making sure you're always on the right side of the regs.",
         "icon": "fa-solid fa-clipboard-check"
       },
       {
-        "title": "Fleet Optimisation",
-        "desc": "Strategic improvement of vehicle utilisation and efficiency.",
+        "title": "Fleet Performance Boosters",
+        "desc": "Smart ways to get more from your vehicles.",
         "icon": "fa-solid fa-chart-line"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-1.webp",
-        "alt": "Commercial Fleet Management - Tanker Image 1",
-        "title": "Commercial Fleet Management - Tanker 1"
+        "alt": "HCL Fleet commercial fleet management UK tanker",
+        "title": "HCL Commercial Fleet Management UK"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-2.webp",
-        "alt": "Commercial Fleet Management - Tanker Image 2",
-        "title": "Commercial Fleet Management - Tanker 2"
+        "alt": "HGV and van fleet solutions HCL Fleet",
+        "title": "HGV & Van Fleet Solutions HCL"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-3.webp",
-        "alt": "Commercial Fleet Management - Tanker Image 3",
-        "title": "Commercial Fleet Management - Tanker 3"
+        "alt": "Fleet maintenance and compliance HCL Fleet co uk",
+        "title": "Fleet Maintenance & Compliance HCL"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-4.webp",
-        "alt": "Commercial Fleet Management - Tanker Image 4",
-        "title": "Commercial Fleet Management - Tanker 4"
+        "alt": "Cost control for commercial fleets HCL Fleet",
+        "title": "Commercial Fleet Cost Control HCL"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-5.webp",
-        "alt": "Commercial Fleet Management - Tanker Image 5",
-        "title": "Commercial Fleet Management - Tanker 5"
+        "alt": "Optimised vehicle operation HCL Fleet tanker",
+        "title": "Optimised Vehicle Operation HCL"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-6.webp",
-        "alt": "Commercial Fleet Management - Tanker Image 6",
-        "title": "Commercial Fleet Management - Tanker 6"
+        "alt": "HCL Fleet management technology UK",
+        "title": "HCL Fleet Management Technology"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-7.jpeg",
-        "alt": "Commercial Fleet Management - Tanker Image 7",
-        "title": "Commercial Fleet Management - Tanker 7"
+        "alt": "Reliable fleet services HCL Fleet co uk",
+        "title": "Reliable Fleet Services HCL"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-8.jpg",
-        "alt": "Commercial Fleet Management - Tanker Image 8",
-        "title": "Commercial Fleet Management - Tanker 8"
+        "alt": "Professional fleet solutions HCL tanker",
+        "title": "Professional Fleet Solutions by HCL"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-9.webp",
-        "alt": "Commercial Fleet Management - Tanker Image 9",
-        "title": "Commercial Fleet Management - Tanker 9"
+        "alt": "HCL Fleet enhancing fleet performance",
+        "title": "Enhancing Fleet Performance HCL"
       }
     ],
     "video": "www.youtube.com/watch?v=11X2ye7wDZ4"
   },
   "hclfleet.com": {
-    "title": "Strategic Vehicle Solutions",
-    "text": "Data-driven fleet excellence – integrated technology, comprehensive administration and cost control for commercial transport operators!",
+    "title": "HCL Fleet: Strategic UK Vehicle & Fleet Solutions",
+    "text": "Data-driven fleet brilliance! Smart tech, total admin & cost control for UK commercial transport operators. Easy.",
     "heroImg": "assets/website-hero-images/road-sweeping.png",
-    "forYou": "HCL Fleet provides end-to-end management solutions for commercial vehicle operators seeking to optimise their fleet performance. We understand that effective fleet management extends beyond simple vehicle tracking, delivering integrated services that address every aspect of your vehicle operation. Our comprehensive service portfolio covers the complete vehicle lifecycle, including fleet planning, vehicle specification, procurement support, funding solutions, maintenance management, compliance control, fuel management, accident handling, and vehicle disposal. We employ a strategic approach to fleet optimisation, analysing operational data to identify improvement opportunities in areas including vehicle utilisation, fuel efficiency, maintenance costs, and driver performance. Our advanced technology platform combines telematics, maintenance management, driver apps, and management dashboards into a unified system, providing complete visibility and control. Our experienced team includes fleet specialists, compliance experts, data analysts, and account managers who work as an extension of your business, delivering both strategic guidance and day-to-day operational support. We offer flexible service options from individual management components to fully outsourced fleet operation, with tailored solutions designed around your specific business requirements and objectives. From small fleets to large national operations, HCL Fleet provides the professional management solution to enhance performance, ensure compliance, and reduce operational costs.",
+    "forYou": "Want to take your UK commercial fleet from just 'running' to 'rocking'? HCL Fleet offers savvy, end-to-end management solutions that truly optimise your vehicle performance. We're not just about tracking; we dig into every bit of your fleet's lifecycle – from planning and buying to top-notch maintenance, fuel smarts, and compliance. Using clever data insights and the latest tech, we help you boost efficiency, cut costs, and keep your vehicles working harder for your business.",
     "services": [
       {
-        "title": "Strategic Fleet Management",
-        "desc": "Data-driven oversight of your entire vehicle operation.",
+        "title": "Smart Fleet Management",
+        "desc": "Data-powered oversight for your entire vehicle fleet.",
         "icon": "fa-solid fa-chess-knight"
       },
       {
-        "title": "Integrated Technology Platform",
-        "desc": "Unified system for complete fleet visibility and control.",
+        "title": "All-In-One Tech Platform",
+        "desc": "One clever system for total fleet visibility & control.",
         "icon": "fa-solid fa-tablet-screen-button"
       },
       {
-        "title": "Outsourced Fleet Administration",
-        "desc": "Complete management of vehicle-related tasks and processes.",
+        "title": "Fleet Admin, Outsourced!",
+        "desc": "We'll handle all your vehicle paperwork & tasks.",
         "icon": "fa-solid fa-file-invoice"
       },
       {
-        "title": "Comprehensive Cost Control",
-        "desc": "Strategic reduction of all fleet-related expenditure.",
+        "title": "Serious Cost Cutting",
+        "desc": "Smart strategies to slash all your fleet spending.",
         "icon": "fa-solid fa-coins"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-1.webp",
-        "alt": "Strategic Vehicle Solutions - Tanker Image 1",
-        "title": "Strategic Vehicle Solutions - Tanker 1"
+        "alt": "HCL Fleet strategic vehicle solutions UK tanker",
+        "title": "HCL Strategic Vehicle Solutions UK"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-2.webp",
-        "alt": "Strategic Vehicle Solutions - Tanker Image 2",
-        "title": "Strategic Vehicle Solutions - Tanker 2"
+        "alt": "Data-driven fleet excellence HCL Fleet com",
+        "title": "Data-Driven Fleet Excellence HCL"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-3.webp",
-        "alt": "Strategic Vehicle Solutions - Tanker Image 3",
-        "title": "Strategic Vehicle Solutions - Tanker 3"
+        "alt": "Integrated fleet technology HCL Fleet",
+        "title": "Integrated Fleet Technology HCL"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-4.webp",
-        "alt": "Strategic Vehicle Solutions - Tanker Image 4",
-        "title": "Strategic Vehicle Solutions - Tanker 4"
+        "alt": "Commercial transport operator solutions HCL Fleet",
+        "title": "Solutions for Transport Operators HCL"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-5.webp",
-        "alt": "Strategic Vehicle Solutions - Tanker Image 5",
-        "title": "Strategic Vehicle Solutions - Tanker 5"
+        "alt": "Fleet lifecycle management HCL Fleet com tanker",
+        "title": "Fleet Lifecycle Management by HCL"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-6.webp",
-        "alt": "Strategic Vehicle Solutions - Tanker Image 6",
-        "title": "Strategic Vehicle Solutions - Tanker 6"
+        "alt": "Optimising fleet performance HCL Fleet",
+        "title": "Optimising Fleet Performance HCL.com"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-7.jpeg",
-        "alt": "Strategic Vehicle Solutions - Tanker Image 7",
-        "title": "Strategic Vehicle Solutions - Tanker 7"
+        "alt": "Comprehensive fleet cost control HCL",
+        "title": "Comprehensive Cost Control HCL Fleet"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-8.jpg",
-        "alt": "Strategic Vehicle Solutions - Tanker Image 8",
-        "title": "Strategic Vehicle Solutions - Tanker 8"
+        "alt": "Professional fleet management HCL Fleet com",
+        "title": "Professional Fleet Management HCL.com"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-9.webp",
-        "alt": "Strategic Vehicle Solutions - Tanker Image 9",
-        "title": "Strategic Vehicle Solutions - Tanker 9"
+        "alt": "HCL Fleet solutions tanker in UK",
+        "title": "HCL Fleet Solutions UK Tanker"
       }
     ],
     "video": "www.youtube.com/watch?v=11X2ye7wDZ4"
   },
   "hclfleet.services": {
-    "title": "Vehicle Support Services",
-    "text": "Comprehensive fleet maintenance – nationwide technical support for commercial vehicles with preventative servicing and compliance management!",
+    "title": "HCL Fleet Services: Top UK Vehicle Support & Maintenance",
+    "text": "Total commercial fleet care! Nationwide tech support, preventative servicing & compliance management for your vehicles.",
     "heroImg": "assets/website-hero-images/road-sweeping.png",
-    "forYou": "HCL Fleet Services delivers specialised support for every aspect of commercial vehicle operation. We understand the diverse challenges faced by fleet operators, providing professional services that enhance vehicle performance whilst reducing management complexity. Our comprehensive service portfolio addresses all aspects of fleet operation, with specialised services including vehicle procurement, funding arrangements, preventative maintenance programmes, repair management, compliance control, telematics implementation, fuel management, driver training, and fleet administration. We operate a nationwide service network with strategically located facilities, mobile support units, and partnership arrangements with approved suppliers, ensuring consistent service delivery throughout the UK. Our advanced technology infrastructure includes fleet management software, mobile apps, and integration capabilities, creating a unified platform for service management and communication. Our experienced team includes vehicle technicians, compliance specialists, account managers, and support staff who deliver both practical expertise and responsive customer service. We offer flexible service options including individual support services, packaged service plans, and comprehensive management contracts, with solutions tailored to your specific operational requirements and fleet composition. From small light commercial fleets to large HGV operations, HCL Fleet Services provides the professional support to keep your vehicles running efficiently, compliantly, and cost-effectively.",
+    "forYou": "Keeping your UK commercial vehicles in tip-top shape and on the right side of the law is what HCL Fleet Services is all about. We offer specialised support for every part of your fleet's operation, from sourcing the best vehicles and arranging finance to planned maintenance programmes and keeping all your compliance ducks in a row. With our nationwide network and crack team of technicians, we ensure your fleet runs smoothly, efficiently, and always cost-effectively. Stress less, drive more!",
     "services": [
       {
-        "title": "Preventative Maintenance",
-        "desc": "Planned servicing programmes to maximise vehicle reliability.",
+        "title": "Proactive Maintenance Plans",
+        "desc": "Smart servicing to keep your vehicles ultra-reliable.",
         "icon": "fa-solid fa-screwdriver-wrench"
       },
       {
-        "title": "Compliance Management",
-        "desc": "Complete control of regulatory and legal requirements.",
+        "title": "Compliance Sorted, Always",
+        "desc": "Full control of all those tricky rules & regs.",
         "icon": "fa-solid fa-clipboard-check"
       },
       {
-        "title": "Vehicle Procurement",
-        "desc": "Expert assistance with fleet acquisition and specification.",
+        "title": "Smart Vehicle Sourcing",
+        "desc": "Expert help with buying & speccing your fleet.",
         "icon": "fa-solid fa-truck"
       },
       {
-        "title": "Fleet Administration",
-        "desc": "Comprehensive management of vehicle documentation and tasks.",
+        "title": "Fleet Admin Wizards",
+        "desc": "We manage all your vehicle paperwork like magic.",
         "icon": "fa-solid fa-file-lines"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-1.webp",
-        "alt": "Vehicle Support Services - Tanker Image 1",
-        "title": "Vehicle Support Services - Tanker 1"
+        "alt": "HCL Vehicle Support Services UK tanker",
+        "title": "HCL Vehicle Support Services UK"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-2.webp",
-        "alt": "Vehicle Support Services - Tanker Image 2",
-        "title": "Vehicle Support Services - Tanker 2"
+        "alt": "Nationwide fleet maintenance HCL Fleet Services",
+        "title": "Nationwide Fleet Maintenance HCL"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-3.webp",
-        "alt": "Vehicle Support Services - Tanker Image 3",
-        "title": "Vehicle Support Services - Tanker 3"
+        "alt": "Preventative servicing for commercial vehicles HCL",
+        "title": "Preventative Servicing HCL"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-4.webp",
-        "alt": "Vehicle Support Services - Tanker Image 4",
-        "title": "Vehicle Support Services - Tanker 4"
+        "alt": "Fleet compliance management HCL Fleet Services",
+        "title": "Fleet Compliance Management HCL"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-5.webp",
-        "alt": "Vehicle Support Services - Tanker Image 5",
-        "title": "Vehicle Support Services - Tanker 5"
+        "alt": "HCL Fleet Services expert technicians tanker",
+        "title": "Expert Technicians HCL Fleet Services"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-6.webp",
-        "alt": "Vehicle Support Services - Tanker Image 6",
-        "title": "Vehicle Support Services - Tanker 6"
+        "alt": "Cost-effective fleet support HCL",
+        "title": "Cost-Effective Fleet Support HCL"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-7.jpeg",
-        "alt": "Vehicle Support Services - Tanker Image 7",
-        "title": "Vehicle Support Services - Tanker 7"
+        "alt": "Vehicle procurement assistance HCL Fleet Services",
+        "title": "Vehicle Procurement HCL Services"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-8.jpg",
-        "alt": "Vehicle Support Services - Tanker Image 8",
-        "title": "Vehicle Support Services - Tanker 8"
+        "alt": "Keeping UK fleets running efficiently HCL",
+        "title": "Efficient UK Fleets by HCL"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-9.webp",
-        "alt": "Vehicle Support Services - Tanker Image 9",
-        "title": "Vehicle Support Services - Tanker 9"
+        "alt": "HCL Fleet Services support tanker on road",
+        "title": "HCL Fleet Support Tanker"
       }
     ],
     "video": "www.youtube.com/watch?v=11X2ye7wDZ4"
   },
   "hclfleetservices.co.uk": {
-    "title": "Transport Vehicle Maintenance",
-    "text": "Essential commercial fleet support – scheduled maintenance, emergency breakdown assistance and regulatory compliance management!",
+    "title": "HCL Fleet Services: UK Transport Vehicle Maintenance Pros",
+    "text": "Vital commercial fleet support! Scheduled maintenance, emergency breakdown help & regulatory compliance. We've got you.",
     "heroImg": "assets/website-hero-images/road-sweeping.png",
-    "forYou": "HCL Fleet Services delivers dedicated support solutions designed specifically for commercial vehicle operators. We understand the critical importance of vehicle reliability and compliance in transport operations, providing professional maintenance and management services that keep your fleet running efficiently. Our comprehensive service portfolio addresses all essential fleet requirements, with specialised services including preventative maintenance scheduling, reactive repair management, 24/7 breakdown response, compliance monitoring, documentation control, and vehicle performance optimisation. We operate throughout the UK with strategically positioned service centres, mobile technicians, and approved partner networks, ensuring rapid response when and where needed. Our technology platform integrates maintenance scheduling, service history, compliance alerts, and cost tracking for complete fleet visibility. Our experienced team includes qualified vehicle technicians, compliance specialists, service coordinators, and dedicated account managers who deliver both technical expertise and exceptional customer care. We offer flexible service packages from basic maintenance plans to comprehensive support contracts, with solutions tailored to your specific operational needs and fleet size. From small courier fleets to large distribution operations, HCL Fleet Services provides the reliable support to maximise vehicle uptime while ensuring regulatory compliance.",
+    "forYou": "For UK transport operators, vehicle reliability and staying compliant aren't just nice-to-haves – they're essential! HCL Fleet Services delivers dedicated support designed to keep your commercial vehicles performing at their best. From planned maintenance schedules and speedy repairs to 24/7 breakdown cover and making sure all your compliance paperwork is bang on, we're your partners in maximising uptime and keeping your fleet running like clockwork, all across the UK.",
     "services": [
       {
         "title": "Planned Maintenance Control",
-        "desc": "Proactive management of service schedules and requirements.",
+        "desc": "Smart management of your service schedules & needs.",
         "icon": "fa-solid fa-calendar-check"
       },
       {
-        "title": "Repair Authorisation",
-        "desc": "Expert vehicle assessment and repair approval service.",
+        "title": "Expert Repair Authorisation",
+        "desc": "Top vehicle checks & repair approvals, sorted.",
         "icon": "fa-solid fa-wrench"
       },
       {
-        "title": "24/7 Breakdown Assistance",
-        "desc": "Round-the-clock support for vehicle problems and failures.",
+        "title": "24/7 Breakdown Heroes",
+        "desc": "Round-the-clock help for any vehicle hiccups.",
         "icon": "fa-solid fa-truck-medical"
       },
       {
-        "title": "Compliance Documentation",
-        "desc": "Management of regulatory paperwork and records.",
+        "title": "Compliance Paperwork Sorted",
+        "desc": "We'll manage all your regulatory docs & records.",
         "icon": "fa-solid fa-folder-open"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-1.webp",
-        "alt": "Transport Vehicle Maintenance - Tanker Image 1",
-        "title": "Transport Vehicle Maintenance - Tanker 1"
+        "alt": "HCL Transport Vehicle Maintenance UK tanker",
+        "title": "HCL Transport Vehicle Maintenance UK"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-2.webp",
-        "alt": "Transport Vehicle Maintenance - Tanker Image 2",
-        "title": "Transport Vehicle Maintenance - Tanker 2"
+        "alt": "Scheduled fleet maintenance HCL Fleet Services co uk",
+        "title": "Scheduled Fleet Maintenance HCL"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-3.webp",
-        "alt": "Transport Vehicle Maintenance - Tanker Image 3",
-        "title": "Transport Vehicle Maintenance - Tanker 3"
+        "alt": "Emergency breakdown assistance UK HCL",
+        "title": "Emergency Breakdown Assistance HCL"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-4.webp",
-        "alt": "Transport Vehicle Maintenance - Tanker Image 4",
-        "title": "Transport Vehicle Maintenance - Tanker 4"
+        "alt": "Regulatory compliance for transport fleets HCL",
+        "title": "Transport Fleet Compliance HCL"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-5.webp",
-        "alt": "Transport Vehicle Maintenance - Tanker Image 5",
-        "title": "Transport Vehicle Maintenance - Tanker 5"
+        "alt": "HCL Fleet Services vehicle support tanker",
+        "title": "Vehicle Support Tanker HCL"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-6.webp",
-        "alt": "Transport Vehicle Maintenance - Tanker Image 6",
-        "title": "Transport Vehicle Maintenance - Tanker 6"
+        "alt": "Maximising vehicle uptime HCL Fleet Services",
+        "title": "Maximising Uptime HCL Fleet Services"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-7.jpeg",
-        "alt": "Transport Vehicle Maintenance - Tanker Image 7",
-        "title": "Transport Vehicle Maintenance - Tanker 7"
+        "alt": "Reliable fleet support UK HCL",
+        "title": "Reliable UK Fleet Support HCL"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-8.jpg",
-        "alt": "Transport Vehicle Maintenance - Tanker Image 8",
-        "title": "Transport Vehicle Maintenance - Tanker 8"
+        "alt": "Commercial vehicle solutions HCL Fleet Services",
+        "title": "Commercial Vehicle Solutions HCL"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-9.webp",
-        "alt": "Transport Vehicle Maintenance - Tanker Image 9",
-        "title": "Transport Vehicle Maintenance - Tanker 9"
+        "alt": "HCL tanker providing fleet maintenance services",
+        "title": "HCL Fleet Maintenance Tanker"
       }
     ],
     "video": "www.youtube.com/watch?v=11X2ye7wDZ4"
   },
-  "hrdro-cleansing.com": {
-    "title": "Environmental Services Experts",
-    "text": "Specialist drainage solutions – professional emergency response, CCTV surveys, waste management and environmental cleaning services!",
+  "hydro-cleansing.com": {
+    "title": "Hydro-Cleansing: UK Environmental & Drainage Experts!",
+    "text": "Drainage dramas or eco-emergencies in the UK? We're on it! 24/7 response, CCTV surveys & top-notch environmental cleaning.",
     "heroImg": "assets/website-hero-images/liquid-waste.png",
-    "forYou": "Hydro-Cleansing delivers expert drainage and environmental services with a focus on quality, reliability and customer satisfaction. We understand the importance of responsive, effective services when dealing with drainage and environmental issues, providing professional solutions that resolve problems quickly and effectively. Our comprehensive service portfolio covers all drainage and environmental requirements including emergency blockage clearance, preventative drain maintenance, CCTV drain surveys, drain repairs, liquid waste removal, flood response, environmental cleaning, and compliance management. We operate 24/7 with rapid response teams available for urgent situations, minimising disruption and preventing further damage. Our specialist fleet includes advanced jetting units, CCTV survey vehicles, vacuum tankers, and liquid waste transport systems, equipped with the latest technology to tackle any drainage or environmental challenge. Our experienced team includes drainage engineers, environmental specialists, confined space experts, and technical surveyors who bring extensive knowledge to every project. We work with residential, commercial, industrial, and public sector clients, providing tailored solutions for properties and sites of all sizes. Our services comply with all relevant environmental regulations, with proper waste management and disposal processes ensuring complete legal compliance. From emergency call-outs to planned maintenance programmes, Hydro-Cleansing provides the professional service to keep your drainage systems and surrounding environment in optimal condition.",
+    "forYou": "Got a drainage disaster or an environmental SOS in the UK? Hydro-Cleansing is your calm in the storm! We're the pros at tackling everything from emergency blockages and meticulous CCTV drain surveys to responsible liquid waste removal and specialist environmental cleaning. Day or night, our rapid response teams and cutting-edge kit mean we get the job done swiftly and safely, protecting your property and our precious environment. Consider it sorted!",
     "services": [
       {
-        "title": "Emergency Drain Clearance",
-        "desc": "Rapid response to blockages and drainage issues.",
+        "title": "24/7 Drain Unblocking Heroes",
+        "desc": "Blocked drain? We're there in a flash, UK-wide!",
         "icon": "fa-solid fa-bolt"
       },
       {
-        "title": "CCTV Drain Surveys",
-        "desc": "Detailed inspection and analysis of drainage systems.",
+        "title": "CCTV Drain Detective Work",
+        "desc": "Crystal-clear views inside your drains. No more guesswork!",
         "icon": "fa-solid fa-camera"
       },
       {
-        "title": "Liquid Waste Management",
-        "desc": "Collection and disposal of all types of liquid waste.",
+        "title": "Liquid Waste Warriors",
+        "desc": "Safe, compliant collection & disposal of all liquid waste.",
         "icon": "fa-solid fa-fill-drip"
       },
       {
-        "title": "Environmental Cleaning",
-        "desc": "Specialist cleaning for sensitive environments.",
+        "title": "Eco-Cleaning Gurus",
+        "desc": "Specialist cleaning that's kind to sensitive spots.",
         "icon": "fa-solid fa-spray-can-sparkles"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning1.jpg",
-        "alt": "Environmental Services Experts - Cleaning-Services Image 1",
-        "title": "Environmental Services Experts - Cleaning-Services 1"
+        "alt": "Hydro-Cleansing environmental services experts UK",
+        "title": "Hydro-Cleansing Environmental Experts UK"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning2.jpg",
-        "alt": "Environmental Services Experts - Cleaning-Services Image 2",
-        "title": "Environmental Services Experts - Cleaning-Services 2"
+        "alt": "Emergency drain clearance Hydro-Cleansing com",
+        "title": "Emergency Drain Clearance Hydro-Cleansing"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning3.jpg",
-        "alt": "Environmental Services Experts - Cleaning-Services Image 3",
-        "title": "Environmental Services Experts - Cleaning-Services 3"
+        "alt": "CCTV drain surveys by Hydro-Cleansing UK",
+        "title": "CCTV Drain Surveys UK by Hydro-Cleansing"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning4.jpg",
-        "alt": "Environmental Services Experts - Cleaning-Services Image 4",
-        "title": "Environmental Services Experts - Cleaning-Services 4"
+        "alt": "Liquid waste management Hydro-Cleansing services",
+        "title": "Liquid Waste Management Hydro-Cleansing"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning5.jpg",
-        "alt": "Environmental Services Experts - Cleaning-Services Image 5",
-        "title": "Environmental Services Experts - Cleaning-Services 5"
+        "alt": "Hydro-Cleansing specialist environmental cleaning UK",
+        "title": "Specialist Environmental Cleaning UK"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning6.jpg",
-        "alt": "Environmental Services Experts - Cleaning-Services Image 6",
-        "title": "Environmental Services Experts - Cleaning-Services 6"
+        "alt": "24/7 emergency response Hydro-Cleansing com",
+        "title": "24/7 Emergency Response Hydro-Cleansing"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning7.jpg",
-        "alt": "Environmental Services Experts - Cleaning-Services Image 7",
-        "title": "Environmental Services Experts - Cleaning-Services 7"
+        "alt": "Professional drainage solutions Hydro-Cleansing",
+        "title": "Professional Drainage Solutions Hydro-Cleansing"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning8.jpg",
-        "alt": "Environmental Services Experts - Cleaning-Services Image 8",
-        "title": "Environmental Services Experts - Cleaning-Services 8"
+        "alt": "Hydro-Cleansing team providing expert services UK",
+        "title": "Expert Environmental Services Hydro-Cleansing UK"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning9.jpg",
-        "alt": "Environmental Services Experts - Cleaning-Services Image 9",
-        "title": "Environmental Services Experts - Cleaning-Services 9"
+        "alt": "Safe waste disposal Hydro-Cleansing com",
+        "title": "Safe Waste Disposal by Hydro-Cleansing"
       }
     ],
     "video": "www.youtube.com/watch?v=M2eBeHSSKHM"
   },
   "jetting-drains.co.uk": {
-    "title": "High-Pressure Drain Cleaning",
-    "text": "Powerful water jetting services – swift blockage clearance, thorough debris removal and preventative maintenance for all drainage systems!",
+    "title": "Jetting Drains: UK High-Pressure Drain Cleaning Power!",
+    "text": "Mighty water jetting! We blast blockages, clear debris & offer top-notch preventative cleaning for all UK drains.",
     "heroImg": "assets/website-hero-images/liquid-waste.png",
-    "forYou": "Jetting Drains provides professional high-pressure water jetting for effective drainage system maintenance. We understand the importance of reliable, functional drainage, delivering specialist cleaning services that resolve current issues whilst preventing future problems. Our comprehensive jetting service covers all aspects of drain cleaning, including blockage clearance, silt removal, fat and grease elimination, root cutting, pipe descaling, preventative maintenance, and complete system cleaning. We employ powerful, industrial-grade water jetting equipment capable of delivering up to 4000 PSI, effectively clearing even the most stubborn blockages and accumulated debris without damaging pipe infrastructure. Our specialist nozzles allow precision targeting of different blockage types and pipe conditions, ensuring optimal results in every situation. We serve domestic, commercial, and industrial clients across all sectors, from individual homeowners to large manufacturing facilities, utility companies, and local authorities. Our experienced jetting technicians are fully trained in the latest techniques and safety protocols, ensuring efficient, effective service delivery whilst maintaining site safety. We operate flexible scheduling including emergency response for urgent blockages and planned maintenance programmes for preventative care. All our work adheres to industry best practices and environmental regulations, with proper disposal of removed materials. From one-off blockage clearance to regular maintenance contracts, Jetting Drains provides the professional solution to keep your drainage system flowing freely.",
+    "forYou": "Blocked drains driving you potty? Jetting Drains is here to unleash the power of high-pressure water jetting across the UK! We don't just clear blockages; we give your drains a proper deep clean, tackling everything from stubborn silt and greasy gunk to invasive roots. Our industrial-strength kit and expert technicians mean your pipes will be flowing freely in no time, preventing future headaches. For drains as clean as a whistle, you know who to call!",
     "services": [
       {
-        "title": "Blockage Clearance",
-        "desc": "Fast, effective removal of drain and pipe blockages.",
+        "title": "Blockage Blasting Power",
+        "desc": "Zapping drain & pipe blockages, super quick!",
         "icon": "fa-solid fa-circle-xmark"
       },
       {
-        "title": "High-Pressure Cleaning",
-        "desc": "Professional jetting to remove built-up deposits.",
+        "title": "High-Pressure Jet Clean",
+        "desc": "Pro jetting to oust those stubborn build-ups.",
         "icon": "fa-solid fa-water"
       },
       {
-        "title": "Preventative Maintenance",
-        "desc": "Regular cleaning to prevent blockage formation.",
-        "icon": "fa-solid fa-shield-check"
+        "title": "Preventative Drain Care",
+        "desc": "Regular cleans to stop blockages before they start.",
+        "icon": "fa-solid fa-shield-alt"
       },
       {
-        "title": "Emergency Response",
-        "desc": "Rapid deployment for urgent drainage issues.",
+        "title": "Emergency Drain Rescue",
+        "desc": "Speedy team for your urgent drainage nightmares.",
         "icon": "fa-solid fa-truck-fast"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning1.jpg",
-        "alt": "High-Pressure Drain Cleaning - Cleaning-Services Image 1",
-        "title": "High-Pressure Drain Cleaning - Cleaning-Services 1"
+        "alt": "Jetting Drains high-pressure drain cleaning UK",
+        "title": "High-Pressure Drain Cleaning UK - Jetting Drains"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning2.jpg",
-        "alt": "High-Pressure Drain Cleaning - Cleaning-Services Image 2",
-        "title": "High-Pressure Drain Cleaning - Cleaning-Services 2"
+        "alt": "Blocked drain clearance Jetting Drains co uk",
+        "title": "Blocked Drain Clearance - Jetting Drains"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning3.jpg",
-        "alt": "High-Pressure Drain Cleaning - Cleaning-Services Image 3",
-        "title": "High-Pressure Drain Cleaning - Cleaning-Services 3"
+        "alt": "Preventative drain maintenance UK Jetting Drains",
+        "title": "Preventative Drain Maintenance UK"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning4.jpg",
-        "alt": "High-Pressure Drain Cleaning - Cleaning-Services Image 4",
-        "title": "High-Pressure Drain Cleaning - Cleaning-Services 4"
+        "alt": "Emergency drain jetting services Jetting Drains",
+        "title": "Emergency Drain Jetting Services"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning5.jpg",
-        "alt": "High-Pressure Drain Cleaning - Cleaning-Services Image 5",
-        "title": "High-Pressure Drain Cleaning - Cleaning-Services 5"
+        "alt": "Powerful water jetting for UK drains",
+        "title": "Powerful UK Drain Water Jetting"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning6.jpg",
-        "alt": "High-Pressure Drain Cleaning - Cleaning-Services Image 6",
-        "title": "High-Pressure Drain Cleaning - Cleaning-Services 6"
+        "alt": "Jetting Drains professional drain cleaning team",
+        "title": "Professional Drain Cleaning Team"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning7.jpg",
-        "alt": "High-Pressure Drain Cleaning - Cleaning-Services Image 7",
-        "title": "High-Pressure Drain Cleaning - Cleaning-Services 7"
+        "alt": "Debris removal from drains Jetting Drains co uk",
+        "title": "Drain Debris Removal - Jetting Drains"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning8.jpg",
-        "alt": "High-Pressure Drain Cleaning - Cleaning-Services Image 8",
-        "title": "High-Pressure Drain Cleaning - Cleaning-Services 8"
+        "alt": "Keeping UK drains flowing freely",
+        "title": "Keeping UK Drains Flowing Freely"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning9.jpg",
-        "alt": "High-Pressure Drain Cleaning - Cleaning-Services Image 9",
-        "title": "High-Pressure Drain Cleaning - Cleaning-Services 9"
+        "alt": "Industrial grade drain jetting equipment UK",
+        "title": "Industrial Drain Jetting UK"
       }
     ],
     "video": "www.youtube.com/watch?v=4p2htIH3NOc"
   },
   "hydro-cloud.co.uk": {
-    "title": "Digital Environmental Management",
-    "text": "Innovative operations platform – powerful digital solution for environmental services with scheduling, compliance tracking and performance analytics!",
+    "title": "Hydro-Cloud: Smart Digital Tools for UK Environmental Services",
+    "text": "Next-level operations platform! Ace digital solution for environmental services: scheduling, compliance & performance analytics.",
     "heroImg": "assets/website-hero-images/pump-station.png",
-    "forYou": "Hydro-Cloud delivers powerful digital solutions specifically engineered for environmental services operations. We understand the complexities of modern environmental management, providing integrated technology that enhances operational control whilst simplifying compliance and reporting. Our complete digital platform covers all aspects of environmental operations management, including job scheduling, resource allocation, mobile workforce management, customer communication, asset tracking, compliance documentation, performance analytics, and management reporting. The system is ideal for businesses managing drainage maintenance, waste collection, liquid waste, cleaning services, and emergency response. Our cloud-based architecture ensures secure access from any location, with role-based permissions controlling information visibility and system functionality. The intuitive interface requires minimal training, allowing rapid deployment and adoption across your organisation. Our mobile applications empower field operatives with real-time job information, digital forms, customer details, asset data, and communication tools, eliminating paperwork and improving service delivery. The customer portal provides service transparency with job tracking, history access, documentation, and communication capabilities, enhancing client satisfaction. Our comprehensive reporting suite delivers operational insights across KPIs including job completion, resource utilisation, compliance status, and financial performance, supporting strategic decision-making. From small specialist operators to large environmental service groups, Hydro-Cloud provides the digital platform to streamline operations, ensure compliance, and optimise performance.",
+    "forYou": "Juggling environmental services in the UK? Hydro-Cloud is your digital command centre! We’ve built a powerful, easy-to-use platform that simplifies everything from job scheduling and managing your mobile workforce to keeping on top of compliance and seeing how your business is truly performing. Think less paperwork, more efficiency, and smarter decisions for your drainage, waste, or cleaning operations. It’s environmental management, but turbocharged!",
     "services": [
       {
-        "title": "Digital Job & Asset Management",
-        "desc": "Comprehensive scheduling, job allocation, and asset tracking system.",
+        "title": "Digital Job & Asset Genius",
+        "desc": "Smart scheduling, job tracking & asset management.",
         "icon": "fa-solid fa-calendar-days"
       },
       {
-        "title": "Mobile Workforce Solutions",
-        "desc": "Field-based applications empowering operational teams with real-time data.",
+        "title": "Mobile Workforce Magic",
+        "desc": "Apps empowering your field teams with real-time info.",
         "icon": "fa-solid fa-mobile-screen-button"
       },
       {
-        "title": "Automated Compliance Documentation",
-        "desc": "Digital capture, storage, and management of regulatory information.",
+        "title": "Compliance Paperwork, Automated!",
+        "desc": "Digital capture & management of all that vital regulatory stuff.",
         "icon": "fa-solid fa-clipboard-check"
       },
       {
-        "title": "Performance & Sustainability Analytics",
-        "desc": "Comprehensive reporting and operational insights to drive efficiency.",
+        "title": "Performance & Green Insights",
+        "desc": "Brilliant reports & insights to boost your efficiency.",
         "icon": "fa-solid fa-chart-simple"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning1.jpg",
-        "alt": "Digital Environmental Management - Cleaning-Services Image 1",
-        "title": "Digital Environmental Management - Cleaning-Services 1"
+        "alt": "Hydro-Cloud digital environmental management UK",
+        "title": "Digital Environmental Management - Hydro-Cloud UK"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning2.jpg",
-        "alt": "Digital Environmental Management - Cleaning-Services Image 2",
-        "title": "Digital Environmental Management - Cleaning-Services 2"
+        "alt": "Environmental services operations platform Hydro-Cloud",
+        "title": "Environmental Services Platform - Hydro-Cloud"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning3.jpg",
-        "alt": "Digital Environmental Management - Cleaning-Services Image 3",
-        "title": "Digital Environmental Management - Cleaning-Services 3"
+        "alt": "Job scheduling software Hydro-Cloud co uk",
+        "title": "Job Scheduling Software - Hydro-Cloud"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning4.jpg",
-        "alt": "Digital Environmental Management - Cleaning-Services Image 4",
-        "title": "Digital Environmental Management - Cleaning-Services 4"
+        "alt": "Mobile workforce management Hydro-Cloud",
+        "title": "Mobile Workforce Management - Hydro-Cloud"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning5.jpg",
-        "alt": "Digital Environmental Management - Cleaning-Services Image 5",
-        "title": "Digital Environmental Management - Cleaning-Services 5"
+        "alt": "Compliance tracking for environmental services UK",
+        "title": "Environmental Compliance Tracking UK"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning6.jpg",
-        "alt": "Digital Environmental Management - Cleaning-Services Image 6",
-        "title": "Digital Environmental Management - Cleaning-Services 6"
+        "alt": "Performance analytics Hydro-Cloud co uk",
+        "title": "Performance Analytics - Hydro-Cloud"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning7.jpg",
-        "alt": "Digital Environmental Management - Cleaning-Services Image 7",
-        "title": "Digital Environmental Management - Cleaning-Services 7"
+        "alt": "Digital solutions for waste management Hydro-Cloud",
+        "title": "Digital Waste Management Solutions"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning8.jpg",
-        "alt": "Digital Environmental Management - Cleaning-Services Image 8",
-        "title": "Digital Environmental Management - Cleaning-Services 8"
+        "alt": "Streamlining environmental operations UK",
+        "title": "Streamlining UK Environmental Operations"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning9.jpg",
-        "alt": "Digital Environmental Management - Cleaning-Services Image 9",
-        "title": "Digital Environmental Management - Cleaning-Services 9"
+        "alt": "Hydro-Cloud empowering environmental businesses",
+        "title": "Empowering Environmental Businesses - Hydro-Cloud"
       }
     ],
     "video": "www.youtube.com/watch?v=M2eBeHSSKHM"
   },
   "hydrocleansing.co": {
-    "title": "National Drainage Specialists",
-    "text": "Complete environmental solutions – nationwide emergency response, drain maintenance, waste management and CCTV surveys with 24/7 service!",
+    "title": "HydroCleansing: Nationwide UK Drainage & Environmental Pros",
+    "text": "Total environmental solutions! UK-wide 24/7 emergency response, drain care, waste management & CCTV surveys. Job done!",
     "heroImg": "assets/website-hero-images/liquid-waste.png",
-    "forYou": "HydroCleansing offers professional environmental and drainage services for clients who demand reliable and efficient solutions nationwide. We understand the critical importance of maintaining clean and functional infrastructure, delivering specialised services that ensure operational continuity and environmental compliance. Our extensive service range covers all aspects of drainage and environmental needs, from emergency drain unblocking and high-pressure water jetting to advanced CCTV drain inspections, drain repairs, and comprehensive liquid waste management. We serve commercial, industrial, and public sector clients with tailored solutions. Our 24/7 emergency response capability ensures rapid deployment to urgent situations anywhere in the UK, minimising downtime and preventing further damage. Our modern fleet includes state-of-the-art jetting units, CCTV survey vehicles, vacuum tankers, recycling units, and confined space equipment, providing the technical capability for any environmental challenge. Our skilled team comprises drainage engineers, environmental technicians, confined space specialists, project managers, and compliance experts who deliver professional service and technical excellence. We work across diverse sectors including commercial property, industrial sites, utilities, construction, and public infrastructure, adapting our approach to each client's specific requirements. All our operations comply with environmental regulations and industry standards, with comprehensive documentation evidencing proper waste handling and disposal. From one-off emergency responses to planned maintenance contracts, HydroCleansing provides the nationwide service to maintain critical infrastructure and protect the environment.",
+    "forYou": "Need top-tier environmental and drainage services anywhere in the UK? HydroCleansing.co is your national champion! We deliver reliable, efficient solutions around the clock, from emergency drain unblocking and high-tech CCTV inspections to comprehensive liquid waste management. Whether you're commercial, industrial, or public sector, our expert teams and state-of-the-art fleet are ready 24/7 to keep your infrastructure sound and the environment protected. We're geared up for any challenge, nationwide!",
     "services": [
       {
-        "title": "Nationwide Drain Cleaning & Unblocking",
-        "desc": "Professional clearance of all drainage system blockages across the UK.",
+        "title": "UK-Wide Drain Unblocking",
+        "desc": "Pro clearance of any drainage blockage, anywhere in the UK.",
         "icon": "fa-solid fa-faucet-drip"
       },
       {
-        "title": "Advanced CCTV Drain Surveys",
-        "desc": "Detailed inspection and accurate reporting for all types of drainage networks.",
+        "title": "Advanced CCTV Drain Checks",
+        "desc": "Detailed drain inspections & spot-on reports, UK-wide.",
         "icon": "fa-solid fa-camera"
       },
       {
-        "title": "Liquid Waste Management Services",
-        "desc": "Safe collection, treatment, and compliant disposal of various waste liquids.",
+        "title": "Liquid Waste Management UK",
+        "desc": "Safe collection, treatment & compliant disposal, nationwide.",
         "icon": "fa-solid fa-truck-droplet"
       },
       {
-        "title": "24/7 UK Emergency Response",
-        "desc": "Rapid, round-the-clock assistance for urgent drainage and environmental issues.",
+        "title": "24/7 UK Emergency Heroes",
+        "desc": "Rapid, round-the-clock help for urgent eco & drain issues.",
         "icon": "fa-solid fa-triangle-exclamation"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/CCTV-Inspection/cctv1.jpg",
-        "alt": "National Drainage Specialists - CCTV-Inspection Image 1",
-        "title": "National Drainage Specialists - CCTV-Inspection 1"
+        "alt": "HydroCleansing national drainage specialists UK CCTV",
+        "title": "National Drainage Specialists UK - HydroCleansing"
       },
       {
         "src": "assets/Website-Service-Images/CCTV-Inspection/cctv2.jpg",
-        "alt": "National Drainage Specialists - CCTV-Inspection Image 2",
-        "title": "National Drainage Specialists - CCTV-Inspection 2"
+        "alt": "Nationwide drain cleaning HydroCleansing co",
+        "title": "Nationwide Drain Cleaning - HydroCleansing"
       },
       {
         "src": "assets/Website-Service-Images/CCTV-Inspection/cctv3.jpg",
-        "alt": "National Drainage Specialists - CCTV-Inspection Image 3",
-        "title": "National Drainage Specialists - CCTV-Inspection 3"
+        "alt": "Advanced CCTV drain surveys UK HydroCleansing",
+        "title": "Advanced UK CCTV Drain Surveys"
       },
       {
         "src": "assets/Website-Service-Images/CCTV-Inspection/cctv4.jpg",
-        "alt": "National Drainage Specialists - CCTV-Inspection Image 4",
-        "title": "National Drainage Specialists - CCTV-Inspection 4"
+        "alt": "Liquid waste management services UK HydroCleansing",
+        "title": "UK Liquid Waste Management Services"
       },
       {
         "src": "assets/Website-Service-Images/CCTV-Inspection/cctv5.jpg",
-        "alt": "National Drainage Specialists - CCTV-Inspection Image 5",
-        "title": "National Drainage Specialists - CCTV-Inspection 5"
+        "alt": "24/7 emergency environmental response UK",
+        "title": "24/7 UK Emergency Environmental Response"
       },
       {
         "src": "assets/Website-Service-Images/CCTV-Inspection/cctv6.jpg",
-        "alt": "National Drainage Specialists - CCTV-Inspection Image 6",
-        "title": "National Drainage Specialists - CCTV-Inspection 6"
+        "alt": "HydroCleansing CCTV inspection vehicle UK",
+        "title": "HydroCleansing UK CCTV Inspection Vehicle"
       },
       {
         "src": "assets/Website-Service-Images/CCTV-Inspection/cctv7.jpg",
-        "alt": "National Drainage Specialists - CCTV-Inspection Image 7",
-        "title": "National Drainage Specialists - CCTV-Inspection 7"
+        "alt": "Comprehensive environmental solutions UK",
+        "title": "Comprehensive UK Environmental Solutions"
       },
       {
         "src": "assets/Website-Service-Images/CCTV-Inspection/cctv8.jpg",
-        "alt": "National Drainage Specialists - CCTV-Inspection Image 8",
-        "title": "National Drainage Specialists - CCTV-Inspection 8"
+        "alt": "Expert drainage services nationwide HydroCleansing",
+        "title": "Nationwide Expert Drainage Services"
       },
       {
         "src": "assets/Website-Service-Images/CCTV-Inspection/cctv9.jpg",
-        "alt": "National Drainage Specialists - CCTV-Inspection Image 9",
-        "title": "National Drainage Specialists - CCTV-Inspection 9"
+        "alt": "HydroCleansing maintaining UK infrastructure",
+        "title": "Maintaining UK Infrastructure - HydroCleansing"
       }
     ],
     "video": "www.youtube.com/watch?v=M2eBeHSSKHM"
   },
   "hydrocleansing.net": {
-    "title": "HydroCleansing Network - Advanced Environmental Drainage Solutions",
-    "text": "A network of advanced drainage and environmental solutions operating across the UK. Our specialist teams deliver expert services including high-pressure water jetting, CCTV inspections, complex waste removal, and emergency response utilising bespoke equipment.",
+    "title": "HydroCleansing Network: Advanced UK Environmental Drainage",
+    "text": "UK network of elite drainage & environmental solutions! Expert jetting, CCTV, complex waste removal & emergency response with bespoke kit.",
     "heroImg": "assets/website-hero-images/liquid-waste.png",
-    "forYou": "The HydroCleansing Network provides specialist drainage and environmental services with an emphasis on technical excellence and highly effective solutions. We understand the critical nature of robust drainage infrastructure, offering advanced services that resolve current issues comprehensively whilst proactively preventing future problems. Our service range includes high-pressure water jetting, advanced CCTV drain surveys with laser profiling, no-dig drain rehabilitation and pipe relining, complex liquid waste collection, interceptor cleaning and maintenance, flood management, and pollution control.",
+    "forYou": "Welcome to the HydroCleansing Network, where cutting-edge technology meets drainage and environmental expertise right across the UK! We're all about delivering technically brilliant solutions that not only fix today's problems but stop tomorrow's in their tracks. From super-powered water jetting and intricate CCTV surveys with laser profiling to no-dig drain repairs and managing complex waste, our specialist teams are kitted out to handle the toughest environmental challenges with finesse.",
     "services": [
       {
-        "title": "High-Pressure Water Jetting & Cleaning",
-        "desc": "Professional drain cleaning and surface preparation using advanced jetting equipment.",
+        "title": "Pro Water Jetting & Cleaning",
+        "desc": "Top-drawer drain cleaning & surface prep with advanced jetting.",
         "icon": "fa-solid fa-water"
       },
       {
-        "title": "Technical CCTV Inspections & Diagnostics",
-        "desc": "Detailed diagnostic surveys with comprehensive video and written reporting.",
+        "title": "Hi-Tech CCTV Diagnostics",
+        "desc": "Detailed diagnostic surveys with full video & written reports.",
         "icon": "fa-solid fa-video"
       },
       {
-        "title": "No-Dig Drain Rehabilitation",
-        "desc": "Specialist trenchless repairs including structural pipe relining technology.",
+        "title": "No-Dig Drain Rehab Masters",
+        "desc": "Clever trenchless repairs, including structural pipe relining.",
         "icon": "fa-solid fa-wrench"
       },
       {
-        "title": "Environmental Protection & Pollution Control",
-        "desc": "Specialist services to prevent, manage, and remediate pollution incidents.",
+        "title": "Eco-Warriors: Pollution Control",
+        "desc": "Specialist services to prevent, manage & sort pollution incidents.",
         "icon": "fa-solid fa-shield-halved"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning1.jpg",
-        "alt": "HydroCleansing Network - Advanced Environmental Drainage Solutions - Cleaning-Services Image 1",
-        "title": "HydroCleansing Network - Advanced Environmental Drainage Solutions - Cleaning-Services 1"
+        "alt": "HydroCleansing Network advanced environmental solutions UK",
+        "title": "Advanced Environmental Solutions - HydroCleansing Network"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning2.jpg",
-        "alt": "HydroCleansing Network - Advanced Environmental Drainage Solutions - Cleaning-Services Image 2",
-        "title": "HydroCleansing Network - Advanced Environmental Drainage Solutions - Cleaning-Services 2"
+        "alt": "High-pressure water jetting HydroCleansing net",
+        "title": "High-Pressure Water Jetting - HydroCleansing.net"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning3.jpg",
-        "alt": "HydroCleansing Network - Advanced Environmental Drainage Solutions - Cleaning-Services Image 3",
-        "title": "HydroCleansing Network - Advanced Environmental Drainage Solutions - Cleaning-Services 3"
+        "alt": "Technical CCTV inspections UK HydroCleansing Network",
+        "title": "Technical UK CCTV Inspections"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning4.jpg",
-        "alt": "HydroCleansing Network - Advanced Environmental Drainage Solutions - Cleaning-Services Image 4",
-        "title": "HydroCleansing Network - Advanced Environmental Drainage Solutions - Cleaning-Services 4"
+        "alt": "No-dig drain rehabilitation HydroCleansing net",
+        "title": "No-Dig Drain Rehabilitation UK"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning5.jpg",
-        "alt": "HydroCleansing Network - Advanced Environmental Drainage Solutions - Cleaning-Services Image 5",
-        "title": "HydroCleansing Network - Advanced Environmental Drainage Solutions - Cleaning-Services 5"
+        "alt": "Environmental protection services UK",
+        "title": "UK Environmental Protection Services"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning6.jpg",
-        "alt": "HydroCleansing Network - Advanced Environmental Drainage Solutions - Cleaning-Services Image 6",
-        "title": "HydroCleansing Network - Advanced Environmental Drainage Solutions - Cleaning-Services 6"
+        "alt": "Complex waste removal HydroCleansing Network",
+        "title": "Complex Waste Removal - HydroCleansing Network"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning7.jpg",
-        "alt": "HydroCleansing Network - Advanced Environmental Drainage Solutions - Cleaning-Services Image 7",
-        "title": "HydroCleansing Network - Advanced Environmental Drainage Solutions - Cleaning-Services 7"
+        "alt": "Emergency response drainage solutions UK",
+        "title": "Emergency Drainage Solutions UK"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning8.jpg",
-        "alt": "HydroCleansing Network - Advanced Environmental Drainage Solutions - Cleaning-Services Image 8",
-        "title": "HydroCleansing Network - Advanced Environmental Drainage Solutions - Cleaning-Services 8"
+        "alt": "Specialist drainage teams HydroCleansing net",
+        "title": "Specialist Drainage Teams - HydroCleansing.net"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning9.jpg",
-        "alt": "HydroCleansing Network - Advanced Environmental Drainage Solutions - Cleaning-Services Image 9",
-        "title": "HydroCleansing Network - Advanced Environmental Drainage Solutions - Cleaning-Services 9"
+        "alt": "Bespoke environmental equipment UK HydroCleansing",
+        "title": "Bespoke UK Environmental Equipment"
       }
     ],
     "video": "www.youtube.com/watch?v=4p2htIH3NOc"
   },
   "hydrosoftweb.co.uk": {
-    "title": "HydroSoft Web - Digital Solutions for Water & Environmental Management",
-    "text": "Advanced digital software solutions for water and environmental management. Our specialist UK-based platform provides comprehensive monitoring, control systems, and data analytics for water treatment, distribution, and environmental compliance.",
+    "title": "HydroSoft Web: UK Digital Water & Environmental Software",
+    "text": "Smart digital software for UK water & environmental management! Monitoring, control systems & data analytics for treatment, distribution & compliance.",
     "heroImg": "assets/website-hero-images/pump-station.png",
-    "forYou": "HydroSoft Web delivers innovative digital solutions meticulously designed for the UK water and environmental management sector. We understand the intricate complexities of modern water systems, providing integrated technology that enhances operational control whilst ensuring quality, efficiency, and strict compliance with UK regulations. Our platform covers real-time monitoring, treatment process control, distribution network management, water quality analysis, consumption tracking, and environmental compliance reporting.",
+    "forYou": "Managing water and environmental systems in the UK is a complex business, right? HydroSoft Web is here with innovative digital solutions designed just for you. Our specialist UK-based platform gives you powerful tools for real-time monitoring, slick control over water treatment processes, efficient distribution network management, and spot-on data analytics. Stay compliant, boost efficiency, and make smarter decisions with HydroSoft Web – it’s water management, evolved!",
     "services": [
       {
-        "title": "Real-Time Water System Monitoring",
-        "desc": "Continuous digital oversight of water systems, quality, and parameters.",
+        "title": "Real-Time Water Monitoring",
+        "desc": "Continuous digital watch over your water systems & quality.",
         "icon": "fa-solid fa-wave-square"
       },
       {
-        "title": "Water Treatment Process Control",
-        "desc": "Integrated digital management and optimisation of water treatment operations.",
+        "title": "Smart Water Treatment Control",
+        "desc": "Digital management & optimisation of water treatment.",
         "icon": "fa-solid fa-sliders"
       },
       {
-        "title": "UK Compliance Management",
-        "desc": "Automated monitoring and reporting tailored for UK regulatory requirements.",
+        "title": "UK Compliance Sorted, Digitally",
+        "desc": "Automated monitoring & reporting for UK water regs.",
         "icon": "fa-solid fa-file-shield"
       },
       {
-        "title": "Advanced Water Data Analytics",
-        "desc": "Comprehensive data analysis for operational optimisation and predictive maintenance.",
+        "title": "Ace Water Data Analytics",
+        "desc": "Deep data insights for better ops & predictive maintenance.",
         "icon": "fa-solid fa-chart-pie"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-1.jpg",
-        "alt": "HydroSoft Web - Digital Solutions for Water & Environmental Management - Pump-Station Image 1",
-        "title": "HydroSoft Web - Digital Solutions for Water & Environmental Management - Pump-Station 1"
+        "alt": "HydroSoft Web digital solutions water management UK pump station",
+        "title": "Digital Water Management UK - HydroSoft Web"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-2.jpg",
-        "alt": "HydroSoft Web - Digital Solutions for Water & Environmental Management - Pump-Station Image 2",
-        "title": "HydroSoft Web - Digital Solutions for Water & Environmental Management - Pump-Station 2"
+        "alt": "Environmental management software HydroSoft Web co uk",
+        "title": "Environmental Management Software UK"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-3.jpg",
-        "alt": "HydroSoft Web - Digital Solutions for Water & Environmental Management - Pump-Station Image 3",
-        "title": "HydroSoft Web - Digital Solutions for Water & Environmental Management - Pump-Station 3"
+        "alt": "Real-time water system monitoring UK pump station",
+        "title": "Real-Time Water Monitoring UK"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-4.jpg",
-        "alt": "HydroSoft Web - Digital Solutions for Water & Environmental Management - Pump-Station Image 4",
-        "title": "HydroSoft Web - Digital Solutions for Water & Environmental Management - Pump-Station 4"
+        "alt": "Water treatment process control software HydroSoft Web",
+        "title": "Water Treatment Control Software"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-5.jpg",
-        "alt": "HydroSoft Web - Digital Solutions for Water & Environmental Management - Pump-Station Image 5",
-        "title": "HydroSoft Web - Digital Solutions for Water & Environmental Management - Pump-Station 5"
+        "alt": "UK water compliance management HydroSoft pump station",
+        "title": "UK Water Compliance Management"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-6.jpg",
-        "alt": "HydroSoft Web - Digital Solutions for Water & Environmental Management - Pump-Station Image 6",
-        "title": "HydroSoft Web - Digital Solutions for Water & Environmental Management - Pump-Station 6"
+        "alt": "Advanced water data analytics HydroSoft Web co uk",
+        "title": "Advanced Water Data Analytics UK"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-7.jpg",
-        "alt": "HydroSoft Web - Digital Solutions for Water & Environmental Management - Pump-Station Image 7",
-        "title": "HydroSoft Web - Digital Solutions for Water & Environmental Management - Pump-Station 7"
+        "alt": "Water distribution software UK HydroSoft pump station",
+        "title": "Water Distribution Software UK"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-8.jpg",
-        "alt": "HydroSoft Web - Digital Solutions for Water & Environmental Management - Pump-Station Image 8",
-        "title": "HydroSoft Web - Digital Solutions for Water & Environmental Management - Pump-Station 8"
+        "alt": "Innovative digital solutions for water HydroSoft Web",
+        "title": "Innovative Digital Water Solutions"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-9.jpg",
-        "alt": "HydroSoft Web - Digital Solutions for Water & Environmental Management - Pump-Station Image 9",
-        "title": "HydroSoft Web - Digital Solutions for Water & Environmental Management - Pump-Station 9"
+        "alt": "HydroSoft Web pump station monitoring solutions UK",
+        "title": "UK Pump Station Monitoring Solutions"
       }
     ],
     "video": "www.youtube.com/watch?v=M2eBeHSSKHM"
   },
   "hydrosoftweb.uk": {
-    "title": "HydroSoft UK - Environmental Operations Management Systems",
-    "text": "Specialist UK-focused digital solutions for environmental operations. Our bespoke software provides comprehensive management tools for drainage, water, waste, and general environmental services companies across the United Kingdom.",
+    "title": "HydroSoft UK: Top Environmental Ops Management Systems",
+    "text": "Ace UK-focused digital tools for environmental ops! Bespoke software for drainage, water, waste & general environmental services firms.",
     "heroImg": "assets/website-hero-images/pump-station.png",
-    "forYou": "HydroSoft UK delivers tailored digital systems for UK environmental service providers striving for operational excellence. We understand the unique demands of UK environmental businesses, providing specialised software that enhances efficiency, ensures robust compliance, and elevates customer service standards. Our platform integrates job scheduling, resource allocation, customer relationship management, field operations, asset tracking, digital compliance documentation, invoicing, and powerful business analytics.",
+    "forYou": "Running an environmental services business in the UK? HydroSoft UK crafts digital systems that are perfectly tailored to help you shine. We get the unique challenges you face, so our software is built to boost your efficiency, keep you bang up-to-date with compliance, and help you deliver amazing customer service. From smart job scheduling and field team management to digital paperwork and powerful business insights, we've got your back!",
     "services": [
       {
-        "title": "UK Environmental Ops Management",
-        "desc": "Comprehensive job scheduling, CRM, and resource allocation for UK firms.",
+        "title": "UK Environmental Ops Ace",
+        "desc": "Full job scheduling, CRM & resource management for UK firms.",
         "icon": "fa-solid fa-list-check"
       },
       {
-        "title": "Field Service Mobile Applications",
-        "desc": "Mobile solutions designed for UK environmental service field teams.",
+        "title": "Field Service Mobile Apps",
+        "desc": "Handy mobile tools for your UK environmental field teams.",
         "icon": "fa-solid fa-tablet-screen-button"
       },
       {
-        "title": "Digital Document & Compliance",
-        "desc": "UK-compliant digital forms, document processing, and storage systems.",
+        "title": "Digital Docs & Compliance",
+        "desc": "UK-compliant digital forms, paperwork & storage. Sorted!",
         "icon": "fa-solid fa-file-lines"
       },
       {
-        "title": "Business Intelligence & Reporting",
-        "desc": "Advanced UK-focused reporting and operational analytics tools.",
+        "title": "Business Brains & Reports",
+        "desc": "Clever UK-focused reporting & operational analytics.",
         "icon": "fa-solid fa-magnifying-glass-chart"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning1.jpg",
-        "alt": "HydroSoft UK - Environmental Operations Management Systems - Cleaning-Services Image 1",
-        "title": "HydroSoft UK - Environmental Operations Management Systems - Cleaning-Services 1"
+        "alt": "HydroSoft UK environmental operations management systems",
+        "title": "Environmental Ops Management UK - HydroSoft"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning2.jpg",
-        "alt": "HydroSoft UK - Environmental Operations Management Systems - Cleaning-Services Image 2",
-        "title": "HydroSoft UK - Environmental Operations Management Systems - Cleaning-Services 2"
+        "alt": "Digital solutions for UK environmental services HydroSoft",
+        "title": "Digital Solutions for UK Environmental Services"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning3.jpg",
-        "alt": "HydroSoft UK - Environmental Operations Management Systems - Cleaning-Services Image 3",
-        "title": "HydroSoft UK - Environmental Operations Management Systems - Cleaning-Services 3"
+        "alt": "Bespoke software for UK drainage companies HydroSoft",
+        "title": "Software for UK Drainage Companies"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning4.jpg",
-        "alt": "HydroSoft UK - Environmental Operations Management Systems - Cleaning-Services Image 4",
-        "title": "HydroSoft UK - Environmental Operations Management Systems - Cleaning-Services 4"
+        "alt": "Waste management software UK HydroSoft web uk",
+        "title": "UK Waste Management Software"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning5.jpg",
-        "alt": "HydroSoft UK - Environmental Operations Management Systems - Cleaning-Services Image 5",
-        "title": "HydroSoft UK - Environmental Operations Management Systems - Cleaning-Services 5"
+        "alt": "Field service mobile applications UK HydroSoft",
+        "title": "UK Field Service Mobile Apps"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning6.jpg",
-        "alt": "HydroSoft UK - Environmental Operations Management Systems - Cleaning-Services Image 6",
-        "title": "HydroSoft UK - Environmental Operations Management Systems - Cleaning-Services 6"
+        "alt": "Digital compliance documentation UK HydroSoft web uk",
+        "title": "Digital Compliance Documentation UK"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning7.jpg",
-        "alt": "HydroSoft UK - Environmental Operations Management Systems - Cleaning-Services Image 7",
-        "title": "HydroSoft UK - Environmental Operations Management Systems - Cleaning-Services 7"
+        "alt": "Business intelligence for environmental firms UK",
+        "title": "Business Intelligence for UK Environmental Firms"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning8.jpg",
-        "alt": "HydroSoft UK - Environmental Operations Management Systems - Cleaning-Services Image 8",
-        "title": "HydroSoft UK - Environmental Operations Management Systems - Cleaning-Services 8"
+        "alt": "HydroSoft UK tailored digital systems for environmental ops",
+        "title": "Tailored Digital Systems for UK Environmental Ops"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning9.jpg",
-        "alt": "HydroSoft UK - Environmental Operations Management Systems - Cleaning-Services Image 9",
-        "title": "HydroSoft UK - Environmental Operations Management Systems - Cleaning-Services 9"
+        "alt": "Boosting efficiency for UK environmental businesses HydroSoft",
+        "title": "Boosting Efficiency for UK Environmental Businesses"
       }
     ],
     "video": "www.youtube.com/watch?v=M2eBeHSSKHM"
   }
 }
+
+////DONE
