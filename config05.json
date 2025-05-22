@@ -1,28 +1,28 @@
 {
   "interceptorcleaning.co.uk": {
-    "title": "Professional Interceptor Cleaning",
-    "text": "Prevent pollution and stay compliant with our expert interceptor cleaning service across the UK!",
-    "forYou": "Maintain environmental compliance and prevent costly pollution incidents with our specialist interceptor cleaning service. We provide thorough emptying and cleaning of all types of interceptors, including oil/water separators on forecourts and car parks, grease traps in commercial kitchens, and silt traps in industrial settings. Our powerful vacuum tankers remove accumulated oil, grease, silt and contaminants, while high-pressure jetting cleans internal surfaces and baffles to restore full operational efficiency. We offer scheduled maintenance plans tailored to your site's specific usage, ensuring your interceptors continue to function correctly and meet environmental regulations. Regular professional cleaning prevents blockages, overflow incidents and potential fines, while our waste analysis and licensed disposal ensures complete compliance. For any site with interceptors, our specialist service provides essential maintenance that protects both your business and the environment.",
+    "title": "Expert Interceptor Cleaning UK | Stay Clean & Compliant!",
+    "text": "Keep your site pollution-free with top-notch interceptor cleaning across the UK. We make compliance easy!",
+    "forYou": "Worried about environmental rules or nasty pollution fines? Our expert interceptor cleaning service is just what you need! We tackle all sorts of interceptors – from oily ones on forecourts and car parks, to greasy kitchen traps, and silty industrial units. Our mega-powerful vacuum tankers suck out all the gunk (oil, grease, silt, you name it!), and then our high-pressure jets give the insides a proper scrub. We'll even set up a maintenance plan just for you, so your interceptors keep working like a dream and you stay on the right side of the law. Clean interceptors mean no blockages, no overflows, and no hefty fines. Plus, we handle all the waste analysis and disposal properly. It’s all about protecting your business and our lovely planet!",
     "heroImg": "assets/website-hero-images/liquid-waste.png",
     "services": [
       {
-        "title": "Oil/Water Separator Cleaning",
-        "desc": "Thorough cleaning and emptying of oil interceptors to maintain efficiency.",
+        "title": "Oil & Water Separator TLC",
+        "desc": "We’ll give your oil interceptors a thorough clean-out to keep them running smoothly.",
         "icon": "fa-solid fa-oil-can"
       },
       {
-        "title": "Grease Trap Emptying & Cleaning",
-        "desc": "Regular emptying and cleaning of grease traps for commercial kitchens and food outlets.",
+        "title": "Grease Trap Blitz!",
+        "desc": "Regular emptying and sprucing up for commercial kitchen and food outlet grease traps.",
         "icon": "fa-solid fa-utensils"
       },
       {
-        "title": "Waste Analysis & Disposal",
-        "desc": "Sampling, analysis, and licensed disposal of interceptor waste.",
-        "icon": "fa-solid fa-flask"
+        "title": "Waste Sorted & Disposed",
+        "desc": "Proper sampling, analysis, and licensed disposal of all that interceptor yuck.",
+        "icon": "fa-solid fa-flask-vial"
       },
       {
-        "title": "Compliance Maintenance Plans",
-        "desc": "Scheduled cleaning programmes to meet environmental regulations and prevent blockages.",
+        "title": "Stay Compliant Plans",
+        "desc": "Scheduled cleaning to keep you green, meet regs, and stop blockages in their tracks.",
         "icon": "fa-solid fa-clipboard-check"
       }
     ],
@@ -76,30 +76,30 @@
     "video": "www.youtube.com/watch?v=EgXahIFszfE"
   },
   "interceptorcleaning.uk": {
-    "title": "UK-Wide Interceptor Services",
-    "text": "Expert nationwide interceptor cleaning for all types of oil separators and grease traps across the UK!",
-    "forYou": "Access professional interceptor and grease trap cleaning services throughout the United Kingdom with our nationwide coverage. We maintain a network of specialist technicians and equipment capable of cleaning all types of interceptors, from forecourt separators and car park interceptors to industrial units and commercial kitchen grease traps. Our comprehensive service combines powerful vacuum tankers for efficient waste removal with high-pressure water jetting to thoroughly clean internal components, ensuring maximum operational efficiency is restored. This dual approach delivers superior results compared to basic emptying services, helping you maintain full environmental compliance with all relevant regulations. For businesses, local authorities and facilities managers requiring consistent, professional interceptor maintenance across multiple sites or regions, our UK-wide service provides reliable, compliant solutions wherever your facilities are located.",
+    "title": "Nationwide Interceptor Cleaning | UK Experts You Can Trust!",
+    "text": "From Land's End to John O'Groats, we clean all oil separators & grease traps. Total UK coverage!",
+    "forYou": "Got interceptors or grease traps needing a bit of love, anywhere in the UK? You're in the right place! Our professional cleaning services span the entire United Kingdom. We've got a cracking team of technicians and all the right kit to tackle any interceptor – whether it's on a forecourt, in a car park, at an industrial site, or a commercial kitchen. We don’t just empty them; our powerful vacuum tankers and high-pressure water jets give everything a proper deep clean, making sure they work efficiently and keep you compliant. It's a top-notch service that goes way beyond a basic empty. So, if you manage multiple sites or just need reliable interceptor care, give us a shout!",
     "hercoImg": "assets/website-hero-images/liquid-waste.png",
     "services": [
       {
-        "title": "Nationwide Coverage",
-        "desc": "Providing interceptor and grease trap cleaning throughout the United Kingdom.",
-        "icon": "fa-solid fa-map"
+        "title": "Covering Every Corner (UK)",
+        "desc": "Top-notch interceptor and grease trap cleaning, no matter where you are in the UK.",
+        "icon": "fa-solid fa-map-location-dot"
       },
       {
-        "title": "All Types of Interceptors",
-        "desc": "Cleaning forecourt interceptors, car park separators, wash bay interceptors, etc.",
-        "icon": "fa-solid fa-car-burst"
+        "title": "Any Interceptor, Any Place",
+        "desc": "We clean 'em all: forecourt, car park, wash bay interceptors – you name it!",
+        "icon": "fa-solid fa-industry"
       },
       {
-        "title": "High-Pressure Jetting",
-        "desc": "Using jetting alongside vacuumation for a thorough interceptor clean.",
+        "title": "Power Jetting Power Clean",
+        "desc": "Our high-pressure jetting plus vacuumation means a seriously thorough clean.",
         "icon": "fa-solid fa-water"
       },
       {
-        "title": "Environmental Compliance",
-        "desc": "Helping businesses meet their legal obligations for interceptor maintenance.",
-        "icon": "fa-solid fa-scale-balanced"
+        "title": "Keeping You Green & Legal",
+        "desc": "Helping businesses across the UK nail their environmental duties for interceptors.",
+        "icon": "fa-solid fa-shield-halved"
       }
     ],
     "gallery": [
@@ -152,29 +152,29 @@
     "video": "www.youtube.com/watch?v=EgXahIFszfE"
   },
   "interceptorwaste.uk": {
-    "title": "Licensed Interceptor Waste Disposal",
-    "text": "Complete, compliant management of interceptor waste from collection to responsible processing nationwide!",
-    "forYou": "Ensure fully compliant disposal of interceptor waste anywhere in the UK with our specialized management service. As licensed waste carriers, we provide comprehensive handling of all waste types collected from interceptors and grease traps, including oils, fuels, silt, greases, and contaminated water. Our service covers the entire process from collection using appropriate vacuum tankers through to transportation and processing at our licensed treatment facility. We separate oils, water and solids for optimal resource recovery and minimized environmental impact, providing complete waste transfer documentation for your compliance records. For businesses operating across multiple UK locations, our nationwide service ensures consistent, compliant interceptor waste management that adheres to all environmental regulations while following industry best practices for sustainable disposal.",
+    "title": "UK Licensed Interceptor Waste Disposal | Sorted Responsibly!",
+    "text": "Got interceptor waste? We collect, treat, and dispose of it compliantly, all across the UK. Easy peasy!",
+    "forYou": "Need to get rid of interceptor waste the right way, anywhere in the UK? We've got you covered! As fully licensed waste carriers, we handle all the mucky stuff from your interceptors and grease traps – oils, fuels, silt, grease, contaminated water, the lot. We’ll collect it with our specialist tankers, whisk it away, and process it at our own licensed treatment facility. There, we separate everything out to recover what we can and keep the environmental impact super low. You’ll get all the proper paperwork (waste transfer notes) for your records too, so you know you’re compliant. Perfect for businesses with sites all over the UK needing a reliable, green solution for their interceptor waste!",
     "heroImg": "assets/website-hero-images/liquid-waste.png",
     "services": [
       {
-        "title": "Licensed Waste Collection",
-        "desc": "Fully licensed to collect and transport interceptor waste nationally.",
-        "icon": "fa-solid fa-truck-arrow-right"
+        "title": "Licensed Waste Warriors",
+        "desc": "Fully licensed to collect and transport your interceptor waste, nationwide.",
+        "icon": "fa-solid fa-truck-fast"
       },
       {
-        "title": "Treatment & Processing",
-        "desc": "Treating interceptor waste at our licensed facility to separate oil, water, and solids.",
-        "icon": "fa-solid fa-filter-circle-xmark"
+        "title": "Top-Notch Treatment",
+        "desc": "We treat interceptor waste at our facility, separating oil, water, and solids.",
+        "icon": "fa-solid fa-recycle"
       },
       {
-        "title": "Documentation & Compliance",
-        "desc": "Providing complete waste transfer notes for every collection.",
+        "title": "Paperwork Perfect",
+        "desc": "All the waste transfer notes you need for every collection, keeping you compliant.",
         "icon": "fa-solid fa-file-invoice"
       },
       {
-        "title": "Sustainable Waste Handling",
-        "desc": "Adhering to best practices for the sustainable management of interceptor waste.",
+        "title": "Green Waste Handling",
+        "desc": "We stick to best practices for sustainable interceptor waste management. Mother Earth thanks us!",
         "icon": "fa-solid fa-leaf"
       }
     ],
@@ -228,30 +228,30 @@
     "video": "www.youtube.com/watch?v=EgXahIFszfE"
   },
   "sewagedigester.co.uk": {
-    "title": "Anaerobic Digester Maintenance",
-    "text": "Boost biogas production and prevent downtime with our specialist digester cleaning services!",
-    "forYou": "Enhance the operational efficiency of your sewage treatment anaerobic digesters with our specialized maintenance service. We provide expert cleaning of digestion tanks, storage tanks, and post-digestion tanks, removing accumulated sludge, grit and debris that reduce processing capacity and efficiency. Our confined space certified teams safely access and clean tank interiors, while our powerful vacuum equipment and high-pressure water jetting systems restore optimal functionality to pipework and associated infrastructure. Regular professional cleaning and maintenance prevents costly breakdowns, extends equipment lifespan, and maximizes biogas production. For wastewater treatment plants operating anaerobic digestion systems, our specialist service represents essential preventative maintenance that maintains processing capacity, ensures environmental compliance, and optimizes energy generation from your sewage digestion process.",
+    "title": "Anaerobic Digester Cleaning | Max Biogas, Min Downtime!",
+    "text": "Keep your sewage digesters efficient with our specialist cleaning. More biogas, less fuss!",
+    "forYou": "Got an anaerobic digester that's not quite pulling its weight? Our specialist maintenance service will get it back in tip-top shape! We’re experts at cleaning out digestion tanks, storage tanks, and the post-digestion ones too, getting rid of all that built-up sludge, grit, and general gunk that slows things down. Our certified confined-space heroes will safely get inside and give them a proper clean, while our powerful vacuums and jet washers sort out the pipework. Regular TLC from us means fewer breakdowns, a longer life for your kit, and maximum biogas. If you're running AD systems at your wastewater plant, our service is essential for keeping things flowing, compliant, and energy-efficient!",
     "heroImg": "assets/website-hero-images/liquid-waste.png",
     "services": [
       {
-        "title": "Tank Cleaning & Desludging",
-        "desc": "Expert cleaning of storage, digestion, and post-digestion tanks.",
-        "icon": "fa-solid fa-person-digging"
+        "title": "Tank Desludging & Sparkle",
+        "desc": "Expert cleaning for your storage, digestion, and post-digestion tanks. Good as new!",
+        "icon": "fa-solid fa-soap"
       },
       {
-        "title": "Debris & Grit Removal",
-        "desc": "Efficient removal of accumulated solids from digesters.",
-        "icon": "fa-solid fa-bucket"
+        "title": "Grit & Debris Gone!",
+        "desc": "We’ll efficiently remove all those pesky solids slowing your digesters down.",
+        "icon": "fa-solid fa-dumpster"
       },
       {
-        "title": "System Pipework Clearance",
-        "desc": "Cleaning and unblocking pipes in anaerobic digestion systems.",
+        "title": "Pipework Power-Clear",
+        "desc": "Unblocking and cleaning pipes in your AD systems to keep everything flowing.",
         "icon": "fa-solid fa-wrench"
       },
       {
-        "title": "Biogas Production Optimisation",
-        "desc": "Ensuring digesters operate at peak efficiency for maximum output.",
-        "icon": "fa-solid fa-chart-line"
+        "title": "Boost Your Biogas!",
+        "desc": "We ensure your digesters are working at their best for maximum energy output.",
+        "icon": "fa-solid fa-gas-pump"
       }
     ],
     "gallery": [
@@ -304,30 +304,30 @@
     "video": "www.youtube.com/watch?v=M2eBeHSSKHM"
   },
   "sewerdigester.co.uk": {
-    "title": "Integrated Sewer & Digester Services",
-    "text": "Keep your entire wastewater infrastructure operating efficiently with our holistic cleaning approach!",
-    "forYou": "Keep your entire wastewater treatment system operating efficiently with our integrated sewer and digester cleaning service. We specialize in maintaining the interconnected infrastructure of sewer networks and anaerobic digestion plants, providing comprehensive cleaning for both systems with a holistic approach. Our confined space certified teams safely access and clean sewers, digester tanks, and associated pipework, removing silt, debris and blockages to maintain optimal flow and processing capacity. We develop preventative maintenance schedules that address both systems simultaneously, maximizing efficiency and minimizing disruption. For wastewater operators, our combined expertise eliminates the need for multiple contractors while ensuring both your collection network and treatment facilities operate at peak efficiency, preventing costly failures and maintaining environmental compliance throughout your entire wastewater infrastructure.",
+    "title": "Sewer & Digester Cleaning | Joined-Up Wastewater Solutions!",
+    "text": "Total wastewater system care! We clean sewers AND digesters for ultimate efficiency. Smart, eh?",
+    "forYou": "Want your whole wastewater system – sewers, digesters, the lot – running like a well-oiled machine? Our integrated cleaning service is the answer! We're specialists in looking after the linked-up bits of sewer networks and anaerobic digestion plants. Think of us as your one-stop-shop for cleaning both. Our certified confined-space teams will expertly clean out sewers, digester tanks, and all the connecting pipes, zapping silt, debris, and blockages to keep things flowing freely. We’ll even create a preventative maintenance plan that tackles both systems together, saving you hassle and boosting efficiency. No need for multiple contractors – we've got the expertise to keep your entire setup in peak condition, compliant, and problem-free!",
     "heroImg": "assets/website-hero-images/tunnel-cleaning.png",
     "services": [
       {
-        "title": "Holistic System Cleaning",
-        "desc": "Comprehensive cleaning for interconnected sewer and digester systems.",
-        "icon": "fa-solid fa-link"
+        "title": "Whole System Clean-Up",
+        "desc": "One-stop cleaning for your interconnected sewer and digester systems. Joined-up thinking!",
+        "icon": "fa-solid fa-network-wired"
       },
       {
-        "title": "AD Plant Support",
-        "desc": "Specialized cleaning for anaerobic digestion facilities.",
+        "title": "AD Plant Power-Up",
+        "desc": "Specialist cleaning and support for your crucial anaerobic digestion facilities.",
         "icon": "fa-solid fa-industry"
       },
       {
-        "title": "Preventative Maintenance",
-        "desc": "Scheduled cleaning programmes for both digesters and sewers.",
-        "icon": "fa-solid fa-calendar"
+        "title": "Proactive Care Plans",
+        "desc": "Smart scheduled cleaning for digesters and sewers to prevent future headaches.",
+        "icon": "fa-solid fa-calendar-days"
       },
       {
-        "title": "Certified Confined Teams",
-        "desc": "Safe operations within tanks and sewer networks.",
-        "icon": "fa-solid fa-users-gear"
+        "title": "Safe & Certified Crews",
+        "desc": "Our confined space certified teams operate safely in tanks and sewer networks.",
+        "icon": "fa-solid fa-helmet-safety"
       }
     ],
     "gallery": [
@@ -380,30 +380,30 @@
     "video": "www.youtube.com/watch?v=M2eBeHSSKHM"
   },
   "tanker-waste.co.uk": {
-    "title": "Liquid Waste Transport Services",
-    "text": "Powerful vacuum tankers for efficient wet waste collection and transport, available 24/7 across the UK!",
-    "forYou": "Access comprehensive liquid waste collection and transport services with our modern fleet of vacuum tankers. We provide efficient removal of all wet waste types, from sewage and sludge to industrial effluents and contaminated water. Our powerful tankers, including our flagship 'Terminator' unit, offer exceptional suction capability for challenging waste collection scenarios that conventional equipment can't handle. We ensure safe, compliant handling throughout the process, with full documentation and licensed disposal at appropriate facilities. Available for both regular scheduled services to manage ongoing waste generation and rapid emergency deployment when unexpected situations arise, our flexible, responsive operation delivers reliable tanker support whenever and wherever you need it. For businesses, local authorities and industrial facilities requiring professional liquid waste management, our tanker service combines capacity, capability and compliance.",
+    "title": "UK Liquid Waste Transport | Tanker Services 24/7!",
+    "text": "Got wet waste? Our mighty vacuum tankers collect and transport it all, UK-wide, day or night!",
+    "forYou": "Need liquid waste shifting? Our fleet of modern vacuum tankers is ready to roll! We’re experts at sucking up all sorts of wet waste – sewage, sludge, industrial gunge, contaminated water, you name it. And for the really tough jobs, we unleash 'The Terminator', our beast of a tanker with mega suction power! We handle everything safely and by the book, with all the right paperwork and licensed disposal. Whether you need regular collections or a super-fast emergency call-out, we’re flexible, responsive, and always reliable. For businesses, councils, and industrial sites needing top-notch liquid waste management, our tanker service is the full package: big capacity, serious capability, and total compliance!",
     "heroImg": "assets/website-hero-images/liquid-waste.png",
     "services": [
       {
-        "title": "Advanced Vacuum Tankers",
-        "desc": "Powerful fleet for efficient liquid waste collection.",
+        "title": "Mighty Vacuum Tankers",
+        "desc": "Our powerful fleet, including 'The Terminator', for super-efficient liquid waste collection.",
         "icon": "fa-solid fa-truck-monster"
       },
       {
-        "title": "All Wet Waste Types",
-        "desc": "Handling sewage, sludge, effluent and contaminated water.",
-        "icon": "fa-solid fa-truck-moving"
+        "title": "Any Wet Waste, We Take It!",
+        "desc": "Sewage, sludge, iffy effluent, contaminated water – we handle the lot!",
+        "icon": "fa-solid fa-droplet"
       },
       {
-        "title": "Emergency Response",
-        "desc": "Rapid deployment for urgent waste removal needs.",
-        "icon": "fa-solid fa-truck-medical"
+        "title": "Emergency? We're There!",
+        "desc": "Need urgent waste removal? Our rapid response team is on its way, pronto!",
+        "icon": "fa-solid fa-bolt-lightning"
       },
       {
-        "title": "Compliant Waste Transport",
-        "desc": "Licensed carriers following all regulations.",
-        "icon": "fa-solid fa-certificate"
+        "title": "Compliant & Covered",
+        "desc": "We're licensed carriers, following all the rules, so you're always in the clear.",
+        "icon": "fa-solid fa-file-contract"
       }
     ],
     "gallery": [
@@ -456,29 +456,29 @@
     "video": "www.youtube.com/watch?v=11X2ye7wDZ4"
   },
   "construction-sweepers.co.uk": {
-    "title": "Construction Site Sweeping",
-    "text": "Eliminate dust and mud hazards with our specialist construction site road sweeping service!",
-    "forYou": "Maintain clean, safe and compliant construction sites with our specialized sweeping service. We provide regular road sweeping of site roads, access ways and surrounding areas to control dust and prevent mud tracking onto public highways – a common cause of complaints and potential enforcement action. Our range of sweeper sizes accommodates everything from tight construction compounds to wide haul roads, with powerful machines capable of handling the heavy soiling typical of construction environments. Our service complements and supports wheel wash systems by cleaning approach roads and preventing build-up of material. By implementing a regular sweeping schedule, you'll maintain environmental compliance, improve site safety by reducing slip hazards, create a more professional appearance, and avoid potential fines or reputation damage from mud on roads. Our construction-focused service delivers cleaner, safer sites and better community relations.",
+    "title": "Construction Sweepers UK | Dust & Mud Busters On Site!",
+    "text": "Keep your construction site clean, safe, and compliant with our expert road sweeping. No more mud on the road!",
+    "forYou": "Fed up with dust clouds and muddy tracks on your construction site? Our specialist sweeping service is here to sort it! We regularly sweep site roads, access routes, and nearby areas to keep dust down and stop mud from escaping onto public roads (nobody wants complaints or fines, right?). We've got sweepers of all sizes, from nifty ones for tight spots to big bruisers for haul roads, all ready to tackle proper construction site muck. We even help your wheel wash systems work better by keeping the approaches clean. A regular sweep means a safer, more professional-looking site, happy neighbours, and no worries about environmental rules. Cleaner sites, safer work, better rep – that's what we do!",
     "heroImg": "assets/website-hero-images/road-sweeping.png",
     "services": [
       {
-        "title": "Regular Site Cleaning",
-        "desc": "Scheduled sweeping to control dust, mud, and debris on construction sites.",
+        "title": "Scheduled Site Sweeps",
+        "desc": "Regular sweeping to keep dust, mud, and debris under control on your building site.",
         "icon": "fa-solid fa-road-barrier"
       },
       {
-        "title": "Wheel Wash Integration",
-        "desc": "Sweeping approach roads to complement wheel washing systems.",
-        "icon": "fa-solid fa-truck-front"
+        "title": "Wheel Wash's Best Mate",
+        "desc": "We sweep approach roads to give your wheel washing systems a helping hand.",
+        "icon": "fa-solid fa-shower"
       },
       {
-        "title": "Multiple Sweeper Options",
-        "desc": "Various sizes of sweepers for different site requirements.",
-        "icon": "fa-solid fa-truck-pickup"
+        "title": "Sweepers for Every Job",
+        "desc": "A whole range of sweeper sizes to suit any construction site, big or small.",
+        "icon": "fa-solid fa-truck"
       },
       {
-        "title": "Environmental Compliance",
-        "desc": "Meeting regulations and preventing enforcement action.",
+        "title": "Eco & Site Safe",
+        "desc": "Helping you meet all the environmental regs and keeping your site safe and sound.",
         "icon": "fa-solid fa-helmet-safety"
       }
     ],
@@ -532,30 +532,30 @@
     "video": "www.youtube.com/watch?v=v4EJ-shbcVI"
   },
   "croydonsweepers.co.uk": {
-    "title": "Local Croydon Road Sweeping",
-    "text": "Professional road sweeping services across Croydon with flexible scheduling and local expertise!",
-    "forYou": "Access professional road sweeping services tailored specifically for Croydon and its surrounding areas. As a local provider with extensive knowledge of the borough, we deliver efficient, responsive sweeping for all requirements. Our diverse fleet includes compact sweepers for restricted urban spaces, standard road sweepers for public highways and car parks, and heavy-duty machines for construction sites and industrial areas. We serve businesses, property managers, construction companies and event organizers throughout Croydon, with flexible scheduling options ranging from one-off cleaning for special events to regular contracted service for ongoing maintenance. Our local presence ensures prompt response times and reliable service, while our thorough knowledge of Croydon's streets and districts allows us to deliver efficient, effective sweeping tailored to the specific needs of the local area.",
+    "title": "Croydon Road Sweepers | Your Local Sweeping Stars!",
+    "text": "Need roads swept in Croydon? We're your local experts with flexible scheduling. Spotless streets, sorted!",
+    "forYou": "Live or work in Croydon and need a top-notch road sweeping service? Look no further! We're your local Croydon crew, and we know the borough like the back of our hand. That means efficient, speedy sweeping for whatever you need. Got tight urban streets, busy main roads, car parks, construction sites, or industrial areas? Our fleet has everything from nippy compact sweepers to heavy-duty beasts. We help businesses, property managers, builders, and event planners all over Croydon, offering everything from one-off event cleans to regular contracts. Being local means we're quick off the mark and super reliable – proper Croydon sweeping, done right!",
     "heroImg": "assets/website-hero-images/road-sweeping.png",
     "services": [
       {
-        "title": "Croydon-Based Service",
-        "desc": "Dedicated local road sweeping throughout the Croydon area.",
-        "icon": "fa-solid fa-location-pin"
+        "title": "Proper Croydon Sweeping",
+        "desc": "Your dedicated local road sweeping heroes, right here in Croydon.",
+        "icon": "fa-solid fa-location-dot"
       },
       {
-        "title": "Road & Street Sweeping",
-        "desc": "Efficient cleaning of public highways and urban streets.",
+        "title": "Streets & Roads Sorted",
+        "desc": "Keeping Croydon's public highways and urban streets sparkling clean.",
         "icon": "fa-solid fa-road"
       },
       {
-        "title": "Car Park Maintenance",
-        "desc": "Regular or one-off cleaning for commercial car parks.",
+        "title": "Car Park Clean-Ups",
+        "desc": "Regular or one-off sprucing for commercial car parks in and around Croydon.",
         "icon": "fa-solid fa-square-parking"
       },
       {
-        "title": "Flexible Scheduling",
-        "desc": "Options from one-off cleans to regular contracts.",
-        "icon": "fa-solid fa-calendar-alt"
+        "title": "Sweeping When You Need It",
+        "desc": "From one-off blitzes to regular contracts – we fit around you.",
+        "icon": "fa-solid fa-calendar-days"
       }
     ],
     "gallery": [
@@ -608,30 +608,30 @@
     "video": "www.youtube.com/watch?v=v4EJ-shbcVI"
   },
   "event-road-sweepers.co.uk": {
-    "title": "Event Clean-Up Specialists",
-    "text": "Rapid post-event sweeping with our 'Mega Sweep' trucks for efficient venue restoration!",
-    "forYou": "Return your event venue to pristine condition with our specialized event sweeping service. We provide rapid, efficient clean-up operations for all types of events, from music festivals and outdoor concerts to public gatherings, sporting events and exhibitions. Our large 'Mega Sweep' trucks are specifically designed for clearing extensive areas quickly, efficiently collecting litter, food packaging, and general debris that accumulates during events. We coordinate with event management teams to deploy immediately after crowds disperse, minimizing delay in returning venues to their pre-event condition. Our experienced operators understand the priorities and time constraints of event clean-up, focusing on thoroughness and speed to meet tight venue turnaround schedules. For event organizers, venue managers and local authorities, our specialized service ensures swift, comprehensive clean-up that maintains venue reputation and public satisfaction.",
+    "title": "Event Sweepers UK | Fast Post-Event Clean-Up Crew!",
+    "text": "Event over? Our 'Mega Sweep' trucks get your venue spotless, super quick! Clean-up, sorted.",
+    "forYou": "Left with a messy venue after your big event? Don't panic! Our specialist event sweeping service will have it looking spick and span in no time. We're talking music festivals, outdoor gigs, public shindigs, sports days, exhibitions – you name it, we clean it. Our massive 'Mega Sweep' trucks are built for clearing huge areas fast, gobbling up litter, food wrappers, and all that event debris. We work with your team to get in there as soon as the crowds are gone, so the venue's back to normal ASAP. Our crew knows the score with event clean-ups: it's all about being quick and thorough. If you're an event organiser or venue manager, we're your secret weapon for a speedy, spotless clear-up that keeps everyone happy!",
     "heroImg": "assets/website-hero-images/road-sweeping.png",
     "services": [
       {
-        "title": "Swift Post-Event Clean",
-        "desc": "Rapid sweeping of venues after events conclude.",
+        "title": "Speedy Post-Event Sweep",
+        "desc": "Lightning-fast sweeping to get your venue back to its best once the party's over.",
         "icon": "fa-solid fa-calendar-xmark"
       },
       {
-        "title": "Mega Sweep Technology",
-        "desc": "Large sweepers for efficient cleaning of extensive areas.",
+        "title": "'Mega Sweep' Power!",
+        "desc": "Our giant sweepers make light work of cleaning even the biggest event spaces.",
         "icon": "fa-solid fa-truck-monster"
       },
       {
-        "title": "Complete Debris Removal",
-        "desc": "Collection of all event litter and waste materials.",
-        "icon": "fa-solid fa-trash-can"
+        "title": "All Debris Gone!",
+        "desc": "We'll collect every last bit of event litter and waste. No mess left behind!",
+        "icon": "fa-solid fa-trash-can-arrow-up"
       },
       {
-        "title": "Quick Venue Turnaround",
-        "desc": "Meeting tight deadlines for venue restoration.",
-        "icon": "fa-solid fa-stopwatch"
+        "title": "Venue Ready, Pronto!",
+        "desc": "Meeting those tight deadlines to get your venue ready for whatever's next.",
+        "icon": "fa-solid fa-fast-forward"
       }
     ],
     "gallery": [
@@ -684,30 +684,30 @@
     "video": "www.youtube.com/watch?v=v4EJ-shbcVI"
   },
   "eventroadsweepers.co.uk": {
-    "title": "Complete Event Sweeping",
-    "text": "End-to-end road sweeping for events – from pre-event prep to post-event clean-up with standby service!",
-    "forYou": "Create the perfect environment for your event with our comprehensive event sweeping services. We provide complete sweeping solutions covering the entire event lifecycle – from thorough pre-event cleaning to ensure venues and access routes are immaculate for attendees, through standby service during the event for immediate response to spillages or debris accumulation, to efficient post-event clean-up that quickly restores venues to their original condition. Our professional crews understand the critical timing requirements of events, delivering reliable service that helps create positive first impressions, maintains safety throughout, and ensures swift turnaround after crowds disperse. For event organizers managing anything from corporate functions to major public gatherings, our specialized service provides the cleaning support needed to create successful, safe and well-presented events from start to finish.",
+    "title": "Total Event Sweeping UK | Pre, During & Post-Event Clean!",
+    "text": "The full works for event sweeping: prep, standby, and clean-up. Your event, sparkling from start to finish!",
+    "forYou": "Want your event to be flawless from the first guest to the last? Our all-in-one event sweeping service has got your back! We handle the cleaning for the whole shebang: a proper pre-event spruce-up so your venue and access roads look amazing for arrivals; on-site standby during the event to tackle any spills or mess straight away; and a super-efficient post-event clean to get everything back to normal in a flash. Our pro crews get how crucial timing is for events. We're all about making great first impressions, keeping things safe, and ensuring a quick tidy-up afterwards. Whether it's a swanky corporate do or a big public festival, we provide the sweeping support you need for a smooth, safe, and stunning event.",
     "heroImg": "assets/website-hero-images/road-sweeping.png",
     "services": [
       {
-        "title": "Pre-Event Preparation",
-        "desc": "Thorough cleaning before events to create positive impressions.",
-        "icon": "fa-solid fa-ribbon"
+        "title": "Pre-Event Sparkle",
+        "desc": "A thorough clean before your event kicks off, making everything look its best.",
+        "icon": "fa-solid fa-wand-sparkles"
       },
       {
-        "title": "During-Event Support",
-        "desc": "On-site standby for immediate response to cleaning needs.",
-        "icon": "fa-solid fa-clock"
+        "title": "On-Site Standby Support",
+        "desc": "We're on hand during your event for any immediate cleaning needs. No drama!",
+        "icon": "fa-solid fa-life-ring"
       },
       {
-        "title": "Post-Event Restoration",
-        "desc": "Rapid, comprehensive cleaning after the event concludes.",
-        "icon": "fa-solid fa-broom-ball"
+        "title": "Post-Event Perfect Finish",
+        "desc": "Quick and complete cleaning after your event, like it never even happened!",
+        "icon": "fa-solid fa-broom"
       },
       {
-        "title": "Specialist Event Crews",
-        "desc": "Experienced teams familiar with event requirements.",
-        "icon": "fa-solid fa-users"
+        "title": "Expert Event Teams",
+        "desc": "Our experienced crews know the ins and outs of event cleaning. Pros, pure and simple.",
+        "icon": "fa-solid fa-users-gear"
       }
     ],
     "gallery": [
@@ -760,29 +760,29 @@
     "video": "www.youtube.com/watch?v=v4EJ-shbcVI"
   },
   "gully-cleaning.co.uk": {
-    "title": "Expert Gully Cleaning Services",
-    "text": "Prevent flooding with professional gully and drainage maintenance using powerful vacuum tankers!",
-    "forYou": "Protect your property and infrastructure from flooding with our specialist gully cleaning service. We remove accumulated silt, leaves, litter and debris from roadside gullies, catchpits and drainage channels using powerful vacuum tankers and high-pressure water jetting equipment. Regular maintenance prevents blockages that can lead to flooding during heavy rainfall, while our preventative maintenance plans ensure your drainage systems remain effective year-round. We serve highways authorities, local councils, property management companies and private landowners, providing both scheduled maintenance programmes and reactive services when problems occur. All waste is disposed of responsibly at licensed facilities with full documentation provided.",
+    "title": "Gully Cleaning Experts UK | Stop Floods, Clear Drains!",
+    "text": "Keep floods at bay with our pro gully & drainage cleaning. Powerful vac tankers, problem solved!",
+    "forYou": "Worried about your property or local roads flooding when the heavens open? Our specialist gully cleaning service is your knight in shining armour! We use mighty vacuum tankers and high-pressure water jets to blast away all that silt, leaves, litter, and general gunge from roadside gullies, catchpits, and drainage channels. Regular cleaning stops blockages that cause flooding, and our preventative maintenance plans keep your drains happy all year round. We work with everyone – highways teams, councils, property managers, and homeowners. Whether it's a scheduled clean or an urgent fix, we're on it. And all waste is taken care of properly, with all the paperwork. Sorted!",
     "heroImg": "assets/website-hero-images/tunnel-cleaning.png",
     "services": [
       {
-        "title": "Roadside Gully Emptying",
-        "desc": "Removing silt and debris from gullies to prevent blockages.",
+        "title": "Roadside Gully Power-Empty",
+        "desc": "We’ll suck out all the silt and debris from your gullies to stop them blocking up.",
         "icon": "fa-solid fa-road-circle-exclamation"
       },
       {
-        "title": "High-Pressure Jetting",
-        "desc": "Clearing blocked connections and maintaining flow.",
-        "icon": "fa-solid fa-jet-fighter-up"
+        "title": "High-Power Jet Blasting",
+        "desc": "Clearing out blocked connections and keeping the water flowing freely with serious jet power.",
+        "icon": "fa-solid fa-bolt"
       },
       {
-        "title": "Catchpit Maintenance",
-        "desc": "Cleaning larger drainage system silt traps.",
+        "title": "Catchpit Care & Cleaning",
+        "desc": "Keeping those bigger drainage system silt traps clean and working as they should.",
         "icon": "fa-solid fa-filter-circle-xmark"
       },
       {
-        "title": "Scheduled Maintenance",
-        "desc": "Regular cleaning plans to reduce flood risk.",
+        "title": "Stay Dry Maintenance Plans",
+        "desc": "Regular gully cleaning to slash your flood risk. Smart move!",
         "icon": "fa-solid fa-calendar-check"
       }
     ],
@@ -836,29 +836,29 @@
     "video": "www.youtube.com/watch?v=4p2htIH3NOc"
   },
   "gully-cleaning.uk": {
-    "title": "Nationwide Gully Maintenance",
-    "text": "UK-wide surface water drainage expertise using advanced jet-vac technology for all sectors!",
-    "forYou": "Keep surface water drainage systems functioning effectively throughout the UK with our specialist nationwide gully cleaning service. We provide comprehensive maintenance using advanced jet-vac combination units that efficiently remove silt, debris and blockages from roadside gullies, catchpits and storm drains. Our experienced teams serve highways agencies, local councils, and managers of private sites including retail parks, industrial estates and commercial properties across the country. We ensure all waste is removed and disposed of at licensed facilities with complete documentation for compliance purposes. With a focus on preventative maintenance to reduce flood risk during heavy rainfall, our UK-wide service helps maintain essential drainage infrastructure, prevent property damage, and ensure public safety through efficient, professional gully cleaning wherever your assets are located.",
+    "title": "Nationwide Gully Cleaning UK | Advanced Jet-Vac Solutions!",
+    "text": "UK-wide gully cleaning with top jet-vac tech. We keep surface water moving, wherever you are!",
+    "forYou": "Need your surface water drains sorted, anywhere in the Blighty? Our nationwide gully cleaning service is just the ticket! We use fancy jet-vac combination units – think powerful vacuums and super jets all in one – to get gullies, catchpits, and storm drains properly cleared of muck and blockages. Our skilled teams help out highways agencies, councils, and folks managing private sites like retail parks and industrial estates, all over the UK. We make sure all the waste is carted off and dealt with legally, with all the right documents for your peace of mind. It's all about stopping floods before they start and keeping our vital drainage systems working smoothly, nationwide!",
     "heroImg": "assets/website-hero-images/tunnel-cleaning.png",
     "services": [
       {
-        "title": "UK-Wide Service",
-        "desc": "Comprehensive gully cleaning across all regions of the UK.",
-        "icon": "fa-solid fa-globe-europe"
+        "title": "UK-Wide Gully Gurus",
+        "desc": "Top-drawer gully cleaning available across every nook and cranny of the UK.",
+        "icon": "fa-solid fa-earth-europe"
       },
       {
-        "title": "Advanced Jet-Vac Units",
-        "desc": "Using combination tankers for efficient cleaning.",
-        "icon": "fa-solid fa-truck-monster"
+        "title": "Advanced Jet-Vac Power",
+        "desc": "Our whizzy combination tankers mean super-efficient and thorough gully cleaning.",
+        "icon": "fa-solid fa-tractor"
       },
       {
-        "title": "Storm Drain Clearance",
-        "desc": "Maintaining vital surface water drainage systems.",
+        "title": "Storm Drain Saviours",
+        "desc": "Keeping those crucial surface water drainage systems clear and ready for anything.",
         "icon": "fa-solid fa-cloud-showers-heavy"
       },
       {
-        "title": "Compliant Waste Management",
-        "desc": "Licensed disposal with complete documentation.",
+        "title": "Compliant & Clean Disposal",
+        "desc": "Proper licensed disposal with all the paperwork, keeping you and the planet happy.",
         "icon": "fa-solid fa-recycle"
       }
     ],
@@ -912,29 +912,29 @@
     "video": "www.youtube.com/watch?v=4p2htIH3NOc"
   },
   "hydro-cleansing.co.uk": {
-    "title": "Expert Drainage Solutions Croydon",
-    "text": "Leading wet waste management and 24/7 emergency drain services across Croydon and the South East!",
-    "forYou": "Hydro Cleansing Ltd delivers comprehensive environmental services from our Croydon base. Established in 2000, we manage wet waste collection, treatment and disposal through our licensed recycling facility. Our expert team provides 24/7 emergency drainage services, including drain unblocking, jetting, CCTV surveys, repairs, and septic tank maintenance. We also specialise in environmental services like flood response, remediation, and confined space operations. With over 50 years of combined management experience, we ensure compliant, sustainable solutions for commercial, industrial, council and domestic clients.",
+    "title": "Hydro Cleansing Croydon | 24/7 Drains & Waste Experts!",
+    "text": "Croydon's top choice for wet waste, 24/7 emergency drain services & environmental solutions. We get it done!",
+    "forYou": "Here at Hydro Cleansing, based right in the heart of Croydon, we've been sorting out environmental and waste headaches since way back in 2000! We're your go-to guys for everything from collecting and treating wet waste at our own licensed recycling spot, to dashing out for 24/7 emergency drain dramas – unblocking, jetting, CCTV surveys, repairs, you name it. Septic tanks, flood response, tricky confined space jobs? Yep, we do that too. With over 50 years of know-how in our management team, we cook up smart, sustainable solutions for businesses, industry, councils, and homeowners alike. Job done, properly!",
     "heroImg": "assets/website-hero-images/cctv.png",
     "services": [
       {
-        "title": "Wet Waste Management",
-        "desc": "Licensed collection, transport, treatment and disposal of liquid waste.",
+        "title": "Wet Waste Wizards",
+        "desc": "Licensed collection, transport, treatment & disposal of all your liquid waste.",
         "icon": "fa-solid fa-recycle"
       },
       {
-        "title": "24/7 Emergency Drainage",
-        "desc": "Rapid response drain unblocking within one hour in Croydon.",
-        "icon": "fa-solid fa-clock"
+        "title": "24/7 Drain Rescue Squad",
+        "desc": "Blocked drain in Croydon? We'll be there in an hour, day or night. Panic over!",
+        "icon": "fa-solid fa-clock-rotate-left"
       },
       {
-        "title": "Environmental Services",
-        "desc": "Flood response, remediation and sustainable waste processing.",
-        "icon": "fa-solid fa-leaf"
+        "title": "Eco-Warriors on Call",
+        "desc": "Flood response, site clean-ups, and green waste processing. We care for our patch!",
+        "icon": "fa-solid fa-seedling"
       },
       {
-        "title": "Waste Recycling Facility",
-        "desc": "Dedicated Croydon facility with weighbridge for efficient processing.",
+        "title": "Croydon Recycling Hub",
+        "desc": "Our dedicated Croydon facility with weighbridge means efficient, eco-friendly waste processing.",
         "icon": "fa-solid fa-industry"
       }
     ],
@@ -988,30 +988,30 @@
     "video": "www.youtube.com/watch?v=2OEFRlmy8bU"
   },
   "hydro-pressure-clean.co.uk": {
-    "title": "Eco-Friendly Pressure Washing",
-    "text": "Transform your property with chemical-free pressure washing for driveways, patios and decking!",
-    "forYou": "Hydro Pressure Clean specialises in exterior surface cleaning for residential and commercial properties in Croydon and surrounding Surrey areas. With 19 years of pressure washing expertise, we focus exclusively on restoring driveways, patios and decking to pristine condition. Our 100% chemical-free, water-only approach effectively removes dirt, oil stains, moss and algae while being environmentally responsible. Serving Purley, South Norwood, Coulsdon, Addiscombe and Sanderstead, we offer free, no-obligation quotes and personalized service to ensure outstanding results for all outdoor spaces.",
+    "title": "Eco Pressure Washing Croydon | Driveways & Patios Sparkle!",
+    "text": "Transform your Croydon & Surrey driveways, patios & decking with our 100% chemical-free pressure washing!",
+    "forYou": "Got a mucky driveway, patio or decking in Croydon or nearby in Surrey? Hydro Pressure Clean to the rescue! With 19 years under our belt, we're the local pros at making your outdoor spaces look brand new again. We’re all about cleaning driveways, patios, and decking – and we do it with NO nasty chemicals, just good old water power! This means we blast away dirt, oil stains, moss, and algae brilliantly, while being super kind to the planet. Serving Purley, South Norwood, Coulsdon, Addiscombe, and Sanderstead, we offer free, no-fuss quotes and a friendly service to get your place gleaming. You'll be amazed at the difference!",
     "heroImg": "assets/website-hero-images/road-sweeping.png",
     "services": [
       {
-        "title": "Driveway Cleaning",
-        "desc": "Expert cleaning for block paving, concrete and tarmac driveways.",
-        "icon": "fa-solid fa-road"
+        "title": "Driveway Dazzle",
+        "desc": "Expert pressure washing for block paving, concrete, and tarmac driveways. Like new!",
+        "icon": "fa-solid fa-car"
       },
       {
-        "title": "Patio Restoration",
-        "desc": "Remove algae and moss from stone, imprinted concrete and crazy paving.",
-        "icon": "fa-solid fa-spa"
+        "title": "Patio Perfection",
+        "desc": "Wave goodbye to algae and moss on stone, imprinted concrete, and crazy paving patios.",
+        "icon": "fa-solid fa-umbrella-beach"
       },
       {
-        "title": "Decking Maintenance",
-        "desc": "Safe removal of slippery surfaces to preserve wood integrity.",
+        "title": "Decking Detox",
+        "desc": "Safe, slippery-surface removal to keep your wooden decking looking fab and safe.",
         "icon": "fa-solid fa-tree"
       },
       {
-        "title": "Chemical-Free Cleaning",
-        "desc": "100% water-only, eco-friendly approach for all exterior surfaces.",
-        "icon": "fa-solid fa-tint"
+        "title": "100% Chemical-Free Clean",
+        "desc": "Our eco-friendly, water-only magic works wonders on all your exterior surfaces.",
+        "icon": "fa-solid fa-droplet"
       }
     ],
     "gallery": [
@@ -1064,3 +1064,5 @@
     "video": "www.youtube.com/watch?v=4p2htIH3NOc"
   }
 }
+
+////DONE

@@ -1,990 +1,992 @@
 {
   "liquiddisposal.co.uk": {
-    "title": "Expert Liquid Disposal",
-    "text": "Need reliable liquid waste disposal? Our specialist service achieves 99% recycling rates through our own licensed treatment facility, handling everything from hazardous chemicals to industrial effluent with full environmental compliance.",
-    "forYou": "Looking for professional liquid waste disposal that prioritises environmental responsibility? Our comprehensive service manages the entire disposal process from collection to final treatment. We operate our own licensed facility that achieves industry-leading 99% recycling rates, significantly reducing landfill impact. Handling both hazardous and non-hazardous liquids, we provide complete documentation for every collection, ensuring full regulatory compliance and a robust audit trail. With our modern fleet and experienced team, we deliver reliable, efficient, and environmentally sound disposal solutions for all liquid waste streams.",
+    "title": "Liquid Waste Disposal Experts",
+    "text": "Liquid waste headache? We’ll sort it, recycle most of it, and keep you legal. Easy.",
+    "forYou": "When you need liquid waste gone fast – and done right – we’re the team to call. From nasty chemicals to oily effluent, we handle it all at our own Croydon treatment facility, smashing out 99% recycling rates. You get the full package: collection, paperwork, eco-friendly processing, and no messing about. Plus, we’re big on compliance, so you get the right audit trail every time. Trust us for a reliable, green and hassle-free liquid waste solution.",
     "heroImg": "assets/website-hero-images/liquid-waste.png",
     "video": "www.youtube.com/watch?v=M2eBeHSSKHM",
     "services": [
       {
         "title": "Licensed Treatment Facility",
-        "desc": "Our own processing plant ensures compliant and sustainable waste disposal.",
+        "desc": "Your waste, sorted at our own fully licensed site – not shipped out, no corners cut.",
         "icon": "fa-solid fa-warehouse"
       },
       {
-        "title": "All Liquid Waste Types",
-        "desc": "Comprehensive solutions for hazardous and non-hazardous liquid waste.",
-        "icon": "fa-solid fa-dumpster-fire"
+        "title": "Any Liquid Waste",
+        "desc": "Hazardous, non-hazardous – you name it, we’ll take it off your hands.",
+        "icon": "fa-solid fa-fire"
       },
       {
-        "title": "99% Recycling Achievement",
-        "desc": "Industry-leading recycling rates that minimise environmental impact.",
+        "title": "99% Recycling",
+        "desc": "We smash the recycling rates, with barely anything going to landfill.",
         "icon": "fa-solid fa-recycle"
       },
       {
-        "title": "Complete Documentation",
-        "desc": "Full audit trail with Waste Transfer Notes for every collection.",
-        "icon": "fa-solid fa-receipt"
+        "title": "Proper Paperwork",
+        "desc": "Every collection comes with legit documentation for your peace of mind.",
+        "icon": "fa-solid fa-file-invoice"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-1.jpg",
-        "alt": "Expert Liquid Disposal - Waste Management Image 1",
-        "title": "Expert Liquid Disposal - Waste Management 1"
+        "alt": "Liquid Disposal tanker on site",
+        "title": "Liquid Disposal - Site Work"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-2.jpg",
-        "alt": "Expert Liquid Disposal - Waste Management Image 2",
-        "title": "Expert Liquid Disposal - Waste Management 2"
+        "alt": "Tank cleaning crew",
+        "title": "Liquid Disposal - Team"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-3.jpg",
-        "alt": "Expert Liquid Disposal - Waste Management Image 3",
-        "title": "Expert Liquid Disposal - Waste Management 3"
+        "alt": "Recycling plant in action",
+        "title": "Liquid Disposal - Recycling"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-4.jpg",
-        "alt": "Expert Liquid Disposal - Waste Management Image 4",
-        "title": "Expert Liquid Disposal - Waste Management 4"
+        "alt": "Hazardous waste barrels",
+        "title": "Liquid Disposal - Hazardous"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-5.jpg",
-        "alt": "Expert Liquid Disposal - Waste Management Image 5",
-        "title": "Expert Liquid Disposal - Waste Management 5"
+        "alt": "Tanker close-up",
+        "title": "Liquid Disposal - Fleet"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-6.jpg",
-        "alt": "Expert Liquid Disposal - Waste Management Image 6",
-        "title": "Expert Liquid Disposal - Waste Management 6"
+        "alt": "Effluent treatment tanks",
+        "title": "Liquid Disposal - Treatment"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-7.webp",
-        "alt": "Expert Liquid Disposal - Waste Management Image 7",
-        "title": "Expert Liquid Disposal - Waste Management 7"
+        "alt": "Specialist staff at work",
+        "title": "Liquid Disposal - Specialists"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-8.webp",
-        "alt": "Expert Liquid Disposal - Waste Management Image 8",
-        "title": "Expert Liquid Disposal - Waste Management 8"
+        "alt": "Sustainable disposal site",
+        "title": "Liquid Disposal - Sustainability"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-9.webp",
-        "alt": "Expert Liquid Disposal - Waste Management Image 9",
-        "title": "Expert Liquid Disposal - Waste Management 9"
+        "alt": "Waste transfer note example",
+        "title": "Liquid Disposal - Compliance"
       }
     ]
   },
   "liquiddisposal.uk": {
-    "title": "UK-Wide Liquid Disposal",
-    "text": "Searching for nationwide liquid waste disposal? Our UK service combines efficient tanker collection with sustainable processing at our licensed facility. We deliver compliant solutions for all waste types, anywhere in Britain.",
-    "forYou": "Our nationwide liquid waste disposal service offers complete solutions across the UK. With a modern fleet of vacuum tankers and specialist equipment, we provide efficient collection and environmentally responsible disposal for all liquid waste streams. Operating throughout Britain, we handle everything from routine scheduled collections to emergency response situations. Our approach prioritises sustainability through our licensed treatment facility that achieves exceptional recycling rates while minimising environmental impact. From collection to final disposal, we ensure full compliance with all regulations, backed by comprehensive documentation. Choose our UK-wide service for reliable, compliant liquid waste disposal anywhere in the country.",
+    "title": "Nationwide Liquid Waste Pros",
+    "text": "We cover the whole UK. Fast, compliant, and super green liquid waste pick-up and recycling.",
+    "forYou": "Need liquid waste gone, wherever you are in the UK? We’ve got you covered with our fleet of high-tech vacuum tankers and a dedicated treatment plant. From scheduled pickups to emergencies, we’ll sort your waste, recycle as much as possible, and handle all the legal paperwork. Whether you’re a local business, national chain, or remote site – if it’s liquid waste, we’ll shift it. All fully licensed, all above board.",
     "heroImg": "assets/website-hero-images/liquid-waste.png",
     "video": "www.youtube.com/watch?v=M2eBeHSSKHM",
     "services": [
       {
-        "title": "Nationwide Coverage",
-        "desc": "Comprehensive liquid waste disposal services available throughout the UK.",
+        "title": "Nationwide Reach",
+        "desc": "Wherever you are in Britain, we’ll get your waste gone.",
         "icon": "fa-solid fa-map-marked-alt"
       },
       {
-        "title": "Advanced Tanker Fleet",
-        "desc": "Modern vacuum tankers for efficient liquid waste collection across Britain.",
+        "title": "Modern Tanker Fleet",
+        "desc": "Big, shiny trucks. Modern kit. Fast, safe, and efficient.",
         "icon": "fa-solid fa-truck-moving"
       },
       {
-        "title": "Sustainable Processing",
-        "desc": "Environmental responsibility through high recycling rates and minimal waste.",
+        "title": "Green Processing",
+        "desc": "Eco-first recycling and disposal, every time.",
         "icon": "fa-solid fa-leaf"
       },
       {
-        "title": "Complete Compliance",
-        "desc": "Full adherence to all UK waste regulations with comprehensive documentation.",
-        "icon": "fa-solid fa-shield-check"
+        "title": "Fully Compliant",
+        "desc": "Up-to-date with UK law and full paperwork for every job.",
+        "icon": "fa-solid fa-shield-alt"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-1.webp",
-        "alt": "UK-Wide Liquid Disposal - Tanker Image 1",
-        "title": "UK-Wide Liquid Disposal - Tanker 1"
+        "alt": "Nationwide Tanker Fleet",
+        "title": "Nationwide - Tankers"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-2.webp",
-        "alt": "UK-Wide Liquid Disposal - Tanker Image 2",
-        "title": "UK-Wide Liquid Disposal - Tanker 2"
+        "alt": "Tanker at UK site",
+        "title": "Nationwide - On Site"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-3.webp",
-        "alt": "UK-Wide Liquid Disposal - Tanker Image 3",
-        "title": "UK-Wide Liquid Disposal - Tanker 3"
+        "alt": "Modern vacuum tanker",
+        "title": "Nationwide - Modern Fleet"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-4.webp",
-        "alt": "UK-Wide Liquid Disposal - Tanker Image 4",
-        "title": "UK-Wide Liquid Disposal - Tanker 4"
+        "alt": "Tanker with recycling logo",
+        "title": "Nationwide - Eco Service"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-5.webp",
-        "alt": "UK-Wide Liquid Disposal - Tanker Image 5",
-        "title": "UK-Wide Liquid Disposal - Tanker 5"
+        "alt": "Industrial liquid waste",
+        "title": "Nationwide - Industrial"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-6.webp",
-        "alt": "UK-Wide Liquid Disposal - Tanker Image 6",
-        "title": "UK-Wide Liquid Disposal - Tanker 6"
+        "alt": "Bulk tanker loading",
+        "title": "Nationwide - Loading"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-7.jpeg",
-        "alt": "UK-Wide Liquid Disposal - Tanker Image 7",
-        "title": "UK-Wide Liquid Disposal - Tanker 7"
+        "alt": "Team with tanker",
+        "title": "Nationwide - Team"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-8.jpg",
-        "alt": "UK-Wide Liquid Disposal - Tanker Image 8",
-        "title": "UK-Wide Liquid Disposal - Tanker 8"
+        "alt": "Tanker at depot",
+        "title": "Nationwide - Depot"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-9.webp",
-        "alt": "UK-Wide Liquid Disposal - Tanker Image 9",
-        "title": "UK-Wide Liquid Disposal - Tanker 9"
+        "alt": "Tanker with skyline",
+        "title": "Nationwide - UK Coverage"
       }
     ]
   },
   "liquidingenity.co.uk": {
-    "title": "Innovative Waste Solutions",
-    "text": "Facing complex liquid waste challenges? Our ingenious approach combines advanced technology, including our powerful 'Terminator' tanker, with creative problem-solving to deliver effective, sustainable solutions where standard methods fail.",
-    "forYou": "When conventional waste management approaches aren't sufficient for your complex liquid waste challenges, our innovative solutions deliver results. We apply creative thinking and cutting-edge technology, including our powerful 'Terminator' vacuum tanker, to tackle difficult waste scenarios that others can't handle. Our experienced team analyses your specific requirements to develop bespoke strategies that maximise efficiency and sustainability. With our own treatment facility achieving 99% recycling rates, we focus on resource recovery rather than simple disposal. For challenging industrial effluents, difficult access situations, or unusual waste streams, our liquid ingenuity provides effective, compliant solutions.",
+    "title": "Liquid Waste, Sorted with Ingenuity",
+    "text": "Tough liquid waste? We love a challenge. Our kit and brains beat the rest.",
+    "forYou": "If you’ve got a liquid waste problem nobody else can crack, you’re in the right place. Our top engineers and game-changing ‘Terminator’ tanker sort out the really awkward jobs – tricky access, odd locations, messy mixes, you name it. We’ll look at what you need and craft a custom solution, aiming for max recycling and minimal hassle. Why settle for standard when you can have something a bit cleverer?",
     "heroImg": "assets/website-hero-images/liquid-waste.png",
     "video": "www.youtube.com/watch?v=M2eBeHSSKHM",
     "services": [
       {
-        "title": "Custom Waste Strategies",
-        "desc": "Tailored solutions for complex liquid waste management challenges.",
+        "title": "Bespoke Strategies",
+        "desc": "We think outside the box for your most complex waste.",
         "icon": "fa-solid fa-lightbulb"
       },
       {
-        "title": "Advanced Technology",
-        "desc": "State-of-the-art equipment including our 'Terminator' vacuum tanker.",
+        "title": "Cutting-Edge Tech",
+        "desc": "Not just tankers – the ‘Terminator’ is in a league of its own.",
         "icon": "fa-solid fa-robot"
       },
       {
         "title": "Resource Recovery",
-        "desc": "Maximising recycling and resource reclamation from waste streams.",
+        "desc": "We don’t just dump it – we recover and recycle.",
         "icon": "fa-solid fa-recycle"
       },
       {
-        "title": "Technical Problem-Solving",
-        "desc": "Expert solutions for liquid waste challenges others can't resolve.",
+        "title": "Problem-Solvers",
+        "desc": "No job too weird. If others have failed, we’ll fix it.",
         "icon": "fa-solid fa-puzzle-piece"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-1.webp",
-        "alt": "Innovative Waste Solutions - Tanker Image 1",
-        "title": "Innovative Waste Solutions - Tanker 1"
+        "alt": "The Terminator tanker",
+        "title": "Ingenuity - Terminator"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-2.webp",
-        "alt": "Innovative Waste Solutions - Tanker Image 2",
-        "title": "Innovative Waste Solutions - Tanker 2"
+        "alt": "Tech at work",
+        "title": "Ingenuity - Tech"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-3.webp",
-        "alt": "Innovative Waste Solutions - Tanker Image 3",
-        "title": "Innovative Waste Solutions - Tanker 3"
+        "alt": "Unusual waste collection",
+        "title": "Ingenuity - Unique Jobs"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-4.webp",
-        "alt": "Innovative Waste Solutions - Tanker Image 4",
-        "title": "Innovative Waste Solutions - Tanker 4"
+        "alt": "Engineers on-site",
+        "title": "Ingenuity - Engineers"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-5.webp",
-        "alt": "Innovative Waste Solutions - Tanker Image 5",
-        "title": "Innovative Waste Solutions - Tanker 5"
+        "alt": "Tanker at industrial site",
+        "title": "Ingenuity - Industrial"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-6.webp",
-        "alt": "Innovative Waste Solutions - Tanker Image 6",
-        "title": "Innovative Waste Solutions - Tanker 6"
+        "alt": "Heavy-duty tanker",
+        "title": "Ingenuity - Heavy Duty"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-7.jpeg",
-        "alt": "Innovative Waste Solutions - Tanker Image 7",
-        "title": "Innovative Waste Solutions - Tanker 7"
+        "alt": "Team planning",
+        "title": "Ingenuity - Team"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-8.jpg",
-        "alt": "Innovative Waste Solutions - Tanker Image 8",
-        "title": "Innovative Waste Solutions - Tanker 8"
+        "alt": "Access solution",
+        "title": "Ingenuity - Access"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-9.webp",
-        "alt": "Innovative Waste Solutions - Tanker Image 9",
-        "title": "Innovative Waste Solutions - Tanker 9"
+        "alt": "Messy waste stream",
+        "title": "Ingenuity - Messy Jobs"
       }
     ]
   },
   "emergency-waste-removal.co.uk": {
-    "title": "24/7 Emergency Waste Response",
-    "text": "When waste emergencies strike, our rapid response teams deliver immediate solutions. Available 24/7, we safely remove hazardous and non-hazardous waste, contain spills, and decontaminate sites with minimal disruption to your operations.",
-    "forYou": "Our emergency waste removal service provides immediate solutions when you need them most. Available 24/7/365, our specialist teams respond rapidly to urgent waste situations with all necessary equipment and expertise. We handle all types of emergency waste scenarios including hazardous material spills, chemical containment, flood water removal, and site contamination. Our professional approach ensures the entire incident is managed safely and efficiently, from initial containment through to final cleanup and disposal. With full regulatory compliance and a focus on minimising disruption to your operations, we deliver peace of mind during waste emergencies through prompt, professional response that quickly restores safety and normality.",
+    "title": "24/7 Emergency Waste Help",
+    "text": "Waste disaster? Spill? We’ll be there – any time, any day.",
+    "forYou": "When things go sideways – spills, floods, mystery waste turning up – you want someone who’ll show up fast and sort it properly. That’s us! We’ve got a crack team, the right kit, and years of know-how. We’ll clear up, contain hazards, and get your site safe and legal with minimal fuss. We’re on call 24/7 across London and the South East, for everything from oil spills to chemical mishaps. You call, we roll.",
     "heroImg": "assets/website-hero-images/liquid-waste.png",
     "video": "www.youtube.com/watch?v=M2eBeHSSKHM",
     "services": [
       {
-        "title": "Immediate Response",
-        "desc": "Rapid deployment for all waste emergencies, available 24/7.",
+        "title": "Instant Response",
+        "desc": "We get there fast, any time – day or night.",
         "icon": "fa-solid fa-bolt"
       },
       {
-        "title": "Hazardous Material Handling",
-        "desc": "Safe containment and removal of dangerous substances.",
+        "title": "Hazard Handling",
+        "desc": "We tackle nasty stuff safely – chemicals, oils, unknown gunk.",
         "icon": "fa-solid fa-skull-crossbones"
       },
       {
-        "title": "Complete Site Cleanup",
-        "desc": "Thorough decontamination and restoration after incidents.",
+        "title": "Total Cleanup",
+        "desc": "From spill to sparkle, we leave sites spotless and safe.",
         "icon": "fa-solid fa-broom"
       },
       {
-        "title": "Compliant Disposal",
-        "desc": "Proper treatment and disposal of all emergency waste materials.",
+        "title": "Regulation-Ready",
+        "desc": "All disposal is legal, safe, and comes with full paperwork.",
         "icon": "fa-solid fa-clipboard-check"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-1.jpg",
-        "alt": "24/7 Emergency Waste Response - Waste Management Image 1",
-        "title": "24/7 Emergency Waste Response - Waste Management 1"
+        "alt": "Emergency waste removal team",
+        "title": "Emergency - Team"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-2.jpg",
-        "alt": "24/7 Emergency Waste Response - Waste Management Image 2",
-        "title": "24/7 Emergency Waste Response - Waste Management 2"
+        "alt": "Rapid response",
+        "title": "Emergency - Response"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-3.jpg",
-        "alt": "24/7 Emergency Waste Response - Waste Management Image 3",
-        "title": "24/7 Emergency Waste Response - Waste Management 3"
+        "alt": "Site clean-up",
+        "title": "Emergency - Clean-up"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-4.jpg",
-        "alt": "24/7 Emergency Waste Response - Waste Management Image 4",
-        "title": "24/7 Emergency Waste Response - Waste Management 4"
+        "alt": "Hazardous waste removal",
+        "title": "Emergency - Hazards"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-5.jpg",
-        "alt": "24/7 Emergency Waste Response - Waste Management Image 5",
-        "title": "24/7 Emergency Waste Response - Waste Management 5"
+        "alt": "Spill response kit",
+        "title": "Emergency - Spill Kit"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-6.jpg",
-        "alt": "24/7 Emergency Waste Response - Waste Management Image 6",
-        "title": "24/7 Emergency Waste Response - Waste Management 6"
+        "alt": "Flood pump-out",
+        "title": "Emergency - Flood"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-7.webp",
-        "alt": "24/7 Emergency Waste Response - Waste Management Image 7",
-        "title": "24/7 Emergency Waste Response - Waste Management 7"
+        "alt": "Night call-out",
+        "title": "Emergency - Night"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-8.webp",
-        "alt": "24/7 Emergency Waste Response - Waste Management Image 8",
-        "title": "24/7 Emergency Waste Response - Waste Management 8"
+        "alt": "Specialist vehicle",
+        "title": "Emergency - Vehicle"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-9.webp",
-        "alt": "24/7 Emergency Waste Response - Waste Management Image 9",
-        "title": "24/7 Emergency Waste Response - Waste Management 9"
+        "alt": "Cleaned site",
+        "title": "Emergency - Result"
       }
     ]
   },
   "environmental-waste.co.uk": {
-    "title": "Sustainable Waste Management",
-    "text": "Seeking environmentally responsible waste solutions? Our specialist service delivers sustainable collection, treatment and disposal with a focus on recycling, resource recovery and regulatory compliance.",
-    "forYou": "Our environmental waste management service prioritises sustainability throughout the entire waste handling process. From initial collection through to final disposal, we apply best environmental practices to minimise impact and maximise resource recovery. We offer comprehensive solutions for both hazardous and non-hazardous waste streams, with a consistent emphasis on recycling, waste minimisation, and preservation of natural resources. With detailed waste tracking, environmental reporting, and full compliance documentation, we help clients demonstrate their environmental commitment while meeting all regulatory obligations. Choose our service for waste management that aligns with your environmental goals while efficiently meeting your operational requirements.",
+    "title": "Eco-Friendly Waste Solutions",
+    "text": "Waste piling up? We’ll collect, recycle, and keep your conscience clean.",
+    "forYou": "We’re your green waste champions. Whether it’s hazardous gunk or everyday rubbish, we collect, recycle, and dispose of it the right way – with the environment (and your reputation) in mind. Full audit trails, spot-on paperwork, and real recycling, not just lip service. From regular pickups to big clear-outs, we help businesses stay green, legal and stress-free.",
     "heroImg": "assets/website-hero-images/liquid-waste.png",
     "video": "www.youtube.com/watch?v=M2eBeHSSKHM",
     "services": [
       {
-        "title": "Eco-Friendly Collection",
-        "desc": "Environmentally optimised waste collection using modern, efficient vehicles.",
-        "icon": "fa-solid fa-truck-container"
+        "title": "Green Collection",
+        "desc": "Smart, efficient vehicles keep your waste and emissions down.",
+        "icon": "fa-solid fa-truck"
       },
       {
-        "title": "Maximised Recycling",
-        "desc": "Advanced sorting and processing to recover valuable resources from waste.",
+        "title": "Max Recycling",
+        "desc": "We recover what we can, sending less to landfill.",
         "icon": "fa-solid fa-recycle"
       },
       {
-        "title": "Safe Hazardous Handling",
-        "desc": "Specialist management of hazardous wastes to prevent environmental harm.",
+        "title": "Hazard Safe",
+        "desc": "Experts at safely handling the tough, risky stuff.",
         "icon": "fa-solid fa-shield-virus"
       },
       {
-        "title": "Environmental Reporting",
-        "desc": "Comprehensive documentation demonstrating your environmental compliance.",
+        "title": "Compliance Docs",
+        "desc": "All the paperwork you need for peace of mind and audits.",
         "icon": "fa-solid fa-file-contract"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-1.jpg",
-        "alt": "Sustainable Waste Management - Waste Management Image 1",
-        "title": "Sustainable Waste Management - Waste Management 1"
+        "alt": "Eco waste management team",
+        "title": "Eco Waste - Team"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-2.jpg",
-        "alt": "Sustainable Waste Management - Waste Management Image 2",
-        "title": "Sustainable Waste Management - Waste Management 2"
+        "alt": "Sorted recycling",
+        "title": "Eco Waste - Recycling"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-3.jpg",
-        "alt": "Sustainable Waste Management - Waste Management Image 3",
-        "title": "Sustainable Waste Management - Waste Management 3"
+        "alt": "Green fleet",
+        "title": "Eco Waste - Fleet"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-4.jpg",
-        "alt": "Sustainable Waste Management - Waste Management Image 4",
-        "title": "Sustainable Waste Management - Waste Management 4"
+        "alt": "Hazard waste handling",
+        "title": "Eco Waste - Hazards"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-5.jpg",
-        "alt": "Sustainable Waste Management - Waste Management Image 5",
-        "title": "Sustainable Waste Management - Waste Management 5"
+        "alt": "Waste tracking report",
+        "title": "Eco Waste - Reports"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-6.jpg",
-        "alt": "Sustainable Waste Management - Waste Management Image 6",
-        "title": "Sustainable Waste Management - Waste Management 6"
+        "alt": "Clean collection",
+        "title": "Eco Waste - Collection"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-7.webp",
-        "alt": "Sustainable Waste Management - Waste Management Image 7",
-        "title": "Sustainable Waste Management - Waste Management 7"
+        "alt": "Recycling operations",
+        "title": "Eco Waste - Ops"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-8.webp",
-        "alt": "Sustainable Waste Management - Waste Management Image 8",
-        "title": "Sustainable Waste Management - Waste Management 8"
+        "alt": "Team at work",
+        "title": "Eco Waste - Teamwork"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-9.webp",
-        "alt": "Sustainable Waste Management - Waste Management Image 9",
-        "title": "Sustainable Waste Management - Waste Management 9"
+        "alt": "Sustainable solutions",
+        "title": "Eco Waste - Solutions"
       }
     ]
   },
   "environmental-waste.uk": {
-    "title": "Nationwide Green Waste Solutions",
-    "text": "Need environmentally focused waste management across the UK? We deliver sustainable collection, recycling and disposal solutions throughout Britain, helping organisations enhance environmental performance while ensuring regulatory compliance.",
-    "forYou": "Our nationwide environmental waste service provides consistent, sustainable solutions throughout the UK. With comprehensive coverage across Britain, we deliver the same high environmental standards for all clients regardless of location. Our approach integrates waste collection, segregation, treatment and disposal with a clear focus on sustainability and resource efficiency. For organisations with multiple sites requiring coordinated waste management, our UK-wide infrastructure ensures uniform environmental performance across all locations. We support your sustainability goals through detailed waste tracking, environmental reporting, and full regulatory compliance. Trust our British expertise for environmentally responsible waste management anywhere in the UK.",
+    "title": "UK Green Waste Pros",
+    "text": "Eco waste, sorted across the UK. Green as it gets. Compliance, covered.",
+    "forYou": "For businesses that care about the planet and the paperwork, our nationwide service keeps every site compliant and sustainable. From one-off clear-outs to regular waste pickups, we’ll handle collection, sorting and green disposal wherever you’re based. Our audit-friendly tracking and eco-first processes mean you’re set for any inspection, and you can shout about your green creds too. Let us take the hassle out of eco waste, no matter your postcode.",
     "heroImg": "assets/website-hero-images/liquid-waste.png",
     "video": "www.youtube.com/watch?v=M2eBeHSSKHM",
     "services": [
       {
-        "title": "UK-Wide Green Services",
-        "desc": "Sustainable waste management available throughout Britain.",
-        "icon": "fa-solid fa-earth-europe"
+        "title": "UK-Wide Green Service",
+        "desc": "We’re everywhere, keeping waste green and legal.",
+        "icon": "fa-solid fa-globe-europe"
       },
       {
-        "title": "National Recycling Network",
-        "desc": "Comprehensive recycling programmes across the United Kingdom.",
+        "title": "Recycling Network",
+        "desc": "All waste is sorted and recycled at top UK sites.",
         "icon": "fa-solid fa-recycle"
       },
       {
-        "title": "Multi-Site Solutions",
-        "desc": "Coordinated waste management for organisations with multiple locations.",
+        "title": "Multi-Site Masters",
+        "desc": "We’ll coordinate everything for your sites, big or small.",
         "icon": "fa-solid fa-network-wired"
       },
       {
-        "title": "British Compliance Expertise",
-        "desc": "Full adherence to UK environmental regulations nationwide.",
-        "icon": "fa-solid fa-scale-balanced"
+        "title": "British Compliance",
+        "desc": "Tick every legal box with our expertise and reports.",
+        "icon": "fa-solid fa-balance-scale"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-1.jpg",
-        "alt": "Nationwide Green Waste Solutions - Waste Management Image 1",
-        "title": "Nationwide Green Waste Solutions - Waste Management 1"
+        "alt": "Nationwide green team",
+        "title": "Nationwide - Team"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-2.jpg",
-        "alt": "Nationwide Green Waste Solutions - Waste Management Image 2",
-        "title": "Nationwide Green Waste Solutions - Waste Management 2"
+        "alt": "UK-wide green service",
+        "title": "Nationwide - Coverage"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-3.jpg",
-        "alt": "Nationwide Green Waste Solutions - Waste Management Image 3",
-        "title": "Nationwide Green Waste Solutions - Waste Management 3"
+        "alt": "Eco-friendly transport",
+        "title": "Nationwide - Transport"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-4.jpg",
-        "alt": "Nationwide Green Waste Solutions - Waste Management Image 4",
-        "title": "Nationwide Green Waste Solutions - Waste Management 4"
+        "alt": "Compliance documentation",
+        "title": "Nationwide - Compliance"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-5.jpg",
-        "alt": "Nationwide Green Waste Solutions - Waste Management Image 5",
-        "title": "Nationwide Green Waste Solutions - Waste Management 5"
+        "alt": "Sorted recycling",
+        "title": "Nationwide - Recycling"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-6.jpg",
-        "alt": "Nationwide Green Waste Solutions - Waste Management Image 6",
-        "title": "Nationwide Green Waste Solutions - Waste Management 6"
+        "alt": "Audit tracking",
+        "title": "Nationwide - Tracking"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-7.webp",
-        "alt": "Nationwide Green Waste Solutions - Waste Management Image 7",
-        "title": "Nationwide Green Waste Solutions - Waste Management 7"
+        "alt": "Team at work",
+        "title": "Nationwide - Teamwork"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-8.webp",
-        "alt": "Nationwide Green Waste Solutions - Waste Management Image 8",
-        "title": "Nationwide Green Waste Solutions - Waste Management 8"
+        "alt": "Green waste solutions",
+        "title": "Nationwide - Solutions"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-9.webp",
-        "alt": "Nationwide Green Waste Solutions - Waste Management Image 9",
-        "title": "Nationwide Green Waste Solutions - Waste Management 9"
+        "alt": "Happy client",
+        "title": "Nationwide - Happy Clients"
       }
     ]
   },
   "environmentalwaterrecycling.co.uk": {
-    "title": "Water Recycling Specialists",
-    "text": "Reduce water consumption and environmental impact with our specialist recycling solutions. We design and implement custom systems for process water, rainwater harvesting, and greywater reuse across industrial and commercial applications.",
-    "forYou": "Our environmental water recycling service helps organisations significantly reduce water consumption through effective reuse solutions. We specialise in designing and implementing bespoke water recycling systems for diverse applications including industrial process water, washdown operations, cooling systems, and rainwater harvesting. Using advanced filtration, treatment and monitoring technologies, we ensure all recycled water meets the quality requirements for its intended use. Our systems maximise water reuse while minimising discharge, helping reduce water costs, enhance sustainability credentials, and ensure compliance with discharge regulations. From initial assessment through to system design, installation and ongoing maintenance, we provide complete support for water recycling initiatives that deliver both environmental and operational benefits.",
+    "title": "Water Recycling Experts",
+    "text": "Cut your water bills and go greener with our clever recycling solutions – from rainwater harvesting to reusing greywater, we make every drop count.",
+    "forYou": "If you’re keen to slash your water usage and boost your sustainability creds, we’re the folks for the job. Our team designs and installs tailored recycling systems for all sorts of sites – factories, commercial buildings, even massive washdown set-ups. We’re all about smart tech: advanced filters, on-point treatment, and easy monitoring so you know your reused water is always up to scratch. Whether you want to capture rain, recycle process water or give your greywater a new lease of life, we handle the lot – right from first survey to installation and ongoing care. The result? Less waste, lower bills, happier planet.",
     "heroImg": "assets/website-hero-images/liquid-waste.png",
     "video": "www.youtube.com/watch?v=M2eBeHSSKHM",
     "services": [
       {
         "title": "Industrial Water Reuse",
-        "desc": "Recycling systems for manufacturing and processing applications.",
+        "desc": "Turn factory waste water into a resource, not a headache.",
         "icon": "fa-solid fa-industry"
       },
       {
         "title": "Rainwater Capture",
-        "desc": "Efficient harvesting and treatment of rainwater for appropriate uses.",
+        "desc": "Make the most of British weather with smart rain harvesting.",
         "icon": "fa-solid fa-cloud-rain"
       },
       {
         "title": "Greywater Systems",
-        "desc": "Solutions to safely reuse non-sewage wastewater from buildings.",
+        "desc": "Reuse water from showers, sinks and more – safely and sensibly.",
         "icon": "fa-solid fa-sink"
       },
       {
         "title": "Custom System Design",
-        "desc": "Bespoke recycling solutions tailored to your specific water requirements.",
+        "desc": "No cookie-cutters here – we design to suit your site.",
         "icon": "fa-solid fa-drafting-compass"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning1.jpg",
-        "alt": "Water Recycling Specialists - Cleaning Services Image 1",
-        "title": "Water Recycling Specialists - Cleaning Services 1"
+        "alt": "Water Recycling in Action 1",
+        "title": "Water Recycling – On the Job 1"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning2.jpg",
-        "alt": "Water Recycling Specialists - Cleaning Services Image 2",
-        "title": "Water Recycling Specialists - Cleaning Services 2"
+        "alt": "Water Recycling in Action 2",
+        "title": "Water Recycling – On the Job 2"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning3.jpg",
-        "alt": "Water Recycling Specialists - Cleaning Services Image 3",
-        "title": "Water Recycling Specialists - Cleaning Services 3"
+        "alt": "Water Recycling in Action 3",
+        "title": "Water Recycling – On the Job 3"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning4.jpg",
-        "alt": "Water Recycling Specialists - Cleaning Services Image 4",
-        "title": "Water Recycling Specialists - Cleaning Services 4"
+        "alt": "Water Recycling in Action 4",
+        "title": "Water Recycling – On the Job 4"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning5.jpg",
-        "alt": "Water Recycling Specialists - Cleaning Services Image 5",
-        "title": "Water Recycling Specialists - Cleaning Services 5"
+        "alt": "Water Recycling in Action 5",
+        "title": "Water Recycling – On the Job 5"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning6.jpg",
-        "alt": "Water Recycling Specialists - Cleaning Services Image 6",
-        "title": "Water Recycling Specialists - Cleaning Services 6"
+        "alt": "Water Recycling in Action 6",
+        "title": "Water Recycling – On the Job 6"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning7.jpg",
-        "alt": "Water Recycling Specialists - Cleaning Services Image 7",
-        "title": "Water Recycling Specialists - Cleaning Services 7"
+        "alt": "Water Recycling in Action 7",
+        "title": "Water Recycling – On the Job 7"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning8.jpg",
-        "alt": "Water Recycling Specialists - Cleaning Services Image 8",
-        "title": "Water Recycling Specialists - Cleaning Services 8"
+        "alt": "Water Recycling in Action 8",
+        "title": "Water Recycling – On the Job 8"
       },
       {
         "src": "assets/Website-Service-Images/Cleaning-Services/cleaning9.jpg",
-        "alt": "Water Recycling Specialists - Cleaning Services Image 9",
-        "title": "Water Recycling Specialists - Cleaning Services 9"
+        "alt": "Water Recycling in Action 9",
+        "title": "Water Recycling – On the Job 9"
       }
     ]
   },
   "hazardouswasteclearance.co.uk": {
-    "title": "Specialist Hazardous Clearance",
-    "text": "Need expert hazardous waste removal? Our specialist team provides safe, compliant clearance and disposal of all dangerous materials, from chemicals and asbestos to clinical waste and contaminated materials.",
-    "forYou": "Our professional hazardous waste clearance service provides expert management of dangerous materials from identification through to safe disposal. We understand the complex regulatory requirements surrounding hazardous waste, delivering compliant solutions that protect both human health and the environment. Our fully accredited team follows strict protocols for the safe containment, transportation and disposal of hazardous substances, with comprehensive documentation provided for every clearance. We handle all categories of hazardous waste including chemicals, asbestos, clinical waste, contaminated materials, and electronic waste with appropriate UN-approved containers and licensed vehicles. From one-off clearances to regular waste management contracts, we deliver professional hazardous waste solutions tailored to your requirements.",
+    "title": "Hazardous Waste? Sorted.",
+    "text": "Need dangerous stuff gone? Our experts handle it fast, safe, and by the book – chemicals, asbestos, clinical waste, you name it.",
+    "forYou": "Hazardous waste is a nightmare if you don’t know what you’re doing – luckily, we do. Our accredited team deals with everything risky, from dodgy chemicals to asbestos, needles, and contaminated gear. We manage it all: identification, secure packing, transport and disposal, plus all the paperwork you need for total peace of mind. Whether it’s a one-off clear-out or a regular contract, we keep you safe, legal and sorted – with zero hassle for you.",
     "heroImg": "assets/website-hero-images/liquid-waste.png",
     "video": "www.youtube.com/watch?v=M2eBeHSSKHM",
     "services": [
       {
         "title": "Chemical Waste Removal",
-        "desc": "Safe clearance and disposal of chemical substances and containers.",
+        "desc": "No leaks, no drama – safe collection for all sorts of chemicals.",
         "icon": "fa-solid fa-flask"
       },
       {
         "title": "Asbestos Management",
-        "desc": "Licensed handling and disposal of asbestos-containing materials.",
+        "desc": "Licensed pros for safe asbestos removal and disposal.",
         "icon": "fa-solid fa-mask-face"
       },
       {
         "title": "Clinical Waste Handling",
-        "desc": "Specialist clearance of healthcare and laboratory waste materials.",
+        "desc": "Needles, lab waste, and more – we handle it all safely.",
         "icon": "fa-solid fa-syringe"
       },
       {
         "title": "Contaminated Material Services",
-        "desc": "Professional removal of contaminated soils and materials.",
+        "desc": "We shift soils and materials nobody else wants to touch.",
         "icon": "fa-solid fa-biohazard"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-1.jpg",
-        "alt": "Specialist Hazardous Clearance - Waste Management Image 1",
-        "title": "Specialist Hazardous Clearance - Waste Management 1"
+        "alt": "Hazardous Waste Clearance 1",
+        "title": "Hazardous Waste – Job 1"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-2.jpg",
-        "alt": "Specialist Hazardous Clearance - Waste Management Image 2",
-        "title": "Specialist Hazardous Clearance - Waste Management 2"
+        "alt": "Hazardous Waste Clearance 2",
+        "title": "Hazardous Waste – Job 2"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-3.jpg",
-        "alt": "Specialist Hazardous Clearance - Waste Management Image 3",
-        "title": "Specialist Hazardous Clearance - Waste Management 3"
+        "alt": "Hazardous Waste Clearance 3",
+        "title": "Hazardous Waste – Job 3"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-4.jpg",
-        "alt": "Specialist Hazardous Clearance - Waste Management Image 4",
-        "title": "Specialist Hazardous Clearance - Waste Management 4"
+        "alt": "Hazardous Waste Clearance 4",
+        "title": "Hazardous Waste – Job 4"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-5.jpg",
-        "alt": "Specialist Hazardous Clearance - Waste Management Image 5",
-        "title": "Specialist Hazardous Clearance - Waste Management 5"
+        "alt": "Hazardous Waste Clearance 5",
+        "title": "Hazardous Waste – Job 5"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-6.jpg",
-        "alt": "Specialist Hazardous Clearance - Waste Management Image 6",
-        "title": "Specialist Hazardous Clearance - Waste Management 6"
+        "alt": "Hazardous Waste Clearance 6",
+        "title": "Hazardous Waste – Job 6"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-7.webp",
-        "alt": "Specialist Hazardous Clearance - Waste Management Image 7",
-        "title": "Specialist Hazardous Clearance - Waste Management 7"
+        "alt": "Hazardous Waste Clearance 7",
+        "title": "Hazardous Waste – Job 7"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-8.webp",
-        "alt": "Specialist Hazardous Clearance - Waste Management Image 8",
-        "title": "Specialist Hazardous Clearance - Waste Management 8"
+        "alt": "Hazardous Waste Clearance 8",
+        "title": "Hazardous Waste – Job 8"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-9.webp",
-        "alt": "Specialist Hazardous Clearance - Waste Management Image 9",
-        "title": "Specialist Hazardous Clearance - Waste Management 9"
+        "alt": "Hazardous Waste Clearance 9",
+        "title": "Hazardous Waste – Job 9"
       }
     ]
   },
   "waste-removal-tideway.co.uk": {
-    "title": "Thames Tideway Specialists",
-    "text": "Specialising in waste management along the Thames Tideway. We provide expert collection services for riverside properties, marine debris removal, and support for construction projects with the unique skills needed for waterway operations.",
-    "forYou": "Our dedicated Tideway waste removal service addresses the unique challenges of managing waste in riverside and Thames-adjacent locations. We understand the specific access restrictions, tidal considerations and environmental sensitivities particular to Tideway operations. Our comprehensive service covers residential and commercial riverside properties, construction projects along the Thames, and direct removal of marine debris from the waterway. With experience supporting major Tideway infrastructure projects and numerous riverside businesses, we deliver reliable waste management solutions perfectly tailored to this distinctive London environment.",
+    "title": "Thames Tideway Waste Pros",
+    "text": "We clear waste along the Thames – from river rubbish to builder’s muck. If you’re on the water, we’re your team.",
+    "forYou": "London’s riverside can be tricky – tides, tight spots, all sorts of floating junk. Our crew are Tideway specialists, used to shifting waste from riverside homes, construction sites and businesses, even pulling debris straight from the Thames itself. We know how to handle the rules and the river, making it easy for you to keep your bit of the waterway spotless, safe and legal.",
     "heroImg": "assets/website-hero-images/tunnel-cleaning.png",
     "video": "www.youtube.com/watch?v=11X2ye7wDZ4",
     "services": [
       {
         "title": "Riverside Collection",
-        "desc": "Specialist waste removal from Thames-adjacent properties and businesses.",
+        "desc": "Got waste by the water? We’ll come get it.",
         "icon": "fa-solid fa-building-water"
       },
       {
         "title": "Marine Debris Services",
-        "desc": "Removal of floating debris and waste directly from the Thames.",
+        "desc": "We fish out rubbish and floating debris from the Thames.",
         "icon": "fa-solid fa-ship"
       },
       {
         "title": "Tideway Construction Support",
-        "desc": "Waste management for infrastructure and building projects along the river.",
+        "desc": "Waste management for riverside builds and big projects.",
         "icon": "fa-solid fa-hard-hat"
       },
       {
         "title": "Environmental Protection",
-        "desc": "Practices designed to safeguard the sensitive Thames ecosystem.",
+        "desc": "Keeping the Thames healthy with eco-friendly practices.",
         "icon": "fa-solid fa-fish"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-1.jpg",
-        "alt": "Thames Tideway Specialists - Waste Management Image 1",
-        "title": "Thames Tideway Specialists - Waste Management 1"
+        "alt": "Tideway Waste Removal 1",
+        "title": "Tideway Waste – Gallery 1"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-2.jpg",
-        "alt": "Thames Tideway Specialists - Waste Management Image 2",
-        "title": "Thames Tideway Specialists - Waste Management 2"
+        "alt": "Tideway Waste Removal 2",
+        "title": "Tideway Waste – Gallery 2"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-3.jpg",
-        "alt": "Thames Tideway Specialists - Waste Management Image 3",
-        "title": "Thames Tideway Specialists - Waste Management 3"
+        "alt": "Tideway Waste Removal 3",
+        "title": "Tideway Waste – Gallery 3"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-4.jpg",
-        "alt": "Thames Tideway Specialists - Waste Management Image 4",
-        "title": "Thames Tideway Specialists - Waste Management 4"
+        "alt": "Tideway Waste Removal 4",
+        "title": "Tideway Waste – Gallery 4"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-5.jpg",
-        "alt": "Thames Tideway Specialists - Waste Management Image 5",
-        "title": "Thames Tideway Specialists - Waste Management 5"
+        "alt": "Tideway Waste Removal 5",
+        "title": "Tideway Waste – Gallery 5"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-6.jpg",
-        "alt": "Thames Tideway Specialists - Waste Management Image 6",
-        "title": "Thames Tideway Specialists - Waste Management 6"
+        "alt": "Tideway Waste Removal 6",
+        "title": "Tideway Waste – Gallery 6"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-7.webp",
-        "alt": "Thames Tideway Specialists - Waste Management Image 7",
-        "title": "Thames Tideway Specialists - Waste Management 7"
+        "alt": "Tideway Waste Removal 7",
+        "title": "Tideway Waste – Gallery 7"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-8.webp",
-        "alt": "Thames Tideway Specialists - Waste Management Image 8",
-        "title": "Thames Tideway Specialists - Waste Management 8"
+        "alt": "Tideway Waste Removal 8",
+        "title": "Tideway Waste – Gallery 8"
       },
       {
         "src": "assets/Website-Service-Images/Waste-Management/waste-9.webp",
-        "alt": "Thames Tideway Specialists - Waste Management Image 9",
-        "title": "Thames Tideway Specialists - Waste Management 9"
+        "alt": "Tideway Waste Removal 9",
+        "title": "Tideway Waste – Gallery 9"
       }
     ]
   },
   "waste-logistics.co.uk": {
-    "title": "Optimised Waste Transport",
-    "text": "Streamline your waste management with our specialist logistics expertise. We optimise collection routes, provide efficient bulk transfer capabilities, and implement advanced tracking systems that deliver cost savings and environmental benefits.",
-    "forYou": "Our waste logistics service focuses on improving the efficiency of waste transportation through intelligent route planning, vehicle selection and scheduling. We help waste management companies, large producers, and organisations with multiple sites streamline the entire waste journey from collection point to final disposal or recycling facility. Our services include bulk waste transfer capabilities for large volumes, advanced GPS tracking systems providing full journey transparency, and cost-effective transport solutions that reduce both emissions and expenses. By implementing our optimised logistics approach, you can expect reduced transport costs, improved environmental performance through lower emissions, and complete compliance with waste transfer regulations.",
+    "title": "Waste Transport, Done Right",
+    "text": "Need your waste gone, quick and efficient? We optimise routes and bulk transfers for max savings and minimum faff.",
+    "forYou": "If you’re sick of overpaying for rubbish runs, you’ll love our waste logistics. We sort out collections with smart route planning and the right vehicles, so you get bulk waste moved fast and without the usual chaos. Our real-time GPS tracking keeps you in the loop from pick-up to drop-off. Want to cut your transport costs, lower emissions and stay bang on with all the regs? That’s our speciality.",
     "heroImg": "assets/website-hero-images/road-sweeping.png",
     "video": "www.youtube.com/watch?v=M2eBeHSSKHM",
     "services": [
       {
         "title": "Route Optimisation",
-        "desc": "Intelligent planning for efficient, low-emission waste collection routes.",
+        "desc": "Save money and time with smart collection planning.",
         "icon": "fa-solid fa-route"
       },
       {
         "title": "Bulk Transfer Solutions",
-        "desc": "Efficient handling of large waste volumes for commercial clients.",
+        "desc": "Move big loads with zero stress and proper paperwork.",
         "icon": "fa-solid fa-truck-moving"
       },
       {
         "title": "Advanced Tracking",
-        "desc": "Real-time GPS monitoring systems for complete waste journey visibility.",
+        "desc": "See your waste on the move with real-time GPS.",
         "icon": "fa-solid fa-location-dot"
       },
       {
         "title": "Transport Optimisation",
-        "desc": "Strategic vehicle selection and scheduling for maximum efficiency.",
+        "desc": "We pick the right trucks, you get a slick, efficient job.",
         "icon": "fa-solid fa-truck-container"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-1.webp",
-        "alt": "Optimised Waste Transport - Tanker Image 1",
-        "title": "Optimised Waste Transport - Tanker 1"
+        "alt": "Waste Transport Tanker 1",
+        "title": "Bulk Waste Logistics 1"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-2.webp",
-        "alt": "Optimised Waste Transport - Tanker Image 2",
-        "title": "Optimised Waste Transport - Tanker 2"
+        "alt": "Waste Transport Tanker 2",
+        "title": "Bulk Waste Logistics 2"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-3.webp",
-        "alt": "Optimised Waste Transport - Tanker Image 3",
-        "title": "Optimised Waste Transport - Tanker 3"
+        "alt": "Waste Transport Tanker 3",
+        "title": "Bulk Waste Logistics 3"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-4.webp",
-        "alt": "Optimised Waste Transport - Tanker Image 4",
-        "title": "Optimised Waste Transport - Tanker 4"
+        "alt": "Waste Transport Tanker 4",
+        "title": "Bulk Waste Logistics 4"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-5.webp",
-        "alt": "Optimised Waste Transport - Tanker Image 5",
-        "title": "Optimised Waste Transport - Tanker 5"
+        "alt": "Waste Transport Tanker 5",
+        "title": "Bulk Waste Logistics 5"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-6.webp",
-        "alt": "Optimised Waste Transport - Tanker Image 6",
-        "title": "Optimised Waste Transport - Tanker 6"
+        "alt": "Waste Transport Tanker 6",
+        "title": "Bulk Waste Logistics 6"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-7.jpeg",
-        "alt": "Optimised Waste Transport - Tanker Image 7",
-        "title": "Optimised Waste Transport - Tanker 7"
+        "alt": "Waste Transport Tanker 7",
+        "title": "Bulk Waste Logistics 7"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-8.jpg",
-        "alt": "Optimised Waste Transport - Tanker Image 8",
-        "title": "Optimised Waste Transport - Tanker 8"
+        "alt": "Waste Transport Tanker 8",
+        "title": "Bulk Waste Logistics 8"
       },
       {
         "src": "assets/Website-Service-Images/Tanker/tanker-9.webp",
-        "alt": "Optimised Waste Transport - Tanker Image 9",
-        "title": "Optimised Waste Transport - Tanker 9"
+        "alt": "Waste Transport Tanker 9",
+        "title": "Bulk Waste Logistics 9"
       }
     ]
   },
   "london-pump-services.co.uk": {
-    "title": "London Pump Maintenance",
-    "text": "Keep your pumping systems running reliably with our specialist London maintenance service. We provide expert cleaning, scheduled servicing, 24/7 emergency repairs, and comprehensive health checks for all commercial and industrial pumps.",
-    "forYou": "Our specialist London pump services keep your pumping systems operating at peak efficiency. We provide comprehensive maintenance, repair and cleaning for all types of pumps and pump stations across the capital. Our experienced technicians deliver scheduled servicing to prevent problems, emergency repairs when breakdowns occur, and thorough cleaning of pumps, wet wells and control systems. With 24/7 availability for urgent situations and detailed condition assessments to identify potential issues before they cause failures, we ensure your critical pumping infrastructure remains reliable. Trust our London-based specialists for all commercial and industrial pump requirements.",
+    "title": "London Pump Gurus",
+    "text": "Keep your pumps running like a dream. Fast fixes, regular checks, and zero nonsense from real London pros.",
+    "forYou": "Pumps are the heart of your site – and when they go down, you feel it. That’s where we come in. We’re London’s go-to team for pump servicing, cleaning and emergency repairs, round the clock. From big commercial stations to local businesses, we keep systems flowing with regular servicing, rapid response call-outs and deep cleans that make a difference. We spot problems before they wreck your day and keep your critical kit purring along nicely. Give us a ring any time – we’re always ready to roll.",
     "heroImg": "assets/website-hero-images/pump-station.png",
     "video": "www.youtube.com/watch?v=EgXahIFszfE",
     "services": [
       {
         "title": "Preventative Maintenance",
-        "desc": "Regular servicing to prevent failures and extend pump lifespan.",
+        "desc": "Regular check-ups so you’re never caught out by pump fails.",
         "icon": "fa-solid fa-wrench"
       },
       {
         "title": "24/7 Emergency Repairs",
-        "desc": "Rapid response to pump failures throughout London at any time.",
+        "desc": "Burst pipe? Broken pump? We’re on it, any hour.",
         "icon": "fa-solid fa-bolt"
       },
       {
         "title": "Specialist Pump Cleaning",
-        "desc": "Expert cleaning of pumps and wet wells to maintain efficiency.",
+        "desc": "Keep things flowing with pro-level cleaning for pumps and wells.",
         "icon": "fa-solid fa-shower"
       },
       {
         "title": "Condition Assessments",
-        "desc": "Detailed inspections and reporting on pump station condition.",
+        "desc": "Get the full picture with detailed pump health checks.",
         "icon": "fa-solid fa-clipboard-list"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-1.jpg",
-        "alt": "London Pump Maintenance - Pump Station Image 1",
-        "title": "London Pump Maintenance - Pump Station 1"
+        "alt": "London Pump Maintenance 1",
+        "title": "Pump Services – Gallery 1"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-2.jpg",
-        "alt": "London Pump Maintenance - Pump Station Image 2",
-        "title": "London Pump Maintenance - Pump Station 2"
+        "alt": "London Pump Maintenance 2",
+        "title": "Pump Services – Gallery 2"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-3.jpg",
-        "alt": "London Pump Maintenance - Pump Station Image 3",
-        "title": "London Pump Maintenance - Pump Station 3"
+        "alt": "London Pump Maintenance 3",
+        "title": "Pump Services – Gallery 3"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-4.jpg",
-        "alt": "London Pump Maintenance - Pump Station Image 4",
-        "title": "London Pump Maintenance - Pump Station 4"
+        "alt": "London Pump Maintenance 4",
+        "title": "Pump Services – Gallery 4"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-5.jpg",
-        "alt": "London Pump Maintenance - Pump Station Image 5",
-        "title": "London Pump Maintenance - Pump Station 5"
+        "alt": "London Pump Maintenance 5",
+        "title": "Pump Services – Gallery 5"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-6.jpg",
-        "alt": "London Pump Maintenance - Pump Station Image 6",
-        "title": "London Pump Maintenance - Pump Station 6"
+        "alt": "London Pump Maintenance 6",
+        "title": "Pump Services – Gallery 6"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-7.jpg",
-        "alt": "London Pump Maintenance - Pump Station Image 7",
-        "title": "London Pump Maintenance - Pump Station 7"
+        "alt": "London Pump Maintenance 7",
+        "title": "Pump Services – Gallery 7"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-8.jpg",
-        "alt": "London Pump Maintenance - Pump Station Image 8",
-        "title": "London Pump Maintenance - Pump Station 8"
+        "alt": "London Pump Maintenance 8",
+        "title": "Pump Services – Gallery 8"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-9.jpg",
-        "alt": "London Pump Maintenance - Pump Station Image 9",
-        "title": "London Pump Maintenance - Pump Station 9"
+        "alt": "London Pump Maintenance 9",
+        "title": "Pump Services – Gallery 9"
       }
     ]
   },
   "london-pump-services.uk": {
-    "title": "Professional Pump Solutions",
-    "text": "Comprehensive pump services throughout London from qualified specialists. We offer expert design, installation, maintenance, and efficiency optimisation for industrial and commercial pumping systems across the capital.",
-    "forYou": "Our professional pump services cover all aspects of pumping system management for London businesses. From initial design and installation to ongoing maintenance and efficiency optimisation, we provide complete solutions for industrial and commercial applications. Our expertise extends across water management pumps, heating system pumps, fire suppression systems, and specialist industrial applications. We can design bespoke pumping solutions for new installations, conduct detailed efficiency audits to identify energy-saving opportunities, and deliver regular servicing to maintain optimal performance. With our London-based team of experienced pump engineers, you'll receive responsive service that ensures your critical pumping infrastructure operates reliably and efficiently.",
+    "title": "London Pump Solutions",
+    "text": "We handle every pump job in London – from design and installs to keeping things running smooth and saving you cash.",
+    "forYou": "Every building needs working pumps, and our team does it all: design, installation, maintenance and energy-saving upgrades for London’s commercial and industrial sites. Got a new build or want to upgrade an old system? We’ll tailor the right solution for your needs and keep everything running with regular servicing and smart audits. We don’t just fix problems – we spot ways to boost performance and cut costs before they even show up.",
     "heroImg": "assets/website-hero-images/pump-station.png",
     "video": "www.youtube.com/watch?v=EgXahIFszfE",
     "services": [
       {
         "title": "System Design & Installation",
-        "desc": "Bespoke pumping solutions tailored to your specific requirements.",
+        "desc": "Pumps built for your building – not just off-the-shelf stuff.",
         "icon": "fa-solid fa-drafting-compass"
       },
       {
         "title": "Industrial Pump Expertise",
-        "desc": "Specialist services for complex industrial pumping applications.",
+        "desc": "Big factory pumps to specialist kit – we know the lot.",
         "icon": "fa-solid fa-industry"
       },
       {
         "title": "Energy Efficiency Audits",
-        "desc": "Identifying opportunities to reduce pump energy consumption and costs.",
+        "desc": "Slash your running costs with our expert audits.",
         "icon": "fa-solid fa-plug"
       },
       {
         "title": "Commercial Building Systems",
-        "desc": "Complete services for pumps in commercial properties across London.",
+        "desc": "Full pump support for London’s offices and commercial spaces.",
         "icon": "fa-solid fa-building"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-1.jpg",
-        "alt": "Professional Pump Solutions - Pump Station Image 1",
-        "title": "Professional Pump Solutions - Pump Station 1"
+        "alt": "Pump Solutions in London 1",
+        "title": "Pump Solutions – Gallery 1"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-2.jpg",
-        "alt": "Professional Pump Solutions - Pump Station Image 2",
-        "title": "Professional Pump Solutions - Pump Station 2"
+        "alt": "Pump Solutions in London 2",
+        "title": "Pump Solutions – Gallery 2"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-3.jpg",
-        "alt": "Professional Pump Solutions - Pump Station Image 3",
-        "title": "Professional Pump Solutions - Pump Station 3"
+        "alt": "Pump Solutions in London 3",
+        "title": "Pump Solutions – Gallery 3"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-4.jpg",
-        "alt": "Professional Pump Solutions - Pump Station Image 4",
-        "title": "Professional Pump Solutions - Pump Station 4"
+        "alt": "Pump Solutions in London 4",
+        "title": "Pump Solutions – Gallery 4"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-5.jpg",
-        "alt": "Professional Pump Solutions - Pump Station Image 5",
-        "title": "Professional Pump Solutions - Pump Station 5"
+        "alt": "Pump Solutions in London 5",
+        "title": "Pump Solutions – Gallery 5"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-6.jpg",
-        "alt": "Professional Pump Solutions - Pump Station Image 6",
-        "title": "Professional Pump Solutions - Pump Station 6"
+        "alt": "Pump Solutions in London 6",
+        "title": "Pump Solutions – Gallery 6"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-7.jpg",
-        "alt": "Professional Pump Solutions - Pump Station Image 7",
-        "title": "Professional Pump Solutions - Pump Station 7"
+        "alt": "Pump Solutions in London 7",
+        "title": "Pump Solutions – Gallery 7"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-8.jpg",
-        "alt": "Professional Pump Solutions - Pump Station Image 8",
-        "title": "Professional Pump Solutions - Pump Station 8"
+        "alt": "Pump Solutions in London 8",
+        "title": "Pump Solutions – Gallery 8"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-9.jpg",
-        "alt": "Professional Pump Solutions - Pump Station Image 9",
-        "title": "Professional Pump Solutions - Pump Station 9"
+        "alt": "Pump Solutions in London 9",
+        "title": "Pump Solutions – Gallery 9"
       }
     ]
   },
   "london-pump.co.uk": {
-    "title": "London Pump Experts",
-    "text": "London's trusted pump specialists at your service. We offer expert blockage removal, reliable maintenance, comprehensive condition assessments and rapid 24/7 emergency response for all commercial and industrial pumping systems.",
-    "forYou": "Keep your pumping systems operating efficiently with London's specialist pump maintenance service. Our experienced technicians provide comprehensive solutions including expert cleaning to remove blockages, thorough servicing to ensure reliability, and detailed condition assessments to identify potential issues. We specialise in drainage and sewage pumps for commercial and industrial applications across Greater London, with rapid 24/7 emergency response when failures occur. Our preventative maintenance approach helps extend equipment lifespan, reduce operational costs, and minimise disruptive breakdowns. Trust our London-based pump experts to maintain your critical infrastructure with professional, prompt service.",
+    "title": "London’s Pump Experts",
+    "text": "Blocked pump? System on the blink? We clear, fix, and keep your London pumps running – day or night.",
+    "forYou": "When pumps go wrong, it’s a nightmare – but don’t stress, we’re on it. We offer everything from fast blockage removal and regular servicing to 24/7 emergency repairs for all kinds of pumps, especially drainage and sewage kit for commercial and industrial setups. We believe in proper maintenance, spotting issues before they cause chaos and giving you honest reports so you know exactly what’s up. Our London team is always just a call away.",
     "heroImg": "assets/website-hero-images/pump-station.png",
     "video": "www.youtube.com/watch?v=EgXahIFszfE",
     "services": [
       {
         "title": "Blockage Removal",
-        "desc": "Expert cleaning and clearance of pump blockages for restored performance.",
+        "desc": "Blocked pump? We’ll clear it quick and get you flowing.",
         "icon": "fa-solid fa-toilet"
       },
       {
         "title": "Preventative Servicing",
-        "desc": "Regular maintenance to prevent failures and optimise efficiency.",
+        "desc": "Avoid nasty surprises with regular, expert servicing.",
         "icon": "fa-solid fa-tools"
       },
       {
         "title": "Emergency Call-Out",
-        "desc": "24/7 rapid response to pump failures across London.",
+        "desc": "Broken pump in the middle of the night? We’re on the way.",
         "icon": "fa-solid fa-truck-fast"
       },
       {
         "title": "Performance Assessment",
-        "desc": "Comprehensive testing and reporting on pump system condition.",
+        "desc": "Full checks and honest reporting for your peace of mind.",
         "icon": "fa-solid fa-gauge-high"
       }
     ],
     "gallery": [
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-1.jpg",
-        "alt": "London Pump Experts - Pump Station Image 1",
-        "title": "London Pump Experts - Pump Station 1"
+        "alt": "Pump Experts London 1",
+        "title": "London Pump Pros – Gallery 1"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-2.jpg",
-        "alt": "London Pump Experts - Pump Station Image 2",
-        "title": "London Pump Experts - Pump Station 2"
+        "alt": "Pump Experts London 2",
+        "title": "London Pump Pros – Gallery 2"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-3.jpg",
-        "alt": "London Pump Experts - Pump Station Image 3",
-        "title": "London Pump Experts - Pump Station 3"
+        "alt": "Pump Experts London 3",
+        "title": "London Pump Pros – Gallery 3"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-4.jpg",
-        "alt": "London Pump Experts - Pump Station Image 4",
-        "title": "London Pump Experts - Pump Station 4"
+        "alt": "Pump Experts London 4",
+        "title": "London Pump Pros – Gallery 4"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-5.jpg",
-        "alt": "London Pump Experts - Pump Station Image 5",
-        "title": "London Pump Experts - Pump Station 5"
+        "alt": "Pump Experts London 5",
+        "title": "London Pump Pros – Gallery 5"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-6.jpg",
-        "alt": "London Pump Experts - Pump Station Image 6",
-        "title": "London Pump Experts - Pump Station 6"
+        "alt": "Pump Experts London 6",
+        "title": "London Pump Pros – Gallery 6"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-7.jpg",
-        "alt": "London Pump Experts - Pump Station Image 7",
-        "title": "London Pump Experts - Pump Station 7"
+        "alt": "Pump Experts London 7",
+        "title": "London Pump Pros – Gallery 7"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-8.jpg",
-        "alt": "London Pump Experts - Pump Station Image 8",
-        "title": "London Pump Experts - Pump Station 8"
+        "alt": "Pump Experts London 8",
+        "title": "London Pump Pros – Gallery 8"
       },
       {
         "src": "assets/Website-Service-Images/Pump-Station/pump-station-9.jpg",
-        "alt": "London Pump Experts - Pump Station Image 9",
-        "title": "London Pump Experts - Pump Station 9"
+        "alt": "Pump Experts London 9",
+        "title": "London Pump Pros – Gallery 9"
       }
     ]
   }
 }
+
+////DONE & NOT MAIN JSON

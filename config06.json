@@ -1,29 +1,29 @@
-
+{
   "gullygulper.uk": {
-    "title": "Superior Drainage Cleaning Tech",
-    "text": "Blast away stubborn blockages with our advanced Gully Gulper technology - superior vacuum power for cleaner drains nationwide!",
+    "title": "Gully Gulper UK | Next-Level Drain Cleaning, Nationwide!",
+    "text": "Our Gully Gulper tech smashes blockages! Superior suction for spotless drains all over the UK.",
     "heroImg": "assets/website-hero-images/gully.png",
-    "forYou": "Our Gully Gulper UK service delivers exceptional drainage cleaning performance with nationwide coverage. We understand the importance of maintaining effective drainage infrastructure throughout Britain, providing our advanced Gulper technology that ensures superior results in all regions. Our innovative Gully Gulper system combines powerful vacuum extraction with precision handling, achieving exceptional cleaning results for all types of drainage gullies including roadside catchpits, highway drains, yard gullies, and linear channels. The unique Gulper technology effectively removes stubborn, compacted debris that conventional cleaning methods often leave behind, ensuring thoroughly cleaned drainage systems and reduced flooding risks. Our UK-wide fleet of purpose-built vehicles features our proprietary Gulper technology alongside high-capacity waste tanks, water recycling systems, and onboard jetting equipment for complete drainage maintenance.",
+    "forYou": "Got stubborn drain blockages that just won't budge? Say hello to Gully Gulper UK! We offer top-notch drainage cleaning right across the country, using our amazing Gully Gulper tech. This isn't your average drain clean; our system uses seriously powerful vacuum suction and clever handling to get rid of the toughest, most compacted muck from all sorts of gullies – roadside ones, highway drains, yard gullies, you name it. Stuff that other cleaners leave behind? We gulp it up! This means super clean drains and much less chance of flooding. Our nationwide fleet of custom-built Gulper trucks also has big waste tanks, water recycling, and jetting gear for the full works.",
     "services": [
       {
-        "title": "UK-Wide Gulper Technology",
-        "desc": "Advanced cleaning technology available nationwide.",
+        "title": "Gully Gulper Tech - UK Wide!",
+        "desc": "Our cutting-edge Gully Gulper cleaning, available wherever you are in the UK.",
         "icon": "fa-solid fa-map-location-dot"
       },
       {
-        "title": "Enhanced Vacuum Extraction",
-        "desc": "Superior suction power for stubborn, compacted debris.",
-        "icon": "fa-solid fa-wind"
+        "title": "Mega Vacuum Power",
+        "desc": "Unbeatable suction to shift even the most stubborn, packed-in gunk.",
+        "icon": "fa-solid fa-hurricane"
       },
       {
-        "title": "National Maintenance Contracts",
-        "desc": "Consistent service standards across all UK regions.",
-        "icon": "fa-solid fa-file-contract"
+        "title": "Nationwide Service Contracts",
+        "desc": "Get the same brilliant Gully Gulper service, consistently, across all UK regions.",
+        "icon": "fa-solid fa-file-signature"
       },
       {
-        "title": "Complete System Cleaning",
-        "desc": "Thorough cleaning of entire drainage networks.",
-        "icon": "fa-solid fa-diagram-project"
+        "title": "Total Drainage System Clean",
+        "desc": "We don't just skim the surface; we give your whole drainage network a proper deep clean.",
+        "icon": "fa-solid fa-network-wired"
       }
     ],
     "gallery": [
@@ -76,30 +76,30 @@
     "video": "www.youtube.com/watch?v=4p2htIH3NOc"
   },
   "london-tunnels.co.uk": {
-    "title": "London Tunnel Cleaning Experts",
-    "text": "Keep London's critical infrastructure running smoothly with our specialist tunnel cleaning teams - safety certified for confined spaces!",
+    "title": "London Tunnel Cleaning | Expert Teams for Capital's Tunnels!",
+    "text": "Keeping London's tunnels spick & span! Our safety-certified crews clean road, rail & utility tunnels.",
     "heroImg": "assets/website-hero-images/tunnel-cleaning.png",
-    "forYou": "Maintain the safety and functionality of London's critical tunnel infrastructure with our specialist cleaning service. Our teams are fully trained and certified for confined space operations, using advanced equipment to clean road tunnels, rail tunnels, pedestrian subways, and utility service tunnels throughout the capital. We remove accumulated dirt, silt, debris and contaminants from walls, ceilings, drainage systems and surfaces, helping to extend infrastructure lifespan and ensure operational safety. With experience working with Transport for London, Network Rail and utility companies, we understand the specific requirements for tunnel maintenance and can work within strict access windows to minimise disruption to London's vital transport and utility networks.",
+    "forYou": "London's tunnels are vital, and we're the specialists keeping them safe and working perfectly. Our expert teams are fully kitted out and certified for those tricky confined space jobs. We clean everything from road and rail tunnels to pedestrian subways and those all-important utility tunnels right across the capital. Think dirt, silt, general muck – we get rid of it from walls, ceilings, drains, and surfaces. This helps everything last longer and stay safe. We've worked with the big names like TfL and Network Rail, so we know the drill and can work around tight schedules to keep London moving.",
     "services": [
       {
-        "title": "Road & Rail Tunnel Cleaning",
-        "desc": "Cleaning tunnel walls, ceilings, and drainage systems in London's transport network.",
-        "icon": "fa-solid fa-train-subway"
+        "title": "Road & Rail Tunnel TLC",
+        "desc": "Cleaning walls, ceilings, and drains in London's busy transport tunnels. All clear!",
+        "icon": "fa-solid fa-train-tram"
       },
       {
-        "title": "Utility Tunnel Maintenance",
-        "desc": "Cleaning and maintaining access for utility infrastructure within London tunnels.",
-        "icon": "fa-solid fa-plug-circle-bolt"
+        "title": "Utility Tunnel Upkeep",
+        "desc": "Keeping utility tunnels clean and accessible for London's essential services.",
+        "icon": "fa-solid fa-lightbulb"
       },
       {
-        "title": "Confined Space Operations",
-        "desc": "Expert teams trained and equipped for safe working within London's tunnels.",
-        "icon": "fa-solid fa-people-carry-box"
+        "title": "Confined Space Aces",
+        "desc": "Our expert crews are trained and equipped for safe working in London's tricky tunnels.",
+        "icon": "fa-solid fa-helmet-safety"
       },
       {
-        "title": "Debris & Silt Removal",
-        "desc": "Removing accumulated dirt, grime, and silt from tunnel surfaces and drainage.",
-        "icon": "fa-solid fa-broom"
+        "title": "Muck & Grime Busters",
+        "desc": "We shift all that built-up dirt, grime, and silt from tunnel surfaces and drains.",
+        "icon": "fa-solid fa-soap"
       }
     ],
     "gallery": [
@@ -152,30 +152,30 @@
     "video": "www.youtube.com/watch?v=x94tjxcArU8"
   },
   "london-tunnels.com": {
-    "title": "Capital Tunnel Maintenance",
-    "text": "Comprehensive tunnel cleaning and maintenance across London with minimal disruption - from pressure washing to specialist access solutions!",
+    "title": "London Tunnel Maintenance | Total Care for Capital Tunnels!",
+    "text": "Full-on tunnel cleaning for London! Pressure washing, big culverts, specialist access – minimum fuss, maximum clean.",
     "heroImg": "assets/website-hero-images/tunnel-cleaning.png",
-    "forYou": "Maintain London's vital tunnel infrastructure with our comprehensive cleaning and maintenance service. We provide specialized solutions for all tunnel types throughout the capital, including road tunnels, pedestrian subways, rail tunnels, and utility service tunnels. Our services include high-pressure washing of tunnel linings, walls and ceilings to remove accumulated grime, comprehensive cleaning of large diameter culverts that form part of London's drainage network, and specialist access using MEWPs (Mobile Elevating Work Platforms) and other equipment for safe working at height within confined spaces. Our experienced project management team coordinates complex tunnel maintenance operations, working within strict access windows to minimize disruption to London's transportation systems.",
+    "forYou": "Keeping London's tunnels in prime condition is our bread and butter! We offer the full works for all types of tunnels across the capital – road, pedestrian, rail, and utility. Our crew gets stuck in with high-pressure washing to get tunnel linings, walls, and ceilings gleaming again. We also tackle those big culverts that are part of London's drainage, making sure they're clear. Need to get to tricky spots? Our specialist access gear, like MEWPs, means we can work safely at height in confined spaces. Our top-notch project managers handle all the complex bits, working smart to keep disruption in London to a minimum.",
     "services": [
       {
-        "title": "High-Pressure Tunnel Washing",
-        "desc": "Powerful washing systems to clean tunnel linings, walls, and ceilings.",
+        "title": "Tunnel Power Washing",
+        "desc": "Our powerful washing systems blast grime from tunnel linings, walls, and ceilings.",
         "icon": "fa-solid fa-shower"
       },
       {
-        "title": "Large Diameter Culvert Cleaning",
-        "desc": "Cleaning large tunnels and culverts forming part of London's drainage network.",
-        "icon": "fa-solid fa-water-ladder"
+        "title": "Big Culvert Cleaning",
+        "desc": "Cleaning out London's large tunnels and culverts in the drainage network.",
+        "icon": "fa-solid fa-archway"
       },
       {
-        "title": "Specialist Access Equipment",
-        "desc": "Utilising MEWPs and other equipment for safe access within tunnels.",
-        "icon": "fa-solid fa-elevator"
+        "title": "Safe Access Solutions",
+        "desc": "Using MEWPs and other specialist kit for safe, efficient work inside tunnels.",
+        "icon": "fa-solid fa-person-rays"
       },
       {
-        "title": "Project Management",
-        "desc": "Experienced management of complex tunnel cleaning projects in London.",
-        "icon": "fa-solid fa-list-check"
+        "title": "Smooth Project Management",
+        "desc": "We expertly manage complex tunnel cleaning projects right here in London.",
+        "icon": "fa-solid fa-clipboard-list"
       }
     ],
     "gallery": [
@@ -228,29 +228,29 @@
     "video": "www.youtube.com/watch?v=x94tjxcArU8"
   },
   "subway-cleaning.co.uk": {
-    "title": "Pedestrian Subway Specialists",
-    "text": "Revitalise public subways with our deep cleaning, graffiti removal and drainage clearance services - enhancing safety and appearance!",
+    "title": "Subway Cleaning UK | Safe & Sparkling Pedestrian Underpasses!",
+    "text": "Let's brighten up your public subways! Deep cleaning, graffiti zapping, drain clearing – making them safe and welcoming.",
     "heroImg": "assets/website-hero-images/tunnel-cleaning.png",
-    "forYou": "Maintain safe, clean pedestrian subways and underpasses with our dedicated cleaning service. We provide comprehensive maintenance for these important public access routes, focusing on thorough cleaning of floors, walls, ceilings and drainage systems to ensure a safe, hygienic environment for pedestrians. Our service includes specialized graffiti removal techniques that effectively eliminate unsightly markings without damaging underlying surfaces, plus deep cleaning of drainage channels to prevent water accumulation that can create slip hazards. Regular professional cleaning of these areas significantly improves perceived safety, enhances public confidence in using these routes, and contributes to overall community wellbeing.",
+    "forYou": "Nobody likes a grim subway! Our dedicated cleaning service keeps pedestrian subways and underpasses safe, clean, and inviting. We give these important walkways a proper going-over – floors, walls, ceilings, and drains – to make sure they're hygienic and pleasant for everyone. Got graffiti? Our specialist techniques will get rid of it without harming the surface. We also deep clean the drains to stop any puddles forming and creating slip hazards. A regularly cleaned subway just feels safer, makes people happier to use it, and is a real boost for the community.",
     "services": [
       {
-        "title": "Pedestrian Subway Cleaning",
-        "desc": "Cleaning walls, floors, ceilings, and drainage within public subways.",
-        "icon": "fa-solid fa-person-walking"
+        "title": "Subway Deep Clean",
+        "desc": "We clean everything in public subways – walls, floors, ceilings, and drains. Spotless!",
+        "icon": "fa-solid fa-person-walking-luggage"
       },
       {
-        "title": "Graffiti Removal",
-        "desc": "Specialist cleaning techniques for removing graffiti from subway surfaces.",
-        "icon": "fa-solid fa-paint-roller"
+        "title": "Graffiti Gone!",
+        "desc": "Our specialist cleaning gets rid of unsightly graffiti from subway surfaces, sharpish.",
+        "icon": "fa-solid fa-eraser"
       },
       {
-        "title": "Drainage Clearance",
-        "desc": "Ensuring drains within subways and underpasses are clear and functional.",
-        "icon": "fa-solid fa-faucet-drip"
+        "title": "Clear Subway Drains",
+        "desc": "Making sure drains in subways and underpasses are clear and working properly.",
+        "icon": "fa-solid fa-house-flood-water"
       },
       {
-        "title": "Public Space Maintenance",
-        "desc": "Contributing to the upkeep and safety of public walkways and underpasses.",
+        "title": "Brighter Public Spaces",
+        "desc": "We help keep public walkways and underpasses looking good and feeling safe.",
         "icon": "fa-solid fa-hand-sparkles"
       }
     ],
@@ -304,30 +304,30 @@
     "video": "www.youtube.com/watch?v=x94tjxcArU8"
   },
   "tunnel-cleaning.com": {
-    "title": "Global Tunnel Cleaning Experts",
-    "text": "Deploy our UK-developed tunnel cleaning expertise internationally - providing confined space specialists for infrastructure projects worldwide!",
+    "title": "Global Tunnel Cleaning | UK Expertise, Worldwide Solutions!",
+    "text": "Need tunnels cleaned, anywhere in the world? Our UK-honed expertise & certified teams are ready to deploy globally!",
     "heroImg": "assets/website-hero-images/tunnel-cleaning.png",
-    "forYou": "Apply our world-class tunnel cleaning expertise to your international infrastructure projects. Drawing on extensive experience gained in the demanding UK environment, our specialist teams can deploy globally to deliver exceptional tunnel and culvert cleaning services anywhere in the world. Our internationally mobile confined space specialists are fully certified to international standards and equipped to handle deep cleaning and clearance of all tunnel types, from transportation and utility tunnels to culverts and large-diameter conduits. We remove silt, debris and obstructions that compromise capacity and functionality, using techniques and equipment refined through years of challenging infrastructure maintenance.",
+    "forYou": "Got an international infrastructure project needing top-tier tunnel cleaning? We bring our world-class, UK-developed know-how to your doorstep, wherever that may be! Our specialist teams are seasoned pros, ready to jet off and deliver brilliant tunnel and culvert cleaning services across the globe. Our confined space experts are internationally certified and have all the gear to tackle deep cleaning and clearance of any tunnel type – transport, utility, big culverts, you name it. We shift the silt, debris, and blockages that mess with how things work, using techniques perfected over years of tough jobs.",
     "services": [
       {
-        "title": "Global Tunnel Cleaning Expertise",
-        "desc": "Applying UK-honed skills and techniques to international tunnel cleaning projects.",
-        "icon": "fa-solid fa-globe"
+        "title": "Worldwide Tunnel Wizards",
+        "desc": "Bringing our tried-and-tested UK skills to your international tunnel cleaning projects.",
+        "icon": "fa-solid fa-earth-americas"
       },
       {
-        "title": "Deep Cleaning & Clearance",
-        "desc": "Removing silt, debris, and obstructions from tunnels and culverts worldwide.",
+        "title": "Global Deep Clean & Clear",
+        "desc": "Removing silt, debris, and pesky obstructions from tunnels and culverts, worldwide.",
         "icon": "fa-solid fa-person-digging"
       },
       {
-        "title": "Confined Space Specialists",
-        "desc": "Internationally deployable teams trained for safe confined space operations.",
-        "icon": "fa-solid fa-helmet-safety"
+        "title": "Certified Confined Space Pros",
+        "desc": "Our internationally deployable teams are experts in safe confined space work.",
+        "icon": "fa-solid fa-user-shield"
       },
       {
-        "title": "Infrastructure Maintenance",
-        "desc": "Ensuring critical tunnel infrastructure is kept clear and functional globally.",
-        "icon": "fa-solid fa-screwdriver-wrench"
+        "title": "Global Infrastructure Care",
+        "desc": "Ensuring critical tunnel infrastructure worldwide is kept clear, functional, and safe.",
+        "icon": "fa-solid fa-building-shield"
       }
     ],
     "gallery": [
@@ -380,29 +380,29 @@
     "video": "www.youtube.com/watch?v=x94tjxcArU8"
   },
   "tunnelcleaning.co.uk": {
-    "title": "UK Tunnel & Culvert Specialists",
-    "text": "Clear blockages and prevent flooding with our specialist tunnel and culvert cleaning service - using robotics and remote access tech!",
+    "title": "UK Tunnel & Culvert Cleaning | Robotics & Remote Access!",
+    "text": "Blocked tunnels or culverts in the UK? Our specialist teams use robotics & remote tech to clear 'em! Flood prevention, sorted.",
     "heroImg": "assets/website-hero-images/tunnel-cleaning.png",
-    "forYou": "Our specialist tunnel and culvert cleaning service keeps critical infrastructure functioning safely and efficiently across the UK. With fully certified confined space teams and advanced equipment—including robotics for remote access—we clear silt, debris and blockages from tunnels, culverts and large-diameter underground conduits. Regular maintenance prevents flooding, extends infrastructure lifespan and ensures optimal flow capacity. We serve highways agencies, water companies, local authorities and private clients, adhering to strict health and safety protocols for confined space operations. From small culverts to major tunnels, our experienced teams deliver thorough, professional cleaning with minimal disruption and full environmental compliance.",
+    "forYou": "Keep your UK tunnels and culverts working like a dream with our specialist cleaning service! Our certified confined space crews use the latest kit – including cool robotics for those hard-to-reach spots – to clear out silt, debris, and blockages from tunnels, culverts, and big underground pipes. Regular cleaning means no nasty floods, longer life for your structures, and water flowing just as it should. We work with highways teams, water companies, councils, and private clients, always putting safety first. Big tunnels, small culverts – we do it all, professionally and with minimal fuss, keeping everything green and compliant.",
     "services": [
       {
-        "title": "Culvert Cleaning & Desilting",
-        "desc": "Removing silt, debris, and blockages from culverts of all sizes.",
-        "icon": "fa-solid fa-water"
+        "title": "Culvert Clearing & De-Silting",
+        "desc": "Getting rid of silt, debris, and blockages from culverts of all shapes and sizes.",
+        "icon": "fa-solid fa-feather-pointed"
       },
       {
-        "title": "Tunnel Wall & Ceiling Cleaning",
-        "desc": "High-pressure washing and cleaning of tunnel internal surfaces.",
-        "icon": "fa-solid fa-spray-can"
+        "title": "Tunnel Surface Sparkle",
+        "desc": "High-pressure washing and cleaning for gleaming tunnel walls and ceilings.",
+        "icon": "fa-solid fa-spray-can-sparkles"
       },
       {
-        "title": "Confined Space Entry Teams",
-        "desc": "Fully certified teams for safe working in tunnels and large culverts.",
+        "title": "Expert Confined Space Crews",
+        "desc": "Our fully certified teams are dab hands at working safely in tunnels and big culverts.",
         "icon": "fa-solid fa-users-gear"
       },
       {
-        "title": "Specialised Equipment Access",
-        "desc": "Utilising long-reach equipment and robotics for hard-to-access areas.",
+        "title": "Robots & Remote Tech",
+        "desc": "We use nifty long-reach gear and even robots to clean those awkward areas.",
         "icon": "fa-solid fa-robot"
       }
     ],
@@ -456,30 +456,30 @@
     "video": "www.youtube.com/watch?v=x94tjxcArU8"
   },
   "tunnelcleaning.uk": {
-    "title": "Nationwide Tunnel Maintenance",
-    "text": "Expert tunnel cleaning anywhere in the UK – maintaining critical infrastructure with safety-certified teams and full compliance!",
+    "title": "UK Tunnel Cleaning Services | Nationwide Infrastructure Care!",
+    "text": "Top-notch tunnel cleaning across the UK! We keep your vital infrastructure safe, clean, and compliant. Job done.",
     "heroImg": "assets/website-hero-images/tunnel-cleaning.png",
-    "forYou": "Access professional tunnel cleaning services anywhere in the UK with our nationwide specialist operation. We provide comprehensive cleaning for all tunnel types across the country, including road tunnels, rail tunnels, utility service tunnels, and large culverts forming part of drainage infrastructure. Our services maintain both safety and functionality within these critical assets through thorough removal of accumulated dirt, debris, and obstructions that can compromise performance and safety. Our teams operate to the highest safety standards, with all confined space operations fully certified and compliant with relevant regulations. We ensure all waste material is removed and disposed of according to environmental requirements, with complete documentation provided.",
+    "forYou": "Need professional tunnel cleaning, wherever you are in the UK? Our nationwide specialist teams are on the case! We offer the full cleaning package for all sorts of tunnels right across the country – road, rail, utility, and those big culverts that handle drainage. Our job is to keep these essential structures safe and working properly by getting rid of all the built-up dirt, debris, and blockages that can cause headaches. Safety is king for us; our confined space work is always certified and by the book. And don't worry about the mess – all waste is removed and disposed of environmentally, with all the proper paperwork.",
     "services": [
       {
-        "title": "Nationwide Tunnel Cleaning",
-        "desc": "Providing expert tunnel and culvert cleaning services across the United Kingdom.",
-        "icon": "fa-solid fa-map-marked-alt"
+        "title": "UK-Wide Tunnel Cleaning",
+        "desc": "Expert tunnel and culvert cleaning services delivered right across the United Kingdom.",
+        "icon": "fa-solid fa-map-location-dot"
       },
       {
-        "title": "Infrastructure Cleaning",
-        "desc": "Maintaining cleanliness and safety within critical UK tunnel infrastructure.",
-        "icon": "fa-solid fa-traffic-light"
+        "title": "Keeping Infrastructure Clean",
+        "desc": "Maintaining the cleanliness and safety of critical tunnel infrastructure throughout the UK.",
+        "icon": "fa-solid fa-road-bridge"
       },
       {
-        "title": "Debris Removal & Disposal",
-        "desc": "Efficient removal and compliant disposal of waste material from tunnels.",
+        "title": "Debris Gone, Responsibly",
+        "desc": "Efficient removal and compliant disposal of all waste materials from your tunnels.",
         "icon": "fa-solid fa-recycle"
       },
       {
-        "title": "Safety Certified Operations",
-        "desc": "Adhering to the highest safety standards for all tunnel cleaning projects.",
-        "icon": "fa-solid fa-hard-hat"
+        "title": "Safe & Certified Always",
+        "desc": "We stick to the highest safety standards on every single tunnel cleaning project.",
+        "icon": "fa-solid fa-helmet-safety"
       }
     ],
     "gallery": [
@@ -532,29 +532,29 @@
     "video": "www.youtube.com/watch?v=x94tjxcArU8"
   },
   "tunnelwaste.co.uk": {
-    "title": "Tunnel Waste Management",
-    "text": "Expert handling of tunnel cleaning waste throughout the UK – from collection to licensed disposal with full compliance documentation!",
+    "title": "UK Tunnel Waste Management | Compliant Disposal Solutions!",
+    "text": "Got waste from tunnel cleaning in the UK? We expertly collect, transport, and dispose of it, all by the book!",
     "heroImg": "assets/website-hero-images/liquid-waste.png",
-    "forYou": "Ensure environmentally compliant handling of waste from tunnel cleaning operations throughout the UK with our specialized management service. We provide complete solutions for the collection, transport and disposal of all waste types generated during tunnel maintenance, including silt, debris, contaminated materials, and general waste. Our efficient collection methods minimize on-site storage requirements, while our licensed transport ensures all materials are moved safely and legally to appropriate facilities. We assess tunnel waste for appropriate processing options, including potential treatment or recycling where suitable, and ensure all disposal activities comply with UK environmental regulations.",
+    "forYou": "Wondering what to do with all the muck from your UK tunnel cleaning jobs? Our specialist waste management service has got it sorted, greenly and legally! We offer the full package for collecting, transporting, and disposing of all types of waste from tunnel maintenance – silt, debris, contaminated stuff, general rubbish, the lot. Our collection is super-efficient, so no piles of waste hanging about on your site. Then, our licensed transport whisks it away safely to the right facilities. We'll even check if any of it can be treated or recycled, making sure everything's handled according to UK environmental rules.",
     "services": [
       {
-        "title": "Tunnel Waste Collection",
-        "desc": "Efficient collection of silt, debris, and contaminated materials from tunnels.",
-        "icon": "fa-solid fa-bucket"
+        "title": "Tunnel Muck Collection",
+        "desc": "Efficiently collecting all that silt, debris, and contaminated stuff from your tunnels.",
+        "icon": "fa-solid fa-cart-flatbed-suitcase"
       },
       {
-        "title": "Licensed Waste Transport",
-        "desc": "Compliant transportation of tunnel waste to permitted disposal facilities.",
-        "icon": "fa-solid fa-truck-arrow-right"
+        "title": "Licensed & Legal Transport",
+        "desc": "Compliant transport of your tunnel waste to properly permitted disposal facilities.",
+        "icon": "fa-solid fa-truck-moving"
       },
       {
-        "title": "Waste Processing Options",
-        "desc": "Assessing tunnel waste for potential treatment or recycling options.",
-        "icon": "fa-solid fa-filter-circle-dollar"
+        "title": "Smart Waste Processing",
+        "desc": "We check out your tunnel waste for any treatment or recycling possibilities.",
+        "icon": "fa-solid fa-gears"
       },
       {
-        "title": "Environmental Compliance",
-        "desc": "Ensuring all tunnel waste is managed according to UK regulations.",
+        "title": "Keeping it Green & Compliant",
+        "desc": "Making absolutely sure all your tunnel waste is managed by UK regulations.",
         "icon": "fa-solid fa-leaf"
       }
     ],
@@ -608,29 +608,29 @@
     "video": "www.youtube.com/watch?v=M2eBeHSSKHM"
   },
   "tunnelwaste.com": {
-    "title": "Global Tunnel Waste Solutions",
-    "text": "Deploy our international expertise in tunnel waste management – handling complex logistics and compliance across borders!",
+    "title": "Global Tunnel Waste Experts | International Logistics & Compliance!",
+    "text": "Managing tunnel waste on global projects? Our international team handles complex logistics and cross-border compliance. Sorted!",
     "heroImg": "assets/website-hero-images/liquid-waste.png",
-    "forYou": "Apply international best practices to tunnel waste management on your global infrastructure projects. We provide specialized expertise in handling waste generated during tunnel cleaning and maintenance operations anywhere in the world, coordinating complex logistics for efficient collection and appropriate disposal regardless of location. Our experienced consultants develop strategies that ensure compliance with local regulations while maintaining global environmental standards, delivering sustainable solutions that minimize environmental impact. We have particular expertise in managing potentially hazardous waste streams that may be encountered in tunnel environments, including contaminated sediments and industrial residues.",
+    "forYou": "Taking on a big international infrastructure project? Don't let tunnel waste become a headache! We bring global best practices to manage waste from tunnel cleaning and maintenance, wherever you are in the world. Our team are wizards at coordinating tricky logistics for efficient collection and proper disposal, no matter the location. Our seasoned consultants will cook up strategies that meet local rules while upholding top global environmental standards, giving you sustainable solutions that are kind to the planet. We're especially clued-up on handling those potentially hazardous nasties you can find in tunnels, like contaminated sludge or industrial residues.",
     "services": [
       {
-        "title": "Global Waste Logistics",
-        "desc": "Coordinating the logistics for tunnel waste removal on international projects.",
-        "icon": "fa-solid fa-globe-europe"
+        "title": "Worldwide Waste Logistics",
+        "desc": "We coordinate all the tricky logistics for tunnel waste removal on your global projects.",
+        "icon": "fa-solid fa-earth-americas"
       },
       {
-        "title": "Compliant Disposal Strategies",
-        "desc": "Developing strategies for environmentally sound disposal of tunnel waste worldwide.",
-        "icon": "fa-solid fa-map-signs"
+        "title": "Smart Disposal Worldwide",
+        "desc": "Crafting strategies for environmentally sound disposal of tunnel waste, anywhere on Earth.",
+        "icon": "fa-solid fa-compass-drafting"
       },
       {
-        "title": "Hazardous Waste Handling",
-        "desc": "Expertise in managing potentially hazardous waste streams from tunnels.",
-        "icon": "fa-solid fa-biohazard"
+        "title": "Hazardous Waste Gurus",
+        "desc": "Got tricky hazardous waste from tunnels? We're experts in managing it safely.",
+        "icon": "fa-solid fa-skull-crossbones"
       },
       {
-        "title": "Sustainability Focus",
-        "desc": "Prioritising sustainable waste management practices for tunnel projects globally.",
+        "title": "Planet-Friendly Focus",
+        "desc": "We always prioritise sustainable waste management for tunnel projects across the globe.",
         "icon": "fa-solid fa-seedling"
       }
     ],
@@ -684,30 +684,30 @@
     "video": "www.youtube.com/watch?v=M2eBeHSSKHM"
   },
   "recycle-waste.uk": {
-    "title": "Wet Waste Recycling Experts",
-    "text": "Achieve 99% recycling rates for your liquid waste with our advanced treatment facility – cutting-edge sustainable solutions nationwide!",
+    "title": "UK Wet Waste Recycling | 99% Recycled! Go Green With Us!",
+    "text": "Turn your liquid waste into a win for the planet! Our UK facility recycles 99% of it. Sustainable & nationwide.",
     "heroImg": "assets/website-hero-images/liquid-waste.png",
-    "forYou": "Enhance your environmental credentials and reduce your carbon footprint with our industry-leading waste recycling services. Our advanced treatment facility achieves remarkable 99% recycling rates for liquid and wet waste streams, dramatically reducing landfill disposal and supporting your sustainability goals. We handle various waste types from commercial and industrial sources, converting them into reusable resources wherever possible. With nationwide coverage, comprehensive documentation for your environmental reporting, and a genuine commitment to circular economy principles, we help businesses across the UK implement more sustainable waste management practices that deliver both environmental and cost benefits.",
+    "forYou": "Want to boost your green credentials and shrink that carbon footprint? Our top-of-the-range waste recycling services are just the job! Our advanced treatment facility hits an amazing 99% recycling rate for liquid and wet waste, meaning way less going to landfill and a big thumbs up for your sustainability targets. We take all sorts of commercial and industrial waste and turn it into reusable stuff whenever we can. With UK-wide coverage, all the paperwork you need for your green reports, and a real passion for the circular economy, we help businesses everywhere get smarter and more sustainable with their waste – good for the planet, good for your pocket!",
     "services": [
       {
-        "title": "Wet Waste Recycling Facility",
-        "desc": "Operating our own advanced facility focused on recycling liquid and wet waste.",
+        "title": "Our Advanced Recycling Hub",
+        "desc": "We run our own cutting-edge facility dedicated to recycling liquid and wet waste.",
         "icon": "fa-solid fa-industry"
       },
       {
-        "title": "99% Recycling Achievement",
-        "desc": "Diverting the vast majority of processed wet waste away from landfill.",
-        "icon": "fa-solid fa-chart-pie"
+        "title": "Hitting 99% Recycled!",
+        "desc": "We divert almost all the wet waste we process away from landfill. That's commitment!",
+        "icon": "fa-solid fa-percent"
       },
       {
-        "title": "Sustainable Disposal Options",
-        "desc": "Providing environmentally friendly alternatives to traditional waste disposal.",
-        "icon": "fa-solid fa-seedling"
+        "title": "Properly Green Disposal",
+        "desc": "Kind-to-the-planet alternatives to chucking your waste in a hole in the ground.",
+        "icon": "fa-solid fa-leaf"
       },
       {
-        "title": "Nationwide Recycling Support",
-        "desc": "Supporting businesses across the UK in improving their waste recycling rates.",
-        "icon": "fa-solid fa-globe-uk"
+        "title": "UK-Wide Recycling Help",
+        "desc": "Helping businesses all over the UK to up their recycling game and go greener.",
+        "icon": "fa-solid fa-hands-holding-circle"
       }
     ],
     "gallery": [
@@ -760,30 +760,30 @@
     "video": "www.youtube.com/watch?v=M2eBeHSSKHM"
   },
   "abc-drainage.com": {
-    "title": "Complete Drainage Solutions",
-    "text": "Fast, reliable drainage expertise for homeowners and businesses – from emergency unblocking to long-term maintenance plans!",
+    "title": "ABC Drainage | Your Go-To for Drain Problems, Solved Fast!",
+    "text": "Blocked drain? Need a repair? We offer fast, reliable drainage help for homes and businesses. Easy as ABC!",
     "heroImg": "assets/website-hero-images/cctv.png",
-    "forYou": "Experiencing drainage issues? ABC Drainage provides expert solutions for homeowners and businesses. Our skilled technicians use the latest equipment for rapid drain unblocking, detailed CCTV inspections to diagnose problems accurately, and durable repairs. We offer preventative maintenance plans to keep your drains flowing smoothly. Trust ABC Drainage for efficient, reliable, and cost-effective service.",
+    "forYou": "Got a drainage drama on your hands? Don't fret! ABC Drainage is here with expert solutions for both homeowners and businesses. Our crack team of technicians uses all the latest kit to unblock drains super-fast, get a proper look at what's wrong with our detailed CCTV inspections, and carry out repairs that last. We even do preventative maintenance plans to stop problems before they start and keep your drains flowing like a dream. For efficient, reliable, and fairly priced drainage services, you can count on ABC Drainage!",
     "services": [
       {
-        "title": "Emergency Drain Unblocking",
-        "desc": "24/7 response for clearing blocked drains quickly and effectively.",
-        "icon": "fa-solid fa-triangle-exclamation"
+        "title": "Emergency Drain Unblock",
+        "desc": "Blocked up? We offer a 24/7 rapid response to get your drains cleared, pronto!",
+        "icon": "fa-solid fa-bolt-lightning"
       },
       {
-        "title": "CCTV Drain Surveys",
-        "desc": "Detailed camera inspections to identify the cause of drainage problems.",
-        "icon": "fa-solid fa-camera"
+        "title": "CCTV Drain Detective",
+        "desc": "Our detailed camera surveys find the root cause of your drainage niggles.",
+        "icon": "fa-solid fa-video"
       },
       {
-        "title": "Drain Repairs",
-        "desc": "Professional repairs for damaged or collapsed drains, including relining.",
-        "icon": "fa-solid fa-wrench"
+        "title": "Top-Notch Drain Repairs",
+        "desc": "Professional fixes for damaged or dodgy drains, including no-dig relining.",
+        "icon": "fa-solid fa-screwdriver-wrench"
       },
       {
-        "title": "Drain Maintenance",
-        "desc": "Scheduled cleaning and maintenance to prevent future blockages.",
-        "icon": "fa-solid fa-calendar-check"
+        "title": "Keep Drains Happy Plan",
+        "desc": "Scheduled cleaning and maintenance to keep future blockages at bay.",
+        "icon": "fa-solid fa-calendar-days"
       }
     ],
     "gallery": [
@@ -836,30 +836,30 @@
     "video": "www.youtube.com/watch?v=bVhy_ZnYtGk"
   },
   "abc-drainage.uk": {
-    "title": "Nationwide Drainage Experts",
-    "text": "Comprehensive UK-wide drainage solutions – rapid response, advanced diagnostics and lasting repairs from a trusted national network!",
+    "title": "ABC Drainage UK | Nationwide Experts for All Your Drains!",
+    "text": "UK-wide drainage help is here! Fast response, clever diagnostics, and solid repairs from our trusted national team.",
     "heroImg": "assets/website-hero-images/cctv.png",
-    "forYou": "Need reliable drainage services anywhere in the UK? ABC Drainage UK offers nationwide coverage for homeowners and businesses. Our experienced technicians provide rapid response for blocked drains, utilise advanced CCTV technology for accurate diagnostics, and perform high-quality repairs. We offer tailored maintenance plans to ensure your drainage systems remain trouble-free. Choose ABC Drainage UK for dependable, efficient service across the country.",
+    "forYou": "Got drain troubles, no matter where you are in the UK? ABC Drainage UK has got you covered! We offer our top-notch services to homeowners and businesses right across the nation. Our skilled technicians are quick off the mark for blocked drains, use smart CCTV tech to get to the bottom of any problem, and carry out high-quality repairs that last. We can even sort you out with a maintenance plan to keep your drains behaving themselves. For dependable, efficient drainage services all over the country, ABC Drainage UK is the name to trust!",
     "services": [
       {
-        "title": "UK Wide Drain Unblocking",
-        "desc": "Nationwide 24/7 emergency service for clearing blocked drains.",
+        "title": "UK-Wide Drain Unblocking",
+        "desc": "Nationwide 24/7 emergency service to get your blocked drains flowing again, fast.",
         "icon": "fa-solid fa-truck-fast"
       },
       {
-        "title": "National CCTV Surveys",
-        "desc": "Detailed camera inspections available across the UK to diagnose drain issues.",
-        "icon": "fa-solid fa-video"
+        "title": "National CCTV Check-ups",
+        "desc": "Detailed camera inspections available all over the UK to diagnose any drain issues.",
+        "icon": "fa-solid fa-camera-retro"
       },
       {
-        "title": "Drain Repair Specialists UK",
-        "desc": "Expert repairs and relining services for damaged drains throughout the UK.",
-        "icon": "fa-solid fa-tools"
+        "title": "UK Drain Repair Pros",
+        "desc": "Expert repairs and relining for damaged drains, wherever you are in the UK.",
+        "icon": "fa-solid fa-toolbox"
       },
       {
-        "title": "Preventative Maintenance UK",
-        "desc": "Scheduled drainage maintenance contracts available nationwide.",
-        "icon": "fa-solid fa-calendar-alt"
+        "title": "UK Preventative Care",
+        "desc": "Scheduled drainage maintenance contracts available nationwide to stop future woes.",
+        "icon": "fa-solid fa-calendar-days"
       }
     ],
     "gallery": [
@@ -912,30 +912,30 @@
     "video": "www.youtube.com/watch?v=bVhy_ZnYtGk"
   },
   "abcdrainage.uk": {
-    "title": "UK's Trusted Drainage Team",
-    "text": "Your first call for drainage solutions nationwide – 24/7 emergency response, accurate CCTV diagnostics and durable repairs across the UK!",
+    "title": "ABCDrainage UK | Your Trusted Nationwide Drain Experts!",
+    "text": "Call us first for UK drain solutions! 24/7 emergency help, sharp CCTV checks, and repairs that last. We're nationwide!",
     "heroImg": "assets/website-hero-images/cctv.png",
-    "forYou": "Facing drainage troubles anywhere in the UK? ABCDrainage provides fast, reliable solutions nationwide. Our expert teams tackle blocked drains 24/7, use advanced CCTV for accurate problem identification, and carry out high-quality repairs and relining. Prevent future issues with our tailored maintenance programs. For dependable drainage services across the UK, choose ABCDrainage.",
+    "forYou": "Drain dramas stressing you out, anywhere in the UK? ABCDrainage is your reliable, go-to team for fast solutions right across the country. Our pros are on call 24/7 to tackle blocked drains, use cutting-edge CCTV to pinpoint the exact problem, and deliver top-quality repairs and relining work. Want to avoid future headaches? Ask about our tailor-made maintenance programmes. For drainage services you can truly depend on, all over the UK, make ABCDrainage your first choice!",
     "services": [
       {
-        "title": "24/7 Emergency Unblocking (UK)",
-        "desc": "Round-the-clock service across the UK for urgent drain blockages.",
-        "icon": "fa-solid fa-phone-volume"
+        "title": "24/7 UK Emergency Unblocks",
+        "desc": "Round-the-clock service across the UK for when your drains decide to misbehave.",
+        "icon": "fa-solid fa-headset"
       },
       {
-        "title": "UK CCTV Drain Diagnostics",
-        "desc": "Nationwide availability for camera surveys to pinpoint drain faults.",
-        "icon": "fa-solid fa-search"
+        "title": "UK CCTV Drain Detectives",
+        "desc": "Nationwide camera surveys to find out exactly what's up with your drains.",
+        "icon": "fa-solid fa-magnifying-glass-location"
       },
       {
-        "title": "National Drain Repair Service",
-        "desc": "High-quality drain repairs and relining available throughout the UK.",
-        "icon": "fa-solid fa-hammer"
+        "title": "National Drain Fixers",
+        "desc": "High-quality drain repairs and relining available all over the United Kingdom.",
+        "icon": "fa-solid fa-helmet-safety"
       },
       {
-        "title": "UK Preventative Drain Care",
-        "desc": "Customisable maintenance plans to keep drains clear across the UK.",
-        "icon": "fa-solid fa-shield-alt"
+        "title": "UK Proactive Drain Shield",
+        "desc": "Custom maintenance plans to keep your drains protected and clear across the UK.",
+        "icon": "fa-solid fa-shield-heart"
       }
     ],
     "gallery": [
@@ -988,30 +988,30 @@
     "video": "www.youtube.com/watch?v=bVhy_ZnYtGk"
   },
   "akisv.com": {
-    "title": "Specialist Vehicle Solutions",
-    "text": "Advanced tankers, jetting units and custom builds for environmental and industrial applications – reliable technology for demanding tasks!",
+    "title": "AKISV | Top-Spec Specialist Vehicles for Tough Jobs!",
+    "text": "Need advanced tankers, jetters, or custom vehicles? We build reliable tech for environmental & industrial challenges.",
     "heroImg": "assets/website-hero-images/road-sweeping.png",
-    "forYou": "Looking for high-performance specialist vehicles? AKISV offers a range of advanced units tailored for demanding environmental, waste management, and industrial tasks. We leverage innovative design and technology to provide vehicles with superior capability, including powerful vacuum tankers and high-pressure jetting systems. Our focus is on delivering reliable, efficient equipment that enhances operational productivity and meets the challenges of complex site conditions. Explore our solutions for waste collection, industrial cleaning, and environmental services.",
+    "forYou": "Searching for seriously high-performing specialist vehicles? AKISV has a line-up of advanced kit designed for the toughest environmental, waste management, and industrial jobs. We're all about clever design and cutting-edge tech to give you vehicles that are a cut above – think super-powerful vacuum tankers and high-pressure jetting systems that mean business. Our goal is to provide reliable, efficient gear that boosts your productivity and can handle whatever tricky site conditions you throw at it. Check out our solutions for waste collection, industrial cleaning, and environmental services!",
     "services": [
       {
-        "title": "High-Performance Tankers",
-        "desc": "Advanced vacuum and jetting tankers for efficient waste and industrial services.",
+        "title": "Mega-Performance Tankers",
+        "desc": "Our advanced vacuum and jetting tankers are built for efficient waste and industrial work.",
         "icon": "fa-solid fa-truck-monster"
       },
       {
-        "title": "Specialist Jetting Units",
-        "desc": "High-pressure water jetting equipment for industrial cleaning and drain maintenance.",
-        "icon": "fa-solid fa-water"
+        "title": "Pro Jetting Power Units",
+        "desc": "High-pressure water jetting gear for serious industrial cleaning and drain care.",
+        "icon": "fa-solid fa-jet-fighter-up"
       },
       {
-        "title": "Custom Vehicle Solutions",
-        "desc": "Developing bespoke vehicle configurations for specific operational needs.",
-        "icon": "fa-solid fa-gears"
+        "title": "Your Dream, Our Build",
+        "desc": "We can develop bespoke vehicle set-ups tailored exactly to what you need to do.",
+        "icon": "fa-solid fa-sliders"
       },
       {
-        "title": "Fleet Support & Maintenance",
-        "desc": "Providing support and maintenance services for specialist vehicle fleets.",
-        "icon": "fa-solid fa-wrench"
+        "title": "Fleet TLC & Support",
+        "desc": "Keeping your specialist vehicle fleet in tip-top shape with our support and maintenance.",
+        "icon": "fa-solid fa-screwdriver-wrench"
       }
     ],
     "gallery": [
@@ -1064,3 +1064,5 @@
     "video": "www.youtube.com/watch?v=11X2ye7wDZ4"
   }
 }
+
+////DONE
