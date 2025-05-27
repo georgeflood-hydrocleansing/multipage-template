@@ -1655,36 +1655,6 @@ function updatePageTitle() {
     '/config.json',
     '/ave-html/config.json',
   ];
-
-  const loadConfig = async () => {
-    for (const path of configPaths) {
-      try {
-        console.log(`Attempting to load title from: ${path}`);
-        const response = await fetch(path);
-        if (response.ok) {
-          const config = await response.json();
-          // If we have a specific config for this domain, use it
-          if (config[effectiveDomain]) {
-            document.title = config[effectiveDomain].title;
-            console.log(`Title updated to: ${config[effectiveDomain].title}`);
-          } else {
-            // Fallback to the first available config
-            const firstDomain = Object.keys(config)[0];
-            document.title = config[firstDomain].title;
-            console.log(`Using fallback title: ${config[firstDomain].title}`);
-          }
-          return;
-        }
-      } catch (error) {
-        console.warn(`Failed to load config from ${path}:`, error);
-      }
-    }
-    // Fallback title if no config is loaded
-    document.title = 'Ave HTML Template';
-    console.log('Using default fallback title');
-  };
-
-  loadConfig();
 }
 
 // Call updatePageTitle immediately to set title as soon as possible

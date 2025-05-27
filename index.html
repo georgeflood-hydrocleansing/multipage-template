@@ -368,7 +368,23 @@
 
          for(const key in GA_TAGS) {
 
+        function titleForDomain(domain) {
+
+    let cleaned = domain
+    .replace(/-|\./g, ' ') // replace all dashes and dots with spaces
+    .replace(/(co\.uk|com|uk|london|surrey|co|middlesex)/gi, '') // remove these words, case-insensitive
+    .replace(/\s+/g, ' ') // remove extra spaces
+    .trim(); // remove leading/trailing spaces
+
+    return cleaned
+        }
+
+
+        console.log(titleForDomain(key))
             if(window.location.hostname.includes(key)) {
+               
+         document.title = titleForDomain(key)
+
               const script = document.createElement('script');
               script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_TAGS[key]}`;
               document.head.appendChild(script);
